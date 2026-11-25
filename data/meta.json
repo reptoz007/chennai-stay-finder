@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 19,
-  "lastUpdated": "2026-11-25T20:08:00+05:30",
+  "roundsCompleted": 20,
+  "lastUpdated": "2026-11-25T20:20:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 20: Upgrade remaining MagicBricks category links (Truliv Adonia, Krisna Boys Koyambedu, Yube1 Castle Mogappair, Yube1 Metro Vadapalani, Zolo/Gupta/Nelson Manickam) to exact propertyDetail pages + photos, and audit more Koyambedu/Thirumangalam/Vadapalani AC deals.",
+  "nextFocus": "Round 21: Upgrade final remaining category-linked entries (Truliv Adonia, Zolo StandPoint/Gupta/Nelson Manickam/Guindy/Velachery/Tharamani) to direct propertyDetail URLs + verify more K.K. Nagar / Ashok Nagar / Ekkattuthangal individual 1BHKs.",
   "searchLog": [
     {
       "round": 13,
@@ -198,6 +198,13 @@
       "queryFocus": "Upgraded 5 existing entries (Deepak PG Anna Nagar East, Vijaya Scans Shenoy Nagar, Yube1 Elevate Saidapet, Zolo Sage Choolaimedu, Sunflower Boys Saidapet) to direct propertyDetail URLs + photos; added PK's Men's PG, Sri Kailash Choolaimedu, Jafferkhanpet/Aminjikarai/Nesapakkam <₹10k 1RKs & 2 flood Reddit guides",
       "addedCount": 7,
       "notes": "Upgraded 5 listings to exact propertyDetail links + verified photos; added 5 new stays & 2 flood-elevation Reddit threads. Total: 135 stays, 58 Reddit threads."
+    },
+    {
+      "round": 20,
+      "timestamp": "2026-11-25 20:20 IST",
+      "queryFocus": "Upgraded Yube1 Castle Mogappair, Simsan Stay KK Nagar & Yube1 Metro KK Nagar to direct propertyDetail pages + photos; added Zolo Drift Koyambedu, Yube1 Uptown/Temple Tower Vadapalani, 1st-Floor Bachelor Room Vadapalani, Thirumangalam & Kamakshi Nagar NoBroker 1RKs + 3 Reddit guides",
+      "addedCount": 7,
+      "notes": "Upgraded 3 entries to exact propertyDetail links + verified photos; added 4 new stays & 3 Vadapalani/relocation Reddit guides. Total: 139 stays, 61 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
