@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 16,
-  "lastUpdated": "2026-11-25T19:32:00+05:30",
+  "roundsCompleted": 17,
+  "lastUpdated": "2026-11-25T19:46:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 17: Search individual MagicBricks propertyDetail & RentOk men's PGs with room-level pricing & photos in Thirumangalam, Koyambedu, Anna Nagar East, and Kodambakkam.",
+  "nextFocus": "Round 18: Scan more individual MagicBricks & NoBroker 1RK/1BHK units in Koyambedu, Chinmaya Nagar, Arumbakkam, and Vadapalani + verify remaining category-linked entries with propertyDetail URLs.",
   "searchLog": [
     {
       "round": 13,
@@ -177,6 +177,13 @@
       "queryFocus": "Ekkattuthangal Boys PGs (Best Care / Sai Ram ₹5.5k–₹6k+), NoBroker zero-fee 1RK pools in Alandur Interchange, Ekkattuthangal, Guindy & Saidapet + PG red-flag Reddit threads",
       "addedCount": 8,
       "notes": "Added 5 verified stays (zero-brokerage Alandur/Ekkattuthangal/Guindy/Saidapet 1RKs + Ekkattuthangal AC PGs pool) & 3 Reddit intel threads. Total: 121 stays, 50 Reddit threads."
+    },
+    {
+      "round": 17,
+      "timestamp": "2026-11-25 19:46 IST",
+      "queryFocus": "Direct propertyDetail upgrades for Savy PG, Sai Ram Guest House (Thirumangalam 0.2km) & Babitha House + 3 new Boys PGs (SRS Hall West Mambalam, Vinayak Virugambakkam, Kodambakkam Room-Only) & 3 r/Chennai threads",
+      "addedCount": 6,
+      "notes": "Upgraded 3 existing entries to direct propertyDetail URLs + direct photos; added 3 new Boys PGs with 5 real property photos each & 3 Reddit guides. Total: 124 stays, 53 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
