@@ -268,5 +268,32 @@
     "url": "https://www.reddit.com/r/Chennai/comments/1olflah/jobinternshiprentalpg_search_monthly_megathread/",
     "takeaway": "Active monthly thread where Chennai interns post exact dates (e.g., 2 months), budget (₹6k–₹8k), and corridor to match spare rooms in 2BHK/3BHK flatshares with kitchens.",
     "actionableTip": "Post one message with '2 male interns (Jidoka Anna Nagar W + IITM), ₹12k–₹16k combined, AC + kitchen near Green Line Metro'."
+  },
+  {
+    "id": "reddit-summer-eb-inverter-5star",
+    "topic": "EB & AC Bills",
+    "subreddit": "r/chennaicity",
+    "title": "Summer Chennai EB bills: 5-star inverter AC (₹4.5k–₹5.5k/2 mo) vs old 3-star AC",
+    "url": "https://www.reddit.com/r/chennaicity/comments/1ujfdmd/how_much_was_your_current_bill_for_this_summer/",
+    "takeaway": "Redditors running 10–12 hrs/day report ₹4,500–₹5,500 bi-monthly TNEB bills on 1BHK 5-star inverter ACs (26–28°C), vs ₹7,000–₹12,000+ with older non-inverter units.",
+    "actionableTip": "Check AC star rating & keep it at 26–27°C; ₹4.5k–₹5.5k every 2 months split by 2 people is only ~₹1,125–₹1,375/person/month."
+  },
+  {
+    "id": "reddit-kvah-meter-reading-error",
+    "topic": "EB & AC Bills",
+    "subreddit": "r/chennaicity",
+    "title": "Warning: Sudden ₹15k–₹19k Chennai EB bills caused by KVah vs kWh reader errors",
+    "url": "https://www.reddit.com/r/chennaicity/comments/1u85zda/pls_help_electricity_bill_is_19k/",
+    "takeaway": "Multiple tenants flagged inflated TANGEDCO bills caused when meter readers accidentally log KVah instead of kWh on digital meters.",
+    "actionableTip": "Snap a photo of the kWh meter reading on move-in day and verify against the TANGEDCO portal before paying high landlord EB demands."
+  },
+  {
+    "id": "reddit-pg-roommate-eb-dispute",
+    "topic": "EB & AC Bills",
+    "subreddit": "r/chennaicity",
+    "title": "PG & flatmate AC EB splitting disputes when one roommate travels / WFH",
+    "url": "https://www.reddit.com/r/chennaicity/comments/1unnkm4/need_a_help/",
+    "takeaway": "PGs typically charge either sub-meter splits or ₹1,000–₹1,500/head flat AC surcharges; landlords still expect full splits even when away temporarily.",
+    "actionableTip": "Agree on AC hours and EB split rules in advance with your friend, and confirm PG AC per-unit rate before paying advance."
   }
 ]

@@ -5457,5 +5457,395 @@
     "addedAt": "2026-11-25T17:36:00+05:30",
     "imageUrl": "https://www.thesettl.com/wp-content/uploads/2025/09/Belmonte.jpg",
     "imageType": "property"
+  },
+  {
+    "id": "krisna-boys-hostel-koyambedu-thirumangalam",
+    "name": "Krisna Boys Hostel (Thirumangalam / Koyambedu — Shared Kitchen ₹7.5k–₹8k)",
+    "category": "Budget Men's PG",
+    "locality": "Arumbakkam / Koyambedu",
+    "address": "Thirumangalam / Anna Nagar West Border — Koyambedu Metro corridor",
+    "metroStation": "Thirumangalam / Koyambedu Metro",
+    "metroWalk": "Walkable / quick feeder to Thirumangalam & Koyambedu Metro",
+    "commute": {
+      "jidokaMins": "~10–16 min",
+      "jidokaRoute": "Short auto/bike directly to Jidoka (Anna Nagar W Ext)",
+      "iitmMins": "~38–46 min",
+      "iitmRoute": "Green Line Thirumangalam/Koyambedu -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 8000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 9500,
+      "priceNote": "MagicBricks verified rates: Triple Sharing ₹7,500, Twin Sharing ₹8,000 (+ AC/electricity confirmation).",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance",
+      "sharingType": "Twin (₹8,000) / Triple (₹7,500)"
+    },
+    "eligibility": "Men's / Boys Hostel Only",
+    "features": {
+      "ac": "Verify AC Option in Twin ₹8k",
+      "beds": "Yes (Furnished Beds + Washing Machine + RO)",
+      "kitchen": "Shared Common Kitchen / Cooking Setup",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Twin ₹8k + Cooking Access",
+          "detail": "Combines shared kitchen/cooking facility, washing machine & RO at ₹8k base"
+        },
+        {
+          "label": "Very Fast Jidoka Commute",
+          "detail": "10–16 min to Anna Nagar West Extension"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm AC Inclusion",
+          "detail": "Verify if ₹8,000 twin includes AC or if AC adds ₹1k–₹1.5k"
+        },
+        {
+          "label": "IITM Transit Length",
+          "detail": "~38–46 min via Green -> Blue Metro for friend"
+        }
+      ]
+    },
+    "redditSummary": "Rare Thirumangalam/Koyambedu border boys hostel pairing ₹8k twin rates with shared cooking kitchen access and washing machine.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-koyambedu-chennai-pppfr",
+      "listingLabel": "View Koyambedu/Thirumangalam Boys PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Krisna+Boys+Hostel+Thirumangalam+Chennai"
+    },
+    "source": "MagicBricks",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839691_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
+  },
+  {
+    "id": "simsan-stay-kk-nagar-80ft",
+    "name": "Simsan Stay Men's Hostel (K.K. Nagar / Anna Main Rd)",
+    "category": "Budget Men's PG",
+    "locality": "Ashok Nagar / Jafferkhanpet",
+    "address": "K.K. Nagar / Anna Main Rd, near Ashok Nagar & Vadapalani Metro",
+    "metroStation": "Ashok Nagar / Vadapalani Metro",
+    "metroWalk": "~1.2–1.6 km to Ashok Nagar Metro",
+    "commute": {
+      "jidokaMins": "~25–32 min",
+      "jidokaRoute": "Green Line Ashok Nagar -> Thirumangalam + auto",
+      "iitmMins": "~25–34 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7000,
+      "monthlyRentPerPersonMax": 10000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8000,
+      "effectiveTotalPerPersonMax": 11500,
+      "priceNote": "MagicBricks-listed men's AC PG offering 2/3/4-sharing configurations with meals & Wi-Fi.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2 / 3 / 4-Sharing AC"
+    },
+    "eligibility": "Men's / Male Only PG",
+    "features": {
+      "ac": "Yes (AC rooms across sharing tiers)",
+      "beds": "Yes (Beds + Food + Wi-Fi)",
+      "kitchen": "PG Mess Meals Included (No private stove)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "True Green Line Midpoint",
+          "detail": "Balanced ~25–32 min commute for both interns"
+        },
+        {
+          "label": "AC + Meals + Wi-Fi",
+          "detail": "Higher-rated local men's hostel along Anna Main Rd"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No Self-Cooking Kitchen",
+          "detail": "Standard food-included men's PG setup"
+        },
+        {
+          "label": "Confirm Twin AC + EB",
+          "detail": "Verify exact 2-share AC tariff vs triple sharing"
+        }
+      ]
+    },
+    "redditSummary": "K.K. Nagar 80ft Rd / Anna Main Rd pockets sit quieter than Vadapalani 100ft Rd while feeding right into Ashok Nagar Metro.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-kk-nagar-chennai-pppfr",
+      "listingLabel": "View KK Nagar Men's PGs on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Simsan+Stay+Mens+Hostel+KK+Nagar+Chennai"
+    },
+    "source": "MagicBricks",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285385_400_540.jpeg",
+    "imageType": "property",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
+  },
+  {
+    "id": "triptii-mens-hostel-west-mambalam",
+    "name": "Triptii Men's Hostel (West Mambalam / Ashok Nagar Belt)",
+    "category": "Budget Men's PG",
+    "locality": "West Mambalam / T. Nagar",
+    "address": "West Mambalam / Ashok Nagar border, near Mambalam Rail & Ashok Nagar Metro",
+    "metroStation": "Ashok Nagar Metro / Mambalam",
+    "metroWalk": "West Mambalam–Ashok Nagar residential belt",
+    "commute": {
+      "jidokaMins": "~28–35 min",
+      "jidokaRoute": "Green Line Ashok Nagar -> Thirumangalam + auto",
+      "iitmMins": "~22–30 min",
+      "iitmRoute": "Saidapet Metro / Anna Salai bus to Guindy & IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 10500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 12000,
+      "priceNote": "Offers single & twin-sharing AC options for students and working men in West Mambalam.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "Twin / Single AC"
+    },
+    "eligibility": "Men's / Male Hostel",
+    "features": {
+      "ac": "Yes (Single & Twin AC options)",
+      "beds": "Yes (Furnished Rooms)",
+      "kitchen": "Verify Cooking / Meals Policy",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Twin AC Focus",
+          "detail": "Specifically accommodates 2-person sharing & singles"
+        },
+        {
+          "label": "Residential Neighborhood",
+          "detail": "Safe, quiet lanes near West Mambalam"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Current Rate & Meals",
+          "detail": "Confirm whether Twin AC + EB fits under ₹10k"
+        },
+        {
+          "label": "Confirm Kitchen / Induction",
+          "detail": "Check if light cooking/kettle use is allowed"
+        }
+      ]
+    },
+    "redditSummary": "West Mambalam boys hostels stay calmer and well-connected to both Ashok Nagar Metro and Saidapet transit.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/student-hostels-in-ashok-nagar-chennai-pppfr",
+      "listingLabel": "View Ashok Nagar / West Mambalam Hostels",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Triptii+Mens+Hostel+West+Mambalam+Chennai"
+    },
+    "source": "MagicBricks",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+    "imageType": "property",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
+  },
+  {
+    "id": "yube1-castle-mogappair-boys",
+    "name": "Yube1 Castle Boys PG (Mogappair — 3-Share AC ₹8k / 4-Share ₹7k)",
+    "category": "Budget Men's PG",
+    "locality": "Anna Nagar West / Thirumangalam",
+    "address": "Mogappair, close to Jidoka Technologies (Anna Nagar W Ext / Padi)",
+    "metroStation": "Thirumangalam / Koyambedu Metro (Feeder)",
+    "metroWalk": "~1.5–2.5 km feeder to Thirumangalam Metro",
+    "commute": {
+      "jidokaMins": "~8–15 min",
+      "jidokaRoute": "Immediate neighborhood hop to TVS Colony / Jidoka office",
+      "iitmMins": "~42–52 min",
+      "iitmRoute": "Feeder auto to Thirumangalam Metro -> Alandur -> Guindy + IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7000,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8000,
+      "effectiveTotalPerPersonMax": 10000,
+      "priceNote": "MagicBricks verified: 4-Sharing AC ~₹7,000/mo, Triple-Sharing AC ~₹8,000/mo (AC, Wi-Fi, TV, power backup & food).",
+      "budgetFit": "in-budget",
+      "deposit": "Per Yube1 policy",
+      "sharingType": "Triple AC (₹8k) / 4-Share AC (₹7k)"
+    },
+    "eligibility": "Men's / Boys Only Managed PG",
+    "features": {
+      "ac": "Yes (AC Triple ₹8k / 4-Share ₹7k)",
+      "beds": "Yes (Managed Beds + TV + Power Backup)",
+      "kitchen": "Meals Included (Check induction rules)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Managed Brand Under ₹8k Base",
+          "detail": "Yube1 quality AC + power backup at ₹7k–₹8k"
+        },
+        {
+          "label": "Walk/Bike Distance to Jidoka",
+          "detail": "Fastest morning commute for Anna Nagar W Ext / Padi"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "₹7k–₹8k is Triple/4-Sharing",
+          "detail": "Verify 2-sharing AC rate separately if avoiding 3rd roommate"
+        },
+        {
+          "label": "Asymmetric IITM Commute",
+          "detail": "Feeder auto + long Metro ride for IIT Madras intern"
+        }
+      ]
+    },
+    "redditSummary": "Best managed Yube1 rate near Padi/Anna Nagar W Ext, though the IITM intern shoulders a longer Metro trip.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/paying-guest-for-boys-in-mogappair-chennai-pppfr",
+      "listingLabel": "View Mogappair Boys PGs on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube1+Castle+Boys+PG+Mogappair+Chennai"
+    },
+    "source": "MagicBricks / Yube1",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889299_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
+  },
+  {
+    "id": "flat-pool-kodambakkam-1rk-nobroker",
+    "name": "Kodambakkam 1RKs (Trustpuram & Kamaraj Colony — NoBroker Owner Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Kodambakkam / West Mambalam",
+    "address": "Trustpuram & Kamaraj Colony, near Kodambakkam High Rd & Suburban Rail",
+    "metroStation": "Vadapalani Metro / Kodambakkam Rail",
+    "metroWalk": "~1.0–1.5 km to Vadapalani Metro / Kodambakkam Rail",
+    "commute": {
+      "jidokaMins": "~24–32 min",
+      "jidokaRoute": "Auto/share to Vadapalani Metro -> Thirumangalam + auto",
+      "iitmMins": "~25–34 min",
+      "iitmRoute": "Vadapalani Metro -> Guindy OR T. Nagar/Saidapet MTC bus"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 4000,
+      "monthlyRentPerPersonMax": 6000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 5200,
+      "effectiveTotalPerPersonMax": 7800,
+      "priceNote": "Independent 1RKs range ₹8,000–₹12,000/unit (₹4k–₹6k each split by 2) + direct TNEB EB; zero brokerage on NoBroker.",
+      "budgetFit": "in-budget",
+      "deposit": "3–6 months' rent (verify bachelor terms)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-friendly pockets (Filter 'Bachelor' on NoBroker)",
+    "features": {
+      "ac": "Add Rented AC (PayRentz ₹1.4k+/mo split) or Select Furnished",
+      "beds": "Semi/Unfurnished (Bring/rent floor mattresses)",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Zero Brokerage + Full Kitchen",
+          "detail": "160–350 sq.ft owner portions at ₹4k–₹6k/person base"
+        },
+        {
+          "label": "Very Bachelor-Accommodating",
+          "detail": "Central film/student belt open to young professionals"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Higher Unit Deposit (3–6 mo)",
+          "detail": "Negotiate 2–3 months advance for a short internship"
+        },
+        {
+          "label": "AC & Beds Extra",
+          "detail": "Leaves ₹2k–₹4k/person headroom within ₹8k budget for rented AC"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity threads praise Kodambakkam/Trustpuram for central transit & young bachelor tolerance at ₹8k–₹12k unit rents.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-kodambakkam_chennai",
+      "listingLabel": "Browse Kodambakkam 1RKs on NoBroker",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trustpuram+Kodambakkam+Chennai"
+    },
+    "source": "NoBroker",
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVE88E9dMwdWmntyMcO5OKmieVseDS8/Photo_h180_w240/82460565_1_PropertyImage669-804957078573_180_240.jpg",
+    "imageType": "room-sample",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
+  },
+  {
+    "id": "flat-pool-west-mambalam-olx-1rk",
+    "name": "West Mambalam 1RK Portions (Ramakrishnapuram & Postal Colony — OLX Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "West Mambalam / T. Nagar",
+    "address": "Ramakrishnapuram & Postal Colony inner streets, West Mambalam",
+    "metroStation": "Ashok Nagar / Saidapet Metro + Mambalam Rail",
+    "metroWalk": "~1.0–1.5 km to Ashok Nagar / Saidapet Metro",
+    "commute": {
+      "jidokaMins": "~28–35 min",
+      "jidokaRoute": "Green Line Ashok Nagar -> Thirumangalam + auto",
+      "iitmMins": "~20–28 min",
+      "iitmRoute": "Saidapet Metro / Anna Salai bus down to Guindy & IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3500,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 4700,
+      "effectiveTotalPerPersonMax": 6800,
+      "priceNote": "OLX direct-owner West Mambalam portions start ₹6,000–₹10,000/unit (₹3k–₹5k/person) + direct TNEB meter.",
+      "budgetFit": "in-budget",
+      "deposit": "3–5 months' rent (negotiate)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-tolerant individual owners (Verify visitor/timing rules)",
+    "features": {
+      "ac": "Add Rented AC (Fits easily inside ₹8k/person incl. EB!)",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Cheapest Midpoint Private Kitchen",
+          "detail": "₹6k–₹10k/unit leaves plenty of room for AC rental + EB"
+        },
+        {
+          "label": "Direct Owner OLX Chat",
+          "detail": "Avoids 1-month brokerage commissions"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Traditional Street Rules",
+          "detail": "Ask upfront about male friend visits & late-night entry"
+        },
+        {
+          "label": "Confirm AC Wiring & Plug Point",
+          "detail": "Older portions may need 16A AC socket check"
+        }
+      ]
+    },
+    "redditSummary": "Quiet inner-lane West Mambalam portions frequently let bachelors rent 1RKs under ₹10k/unit.",
+    "links": {
+      "listingUrl": "https://www.olx.in/west-mambalam_g5334976/rent-apartments_c1723/q-1rk",
+      "listingLabel": "Browse West Mambalam 1RKs on OLX",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramakrishnapuram+West+Mambalam+Chennai"
+    },
+    "source": "OLX India",
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2020/Sep/11/Photo_h300_w450/50928756_1_545924477016_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 10,
+    "addedAt": "2026-11-25T17:44:00+05:30"
   }
 ]
