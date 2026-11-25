@@ -242,6 +242,11 @@ body {
   flex-wrap: wrap;
 }
 
+.summary-title-wrap {
+  flex: 1 1 300px;
+  min-width: 0;
+}
+
 .summary-title-wrap h1 {
   margin: 0 0 3px;
   font-size: 18px;
@@ -472,9 +477,9 @@ select {
   border: 1px solid var(--border);
   background: #fff;
   color: var(--text-secondary);
-  padding: 5px 11px;
+  padding: 4px 10px;
   border-radius: 999px;
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
@@ -497,14 +502,15 @@ select {
   justify-content: space-between;
   align-items: center;
   margin: 10px 2px 12px;
-  font-size: 12.5px;
+  font-size: 12px;
   color: var(--muted);
   gap: 12px;
-  flex-wrap: wrap;
 }
 
 .truncate-line {
-  max-width: 680px;
+  flex: 1;
+  min-width: 0;
+  text-align: right;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -513,8 +519,8 @@ select {
 /* Neat Listings Card Grid */
 .listings-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 14px;
   align-items: stretch;
 }
 
@@ -522,11 +528,12 @@ select {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 16px;
+  padding: 15px;
+  min-width: 0;
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
-  gap: 11px;
+  gap: 10px;
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
@@ -818,13 +825,17 @@ select {
   margin-top: auto;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 6px;
   padding-top: 10px;
   border-top: 1px solid var(--border-soft);
 }
 
 .card-actions .btn-primary {
-  flex: 1;
+  flex: 1 1 120px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .btn {
@@ -1136,7 +1147,7 @@ select {
   box-shadow: 0 12px 24px rgba(15, 23, 42, 0.25);
 }
 
-@media (max-width: 980px) {
+@media (max-width: 760px) {
   .topbar-inner {
     flex-wrap: wrap;
     padding-top: 8px;
@@ -1150,6 +1161,12 @@ select {
 }
 
 @media (max-width: 720px) {
+  .results-meta-row {
+    flex-wrap: wrap;
+  }
+  .truncate-line {
+    text-align: left;
+  }
   .listings-grid {
     grid-template-columns: 1fr;
   }
@@ -1286,13 +1303,13 @@ select {
 
         <div class="chip-row" id="filter-chips">
           <button class="chip active" data-filter="all">All</button>
-          <button class="chip" data-filter="in-budget">Fits &le; ₹8k</button>
-          <button class="chip" data-filter="borderline">Borderline ₹8k–₹11k</button>
-          <button class="chip" data-filter="kitchen">Kitchen / Induction</button>
-          <button class="chip" data-filter="ac">AC Confirmed</button>
-          <button class="chip" data-filter="beds">Beds Included</button>
-          <button class="chip" data-filter="pg">Men's PGs</button>
-          <button class="chip" data-filter="flat">1RK / 1BHK Flats</button>
+          <button class="chip" data-filter="in-budget">&le; ₹8k Budget</button>
+          <button class="chip" data-filter="borderline">₹8k–₹11k</button>
+          <button class="chip" data-filter="kitchen">Kitchen</button>
+          <button class="chip" data-filter="ac">AC</button>
+          <button class="chip" data-filter="beds">Beds</button>
+          <button class="chip" data-filter="pg">Men's PG</button>
+          <button class="chip" data-filter="flat">1RK / 1BHK</button>
           <button class="chip" data-filter="coliving">Co-living</button>
           <button class="chip" data-filter="shortlisted">Saved &#9733;</button>
         </div>
