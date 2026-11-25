@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 7,
-  "lastUpdated": "2026-11-25T17:12:00+05:30",
+  "roundsCompleted": 8,
+  "lastUpdated": "2026-11-25T17:22:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,8 +64,15 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 8: Koyambedu/CMBT specific AC Men's PGs (Heera / Sunshine / local Koyambedu Metro lane PGs), individual Nestaway/Sulekha shared rooms in Ashok Nagar & Vadapalani, and PayRentz short-tenure AC exact quotes.",
+  "nextFocus": "Round 9: Nestaway / Settl managed 2-sharing rooms near Vadapalani & Ashok Nagar, PayRentz 3-month vs 6-month Split AC rate verification, and fresh r/Chennai hostel/flatmate leads.",
   "searchLog": [
+    {
+      "round": 8,
+      "timestamp": "2026-11-25T17:22:00+05:30",
+      "queryFocus": "Place Photos + Koyambedu/Saligramam/Virugambakkam AC PGs (Sharma Deluxe AC, Gupta PG Saligramam, Babitha House), Ashok Nagar Sulekha/NoBroker 1RKs & r/chennaicity Koyambedu-Vadapalani thread",
+      "addedCount": 4,
+      "notes": "Added real property photos to 52 listings + verified Chennai Metro/locality photos to 27 pools/directories (zero broken/unverified photos). Added 4 new Round 8 stays (total 79) + 1 Reddit thread (total 27)."
+    },
     {
       "round": 7,
       "timestamp": "2026-11-25T17:12:00+05:30",

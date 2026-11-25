@@ -278,6 +278,32 @@ function fitBadgeMeta(fit) {
   return { cls: "badge-fit-stretch", label: "> ₹8k Cap" };
 }
 
+function handleImgError(imgEl, fallbackText) {
+  const wrap = imgEl.parentElement;
+  imgEl.remove();
+  if (!wrap) return;
+  wrap.classList.add("img-fallback");
+  if (!wrap.querySelector(".fallback-label")) {
+    const span = document.createElement("div");
+    span.className = "fallback-label";
+    span.textContent = fallbackText || "Chennai Metro Midpoint";
+    wrap.appendChild(span);
+  }
+}
+
+window.handleImgError = handleImgError;
+
+function photoTagHtml(item) {
+  const isProp = item.imageType === "property";
+  const ico = isProp
+    ? `<svg class="ico" style="width:11px;height:11px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>`
+    : `<svg class="ico" style="width:11px;height:11px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+  const label = isProp
+    ? `Property Photo · ${item.source || "Listing"}`
+    : `Area View · ${item.metroStation || item.locality}`;
+  return `<span class="photo-tag">${ico}<span>${escapeHtml(label)}</span></span>`;
+}
+
 function renderListingsTable(items, shortlistedSet, hiddenSet) {
   return `
     <div class="compare-table-wrap">
@@ -304,8 +330,17 @@ function renderListingsTable(items, shortlistedSet, hiddenSet) {
               return `
                 <tr class="${isHidden ? "is-hidden-card" : ""}">
                   <td>
-                    <div style="font-weight:700; color:var(--text);">${escapeHtml(item.name)}</div>
-                    <div class="muted-xs">${escapeHtml(item.locality)} · ${escapeHtml(shortCategory(item.category))}</div>
+                    <div style="display:flex; align-items:center; gap:10px;">
+                      ${
+                        item.imageUrl
+                          ? `<img class="table-thumb" src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'" />`
+                          : ""
+                      }
+                      <div>
+                        <div style="font-weight:700; color:var(--text);">${escapeHtml(item.name)}</div>
+                        <div class="muted-xs">${escapeHtml(item.locality)} · ${escapeHtml(shortCategory(item.category))}</div>
+                      </div>
+                    </div>
                   </td>
                   <td><span class="badge badge-metro">${escapeHtml(item.metroStation)}</span></td>
                   <td>
@@ -369,16 +404,27 @@ function renderListings() {
       const isNew = latestRound > 1 && item.addedRound === latestRound;
       const included = (item.features?.included || []).slice(0, 2);
       const missing = (item.features?.missingOrCaveat || []).slice(0, 2);
+      const fallbackTxt = `${item.metroStation || item.locality} · ${shortCategory(item.category)}`;
 
       return `
         <article class="stay-card ${isStar ? "shortlisted" : ""} ${isHidden ? "is-hidden-card" : ""}" data-id="${escapeHtml(item.id)}">
-          <div class="card-top-bar">
-            <div class="card-badges">
-              <span class="badge ${fit.cls}">${fit.label}</span>
-              <span class="badge badge-cat">${escapeHtml(shortCategory(item.category))}</span>
-              ${isNew ? `<span class="badge badge-new">R${item.addedRound} New</span>` : ""}
+          <div class="card-media ${item.imageUrl ? "" : "img-fallback"} js-card-photo" data-id="${escapeHtml(item.id)}">
+            ${
+              item.imageUrl
+                ? `<img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImgError(this, '${escapeHtml(fallbackTxt).replaceAll("'", "\\'")}')" />`
+                : `<div class="fallback-label">${escapeHtml(fallbackTxt)}</div>`
+            }
+            <div class="card-media-top">
+              <div class="card-badges">
+                <span class="badge ${fit.cls}">${fit.label}</span>
+                <span class="badge badge-cat">${escapeHtml(shortCategory(item.category))}</span>
+                ${isNew ? `<span class="badge badge-new">R${item.addedRound} New</span>` : ""}
+              </div>
+              <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" aria-label="${isStar ? "Remove bookmark" : "Save stay"}" title="${isStar ? "Saved" : "Save stay"}">${isStar ? "★" : "☆"}</button>
             </div>
-            <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" aria-label="${isStar ? "Remove bookmark" : "Save stay"}" title="${isStar ? "Saved" : "Save stay"}">${isStar ? "★" : "☆"}</button>
+            <div class="card-media-bottom">
+              ${photoTagHtml(item)}
+            </div>
           </div>
 
           <div class="card-head">
@@ -529,6 +575,14 @@ function openDetailsModal(id) {
   const modalBody = document.getElementById("modal-body");
 
   modalBody.innerHTML = `
+    ${
+      item.imageUrl
+        ? `<div class="modal-hero-img">
+            <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" onerror="handleImgError(this, '${escapeHtml(item.metroStation || item.locality).replaceAll("'", "\\'")}')" />
+            ${photoTagHtml(item)}
+          </div>`
+        : ""
+    }
     <div class="card-badges" style="margin-bottom:8px;">
       <span class="badge ${fitBadgeMeta(p.budgetFit).cls}">${fitBadgeMeta(p.budgetFit).label}</span>
       <span class="badge badge-cat">${escapeHtml(item.category)}</span>
@@ -747,7 +801,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Card action delegation
   document.getElementById("listings-grid").addEventListener("click", async (e) => {
     const btn = e.target.closest("button");
-    if (!btn) return;
+    if (!btn) {
+      const media = e.target.closest(".js-card-photo");
+      if (media && media.dataset.id) {
+        openDetailsModal(media.dataset.id);
+      }
+      return;
+    }
     const id = btn.dataset.id;
     if (!id) return;
 
