@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 20,
-  "lastUpdated": "2026-11-25T20:20:00+05:30",
+  "roundsCompleted": 21,
+  "lastUpdated": "2026-11-25T20:32:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 21: Upgrade final remaining category-linked entries (Truliv Adonia, Zolo StandPoint/Gupta/Nelson Manickam/Guindy/Velachery/Tharamani) to direct propertyDetail URLs + verify more K.K. Nagar / Ashok Nagar / Ekkattuthangal individual 1BHKs.",
+  "nextFocus": "Round 22: Search specific individual NoBroker/Housing 1RK & 1BHK detail listings in Ashok Nagar, West Mambalam, Arumbakkam, and Vadapalani + verify Guindy/Alandur PG tariff updates.",
   "searchLog": [
     {
       "round": 13,
@@ -205,6 +205,13 @@
       "queryFocus": "Upgraded Yube1 Castle Mogappair, Simsan Stay KK Nagar & Yube1 Metro KK Nagar to direct propertyDetail pages + photos; added Zolo Drift Koyambedu, Yube1 Uptown/Temple Tower Vadapalani, 1st-Floor Bachelor Room Vadapalani, Thirumangalam & Kamakshi Nagar NoBroker 1RKs + 3 Reddit guides",
       "addedCount": 7,
       "notes": "Upgraded 3 entries to exact propertyDetail links + verified photos; added 4 new stays & 3 Vadapalani/relocation Reddit guides. Total: 139 stays, 61 Reddit threads."
+    },
+    {
+      "round": 21,
+      "timestamp": "2026-11-25 20:32 IST",
+      "queryFocus": "Specific K.K. Nagar ₹12k 570sqft 1st-floor 1BHK (NoBroker), Sector 4 & West K.K. Nagar 1BHK pools, Ekkattuthangal semi-furnished 1BHK pool + r/Chennai TANGEDCO & PG sub-meter EB alerts",
+      "addedCount": 6,
+      "notes": "Added 4 verified 1BHK stays (including specific ₹12k K.K. Nagar 1st-floor unit = ₹6k/person base + full kitchen) & 2 power/EB-scam Reddit guides. Total: 143 stays, 63 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",

@@ -547,5 +547,23 @@
     "url": "https://www.reddit.com/r/chennaicity/comments/1xnjkbx/relocating_to_chennai_for_work_where_do_i_even/",
     "takeaway": "Locals strongly advise NOT trusting edited PG photos remotely: book a temporary hostel/hotel for 2–3 days in Anna Nagar / Vadapalani and walk physical streets along Green Line Metro.",
     "actionableTip": "Bring this shortlisted StayMid tracker on your first weekend walk-around to verify EB meters, water TDS, and owner deposit receipts face-to-face."
+  },
+  {
+    "id": "reddit-tangedco-summer-power-cuts",
+    "subreddit": "r/Chennai",
+    "topic": "Utilities & EB",
+    "title": "Widespread power cuts & voltage fluctuations across Chennai (Why backup matters)",
+    "url": "https://www.reddit.com/r/Chennai/comments/1uhevre/is_it_true_that_all_areas_in_chennai_are_facing_a/",
+    "takeaway": "Summer grid loads trigger phase-wise shutdowns & low-voltage trips across Chennai wards — standard home inverters run fans/Wi-Fi only, whereas ACs require proper DG backup or strong phase voltage.",
+    "actionableTip": "Check whether your PG/flat has Wi-Fi router UPS + ceiling-fan inverter backup so WFH/internship laptops stay online during summer cuts."
+  },
+  {
+    "id": "reddit-hostel-scamming-eb-bills",
+    "subreddit": "r/Chennai",
+    "topic": "Utilities & EB",
+    "title": "Hostel & PG owners overcharging electricity bills via commercial sub-meters",
+    "url": "https://www.reddit.com/r/Chennai/comments/1kc7ovv/hostel_scamming_for_eb_bills/",
+    "takeaway": "Multiple hostelers report commercial/fixed per-unit EB markups (₹12–₹16+/unit) inflating monthly summer AC bills to ₹3k–₹4k+ per bed, unlike domestic TANGEDCO meters in rented flats.",
+    "actionableTip": "Always ask for exact ₹/unit AC sub-meter charge upfront AND photograph the sub-meter reading on move-in day."
   }
 ]

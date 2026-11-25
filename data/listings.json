@@ -9949,5 +9949,289 @@
       "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
     ],
     "imageType": "neighborhood"
+  },
+  {
+    "id": "kk-nagar-1bhk-570sqft-12k-nobroker",
+    "name": "K.K. Nagar Semi-Furnished 1BHK Independent Floor (570 sq.ft. · ₹12,000 Flat)",
+    "category": "1BHK Independent Flat (Specific Unit)",
+    "locality": "KK Nagar / Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (~1.4 km)",
+    "metroWalk": "6–9 min auto/cycle to Ashok Nagar Metro Station",
+    "address": "K.K. Nagar (near Sri Bavani Amman Temple / Lathaa Cinemas), Chennai 600078",
+    "eligibility": "Bachelors / Verify Working Interns (Direct Owner NoBroker)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 6000,
+      "monthlyRentPerPersonMax": 6000,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 7100,
+      "effectiveTotalPerPersonMax": 7600,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1BHK 570 sq.ft. (₹12k/mo ÷ 2 = ₹6k each)",
+      "budgetFit": "in-budget",
+      "priceNote": "Specific NoBroker direct-owner listing: ₹12,000/mo semi-furnished 570 sq.ft. 1st-floor 1BHK (= ₹6,000/person base; ~₹7.1k–₹7.6k/person incl. AC EB)."
+    },
+    "commute": {
+      "jidokaMins": "22–30 mins",
+      "iitmMins": "22–28 mins",
+      "jidokaRoute": "Ashok Nagar Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC or window/split allowance)",
+      "beds": "Semi-Furnished (add rental beds if cots not installed)",
+      "kitchen": "Yes — Dedicated 1BHK private kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Specific ₹12k Listing",
+          "detail": "570 sq.ft. spacious 1st floor (flood-safe) + full kitchen"
+        },
+        {
+          "label": "Inside ₹8k Cap + Midpoint",
+          "detail": "₹6k base each keeps AC + EB under ₹8k at Metro midpoint"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Check Bachelor Policy",
+          "detail": "Confirm 2 working male interns with owner before scheduling visit"
+        },
+        {
+          "label": "Confirm AC Provision",
+          "detail": "Semi-furnished unit likely needs rented AC"
+        }
+      ]
+    },
+    "redditSummary": "K.K. Nagar 1st-floor independent houses combine generous space, flood resilience, and equal Metro reach for both internships.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker ₹12k 1BHK",
+      "listingUrl": "https://www.nobroker.in/property/1-bhk-apartment-for-rent-in-kk-nagar-chennai-for-rs-12000/8a9f8fc393802c8a019380904ad91cd3/detail",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KK+Nagar+Chennai+600078"
+    },
+    "addedRound": 21,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "sector-4-kk-nagar-1bhk-housing",
+    "name": "Sector 4 K.K. Nagar 1BHK Builder Floors (Housing ₹10k–₹15k Pool)",
+    "category": "1BHK Flat Pool",
+    "locality": "KK Nagar / Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (~1.0 km)",
+    "metroWalk": "5–8 min walk/auto to Ashok Nagar Metro Station",
+    "address": "Sector 4, K.K. Nagar (Ashok Nagar Metro border), Chennai 600078",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "Owner Deposit (verify 3–5 mo)",
+      "sharingType": "1BHK Split (~₹10k–₹14k/flat)",
+      "budgetFit": "in-budget",
+      "priceNote": "Housing.com Sector 4 K.K. Nagar ₹10k–₹15k filter (right on Ashok Nagar Metro border): splitting ₹12k–₹14k lands around ₹6k–₹7k base + AC EB."
+    },
+    "commute": {
+      "jidokaMins": "22–28 mins",
+      "iitmMins": "20–26 mins",
+      "jidokaRoute": "Ashok Nagar Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC point on owner meter)",
+      "beds": "Semi/Unfurnished (budget RentoMojo cots/AC)",
+      "kitchen": "Yes — Dedicated 1BHK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Closest Sector to Metro",
+          "detail": "Sector 4 sits closest to Ashok Nagar Metro & Udhayam point"
+        },
+        {
+          "label": "Balanced ~23m Commute",
+          "detail": "Symmetric Metro times for Harsha & Rajat"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm Bachelor Rules",
+          "detail": "Verify bachelor-friendly owner in Sector 4 lanes"
+        },
+        {
+          "label": "Furnishing Cost",
+          "detail": "Include bed/AC rental if bare flat"
+        }
+      ]
+    },
+    "redditSummary": "Sector 4–6 K.K. Nagar sits close to Ashok Nagar Metro without Vadapalani junction congestion.",
+    "source": "Housing.com",
+    "links": {
+      "listingLabel": "Housing.com Sector 4",
+      "listingUrl": "https://housing.com/rent/1bhk-flats-in-sector-4-kk-nagar-chennai-10000-to-15000-C2P6srl4ukdfqwqo3egT7psUbko",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sector+4+KK+Nagar+Chennai"
+    },
+    "addedRound": 21,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "west-kk-nagar-450sqft-1bhk-housing",
+    "name": "West K.K. Nagar 1BHK Flats (~450 sq.ft. · ₹12k Range on Housing.com)",
+    "category": "1BHK Flat Pool",
+    "locality": "KK Nagar / Nesapakkam",
+    "metroStation": "Ashok Nagar / Vadapalani Metro (~1.8 km)",
+    "metroWalk": "7–10 min auto/2-wheeler to Ashok Nagar or Vadapalani Metro",
+    "address": "West K.K. Nagar (near PSBB / MGM area), Chennai 600078",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5500,
+      "monthlyRentPerPersonMax": 7000,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6600,
+      "effectiveTotalPerPersonMax": 8600,
+      "deposit": "Owner Deposit (verify)",
+      "sharingType": "1BHK Split (~₹11k–₹14k unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "Housing.com West KK Nagar 1BHK pool (~450 sq.ft. ₹12k benchmark): ~₹6k base each with full private kitchen."
+    },
+    "commute": {
+      "jidokaMins": "24–32 mins",
+      "iitmMins": "22–30 mins",
+      "jidokaRoute": "Auto to Ashok Nagar/Vadapalani Metro -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Guindy -> IITM Gate (or 2-wheeler via KK Nagar)"
+    },
+    "features": {
+      "ac": "Verify / Rent AC (check split AC wiring)",
+      "beds": "Semi/Unfurnished (verify cots/cupboards)",
+      "kitchen": "Yes — Dedicated 1BHK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Established Residential Belt",
+          "detail": "Good markets, hospitals, and wide West KK Nagar roads"
+        },
+        {
+          "label": "Full Private Kitchen",
+          "detail": "Separate kitchen & bedroom around ₹6k/person base"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Short Auto to Metro",
+          "detail": "~1.8 km feeder hop to Metro"
+        },
+        {
+          "label": "Check Furnishings",
+          "detail": "Confirm beds & AC setup before advance"
+        }
+      ]
+    },
+    "redditSummary": "West K.K. Nagar mixes quiet family-safe lanes with easier access toward both Vadapalani and Ashok Nagar Metro.",
+    "source": "Housing.com",
+    "links": {
+      "listingLabel": "Housing.com West KK",
+      "listingUrl": "https://housing.com/rent/1bhk-flats-for-rent-in-kk-nagar-chennai-C2P4ctyejsn48zdz9hb",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=West+KK+Nagar+Chennai"
+    },
+    "addedRound": 21,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "ekkattuthangal-1bhk-nobroker-semi",
+    "name": "Ekkattuthangal Direct-Owner 1BHK Portions (NoBroker ₹12k–₹15k)",
+    "category": "1BHK Flat Pool",
+    "locality": "Ekkattuthangal",
+    "metroStation": "Ekkattuthangal Metro (Green Line)",
+    "metroWalk": "5–10 min walk to Ekkattuthangal Metro & 100ft Rd",
+    "address": "Ekkattuthangal (Jawaharlal Nehru Rd / Metro pockets), Chennai 600032",
+    "eligibility": "Bachelors / Working Professionals (NoBroker bachelor filter)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 6000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 7100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1BHK Split (₹12k–₹15k semi-furnished)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Ekkattuthangal 1BHK index (₹12k–₹15k semi-furnished portions): zero brokerage + ₹6k–₹7.5k/person base + AC EB."
+    },
+    "commute": {
+      "jidokaMins": "30–36 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Ekkattuthangal Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Direct bus/auto past Guindy Kathipara to IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC installation)",
+      "beds": "Semi-Furnished / Unfurnished (wardrobes/fixtures incl.)",
+      "kitchen": "Yes — Dedicated 1BHK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "High Bachelor Acceptance",
+          "detail": "IT Estate adjacency welcomes working male interns"
+        },
+        {
+          "label": "Walkable Green Line",
+          "detail": "Direct Metro line up to Thirumangalam"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Favors Rajat Slightly",
+          "detail": "15–20m to IITM vs ~32–36m Green Line to Jidoka"
+        },
+        {
+          "label": "AC Cost Verification",
+          "detail": "Semi-furnished ₹14k+ 1BHK pushes ₹8.5k–₹9.1k incl. AC EB"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai favors Ekkattuthangal builder floors for hassle-free bachelor approval close to Guindy and Green Line Metro.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Ekkattuthangal",
+      "listingUrl": "https://www.nobroker.in/1bhk-flats-for-rent-in-ekkatuthangal_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ekkattuthangal+Chennai"
+    },
+    "addedRound": 21,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
   }
 ]
