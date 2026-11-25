@@ -4346,5 +4346,446 @@
     "source": "OLX India",
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "vsn-mens-pg-alandur",
+    "name": "VSN Men's Paying Guest (Alandur Metro)",
+    "category": "Budget Men's PG",
+    "locality": "Alandur / St. Thomas Mount",
+    "address": "Alandur (near Alandur Metro Interchange & commercial hubs)",
+    "metroStation": "Alandur Metro (Green/Blue)",
+    "metroWalk": "~0.5–1.0 km from Alandur Metro Interchange",
+    "commute": {
+      "jidokaMins": "~35–42 min",
+      "jidokaRoute": "Direct Green Line Alandur -> Thirumangalam + auto",
+      "iitmMins": "~15–22 min",
+      "iitmRoute": "Blue Line 1–2 stops to Guindy/Little Mount + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 6000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7000,
+      "effectiveTotalPerPersonMax": 9000,
+      "priceNote": "MagicBricks lists AC configurations starting around ₹6,000–₹7,000+/month depending on sharing type; verify exact Twin AC tariff + EB meter.",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance directly",
+      "sharingType": "2 / 3 / 4-Sharing AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC rooms ~₹6k–₹7k+ starting)",
+      "beds": "Yes (Furnished Rooms + TV + Power Backup)",
+      "kitchen": "Veg & Non-Veg Food Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Interchange Access",
+          "detail": "Sits on both Green Line (to Jidoka) & Blue Line (to IITM)"
+        },
+        {
+          "label": "AC + Power Backup",
+          "detail": "Includes Wi-Fi, TV, room cleaning, veg & non-veg meals"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No Self-Cooking Kitchen",
+          "detail": "Operates on mess food model rather than private stove"
+        },
+        {
+          "label": "Confirm Twin AC Rate",
+          "detail": "₹6k–₹7k base applies to higher sharing; verify 2-share AC + EB"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity threads highlight Alandur as a top interchange hub for roommates splitting north-south commutes across Chennai.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/vsn-mens-paying-guest-pg-alandur-in-chennai&pgid=4d42333035333531677261646532",
+      "listingLabel": "View VSN PG on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=VSN+Mens+PG+Alandur+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "vetrivel-residency-ekkattuthangal",
+    "name": "Vetrivel Residency (Ambal Nagar, Ekkattuthangal)",
+    "category": "Budget Men's PG",
+    "locality": "Ekkattuthangal",
+    "address": "Ambal Nagar / Gandhi Nagar Main Rd, Ekkattuthangal (near Alandur Metro & Olympia Tech Park)",
+    "metroStation": "Alandur / Ekkattuthangal Metro",
+    "metroWalk": "~0.8 km to Alandur / Ekkattuthangal Metro",
+    "commute": {
+      "jidokaMins": "~34–40 min",
+      "jidokaRoute": "Green Line Ekkattuthangal -> Thirumangalam + auto",
+      "iitmMins": "~15–22 min",
+      "iitmRoute": "Blue Line via Alandur or auto along Guindy/Sardar Patel Rd"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 6500,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7500,
+      "effectiveTotalPerPersonMax": 10000,
+      "priceNote": "MagicBricks tiers: 4-Share AC ~₹6,500, Triple AC ₹7,000–₹7,500, Twin AC ₹8,000+ (+ EB).",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance directly",
+      "sharingType": "Twin AC (₹8k+) / Triple AC (₹7k–₹7.5k)"
+    },
+    "eligibility": "Men's / Male PG",
+    "features": {
+      "ac": "Yes (Twin ₹8k+, Triple ₹7k–₹7.5k, 4-Share ₹6.5k)",
+      "beds": "Yes (Beds + TV + Geyser + Washing Machine)",
+      "kitchen": "Fridge + Purified Water (Verify kitchen/cooking)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Transparent Tier Pricing",
+          "detail": "Explicit AC tiers from ₹6.5k (4-share) to ₹8k+ (2-share)"
+        },
+        {
+          "label": "Full Appliances",
+          "detail": "AC, Wi-Fi, geyser, fridge, washing machine, RO water"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Self-Cooking Unconfirmed",
+          "detail": "Fridge provided; verify induction/stove rules before booking"
+        },
+        {
+          "label": "Twin AC + EB ~₹9k–₹10k",
+          "detail": "Triple sharing fits ≤ ₹8k better than Twin AC"
+        }
+      ]
+    },
+    "redditSummary": "Ambal Nagar / Ekkattuthangal pockets are frequently recommended for professionals around Olympia Tech Park seeking walking-distance PGs.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/vetrivel-residency-pg-ambal-nagar-ekkatuthangal-in-chennai&pgid=4d42333737303739677261646532",
+      "listingLabel": "View Vetrivel Residency on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vetrivel+Residency+Ambal+Nagar+Ekkattuthangal+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "bambooz-residency-alandur",
+    "name": "Bambooz Residency Men's Hostel (Alandur / St. Thomas Mount)",
+    "category": "Budget Men's PG",
+    "locality": "Alandur / St. Thomas Mount",
+    "address": "Alandur (~1 km from St. Thomas Mount Metro & Guindy Industrial Estate)",
+    "metroStation": "St. Thomas Mount / Alandur Metro",
+    "metroWalk": "~1.0 km to St. Thomas Mount Metro",
+    "commute": {
+      "jidokaMins": "~38–44 min",
+      "jidokaRoute": "Green Line Alandur/STM -> Thirumangalam + auto",
+      "iitmMins": "~18–24 min",
+      "iitmRoute": "Blue Line / GST Rd bus or auto to Guindy & IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7800,
+      "monthlyRentPerPersonMax": 9100,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8800,
+      "effectiveTotalPerPersonMax": 10600,
+      "priceNote": "Verified AC quotes: Triple Sharing AC ~₹7,800/mo, Twin/Double Sharing AC ~₹9,100/mo + AC EB.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "Twin AC (~₹9.1k) / Triple AC (~₹7.8k)"
+    },
+    "eligibility": "Men's / Boys Hostel",
+    "features": {
+      "ac": "Yes (Twin ~₹9.1k, Triple ~₹7.8k)",
+      "beds": "Yes (Attached Bath + Beds + Laundry)",
+      "kitchen": "Daily Meals Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Attached Bath + Meals",
+          "detail": "AC, Wi-Fi, daily meals, laundry & security included"
+        },
+        {
+          "label": "Dual Transit Hub",
+          "detail": "Close to St. Thomas Mount MRTS/Suburban & Green/Blue Metro"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Above ₹8k for 2-Share AC",
+          "detail": "Twin AC sits around ₹9.1k + electricity"
+        },
+        {
+          "label": "No Self-Cooking",
+          "detail": "Standard mess meals model"
+        }
+      ]
+    },
+    "redditSummary": "Good benchmark around St. Thomas Mount; r/chennaicity advises walking Alandur side-streets to compare ~₹1k–₹1.5k cheaper non-portal PGs.",
+    "links": {
+      "listingUrl": "https://www.merahostel.com/hostel/3331/bambooz-residency-men-s-hostel",
+      "listingLabel": "View Bambooz Residency on MeraHostel",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bambooz+Residency+Mens+Hostel+Alandur+Chennai"
+    },
+    "source": "MeraHostel",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "cv-pg-guindy-estate",
+    "name": "CV PG for Boys (Guindy Industrial Estate)",
+    "category": "Budget Men's PG",
+    "locality": "Guindy",
+    "address": "Guindy Industrial Estate (near Olympia Tech Park & Guindy Metro)",
+    "metroStation": "Guindy Metro (Blue Line)",
+    "metroWalk": "Near Olympia Tech Park & Guindy Metro",
+    "commute": {
+      "jidokaMins": "~38–44 min",
+      "jidokaRoute": "Blue -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~12–18 min",
+      "iitmRoute": "Short auto/MTC bus down Sardar Patel Rd to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7000,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8000,
+      "effectiveTotalPerPersonMax": 10000,
+      "priceNote": "AC sharing starts around ₹7,000–₹7,500+ (some room-only configs do not include an in-house mess).",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2 / 3 / 4-Sharing AC"
+    },
+    "eligibility": "Boys / Men's PG",
+    "features": {
+      "ac": "Yes (AC starts ₹7k–₹7.5k+)",
+      "beds": "Yes (Furnished Beds + Wi-Fi)",
+      "kitchen": "Room-Only Config Available (Verify induction/cooking)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Closest to IIT Madras",
+          "detail": "Fastest morning hop to Sardar Patel Rd / IITM Gate"
+        },
+        {
+          "label": "Flexible Without Mandatory Mess",
+          "detail": "Some configs exclude mess fees—ask about induction access"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm Twin Rate & Mess",
+          "detail": "₹7k–₹7.5k is starting rate; verify 2-share AC & cooking policy"
+        },
+        {
+          "label": "Longer Jidoka Commute",
+          "detail": "Requires Metro interchange at Alandur for Anna Nagar W Ext"
+        }
+      ]
+    },
+    "redditSummary": "Guindy Industrial Estate PGs save huge time for IITM/OMR interns; verify Metro interchange willingness for the Jidoka partner.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/cv-pg-guindy-industrial-estate-in-chennai&pgid=4d42343139313531677261646532",
+      "listingLabel": "View CV PG on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CV+PG+Guindy+Industrial+Estate+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "zolo-gleeful-homes-alandur",
+    "name": "Zolo Gleeful Homes (Alandur — Shared Kitchen)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Alandur / St. Thomas Mount",
+    "address": "Near St. Thomas Mount Metro & Jothi Theatre, Alandur",
+    "metroStation": "St. Thomas Mount / Alandur Metro",
+    "metroWalk": "Walkable to St. Thomas Mount Metro",
+    "commute": {
+      "jidokaMins": "~38–44 min",
+      "jidokaRoute": "Green Line St. Thomas Mount/Alandur -> Thirumangalam + auto",
+      "iitmMins": "~18–24 min",
+      "iitmRoute": "Blue Line / GST Rd bus to Guindy & IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 8798,
+      "monthlyRentPerPersonMax": 14500,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 2000,
+      "effectiveTotalPerPersonMin": 10000,
+      "effectiveTotalPerPersonMax": 16500,
+      "priceNote": "Zolo rates: multi-sharing ₹8,798–₹9,775+, Twin Sharing ~₹14,000+, Private ₹20,800+; electricity billed extra.",
+      "budgetFit": "stretch",
+      "deposit": "Per Zolo policy (1–2 months)",
+      "sharingType": "Twin (~₹14k+) / Multi-Share (₹8.8k+)"
+    },
+    "eligibility": "Male / Co-living Managed Property",
+    "features": {
+      "ac": "Yes (AC in shared & private rooms)",
+      "beds": "Yes (Managed Beds + Fridge + Housekeeping)",
+      "kitchen": "Shared Common Kitchen + Fridge (No mandatory mess)",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Verified Shared Kitchen",
+          "detail": "Allows self-cooking without forced daily mess charges"
+        },
+        {
+          "label": "Zero-Brokerage Standardized Setup",
+          "detail": "Predictable Wi-Fi, app maintenance & security"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Exceeds ₹8k Budget Cap",
+          "detail": "Twin sharing AC exceeds ₹15k/person once EB is added"
+        },
+        {
+          "label": "Extra Electricity Billing",
+          "detail": "Sub-metered EB charged above listed base rent"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity reviews note Zolo offers clean self-cooking kitchen access, though effective monthly bills with EB usually overshoot a ₹8k cap.",
+    "links": {
+      "listingUrl": "https://zolostays.com/pg-hostel-near-alandur-in-chennai-zolo_gleeful_homes-zoghm",
+      "listingLabel": "View Zolo Gleeful Homes",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zolo+Gleeful+Homes+Alandur+Chennai"
+    },
+    "source": "ZoloStays",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "yube1-transit-alandur",
+    "name": "Yube1 Transit (Alandur — Induction & Microwave)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Alandur / St. Thomas Mount",
+    "address": "Near Alandur Metro Station & Guindy Industrial Estate",
+    "metroStation": "Alandur Metro (Green/Blue)",
+    "metroWalk": "Near Alandur Metro Station",
+    "commute": {
+      "jidokaMins": "~35–42 min",
+      "jidokaRoute": "Direct Green Line Alandur -> Thirumangalam + auto",
+      "iitmMins": "~15–22 min",
+      "iitmRoute": "Blue Line 1–2 stops to Guindy/Little Mount + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 12000,
+      "monthlyRentPerPersonMax": 15000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 2000,
+      "effectiveTotalPerPersonMin": 13200,
+      "effectiveTotalPerPersonMax": 17000,
+      "priceNote": "Verified tariffs: Triple AC ~₹12,000, Twin AC ~₹15,000, Deposit ₹12,000; EB billed per actual consumption.",
+      "budgetFit": "stretch",
+      "deposit": "₹12,000",
+      "sharingType": "Twin AC (~₹15k) / Triple AC (~₹12k)"
+    },
+    "eligibility": "Co-ed / Managed Co-living",
+    "features": {
+      "ac": "Yes (AC rooms standard)",
+      "beds": "Yes (Managed Beds + Dining + Power Backup)",
+      "kitchen": "Shared Induction Ovens + Microwave",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Induction & Microwave Included",
+          "detail": "Common dining pantry equipped for reheating/light cooking"
+        },
+        {
+          "label": "Low Fixed Deposit (₹12k)",
+          "detail": "Standardized terms next to Alandur Metro interchange"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Benchmark Tier (> ₹8k Cap)",
+          "detail": "Twin AC + EB is ₹16k+/person—nearly double budget"
+        },
+        {
+          "label": "EB Billed Extra",
+          "detail": "AC power billed separately by actuals"
+        }
+      ]
+    },
+    "redditSummary": "Useful co-living benchmark right at Alandur interchange for short notice/fixed-deposit convenience if budget flexes up.",
+    "links": {
+      "listingUrl": "https://www.yube1.in/property-details/Yube1-Transit",
+      "listingLabel": "View Yube1 Transit",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube1+Transit+Alandur+Chennai"
+    },
+    "source": "Yube1",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
+  },
+  {
+    "id": "sri-mens-pg-guindy",
+    "name": "Sri Men's PG (Guindy — AC + Common Kitchen & Meals)",
+    "category": "Budget Men's PG",
+    "locality": "Guindy",
+    "address": "Guindy, Chennai (2 / 3 / 4-Bed Sharing AC & Non-AC)",
+    "metroStation": "Guindy Metro (Blue Line)",
+    "metroWalk": "Guindy transit belt",
+    "commute": {
+      "jidokaMins": "~38–45 min",
+      "jidokaRoute": "Blue -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~12–18 min",
+      "iitmRoute": "Direct bus/auto along Sardar Patel Rd to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 10000,
+      "monthlyRentPerPersonMax": 12000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 11000,
+      "effectiveTotalPerPersonMax": 13500,
+      "priceNote": "Starts ~₹10,000/month (varies by AC vs Non-AC and 2/3/4-sharing), Deposit ~₹12,000.",
+      "budgetFit": "stretch",
+      "deposit": "₹12,000",
+      "sharingType": "2 / 3 / 4-Sharing AC & Non-AC"
+    },
+    "eligibility": "Men's / Male PG",
+    "features": {
+      "ac": "Yes (AC & Non-AC variants)",
+      "beds": "Yes (Furnished Beds + Fridge)",
+      "kitchen": "Shared Common Kitchen + 3 Meals Included",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Common Kitchen + Home Meals",
+          "detail": "Rare combo offering breakfast/lunch/dinner PLUS kitchen & fridge"
+        },
+        {
+          "label": "Low Deposit (₹12k)",
+          "detail": "Lower upfront lock-in vs standalone flat advances"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Starts Around ₹10k+",
+          "detail": "Above ₹8k cap once AC & EB are factored in"
+        },
+        {
+          "label": "Longer Anna Nagar Commute",
+          "detail": "Better weighted toward the IIT Madras intern"
+        }
+      ]
+    },
+    "redditSummary": "One of the few Guindy men's PGs combining common kitchen/refrigerator access with included meals.",
+    "links": {
+      "listingUrl": "https://www.chennaiproperties.com/rent/pg-hostels/guindy",
+      "listingLabel": "View Guindy Men's PG Directory",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sri+Mens+PG+Guindy+Chennai"
+    },
+    "source": "ChennaiProperties",
+    "addedRound": 7,
+    "addedAt": "2026-11-25T17:12:00+05:30"
   }
 ]

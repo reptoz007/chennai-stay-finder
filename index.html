@@ -10,117 +10,123 @@
   <header class="topbar">
     <div class="container topbar-inner">
       <div class="brand">
-        <div class="brand-badge">SM</div>
-        <div>
+        <div class="brand-badge" aria-hidden="true">SM</div>
+        <div class="brand-copy">
           <div class="brand-title">StayMid <span class="brand-city">Chennai</span></div>
-          <div class="brand-sub">Jidoka (Anna Nagar W Ext) ↔ IIT Madras · Metro Midpoint Finder</div>
+          <div class="brand-sub">Jidoka ↔ IIT Madras</div>
         </div>
       </div>
 
       <nav class="nav-tabs" aria-label="Primary sections">
-        <button class="nav-tab active" data-section="listings">Listings <span id="tab-count-listings" class="pill-count">0</span></button>
+        <button class="nav-tab active" data-section="listings">Stays <span id="tab-count-listings" class="pill-count">0</span></button>
         <button class="nav-tab" data-section="metro">Metro Matrix</button>
-        <button class="nav-tab" data-section="reddit">Reddit Reviews <span id="tab-count-reddit" class="pill-count">0</span></button>
-        <button class="nav-tab" data-section="log">Search Log</button>
+        <button class="nav-tab" data-section="reddit">Reddit Intel <span id="tab-count-reddit" class="pill-count">0</span></button>
+        <button class="nav-tab" data-section="log">Log</button>
       </nav>
 
       <div class="topbar-actions">
-        <div class="live-pill" id="live-status-pill" title="Polls /api/state every 5 seconds for continuous search updates">
+        <div class="live-pill" id="live-status-pill" title="Auto-updates every search round until stopped">
           <span class="pulse-dot"></span>
-          <span id="live-status-text">Live Search · Round 1</span>
+          <span id="live-status-text">Live · Round 1</span>
         </div>
-        <a class="btn btn-share" id="share-html-btn" href="/api/export-html" download="staymid-chennai-share.html" title="Download single-file HTML to share with your friend">⬇ Share HTML</a>
+        <a class="btn btn-share" id="share-html-btn" href="/api/export-html" download="staymid-chennai-share.html" title="Download offline single-file HTML snapshot for your friend">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Share HTML</span>
+        </a>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <!-- Hero / Constraint Bar -->
-    <section class="hero-card">
-      <div class="hero-main">
-        <div>
-          <span class="eyebrow">2-Person Internship Stay Tracker · Auto-Updating Until Stopped</span>
-          <h1>Metro Midpoint Stays Between Anna Nagar &amp; IIT Madras</h1>
-          <p class="hero-desc">
-            Target budget: <strong>₹6,000–₹8,000 / person / month</strong> (including AC electricity; ₹12k–₹16k combined).
-            Every card lists <strong>what’s included</strong>, <strong>what’s missing</strong>, <strong>r/Chennai reviews</strong>, and direct portal + Google Maps links.
-          </p>
+    <!-- Compact Summary Strip -->
+    <section class="summary-strip" aria-label="Tracker overview">
+      <div class="summary-head">
+        <div class="summary-title-wrap">
+          <h1>Anna Nagar (Jidoka) &harr; IIT Madras Midpoint Stays</h1>
+          <div class="summary-subline">
+            <span>Target <strong>₹6k–₹8k / person / mo</strong> incl. AC EB (2 male interns)</span>
+            <span class="sep">&middot;</span>
+            <span>Round <strong id="meta-round">1</strong> · Updated <span id="meta-updated">just now</span></span>
+            <span class="sep">&middot;</span>
+            <button type="button" class="link-toggle" id="guide-toggle-btn" aria-expanded="false">Budget &amp; EB trade-off guide &#9662;</button>
+          </div>
         </div>
-        <div class="hero-kpis">
-          <div class="kpi-box">
-            <div class="kpi-val" id="kpi-total">0</div>
-            <div class="kpi-lbl">Verified Places</div>
-          </div>
-          <div class="kpi-box kpi-good">
-            <div class="kpi-val" id="kpi-inbudget">0</div>
-            <div class="kpi-lbl">Fits ≤ ₹8k/Person</div>
-          </div>
-          <div class="kpi-box kpi-teal">
-            <div class="kpi-val" id="kpi-kitchen">0</div>
-            <div class="kpi-lbl">Kitchen / Induction</div>
-          </div>
-          <div class="kpi-box">
-            <div class="kpi-val" id="kpi-shortlisted">0</div>
-            <div class="kpi-lbl">Shortlisted ★</div>
-          </div>
+
+        <div class="kpi-strip">
+          <button type="button" class="kpi-pill js-kpi-filter" data-filter="all">
+            <strong id="kpi-total">0</strong>
+            <span>Verified Stays</span>
+          </button>
+          <button type="button" class="kpi-pill kpi-good js-kpi-filter" data-filter="in-budget">
+            <strong id="kpi-inbudget">0</strong>
+            <span>Fits &le; ₹8k</span>
+          </button>
+          <button type="button" class="kpi-pill kpi-blue js-kpi-filter" data-filter="kitchen">
+            <strong id="kpi-kitchen">0</strong>
+            <span>Has Kitchen</span>
+          </button>
+          <button type="button" class="kpi-pill kpi-star js-kpi-filter" data-filter="shortlisted">
+            <strong id="kpi-shortlisted">0</strong>
+            <span>Saved &#9733;</span>
+          </button>
         </div>
       </div>
 
-      <div class="reality-banner">
-        <div class="reality-icon">⚡</div>
-        <div class="reality-text">
-          <strong>Key Trade-Off Found on r/Chennai &amp; Portals:</strong>
-          Independent <strong>1RKs / compact 1BHKs</strong> (split by 2) easily fit ₹4k–₹7.5k/person with a <strong>private kitchen + direct TANGEDCO EB</strong>, though AC &amp; beds often aren't pre-installed.
-          <strong>Local Men's PGs</strong> include beds + AC + mess meals (₹6.5k–₹10k/person), but usually block self-cooking.
-          <strong>Zolo / Truliv / Yube1</strong> sit at ₹10.4k–₹15k/person incl. sub-metered EB and are labeled <em>Benchmark (&gt;₹8k)</em>.
-        </div>
-        <div class="last-updated-wrap">
-          <div>Round <strong id="meta-round">1</strong></div>
-          <div class="muted-xs" id="meta-updated">Updated just now</div>
-        </div>
+      <div id="reality-drawer" class="reality-drawer hidden">
+        <strong>Market Reality (r/Chennai + Portals):</strong>
+        Independent <strong>1RKs / 1BHKs</strong> split by 2 hit ₹4k–₹7.5k/person with a <strong>private kitchen + direct TANGEDCO EB</strong>, though you may need floor mattresses or a rented AC (PayRentz/RentoMojo ~₹750–₹1.25k/person).
+        <strong>Local Men's PGs</strong> include beds + AC + mess food (₹6.5k–₹10k/person), but usually prohibit cooking.
+        <strong>Zolo / Truliv / Yube1</strong> average ₹10.4k–₹15k/person incl. sub-metered EB and are tagged <em>Benchmark</em>.
       </div>
     </section>
 
     <!-- SECTION: LISTINGS -->
     <section id="section-listings" class="section active">
-      <div class="filters-panel">
-        <div class="search-row">
+      <div class="toolbar-card">
+        <div class="toolbar-top">
           <div class="search-input-wrap">
-            <span class="search-icon">🔍</span>
-            <input type="text" id="search-input" placeholder="Search property, street, Metro, kitchen..." />
+            <svg class="search-icon ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="Search stay name, Metro, street, AC, kitchen..." />
           </div>
-          <select id="locality-select" aria-label="Filter by locality">
-            <option value="all">All Midpoint Areas</option>
-          </select>
-          <select id="sort-select" aria-label="Sort listings">
-            <option value="best-match">Sort: Best Budget + Fit</option>
-            <option value="price-asc">Sort: Lowest Est. Total / Person</option>
-            <option value="commute-asc">Sort: Balanced Commute</option>
-            <option value="newest">Sort: Newest Search Round</option>
-          </select>
-          <label class="toggle-hidden">
-            <input type="checkbox" id="show-hidden-toggle" />
-            <span>Show hidden (<span id="hidden-count">0</span>)</span>
-          </label>
+
+          <div class="toolbar-controls">
+            <select id="locality-select" aria-label="Filter by locality">
+              <option value="all">All Areas</option>
+            </select>
+            <select id="sort-select" aria-label="Sort listings">
+              <option value="best-match">Best Fit &amp; Budget</option>
+              <option value="price-asc">Lowest Est. Total</option>
+              <option value="commute-asc">Fastest Midpoint Commute</option>
+              <option value="newest">Newest Round First</option>
+            </select>
+            <div class="view-switch" role="group" aria-label="Layout view">
+              <button type="button" class="view-btn active" data-view="cards" title="Card view">Cards</button>
+              <button type="button" class="view-btn" data-view="table" title="Compact comparison table">Table</button>
+            </div>
+            <label class="toggle-hidden">
+              <input type="checkbox" id="show-hidden-toggle" />
+              <span>Hidden (<span id="hidden-count">0</span>)</span>
+            </label>
+          </div>
         </div>
 
         <div class="chip-row" id="filter-chips">
-          <button class="chip active" data-filter="all">All Verified</button>
-          <button class="chip" data-filter="in-budget">Fits ≤ ₹8k/Person</button>
-          <button class="chip" data-filter="borderline">Borderline (₹8k–₹10k)</button>
-          <button class="chip" data-filter="kitchen">Has Kitchen / Induction</button>
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="in-budget">Fits &le; ₹8k</button>
+          <button class="chip" data-filter="borderline">Borderline ₹8k–₹11k</button>
+          <button class="chip" data-filter="kitchen">Kitchen / Induction</button>
           <button class="chip" data-filter="ac">AC Confirmed</button>
           <button class="chip" data-filter="beds">Beds Included</button>
-          <button class="chip" data-filter="pg">Men's PGs / Hostels</button>
-          <button class="chip" data-filter="flat">1RK / 1BHK Self-Cook</button>
-          <button class="chip" data-filter="coliving">Zolo / Truliv / Yube1</button>
-          <button class="chip" data-filter="shortlisted">Shortlisted ★</button>
+          <button class="chip" data-filter="pg">Men's PGs</button>
+          <button class="chip" data-filter="flat">1RK / 1BHK Flats</button>
+          <button class="chip" data-filter="coliving">Co-living</button>
+          <button class="chip" data-filter="shortlisted">Saved &#9733;</button>
         </div>
       </div>
 
       <div class="results-meta-row">
         <span id="results-summary">Showing 0 listings</span>
-        <span class="muted-xs" id="next-focus-line"></span>
+        <span class="muted-xs truncate-line" id="next-focus-line"></span>
       </div>
 
       <div id="listings-grid" class="listings-grid"></div>
@@ -131,11 +137,11 @@
       <div class="panel-card">
         <div class="panel-header">
           <h2>Metro Midpoint Commute &amp; Fare Guide</h2>
-          <p>Comparing how each Metro hub splits travel between <strong>Jidoka Technologies (Anna Nagar West Ext / Padi)</strong> and <strong>IIT Madras (Adyar / Guindy)</strong>.</p>
+          <p>Comparing commute balance between <strong>Jidoka Technologies (Anna Nagar W Ext)</strong> and <strong>IIT Madras (Adyar / Guindy)</strong>.</p>
         </div>
         <div class="workplaces-grid" id="workplaces-grid"></div>
         <div class="table-wrap">
-          <table class="metro-table">
+          <table class="data-table">
             <thead>
               <tr>
                 <th>Metro Hub</th>
@@ -157,7 +163,7 @@
       <div class="panel-card">
         <div class="panel-header">
           <h2>Reddit Community Intel (r/Chennai &amp; r/chennaicity)</h2>
-          <p>Real tenant experiences, TANGEDCO bi-monthly electricity caveats, deposit traps, and brand vs. flat-hunt advice—with direct links to threads.</p>
+          <p>Tenant experiences, TANGEDCO EB caveats, deposit norms, and PG vs. 1RK advice—with verified thread links.</p>
         </div>
         <div class="chip-row" id="reddit-topic-chips"></div>
         <div id="reddit-grid" class="reddit-grid"></div>
@@ -169,7 +175,7 @@
       <div class="panel-card">
         <div class="panel-header">
           <h2>Continuous Search Activity Log</h2>
-          <p>Every search batch updates <code>data/listings.json</code> and automatically refreshes this page until you tell the assistant to stop.</p>
+          <p>Every round appends verified properties into <code>data/listings.json</code> and updates live until you say stop.</p>
         </div>
         <div id="next-focus-card" class="next-focus-card"></div>
         <div id="search-log-list" class="search-log-list"></div>
@@ -180,7 +186,7 @@
   <!-- Detail Modal -->
   <div id="detail-modal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
     <div class="modal-card">
-      <button class="modal-close" id="modal-close" aria-label="Close details">✕</button>
+      <button class="modal-close" id="modal-close" aria-label="Close details">&#10005;</button>
       <div id="modal-body"></div>
     </div>
   </div>

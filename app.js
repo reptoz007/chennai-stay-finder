@@ -5,6 +5,7 @@ const state = {
   userState: { shortlisted: [], hidden: [], notes: {} },
   activeSection: "listings",
   activeChip: "all",
+  viewMode: "cards",
   activeRedditTopic: "All",
   searchQuery: "",
   locality: "all",
@@ -60,6 +61,17 @@ function formatRange(min, max) {
   return `${formatInr(min)}–${formatInr(max)}`;
 }
 
+function shortRange(min, max) {
+  const fmt = (v) =>
+    typeof v !== "number" || Number.isNaN(v)
+      ? "?"
+      : v >= 1000
+      ? `₹${(v / 1000).toFixed(v % 1000 === 0 ? 0 : 1)}k`
+      : `₹${v}`;
+  if (min === max) return fmt(min);
+  return `${fmt(min)}–${fmt(max)}`;
+}
+
 function showToast(msg) {
   const toast = document.getElementById("toast");
   toast.textContent = msg;
@@ -76,6 +88,46 @@ function parseAvgCommute(item) {
     return vals.reduce((a, b) => a + b, 0) / vals.length;
   };
   return (nums(item.commute?.jidokaMins) + nums(item.commute?.iitmMins)) / 2;
+}
+
+function shortMins(txt) {
+  const clean = String(txt || "").replace(/^~/, "");
+  return clean.replace(/\s*\(.*?\)/g, "").trim() || "Verify";
+}
+
+function shortCategory(cat) {
+  const c = String(cat || "").toLowerCase();
+  if (c.includes("co-living")) return "Co-living";
+  if (c.includes("1rk") || c.includes("1bhk")) return "1RK / 1BHK";
+  if (c.includes("pg")) return "Men's PG";
+  return cat || "Stay";
+}
+
+function amenityStatuses(item) {
+  const acRaw = String(item.features?.ac || "").toLowerCase();
+  const bedsRaw = String(item.features?.beds || "").toLowerCase();
+  const ka = item.features?.kitchenAccess || "";
+  const kitRaw = String(item.features?.kitchen || "").toLowerCase();
+
+  let acStatus = { cls: "status-warn", label: "AC Optional" };
+  if (acRaw.startsWith("yes")) acStatus = { cls: "status-yes", label: "AC Ready" };
+  else if (acRaw.includes("rent")) acStatus = { cls: "status-warn", label: "+ Rent AC" };
+  else if (acRaw.startsWith("no")) acStatus = { cls: "status-no", label: "No AC" };
+
+  let bedsStatus = { cls: "status-no", label: "No Beds" };
+  if (bedsRaw.startsWith("yes")) bedsStatus = { cls: "status-yes", label: "Beds Incl." };
+  else if (bedsRaw.includes("verify") || bedsRaw.includes("semi"))
+    bedsStatus = { cls: "status-warn", label: "Semi-Furn." };
+
+  let kitStatus = { cls: "status-no", label: "No Kitchen" };
+  if (ka === "full" || kitRaw.includes("full private") || kitRaw.includes("private kitchen"))
+    kitStatus = { cls: "status-yes", label: "Private Kitchen" };
+  else if (ka === "shared" || kitRaw.includes("shared") || kitRaw.includes("common kitchen"))
+    kitStatus = { cls: "status-yes", label: "Shared Kitchen" };
+  else if (ka === "verify" || kitRaw.includes("verify") || kitRaw.includes("microwave"))
+    kitStatus = { cls: "status-warn", label: "Verify Cook" };
+
+  return { acStatus, bedsStatus, kitStatus };
 }
 
 function matchesChip(item, chip) {
@@ -145,7 +197,6 @@ function getFilteredListings() {
     if (state.sortBy === "newest") {
       return (b.addedRound || 0) - (a.addedRound || 0);
     }
-    // best-match: budgetFit first, then kitchen bonus, then lower total
     const fDiff = (fitRank[a.pricing?.budgetFit] ?? 9) - (fitRank[b.pricing?.budgetFit] ?? 9);
     if (fDiff !== 0) return fDiff;
     const kA = matchesChip(a, "kitchen") ? 0 : 1;
@@ -190,28 +241,24 @@ function renderHeaderAndKpis() {
   const shareBtn = document.getElementById("share-html-btn");
   if (IS_EMBEDDED) {
     pill.classList.add("paused");
-    statusText.textContent = `Shared Snapshot · Round ${round}`;
+    statusText.textContent = `Snapshot · R${round}`;
     if (shareBtn) shareBtn.classList.add("hidden");
   } else {
     const isPaused = String(state.meta.searchStatus || "").toUpperCase() === "STOPPED";
     pill.classList.toggle("paused", isPaused);
     if (!IS_LOCAL_SERVER) {
-      statusText.textContent = isPaused
-        ? `Hosted Archive · Round ${round}`
-        : `GitHub Live · Round ${round}`;
+      statusText.textContent = isPaused ? `Archive · R${round}` : `Live · R${round}`;
       if (shareBtn) {
         shareBtn.setAttribute("href", "./share.html");
         shareBtn.setAttribute("download", `staymid-chennai-round-${round}.html`);
       }
     } else {
-      statusText.textContent = isPaused
-        ? `Search Stopped · Round ${round}`
-        : `Live Search · Round ${round}`;
+      statusText.textContent = isPaused ? `Stopped · R${round}` : `Live · R${round}`;
     }
   }
 
   document.getElementById("next-focus-line").textContent = state.meta.nextFocus
-    ? `Next: ${state.meta.nextFocus}`
+    ? state.meta.nextFocus
     : "";
 }
 
@@ -220,15 +267,76 @@ function populateLocalities() {
   const prev = select.value;
   const localities = Array.from(new Set(state.listings.map((x) => x.locality).filter(Boolean))).sort();
   select.innerHTML =
-    `<option value="all">All Midpoint Areas (${state.listings.length})</option>` +
+    `<option value="all">All Areas (${state.listings.length})</option>` +
     localities.map((loc) => `<option value="${escapeHtml(loc)}">${escapeHtml(loc)}</option>`).join("");
   if (localities.includes(prev)) select.value = prev;
 }
 
 function fitBadgeMeta(fit) {
-  if (fit === "in-budget") return { cls: "badge-fit-in-budget", label: "Fits ≤ ₹8k/Person" };
-  if (fit === "borderline") return { cls: "badge-fit-borderline", label: "Borderline (₹8k–₹11k)" };
-  return { cls: "badge-fit-stretch", label: "Benchmark (> ₹8k Cap)" };
+  if (fit === "in-budget") return { cls: "badge-fit-in-budget", label: "Fits ≤ ₹8k" };
+  if (fit === "borderline") return { cls: "badge-fit-borderline", label: "₹8k–₹11k" };
+  return { cls: "badge-fit-stretch", label: "> ₹8k Cap" };
+}
+
+function renderListingsTable(items, shortlistedSet, hiddenSet) {
+  return `
+    <div class="compare-table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Stay &amp; Locality</th>
+            <th>Metro</th>
+            <th>Est. Total / Person</th>
+            <th>Base Rent</th>
+            <th>Amenities (AC · Beds · Kitchen)</th>
+            <th>Commute (Jidoka / IITM)</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${items
+            .map((item) => {
+              const p = item.pricing || {};
+              const fit = fitBadgeMeta(p.budgetFit);
+              const { acStatus, bedsStatus, kitStatus } = amenityStatuses(item);
+              const isStar = shortlistedSet.has(item.id);
+              const isHidden = hiddenSet.has(item.id);
+              return `
+                <tr class="${isHidden ? "is-hidden-card" : ""}">
+                  <td>
+                    <div style="font-weight:700; color:var(--text);">${escapeHtml(item.name)}</div>
+                    <div class="muted-xs">${escapeHtml(item.locality)} · ${escapeHtml(shortCategory(item.category))}</div>
+                  </td>
+                  <td><span class="badge badge-metro">${escapeHtml(item.metroStation)}</span></td>
+                  <td>
+                    <span class="badge ${fit.cls}">${formatRange(p.effectiveTotalPerPersonMin, p.effectiveTotalPerPersonMax)}</span>
+                  </td>
+                  <td style="white-space:nowrap;">${shortRange(p.monthlyRentPerPersonMin, p.monthlyRentPerPersonMax)}</td>
+                  <td>
+                    <div style="display:flex; gap:4px; flex-wrap:wrap;">
+                      <span class="status-chip ${acStatus.cls}">${acStatus.label}</span>
+                      <span class="status-chip ${bedsStatus.cls}">${bedsStatus.label}</span>
+                      <span class="status-chip ${kitStatus.cls}">${kitStatus.label}</span>
+                    </div>
+                  </td>
+                  <td style="white-space:nowrap; font-size:12px;">
+                    J: <strong>${escapeHtml(shortMins(item.commute?.jidokaMins))}</strong> · I: <strong>${escapeHtml(shortMins(item.commute?.iitmMins))}</strong>
+                  </td>
+                  <td>
+                    <div style="display:flex; gap:5px; align-items:center;">
+                      <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
+                      <button class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
+                      <button class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" title="Save">${isStar ? "★" : "☆"}</button>
+                    </div>
+                  </td>
+                </tr>
+              `;
+            })
+            .join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
 }
 
 function renderListings() {
@@ -239,10 +347,15 @@ function renderListings() {
   const latestRound = state.meta.roundsCompleted ?? 1;
 
   document.getElementById("results-summary").textContent =
-    `Showing ${items.length} of ${state.listings.length} verified places`;
+    `Showing ${items.length} of ${state.listings.length} verified stays`;
 
   if (!items.length) {
-    grid.innerHTML = `<div class="panel-card"><h3>No stays match your active filters</h3><p class="muted-xs">Try clearing the search query or switching back to "All Verified".</p></div>`;
+    grid.innerHTML = `<div class="panel-card" style="grid-column:1/-1;"><h3>No stays match your filters</h3><p class="muted-xs">Clear the search query or switch back to "All".</p></div>`;
+    return;
+  }
+
+  if (state.viewMode === "table") {
+    grid.innerHTML = renderListingsTable(items, shortlistedSet, hiddenSet);
     return;
   }
 
@@ -250,80 +363,67 @@ function renderListings() {
     .map((item) => {
       const p = item.pricing || {};
       const fit = fitBadgeMeta(p.budgetFit);
+      const { acStatus, bedsStatus, kitStatus } = amenityStatuses(item);
       const isStar = shortlistedSet.has(item.id);
       const isHidden = hiddenSet.has(item.id);
       const isNew = latestRound > 1 && item.addedRound === latestRound;
-      const included = (item.features?.included || []).slice(0, 4);
-      const missing = (item.features?.missingOrCaveat || []).slice(0, 4);
+      const included = (item.features?.included || []).slice(0, 2);
+      const missing = (item.features?.missingOrCaveat || []).slice(0, 2);
 
       return `
         <article class="stay-card ${isStar ? "shortlisted" : ""} ${isHidden ? "is-hidden-card" : ""}" data-id="${escapeHtml(item.id)}">
-          <div class="card-badges">
-            <span class="badge ${fit.cls}">${fit.label}</span>
-            <span class="badge badge-cat">${escapeHtml(item.category)}</span>
-            <span class="badge badge-metro">🚇 ${escapeHtml(item.metroStation)}</span>
-            ${isNew ? `<span class="badge badge-new">NEW · Round ${item.addedRound}</span>` : ""}
+          <div class="card-top-bar">
+            <div class="card-badges">
+              <span class="badge ${fit.cls}">${fit.label}</span>
+              <span class="badge badge-cat">${escapeHtml(shortCategory(item.category))}</span>
+              ${isNew ? `<span class="badge badge-new">R${item.addedRound} New</span>` : ""}
+            </div>
+            <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" aria-label="${isStar ? "Remove bookmark" : "Save stay"}" title="${isStar ? "Saved" : "Save stay"}">${isStar ? "★" : "☆"}</button>
           </div>
 
-          <div class="card-header">
+          <div class="card-head">
             <h3>${escapeHtml(item.name)}</h3>
-            <div class="card-address">📍 ${escapeHtml(item.address)} · ${escapeHtml(item.metroWalk || "")}</div>
-          </div>
-
-          <div class="price-strip">
-            <div>
-              <div class="price-main">${formatRange(p.effectiveTotalPerPersonMin, p.effectiveTotalPerPersonMax)}<span class="price-sub"> /person</span></div>
-              <div class="price-sub">Est. Total incl. AC EB (${formatRange(p.estimatedAcEbPerPersonMin, p.estimatedAcEbPerPersonMax)})</div>
-            </div>
-            <div>
-              <div class="price-main">${formatRange(p.monthlyRentPerPersonMin, p.monthlyRentPerPersonMax)}<span class="price-sub"> rent</span></div>
-              <div class="price-sub">Deposit: ${escapeHtml(p.deposit || "Verify")}</div>
+            <div class="card-loc" title="${escapeHtml(item.address)}">
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>${escapeHtml(item.metroStation)}${item.metroWalk ? ` · ${escapeHtml(item.metroWalk)}` : ""}</span>
             </div>
           </div>
 
-          <div class="commute-strip">
-            <div class="commute-pill">
-              <strong>You → Jidoka: ${escapeHtml(item.commute?.jidokaMins)}</strong>
-              <span>${escapeHtml(item.commute?.jidokaRoute)}</span>
+          <div class="metrics-band">
+            <div class="price-col">
+              <div class="price-figure">${formatRange(p.effectiveTotalPerPersonMin, p.effectiveTotalPerPersonMax)} <span class="price-unit">/mo est.</span></div>
+              <div class="price-meta">Base ${shortRange(p.monthlyRentPerPersonMin, p.monthlyRentPerPersonMax)} · Dep ${escapeHtml(p.deposit || "Verify")}</div>
             </div>
-            <div class="commute-pill">
-              <strong>Friend → IITM: ${escapeHtml(item.commute?.iitmMins)}</strong>
-              <span>${escapeHtml(item.commute?.iitmRoute)}</span>
-            </div>
-          </div>
-
-          <div class="quick-specs">
-            <span class="spec-tag">❄️ AC: ${escapeHtml(item.features?.ac)}</span>
-            <span class="spec-tag">🛏️ Beds: ${escapeHtml(item.features?.beds)}</span>
-            <span class="spec-tag">🍳 ${escapeHtml(item.features?.kitchen)}</span>
-            <span class="spec-tag">👤 ${escapeHtml(item.eligibility)}</span>
-          </div>
-
-          <div class="feature-split">
-            <div class="feature-col good">
-              <h4>✅ What's There</h4>
-              <ul class="feature-list">
-                ${included.map((f) => `<li><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
-              </ul>
-            </div>
-            <div class="feature-col bad">
-              <h4>❌ Missing / Check</h4>
-              <ul class="feature-list">
-                ${missing.map((f) => `<li><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
-              </ul>
+            <div class="commute-col">
+              <div class="commute-row"><span>Jidoka</span><strong>${escapeHtml(shortMins(item.commute?.jidokaMins))}</strong></div>
+              <div class="commute-row"><span>IITM</span><strong>${escapeHtml(shortMins(item.commute?.iitmMins))}</strong></div>
             </div>
           </div>
 
-          <div class="reddit-box">
-            <strong>💬 Reddit / Community Note:</strong> ${escapeHtml(item.redditSummary)}
+          <div class="status-matrix">
+            <div class="status-chip ${acStatus.cls}" title="${escapeHtml(item.features?.ac)}">${acStatus.label}</div>
+            <div class="status-chip ${bedsStatus.cls}" title="${escapeHtml(item.features?.beds)}">${bedsStatus.label}</div>
+            <div class="status-chip ${kitStatus.cls}" title="${escapeHtml(item.features?.kitchen)}">${kitStatus.label}</div>
           </div>
+
+          <div class="submeta-line" title="${escapeHtml(item.eligibility)}">${escapeHtml(item.eligibility)} · ${escapeHtml(p.sharingType || "2-Sharing")}</div>
+
+          <div class="highlights-grid">
+            <ul class="hl-list hl-good">
+              ${included.map((f) => `<li title="${escapeHtml(f.label + ": " + f.detail)}"><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
+            </ul>
+            <ul class="hl-list hl-bad">
+              ${missing.map((f) => `<li title="${escapeHtml(f.label + ": " + f.detail)}"><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
+            </ul>
+          </div>
+
+          <div class="reddit-line" title="${escapeHtml(item.redditSummary)}">${escapeHtml(item.redditSummary)}</div>
 
           <div class="card-actions">
             <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.links?.listingLabel || "Open Listing")} ↗</a>
-            <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer">Maps 📍</a>
-            <button class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
-            <button class="btn btn-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}">${isStar ? "★ Saved" : "☆ Save"}</button>
-            <button class="btn js-hide" data-id="${escapeHtml(item.id)}">${isHidden ? "Unhide" : "Hide"}</button>
+            <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer" title="Open location in Google Maps">Maps</a>
+            <button type="button" class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
+            <button type="button" class="btn js-hide" data-id="${escapeHtml(item.id)}" title="Hide from list">${isHidden ? "Unhide" : "Hide"}</button>
           </div>
         </article>
       `;
@@ -341,7 +441,7 @@ function renderMetroSection() {
         <h4>${escapeHtml(wp.label)}</h4>
         <p>${escapeHtml(wp.address)}</p>
         <p><strong>Transit:</strong> ${escapeHtml(wp.nearestMetro)}</p>
-        <a class="btn" href="${escapeHtml(wp.mapsUrl)}" target="_blank" rel="noopener noreferrer">Open on Google Maps 📍</a>
+        <a class="btn" href="${escapeHtml(wp.mapsUrl)}" target="_blank" rel="noopener noreferrer">Open on Maps ↗</a>
       </div>
     `
     )
@@ -388,9 +488,9 @@ function renderRedditSection() {
         </div>
         <h3>${escapeHtml(r.title)}</h3>
         <p>${escapeHtml(r.takeaway)}</p>
-        <div class="reddit-tip"><strong>Tip:</strong> ${escapeHtml(r.actionableTip)}</div>
+        <div class="reddit-tip"><strong>Actionable Tip:</strong> ${escapeHtml(r.actionableTip)}</div>
         <div>
-          <a class="btn" href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">Open Reddit Thread ↗</a>
+          <a class="btn" href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">Open Thread ↗</a>
         </div>
       </article>
     `
@@ -400,7 +500,7 @@ function renderRedditSection() {
 
 function renderSearchLog() {
   document.getElementById("next-focus-card").innerHTML = `
-    <strong>Current Status:</strong> ${escapeHtml(state.meta.statusLabel || "Active")}<br />
+    <strong>Status:</strong> ${escapeHtml(state.meta.statusLabel || "Active")}<br />
     <strong>Next Search Queue:</strong> ${escapeHtml(state.meta.nextFocus || "Scanning more portals & areas...")}
   `;
 
@@ -413,8 +513,8 @@ function renderSearchLog() {
           <span>Round #${escapeHtml(entry.round)} — +${escapeHtml(entry.addedCount)} entries</span>
           <span class="muted-xs">${escapeHtml(entry.timestamp)}</span>
         </div>
-        <div class="muted-xs" style="margin-bottom:6px;"><strong>Searched:</strong> ${escapeHtml(entry.queryFocus)}</div>
-        <div style="font-size:13px;">${escapeHtml(entry.notes)}</div>
+        <div class="muted-xs" style="margin-bottom:4px;"><strong>Searched:</strong> ${escapeHtml(entry.queryFocus)}</div>
+        <div style="font-size:12.5px;">${escapeHtml(entry.notes)}</div>
       </div>
     `
     )
@@ -430,68 +530,80 @@ function openDetailsModal(id) {
 
   modalBody.innerHTML = `
     <div class="card-badges" style="margin-bottom:8px;">
+      <span class="badge ${fitBadgeMeta(p.budgetFit).cls}">${fitBadgeMeta(p.budgetFit).label}</span>
       <span class="badge badge-cat">${escapeHtml(item.category)}</span>
-      <span class="badge badge-metro">🚇 ${escapeHtml(item.metroStation)}</span>
+      <span class="badge badge-metro">${escapeHtml(item.metroStation)}</span>
       <span class="badge badge-cat">Source: ${escapeHtml(item.source)}</span>
     </div>
-    <h2 id="modal-title" style="margin:0 0 6px;">${escapeHtml(item.name)}</h2>
-    <p class="muted-xs" style="margin:0 0 14px;">📍 ${escapeHtml(item.address)}</p>
+    <h2 id="modal-title" style="margin:0 0 4px; font-size:19px;">${escapeHtml(item.name)}</h2>
+    <p class="muted-xs" style="margin:0 0 12px;">${escapeHtml(item.address)} ${item.metroWalk ? `· ${escapeHtml(item.metroWalk)}` : ""}</p>
 
-    <div class="price-strip" style="margin-bottom:12px;">
-      <div>
-        <div class="price-main">${formatRange(p.effectiveTotalPerPersonMin, p.effectiveTotalPerPersonMax)} / person</div>
-        <div class="price-sub">Base Rent ${formatRange(p.monthlyRentPerPersonMin, p.monthlyRentPerPersonMax)} + AC EB ${formatRange(p.estimatedAcEbPerPersonMin, p.estimatedAcEbPerPersonMax)}</div>
+    <div class="metrics-band" style="margin-bottom:12px;">
+      <div class="price-col">
+        <div class="price-figure">${formatRange(p.effectiveTotalPerPersonMin, p.effectiveTotalPerPersonMax)} <span class="price-unit">/person est.</span></div>
+        <div class="price-meta">Base ${formatRange(p.monthlyRentPerPersonMin, p.monthlyRentPerPersonMax)} + EB ${formatRange(p.estimatedAcEbPerPersonMin, p.estimatedAcEbPerPersonMax)} · Deposit: ${escapeHtml(p.deposit || "Verify")}</div>
       </div>
-      <div>
-        <div class="price-main">${escapeHtml(p.sharingType || "2-Sharing")}</div>
-        <div class="price-sub">Deposit: ${escapeHtml(p.deposit || "Verify")}</div>
-      </div>
-    </div>
-    <p style="font-size:13px; color:#334155; margin:0 0 14px;"><strong>Pricing Note:</strong> ${escapeHtml(p.priceNote)}</p>
-
-    <div class="commute-strip" style="margin-bottom:14px;">
-      <div class="commute-pill">
-        <strong>You → Jidoka: ${escapeHtml(item.commute?.jidokaMins)}</strong>
-        <span>${escapeHtml(item.commute?.jidokaRoute)}</span>
-      </div>
-      <div class="commute-pill">
-        <strong>Friend → IITM: ${escapeHtml(item.commute?.iitmMins)}</strong>
-        <span>${escapeHtml(item.commute?.iitmRoute)}</span>
+      <div class="commute-col">
+        <div class="commute-row"><span>Jidoka:</span><strong>${escapeHtml(item.commute?.jidokaMins)}</strong></div>
+        <div class="commute-row"><span>IITM:</span><strong>${escapeHtml(item.commute?.iitmMins)}</strong></div>
       </div>
     </div>
 
-    <div class="feature-split" style="margin-bottom:14px;">
-      <div class="feature-col good">
-        <h4>✅ Included Features</h4>
-        <ul class="feature-list">
+    <div class="modal-box" style="margin-bottom:12px;">
+      <h4>Full Room &amp; Pricing Specs</h4>
+      <div style="font-size:12.5px; color:var(--text-secondary); display:grid; gap:4px;">
+        <div><strong>AC:</strong> ${escapeHtml(item.features?.ac)}</div>
+        <div><strong>Beds:</strong> ${escapeHtml(item.features?.beds)}</div>
+        <div><strong>Kitchen:</strong> ${escapeHtml(item.features?.kitchen)}</div>
+        <div><strong>Eligibility:</strong> ${escapeHtml(item.eligibility)} (${escapeHtml(p.sharingType || "2-Sharing")})</div>
+        <div><strong>Pricing Note:</strong> ${escapeHtml(p.priceNote)}</div>
+        <div><strong>Commute Routes:</strong> Jidoka (${escapeHtml(item.commute?.jidokaRoute)}) · IITM (${escapeHtml(item.commute?.iitmRoute)})</div>
+      </div>
+    </div>
+
+    <div class="modal-grid-2">
+      <div class="modal-box">
+        <h4 style="color:var(--teal-dark);">Included Features</h4>
+        <ul class="modal-list hl-good">
           ${(item.features?.included || []).map((f) => `<li><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
         </ul>
       </div>
-      <div class="feature-col bad">
-        <h4>❌ Missing / Questions to Ask</h4>
-        <ul class="feature-list">
+      <div class="modal-box">
+        <h4 style="color:var(--amber);">Missing / Verify Before Visiting</h4>
+        <ul class="modal-list hl-bad">
           ${(item.features?.missingOrCaveat || []).map((f) => `<li><strong>${escapeHtml(f.label)}:</strong> ${escapeHtml(f.detail)}</li>`).join("")}
         </ul>
       </div>
     </div>
 
-    <div class="reddit-box" style="margin-bottom:14px;">
-      <strong>💬 Reddit Community Sentiment:</strong> ${escapeHtml(item.redditSummary)}
+    <div class="reddit-line" style="margin-bottom:12px; -webkit-line-clamp:unset;">
+      <strong>Reddit / Community Note:</strong> ${escapeHtml(item.redditSummary)}
     </div>
 
     <div style="margin-bottom:14px;">
-      <label for="modal-notes" style="font-size:12.5px; font-weight:700;">Your Visit / Call Notes (saved locally):</label>
+      <label for="modal-notes" style="font-size:12px; font-weight:700;">Visit / Call Notes (saved locally in browser):</label>
       <textarea id="modal-notes" class="notes-area" placeholder="e.g., Called owner: ₹11k flat incl. AC, EB direct meter, visiting Saturday...">${escapeHtml(note)}</textarea>
-      <button class="btn" id="save-note-btn" data-id="${escapeHtml(item.id)}" style="margin-top:6px;">Save Note</button>
+      <button type="button" class="btn" id="save-note-btn" data-id="${escapeHtml(item.id)}" style="margin-top:6px;">Save Note</button>
     </div>
 
-    <div class="card-actions">
+    <div class="card-actions" style="border-top:0; padding-top:0;">
       <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.links?.listingLabel || "Open Listing")} ↗</a>
-      <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer">Google Maps 📍</a>
+      <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer">Open Google Maps ↗</a>
     </div>
   `;
 
   document.getElementById("detail-modal").classList.remove("hidden");
+}
+
+function setActiveChip(filterVal) {
+  state.activeChip = filterVal;
+  document.querySelectorAll("#filter-chips .chip").forEach((c) => {
+    c.classList.toggle("active", c.dataset.filter === filterVal);
+  });
+  // Switch back to listings tab if triggered from KPI pill
+  document.querySelectorAll(".nav-tab").forEach((b) => b.classList.toggle("active", b.dataset.section === "listings"));
+  document.querySelectorAll(".section").forEach((s) => s.classList.toggle("active", s.id === "section-listings"));
+  renderListings();
 }
 
 function renderAll() {
@@ -579,14 +691,37 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+  // Reality guide toggle
+  const guideBtn = document.getElementById("guide-toggle-btn");
+  const guideDrawer = document.getElementById("reality-drawer");
+  if (guideBtn && guideDrawer) {
+    guideBtn.addEventListener("click", () => {
+      const willOpen = guideDrawer.classList.contains("hidden");
+      guideDrawer.classList.toggle("hidden", !willOpen);
+      guideBtn.setAttribute("aria-expanded", String(willOpen));
+    });
+  }
+
+  // Clickable KPI filters
+  document.querySelectorAll(".js-kpi-filter").forEach((btn) => {
+    btn.addEventListener("click", () => setActiveChip(btn.dataset.filter));
+  });
+
+  // Layout switcher (Cards vs Table)
+  document.querySelectorAll(".view-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".view-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      state.viewMode = btn.dataset.view;
+      renderListings();
+    });
+  });
+
   // Filter chips
   document.getElementById("filter-chips").addEventListener("click", (e) => {
     const chip = e.target.closest(".chip");
     if (!chip) return;
-    document.querySelectorAll("#filter-chips .chip").forEach((c) => c.classList.remove("active"));
-    chip.classList.add("active");
-    state.activeChip = chip.dataset.filter;
-    renderListings();
+    setActiveChip(chip.dataset.filter);
   });
 
   document.getElementById("search-input").addEventListener("input", (e) => {
