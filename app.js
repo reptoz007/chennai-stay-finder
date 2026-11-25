@@ -295,12 +295,11 @@ window.handleImgError = handleImgError;
 
 function photoTagHtml(item) {
   const isProp = item.imageType === "property";
-  const ico = isProp
-    ? `<svg class="ico" style="width:11px;height:11px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>`
-    : `<svg class="ico" style="width:11px;height:11px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;
+  const isFlat = (item.category || "").toLowerCase().includes("1rk") || (item.category || "").toLowerCase().includes("1bhk");
+  const ico = `<svg class="ico" style="width:11px;height:11px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>`;
   const label = isProp
     ? `Property Photo · ${item.source || "Listing"}`
-    : `Area View · ${item.metroStation || item.locality}`;
+    : `${isFlat ? "Flat" : "Room"} Photo (${item.locality || "Chennai"})`;
   return `<span class="photo-tag">${ico}<span>${escapeHtml(label)}</span></span>`;
 }
 

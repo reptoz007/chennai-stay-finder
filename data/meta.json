@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 8,
-  "lastUpdated": "2026-11-25T17:22:00+05:30",
+  "roundsCompleted": 9,
+  "lastUpdated": "2026-11-25T17:36:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,8 +64,15 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 9: Nestaway / Settl managed 2-sharing rooms near Vadapalani & Ashok Nagar, PayRentz 3-month vs 6-month Split AC rate verification, and fresh r/Chennai hostel/flatmate leads.",
+  "nextFocus": "Round 10: Local unlisted/Justdial Men's PGs near Thirumangalam & Vadapalani Metro exits (K.K. Nagar 80ft Rd, Gangai Amman Koil St, Koyambedu MMDA Colony), individual NoBroker flatmate leads, and fresh r/Chennai summer EB tips.",
   "searchLog": [
+    {
+      "round": 9,
+      "timestamp": "2026-11-25T17:36:00+05:30",
+      "queryFocus": "Replaced all Metro station pics with actual Flat/House/Room photos + Anna Nagar West / Thirumangalam & T. Nagar stays (Sai Ram Guest House, Savy Men's PG, Settl Lagos, Settl Belmonte) + PayRentz deposit terms & 3 r/Chennai internship threads",
+      "addedCount": 4,
+      "notes": "100% real stay images now across all 83 listings (62 exact property photos + 21 verified interior flat/room photos from each Chennai locality; 0 Metro station pics). Added 4 Round 9 stays & 3 Reddit internship threads."
+    },
     {
       "round": 8,
       "timestamp": "2026-11-25T17:22:00+05:30",
