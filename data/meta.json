@@ -1,0 +1,105 @@
+{
+  "searchStatus": "ACTIVE",
+  "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
+  "roundsCompleted": 5,
+  "lastUpdated": "2026-11-25T16:44:00+05:30",
+  "budgetTargetPerPerson": {
+    "min": 6000,
+    "max": 8000,
+    "note": "Includes rent + AC electricity share per person (₹12k–₹16k combined for 2 people)"
+  },
+  "workplaces": {
+    "person1": {
+      "label": "You — Jidoka Technologies",
+      "address": "1178/F, 58th St, Elango Nagar, TVS Colony, Anna Nagar West Ext / Padi, Chennai 600101",
+      "nearestMetro": "Thirumangalam / Koyambedu (Green Line) + ~10–15 min auto/bus",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jidoka+Technologies+TVS+Colony+Anna+Nagar+West+Extension+Chennai"
+    },
+    "person2": {
+      "label": "Friend — IIT Madras",
+      "address": "Sardar Patel Rd / Adyar–Guindy / Madhya Kailash, Chennai 600036",
+      "nearestMetro": "Guindy / Little Mount (Blue Line) + ~10–15 min MTC bus/auto to Main or Taramani Gate",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=IIT+Madras+Main+Gate+Chennai"
+    }
+  },
+  "metroMatrix": [
+    {
+      "station": "Koyambedu / Arumbakkam",
+      "line": "Green Line",
+      "toJidoka": "~15–22 min (1 stop to Thirumangalam / direct auto)",
+      "toIITM": "~35–45 min (Metro via Alandur to Guindy ~25–30m + auto/bus)",
+      "metroFareToGuindy": "₹40 token / ~₹32 smart card",
+      "vibe": "Transit hub, busy roads, cheaper PG & 1RK rates"
+    },
+    {
+      "station": "Vadapalani",
+      "line": "Green Line",
+      "toJidoka": "~22–28 min (Green Line 3 stops to Thirumangalam + auto)",
+      "toIITM": "~30–40 min (Metro via Alandur to Guindy ~20–25m + auto/bus)",
+      "metroFareToGuindy": "₹30–₹40 token / ~₹24–₹32 smart card",
+      "vibe": "True geographic midpoint; huge density of Men's PGs, hostels & 1RKs"
+    },
+    {
+      "station": "Ashok Nagar / Jafferkhanpet",
+      "line": "Green Line",
+      "toJidoka": "~25–32 min (Green Line 4 stops to Thirumangalam + auto)",
+      "toIITM": "~25–35 min (Metro via Alandur to Guindy ~15–20m + auto/bus)",
+      "metroFareToGuindy": "₹30 token / ~₹24 smart card",
+      "vibe": "Quieter, greener residential lanes; slightly higher rent"
+    },
+    {
+      "station": "Ekkattuthangal / Guindy",
+      "line": "Green / Blue Interchange",
+      "toJidoka": "~35–42 min (Green Line north to Thirumangalam + auto)",
+      "toIITM": "~15–25 min (Short bus/auto along Sardar Patel Rd)",
+      "metroFareToGuindy": "₹10–₹20",
+      "vibe": "Closest to IIT Madras; competitive rents, strong IT crowd"
+    },
+    {
+      "station": "Saidapet",
+      "line": "Blue Line / Suburban",
+      "toJidoka": "~38–45 min (Blue -> Alandur -> Green to Thirumangalam + auto)",
+      "toIITM": "~12–20 min (Direct bus/auto via Little Mount / Sardar Patel Rd)",
+      "metroFareToGuindy": "₹10–₹20",
+      "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
+    }
+  ],
+  "nextFocus": "Round 6: Hunting individual NoBroker/OLX furnished 1BHK/1RK ads with pre-installed AC & beds in Arumbakkam, Choolaimedu, Vadapalani, Ashok Nagar & Saidapet + verifying KPA Men's PG (Arumbakkam self-cooking) details.",
+  "searchLog": [
+    {
+      "round": 5,
+      "timestamp": "2026-11-25T16:44:00+05:30",
+      "queryFocus": "MagicBricks CIT Nagar / T Nagar / Mogappair East / Anna Nagar / Adyar Boys & Coed Twin-AC PGs, Arumbakkam NSK Nagar / Jai Nagar 1RKs (99acres/NoBroker), KPA Men's PG self-cooking lead & r/chennaicity Anna Nagar/Arumbakkam threads",
+      "addedCount": 7,
+      "notes": "Added 7 verified listings (Gupta PG CIT Nagar & T Nagar, 2BHK Thathan Kuppam ₹6k Twin AC, RR Mens Mogappair, Boys & Girls Anna Nagar, Udaya Priya Villa Adyar ₹5k Twin AC, and Arumbakkam NSK/Jai Nagar 1RK pool) + 2 Reddit threads (FMS/security-guard direct flat hack & VR Chennai Boys PG guide). Updated app.js for static GitHub Pages compatibility and rebuilt share.html."
+    },
+    {
+      "round": 4,
+      "timestamp": "2026-11-25T16:36:00+05:30",
+      "queryFocus": "MagicBricks Chennai PGs (Low-to-High Price Sort) across Arumbakkam, Vadapalani, Choolaimedu, Kodambakkam, Ashok Nagar/KK Nagar, Saidapet, Nandanam, Teynampet, Kotturpuram, Shenoy Nagar & Anna Nagar East",
+      "addedCount": 15,
+      "notes": "Screened MagicBricks low-to-high list: excluded all Girls-only PGs and far OMR/Siruseri/Padur/Tambaram/Mahindra City/Chengalpattu properties. Highlighted Sun Palace Arumbakkam Metro PG (₹7,500 Twin AC + cots/beds + kitchen + cooking gas + fridge + washing machine + 0.1 km Arumbakkam Metro + no brokerage!). Also updated PG Saidapet Metro with exact ₹8,300 Twin AC / ₹6,050 4-Share AC tariffs and added 14 more verified MagicBricks Boys/Unisex Metro-accessible options."
+    },
+    {
+      "round": 3,
+      "timestamp": "2026-11-25T16:32:00+05:30",
+      "queryFocus": "Koyambedu, CMBT, Thirumangalam, Virugambakkam, Chinmaya Nagar, Nesapakkam, Kodambakkam, West Mambalam, Nungambakkam & Stanza/Truliv/Zolo/local boys hostels + r/chennaicity reviews",
+      "addedCount": 8,
+      "notes": "Added Shri Sai Aashirwad Men's PG (Postal Colony West Mambalam — AC + kitchen/fridge + ₹2k–₹5k deposit), Rahini/Rajini Men's Hostel (Vadapalani/CMBT), M.M. Sai Men's Hostel (Nungambakkam ₹6k–₹7.8k), Stanza Mildura House (Vadapalani benchmark), Truliv Adonia & Zolo Moorfield (Kodambakkam benchmarks), and Virugambakkam/Chinmaya Nagar & Nesapakkam 1RK self-cooking pools + 3 resolved Reddit threads."
+    },
+    {
+      "round": 2,
+      "timestamp": "2026-11-25T16:24:00+05:30",
+      "queryFocus": "Settl, Isthara, Maadharsai Mens Elite PG, Touch Men's Hostel, Bhavyashri Men's Hostel, Truliv Vesta/Iris, Zolo StandPoint/Rozzby, Yube1 Elevate/Urban Square, West Mambalam & Koyambedu 1RKs + r/Chennai & r/chennaicity threads",
+      "addedCount": 9,
+      "notes": "Discovered Maadharsai Mens Elite PG (has dedicated kitchen + AC + fridge, ₹6.5k–₹9k, slightly off-Metro in Ramapuram), added Settl Cardiff (KK Nagar), Touch Men's Hostel (Ashok Nagar), Truliv Vesta (West Mambalam), Truliv Iris (CIT Nagar), Zolo StandPoint (Arumbakkam), Zolo Rozzby (Saidapet), Yube1 The Elevate (Saidapet), and West Mambalam / Koyambedu 1RK pools. Fixed Kitchen filter logic to prevent false matches on 'No private kitchen' descriptions. Added 5 more resolved Reddit threads including the monthly rental megathread."
+    },
+    {
+      "round": 1,
+      "timestamp": "2026-11-25T16:16:00+05:30",
+      "queryFocus": "MagicBricks, ZoloStays, Truliv, Yube1, SpaceOS, Justdial, NoBroker, Housing.com, 99acres, OLX & r/Chennai / r/chennaicity across Koyambedu–Saidapet Metro belt",
+      "addedCount": 22,
+      "notes": "Indexed 11 local Men's/Boys PGs, 7 managed co-living benchmarks (Zolo/Truliv/Yube1), 4 verified 1RK/1BHK Metro-midpoint rental pools, and 10 resolved Reddit review threads. Filtered out Radha Residency (Ashok Nagar) after Justdial/MagicBricks cross-check showed Women/Girls eligibility, and Stanza Living Grodno House (located in Pallikaranai, outside Metro midpoint)."
+    }
+  ]
+}

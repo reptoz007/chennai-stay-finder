@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/user_state.json
+server.py
+build_share.py
