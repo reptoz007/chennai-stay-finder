@@ -84,7 +84,6 @@ function normalizeCollab(raw) {
       ? obj.messages
           .filter((m) => m && typeof m === "object" && m.id && m.sender)
           .sort((a, b) => (a.ts || 0) - (b.ts || 0))
-          .slice(-250)
       : [],
     notes: {
       harsha: notes.harsha && typeof notes.harsha === "object" ? { ...notes.harsha } : {},
@@ -135,9 +134,58 @@ function mergeCollab(localRaw, remoteRaw) {
     if (m && m.id) msgMap.set(m.id, m);
   });
   out.messages = Array.from(msgMap.values())
-    .sort((a, b) => (a.ts || 0) - (b.ts || 0))
-    .slice(-250);
+    .sort((a, b) => (a.ts || 0) - (b.ts || 0));
   return out;
+}
+
+const IDB_NAME = "StayMidPermanentDB";
+const IDB_STORE = "collab_backup";
+
+function openCollabIdb() {
+  return new Promise((resolve) => {
+    if (typeof indexedDB === "undefined") {
+      resolve(null);
+      return;
+    }
+    try {
+      const req = indexedDB.open(IDB_NAME, 1);
+      req.onupgradeneeded = () => {
+        const db = req.result;
+        if (!db.objectStoreNames.contains(IDB_STORE)) {
+          db.createObjectStore(IDB_STORE);
+        }
+      };
+      req.onsuccess = () => resolve(req.result);
+      req.onerror = () => resolve(null);
+    } catch {
+      resolve(null);
+    }
+  });
+}
+
+async function idbLoadCollab(roomId) {
+  const db = await openCollabIdb();
+  if (!db) return null;
+  return new Promise((resolve) => {
+    try {
+      const tx = db.transaction(IDB_STORE, "readonly");
+      const req = tx.objectStore(IDB_STORE).get(roomId || getCollabRoomId());
+      req.onsuccess = () => resolve(req.result ? normalizeCollab(req.result) : null);
+      req.onerror = () => resolve(null);
+    } catch {
+      resolve(null);
+    }
+  });
+}
+
+async function idbSaveCollab(collabObj) {
+  const db = await openCollabIdb();
+  if (!db) return;
+  try {
+    const clean = normalizeCollab(collabObj);
+    const tx = db.transaction(IDB_STORE, "readwrite");
+    tx.objectStore(IDB_STORE).put(clean, clean.room || getCollabRoomId());
+  } catch {}
 }
 
 function loadLocalCollab() {
@@ -153,6 +201,7 @@ function persistCollabLocal() {
   try {
     localStorage.setItem(COLLAB_STORAGE_KEY, JSON.stringify(state.collab));
   } catch {}
+  idbSaveCollab(state.collab);
 }
 
 function profileDisplayName(p) {
@@ -210,27 +259,44 @@ async function writeRemoteCollab(payload) {
 }
 
 async function fetchCollabSync() {
+  const idbCached = await idbLoadCollab(getCollabRoomId());
+  if (idbCached) {
+    state.collab = mergeCollab(state.collab, idbCached);
+  }
   if (IS_EMBEDDED) {
     const cached = loadLocalCollab();
     if (cached) state.collab = mergeCollab(state.collab, cached);
+    persistCollabLocal();
     state.collabSynced = false;
     return;
   }
   if (collabPendingWrites > 0) return;
   try {
     const remote = await fetchRemoteCollabRaw();
+    if (collabPendingWrites > 0) return;
     if (remote) {
-      if (collabPendingWrites > 0) return;
-      state.collab = mergeCollab(state.collab, remote);
+      const merged = mergeCollab(state.collab, remote);
+      const remoteNeedsHeal =
+        merged.messages.length > (remote.messages || []).length ||
+        (merged.savedAt?.harsha || 0) > (remote.savedAt?.harsha || 0) ||
+        (merged.savedAt?.rajat || 0) > (remote.savedAt?.rajat || 0);
+      state.collab = merged;
       persistCollabLocal();
       state.collabSynced = true;
-      if (IS_LOCAL_SERVER) {
+      if (remoteNeedsHeal) {
+        await writeRemoteCollab(state.collab);
+      } else if (IS_LOCAL_SERVER) {
         fetch("/api/collab", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(state.collab),
         }).catch(() => {});
       }
+      return;
+    } else if ((state.collab.messages || []).length > 0 || (state.collab.saved?.harsha || []).length > 0 || (state.collab.saved?.rajat || []).length > 0) {
+      // Auto-heal remote store if external host returned empty while local permanent archive has history
+      await writeRemoteCollab(state.collab);
+      state.collabSynced = true;
       return;
     }
   } catch {
@@ -1345,7 +1411,7 @@ async function sendChatMessage(rawText) {
     c.messages = c.messages || [];
     if (!c.messages.some((m) => m.id === msg.id)) {
       c.messages.push(msg);
-      c.messages = c.messages.sort((a, b) => (a.ts || 0) - (b.ts || 0)).slice(-250);
+      c.messages = c.messages.sort((a, b) => (a.ts || 0) - (b.ts || 0));
     }
   });
   markChatSeen();
@@ -1651,6 +1717,32 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   document.getElementById("copy-shared-link-btn")?.addEventListener("click", copyLinkHandler);
   document.getElementById("chat-copy-link-btn")?.addEventListener("click", copyLinkHandler);
+  document.getElementById("chat-export-btn")?.addEventListener("click", () => {
+    const stayById = new Map(state.listings.map((s) => [s.id, s]));
+    const dump = {
+      exportedAt: new Date().toISOString(),
+      room: state.collab.room || getCollabRoomId(),
+      saved: state.collab.saved,
+      notes: state.collab.notes,
+      messages: (state.collab.messages || []).map((m) => {
+        const st = m.stayId ? stayById.get(m.stayId) : null;
+        return {
+          ...m,
+          timeLocal: new Date(m.ts || Date.now()).toLocaleString(),
+          stayName: st ? st.name : null,
+          stayUrl: st?.links?.listingUrl || null,
+        };
+      }),
+    };
+    const blob = new Blob([JSON.stringify(dump, null, 2)], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `staymid-chat-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    showToast(`Exported ${(state.collab.messages || []).length} permanent chat messages!`);
+  });
 
   // Chat drawer listeners
   document.getElementById("chat-toggle-btn")?.addEventListener("click", () => {

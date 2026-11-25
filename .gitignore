@@ -2,5 +2,7 @@ __pycache__/
 *.pyc
 data/user_state.json
 data/collab_state.json
+data/chat_backup.jsonl
+data/*.tmp
 server.py
 build_share.py
