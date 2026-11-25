@@ -7249,5 +7249,435 @@
     "imageType": "property",
     "addedRound": 12,
     "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "flat-pool-vadapalani-under10k-mb",
+    "name": "Vadapalani Independent Houses (₹5k–₹10k/Unit — MagicBricks Filter)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Vadapalani",
+    "address": "Vadapalani & Dharan Singh Colony inner lanes (under ₹10,000/unit filter)",
+    "metroStation": "Vadapalani Metro (Green Line)",
+    "metroWalk": "~0.5–1.3 km to Vadapalani Metro",
+    "commute": {
+      "jidokaMins": "~22–28 min",
+      "jidokaRoute": "Green Line Vadapalani -> Thirumangalam (3 stops) + auto",
+      "iitmMins": "~30–40 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 2500,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 4200,
+      "effectiveTotalPerPersonMax": 7500,
+      "priceNote": "Direct MagicBricks ₹5,000–₹10,000/unit filter in Vadapalani (₹2.5k–₹5k/person base) + direct TNEB; keeps plenty of budget to rent a Split AC.",
+      "budgetFit": "in-budget",
+      "deposit": "3–6 months (negotiate)",
+      "sharingType": "Whole Independent 1RK / 1BHK Split by 2"
+    },
+    "eligibility": "Verify 'Bachelors Allowed' per individual card",
+    "features": {
+      "ac": "Add Rented AC (PayRentz ~₹750–₹1.25k/person split)",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Pre-Filtered ≤ ₹10k/Unit",
+          "detail": "Eliminates high-rent listings right in the Vadapalani midpoint"
+        },
+        {
+          "label": "Full Kitchen + Direct TNEB",
+          "detail": "Huge electricity & meal cost savings vs ₹12k PGs"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Some Owner Cards Use Local Brokers",
+          "detail": "Confirm brokerage vs owner contact before scheduling"
+        },
+        {
+          "label": "Check Borewell & Corporation Water",
+          "detail": "Verify summer water availability before paying token"
+        }
+      ]
+    },
+    "redditSummary": "Dharan Singh Colony & inner Vadapalani houses remain top midpoint targets for budget 1RK self-cooking flats.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/1-bhk-independent-house-for-rent-in-vadapalani-chennai-price-5000-to-10000-pppfr",
+      "listingLabel": "Open Vadapalani ₹5k–₹10k Filter",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Dharan+Singh+Colony+Vadapalani+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVT89I9d8q3ORIv0YN5ctiEEcNW9KJ7/Photo_h300_w450/86698401_3_PropertyImage998-3670639326127_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVP9dY9dsLsmSikpcJ8lKoVeKUMoYHE/Photo_h300_w450/86971067_2_PropertyImage263-3980674260226_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Nov/07/Photo_h300_w450/75818259_1_PropertyImage688-8402041530492_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2022/May/27/Photo_h300_w450/61290383_4_e6_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2020/Oct/05/Photo_h300_w450/50697520_3_MG_1312_300_450.JPG"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVT89I9d8q3ORIv0YN5ctiEEcNW9KJ7/Photo_h300_w450/86698401_3_PropertyImage998-3670639326127_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "flat-pool-saligramam-vadapalani-nobroker-1rk",
+    "name": "Saligramam–Vadapalani 1RKs (Dharan Singh Colony — NoBroker Zero-Fee)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Vadapalani",
+    "address": "Saligramam / Vadapalani West & Dharan Singh Colony",
+    "metroStation": "Vadapalani Metro (Green Line)",
+    "metroWalk": "~0.8–1.5 km to Vadapalani Metro",
+    "commute": {
+      "jidokaMins": "~24–30 min",
+      "jidokaRoute": "Green Line Vadapalani -> Thirumangalam + auto",
+      "iitmMins": "~32–42 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3000,
+      "monthlyRentPerPersonMax": 4500,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 4700,
+      "effectiveTotalPerPersonMax": 7200,
+      "priceNote": "1RKs around ₹6,000–₹9,000/unit (₹3k–₹4.5k/person) zero brokerage on NoBroker + direct TANGEDCO EB.",
+      "budgetFit": "in-budget",
+      "deposit": "Negotiate 2–4 months advance",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-tolerant owners (Filter 'Bachelor' on NoBroker)",
+    "features": {
+      "ac": "Add Rented AC (Fits easily inside ₹8k/person)",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Zero Brokerage Owners",
+          "detail": "NoBroker direct chat eliminates 1-month broker fees"
+        },
+        {
+          "label": "Private Kitchen + Direct EB",
+          "detail": "Lowest total monthly burn for 2 male interns"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Walk/Share-Auto to Metro",
+          "detail": "Saligramam pockets sit 10–15 min from Vadapalani Metro stairs"
+        },
+        {
+          "label": "Verify AC Installation Permission",
+          "detail": "Confirm landlord permits rented Split AC bracket"
+        }
+      ]
+    },
+    "redditSummary": "Zero-brokerage Saligramam/Vadapalani 1RKs regularly beat nearby PGs by ₹3k–₹5k/month per person even after electricity.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-near-saligramam_vadapalani_chennai",
+      "listingLabel": "Browse Vadapalani/Saligramam 1RKs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Saligramam+Vadapalani+Chennai"
+    },
+    "source": "NoBroker",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/25/Photo_h300_w450/87081367_6_hatsAppImage20260923at5.46.45PM_300_450.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "flat-pool-arumbakkam-nobroker-1rk",
+    "name": "Arumbakkam 1RKs (NoBroker Direct-Owner Zero-Fee Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Arumbakkam / Koyambedu",
+    "address": "Arumbakkam inner streets walkable to 100ft Rd & Arumbakkam Metro",
+    "metroStation": "Arumbakkam Metro (Green Line)",
+    "metroWalk": "~0.4–1.0 km to Arumbakkam Metro",
+    "commute": {
+      "jidokaMins": "~15–22 min",
+      "jidokaRoute": "Green Line 1 stop to Thirumangalam + short auto to Jidoka",
+      "iitmMins": "~34–42 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3250,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 5000,
+      "effectiveTotalPerPersonMax": 7600,
+      "priceNote": "Arumbakkam 1RK portions around ₹6,500–₹10,000/unit (₹3.25k–₹5k each) + zero brokerage + direct TNEB.",
+      "budgetFit": "in-budget",
+      "deposit": "3–6 months (negotiate)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-tolerant owners (Confirm on NoBroker chat)",
+    "features": {
+      "ac": "Add Rented AC (Local Glacier Arumbakkam or PayRentz)",
+      "beds": "Semi/Unfurnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Near Glacier AC Rental Hub",
+          "detail": "Arumbakkam houses both RentoMojo/PayRentz & local AC rentals"
+        },
+        {
+          "label": "Fastest Green Line Hop to Jidoka",
+          "detail": "Only 1 Metro stop north to Thirumangalam"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm 2-Month Short Stay",
+          "detail": "Clarify notice & deposit refund date before advance"
+        },
+        {
+          "label": "IITM Side Slightly Longer",
+          "detail": "~34–42 min Metro + feeder for friend"
+        }
+      ]
+    },
+    "redditSummary": "Arumbakkam keeps costs low along the Green Line while letting you rent a local AC unit nearby with low delivery overhead.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-arumbakkam_chennai",
+      "listingLabel": "Browse Arumbakkam 1RKs on NoBroker",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Arumbakkam+Metro+Station+Chennai"
+    },
+    "source": "NoBroker",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h300_w450/77280255_5_PropertyImage345-10069973822874_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Aug/06/Photo_h300_w450/2486_1786031427664.8630_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Feb/20/Photo_h300_w450/77879315_2_PropertyImage158-55424045011745_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/07/Photo_h300_w450/86823113_5_hatsAppImage20261006at3.34.34PM1_300_450.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h300_w450/77280255_5_PropertyImage345-10069973822874_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "sakthi-mens-hostel-adyar-indira-nagar",
+    "name": "Sakthi Men's Hostel (Adyar / Indira Nagar — IITM Edge Benchmark)",
+    "category": "Budget Men's PG",
+    "locality": "Adyar / Near IIT Madras",
+    "address": "Indira Nagar / Adyar, near IIT Madras Main & Taramani Gates",
+    "metroStation": "Indira Nagar MRTS / Little Mount Feeder",
+    "metroWalk": "5–10 min bus/cycle to IIT Madras Gate",
+    "commute": {
+      "jidokaMins": "~50–65 min",
+      "jidokaRoute": "Adyar bus/MRTS -> Little Mount/Guindy -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~5–12 min",
+      "iitmRoute": "Immediate hop to IIT Madras Main / Taramani Gate"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 4600,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5600,
+      "effectiveTotalPerPersonMax": 8000,
+      "priceNote": "MagicBricks lists Adyar sharing budgets starting ₹4,600–₹6,500; confirm Twin AC surcharge directly.",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance",
+      "sharingType": "Multi-Share / Twin (Check AC)"
+    },
+    "eligibility": "Men's / Boys Hostel",
+    "features": {
+      "ac": "Verify AC Room Upgrade (Base ₹4.6k–₹6.5k)",
+      "beds": "Yes (Beds + Basic Amenities)",
+      "kitchen": "Verify Mess / Cooking Policy",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Cheapest IITM-Adjacent Option",
+          "detail": "Half the price of ₹12k/mo official campus iKollege hostels"
+        },
+        {
+          "label": "Quick IIT Madras Access",
+          "detail": "Zero Metro expense needed for the IITM friend"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Very Long Jidoka Commute",
+          "detail": "Not Metro-midpoint; tough daily trip to Anna Nagar W Ext"
+        },
+        {
+          "label": "Basic Furnishings",
+          "detail": "Inspect AC & bathroom maintenance before committing"
+        }
+      ]
+    },
+    "redditSummary": "Included as the low-cost Adyar baseline beside ₹12k/mo campus housing—best only if the Jidoka intern is willing to travel far.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/boys-hostel-in-adyar-chennai-pppfr",
+      "listingLabel": "View Adyar Boys Hostels",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sakthi+Mens+Hostel+Adyar+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-385697-2101543_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-385697-2101541_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-385697-2106077_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-385697-2106079_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-385697-2106081_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-385697-2101543_400_540.png",
+    "imageType": "property",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "luxoliv-cookie-tharamani-iitm",
+    "name": "Luxoliv Cookie (Tharamani — Near IITM Research Park)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Adyar / Near IIT Madras",
+    "address": "Tharamani / Near IIT Madras Taramani Gate & Research Park",
+    "metroStation": "Taramani MRTS / Guindy Feeder",
+    "metroWalk": "Walkable to IITM Research Park & Taramani Gate",
+    "commute": {
+      "jidokaMins": "~52–65 min",
+      "jidokaRoute": "Bus/auto to Guindy -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~5–10 min",
+      "iitmRoute": "Right outside IITM Taramani / Research Park Gate"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 8999,
+      "monthlyRentPerPersonMax": 12000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 10200,
+      "effectiveTotalPerPersonMax": 13800,
+      "priceNote": "Triple-sharing starts ₹8,999/mo on MagicBricks; twin sharing sits higher (+ EB).",
+      "budgetFit": "stretch",
+      "deposit": "Per property policy",
+      "sharingType": "Triple AC (₹8,999) / Twin AC"
+    },
+    "eligibility": "Co-ed / Managed Boys PG",
+    "features": {
+      "ac": "Yes (AC rooms included)",
+      "beds": "Yes (Managed Furnished Setup)",
+      "kitchen": "Verify Common Pantry / Mess",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Steps from IITM Taramani Gate",
+          "detail": "Ideal benchmark if IITM friend were staying solo"
+        },
+        {
+          "label": "Modern Managed Spaces",
+          "detail": "AC, Wi-Fi & structured security"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Poor Midpoint for Jidoka",
+          "detail": "Adds ~1 hr commute each way for Anna Nagar W Ext"
+        },
+        {
+          "label": "Above ₹8k Budget Cap",
+          "detail": "₹10.2k+ effective with electricity"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity IITM threads often mention Tharamani co-living near Research Park, though midpoint stays in Vadapalani/Guindy are far fairer for both.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-twin-sharing-in-tharamani-chennai-pppfr",
+      "listingLabel": "View Tharamani Co-living PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Luxoliv+Cookie+Tharamani+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/18/Photo_h400_w540/GR2-507497-2661345_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/09/Photo_h400_w540/GR2-507497-2603469_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/10/Photo_h400_w540/GR2-507497-2627819_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/18/Photo_h400_w540/GR2-507497-2661361_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/18/Photo_h400_w540/GR2-507497-2661349_400_540.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/18/Photo_h400_w540/GR2-507497-2661345_400_540.jpeg",
+    "imageType": "property",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "velachery-boys-pg-pool-taramani",
+    "name": "Velachery Boys AC PG Belt (IITM Velachery Gate — Budget/Mid Pool)",
+    "category": "Budget Men's PG",
+    "locality": "Adyar / Near IIT Madras",
+    "address": "Velachery Main Rd & Taramani Link Rd (near IITM Velachery Gate & Grand Square)",
+    "metroStation": "Velachery MRTS / Guindy Bus Feeder",
+    "metroWalk": "Direct auto/bus to IITM Velachery Gate",
+    "commute": {
+      "jidokaMins": "~48–60 min",
+      "jidokaRoute": "Feeder/bus to Alandur/Guindy Metro -> Green Line to Thirumangalam",
+      "iitmMins": "~10–15 min",
+      "iitmRoute": "Direct auto/MTC bus into IITM Velachery / Taramani Gate"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 6000,
+      "monthlyRentPerPersonMax": 9000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7000,
+      "effectiveTotalPerPersonMax": 10500,
+      "priceNote": "Standard men's triple/4-share runs ₹6,000–₹9,000/mo; single/luxury AC runs ₹8.5k–₹12k+.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2 / 3 / 4-Sharing AC & Non-AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC twin/triple variants ₹7.5k–₹10k+)",
+      "beds": "Yes (Beds + Food + Wi-Fi + Laundry)",
+      "kitchen": "Meals / Pantry Options (Per hostel)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "High PG Density Next to IITM",
+          "detail": "Huge student/tech PG supply near Grand Square & Taramani Link Rd"
+        },
+        {
+          "label": "Easy Short-Stay Arrival Airbnbs Nearby",
+          "detail": "Good fallback hub for initial 2-day scouting"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No Direct Metro Station Yet",
+          "detail": "Requires bus/auto feeder to Guindy or Alandur Metro"
+        },
+        {
+          "label": "Peak-Hour Velachery Traffic",
+          "detail": "Slower for the Jidoka intern vs Green Line stations"
+        }
+      ]
+    },
+    "redditSummary": "r/iitmadras suggests booking 2–3 days near Velachery/Grand Square while inspecting local PGs in person if campus hostels are full.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-velachery-chennai-pppfr",
+      "listingLabel": "Browse Velachery Boys PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Velachery+Boys+PG+Near+IIT+Madras+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/20/Photo_h400_w540/GR2-446073-2686679_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Mar/17/Photo_h400_w540/GR2-446073-2733871_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/07/Photo_h400_w540/GR2-446073-2413199_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/20/Photo_h400_w540/GR2-446073-2686675_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/20/Photo_h400_w540/GR2-446073-2686677_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/20/Photo_h400_w540/GR2-446073-2686679_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 13,
+    "addedAt": "2026-11-25T18:20:00+05:30"
   }
 ]

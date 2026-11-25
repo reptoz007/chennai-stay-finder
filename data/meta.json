@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 12,
-  "lastUpdated": "2026-11-25T18:08:00+05:30",
+  "roundsCompleted": 13,
+  "lastUpdated": "2026-11-25T18:20:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,8 +64,15 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 13: Individual specific 1RK/1BHK owner flats under ₹10k–₹14k/unit across Vadapalani, Ashok Nagar & Arumbakkam (MagicBricks/OLX/NoBroker exact leads) + Kotturpuram / Adyar Taramani Gate Boys PGs near IITM.",
+  "nextFocus": "Round 14: Exact street-level Men's PGs & 1RKs along Padi / Anna Nagar Western Extension (near Jidoka gate), K.K. Nagar West / MGR Nagar budget hostels, and fresh r/Chennai monsoons/waterlogging checks by locality.",
   "searchLog": [
+    {
+      "round": 13,
+      "timestamp": "2026-11-25T18:20:00+05:30",
+      "queryFocus": "Vadapalani ₹5k–₹10k MagicBricks 1RK/House pool, Saligramam–Vadapalani & Arumbakkam NoBroker 1RK pools, Sakthi Adyar, Luxoliv Cookie Tharamani, Velachery Boys PGs + 2 r/iitmadras hostel benchmark threads",
+      "addedCount": 6,
+      "notes": "Added 6 Round 13 stays with 4–5 photo galleries each (total 107 stays) + 2 r/iitmadras threads benchmarking ₹400/day (₹12k/mo) campus hostel rates (total 41 threads)."
+    },
     {
       "round": 12,
       "timestamp": "2026-11-25T18:08:00+05:30",
