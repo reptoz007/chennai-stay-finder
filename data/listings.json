@@ -6831,5 +6831,423 @@
     "imageType": "property",
     "addedRound": 11,
     "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "maharaja-premium-pg-west-mambalam",
+    "name": "Maharaja Premium Men's PG (West Mambalam — Private Kitchen & AC)",
+    "category": "Budget Men's PG",
+    "locality": "West Mambalam / T. Nagar",
+    "address": "West Mambalam (easy transit to Ashok Nagar Metro & Mambalam Suburban Rail)",
+    "metroStation": "Ashok Nagar / Saidapet Metro feeder",
+    "metroWalk": "~1.0–1.5 km to Ashok Nagar / Saidapet Metro",
+    "commute": {
+      "jidokaMins": "~28–35 min",
+      "jidokaRoute": "Green Line Ashok Nagar -> Thirumangalam + auto",
+      "iitmMins": "~18–26 min",
+      "iitmRoute": "Saidapet Metro / Anna Salai MTC bus to Guindy & IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 10000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 11500,
+      "priceNote": "West Mambalam AC PG with attached bath, washing machine & private kitchen with dining area; confirm 2-share AC tariff directly.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance directly",
+      "sharingType": "2 / 3-Sharing AC (Attached Bath)"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC rooms with attached bath)",
+      "beds": "Yes (Beds + Washing Machine + Dining Table)",
+      "kitchen": "Private Kitchen + Dining Setup Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Rare PG Private Kitchen",
+          "detail": "MagicBricks highlights kitchen + dining table, attached bath & washing machine"
+        },
+        {
+          "label": "Wi-Fi + Central Transit",
+          "detail": "Equidistant hub between Ashok Nagar & Saidapet corridors"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Exact 2-Share AC Price",
+          "detail": "Borderline around ₹8.5k–₹11.5k once AC EB is counted"
+        },
+        {
+          "label": "Confirm Stove / Gas Provision",
+          "detail": "Check utensil/cylinder rules with owner"
+        }
+      ]
+    },
+    "redditSummary": "Stands out in West Mambalam PGs for providing actual kitchen/dining access alongside AC rooms.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-west-mambalam-chennai-pppfr",
+      "listingLabel": "View West Mambalam PGs on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maharaja+Premium+PG+West+Mambalam+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192147_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192131_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192145_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192147_400_540.jpg",
+    "imageType": "room-sample",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "flat-pool-anna-nagar-east-dblock-1rk",
+    "name": "Anna Nagar East 1RKs (D Block & Chinthamani — NoBroker Owner Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Anna Nagar West / Thirumangalam",
+    "address": "D Block, VOC Nagar & Chinthamani Signal, Anna Nagar East",
+    "metroStation": "Anna Nagar East / Tower Metro (Green Line)",
+    "metroWalk": "~0.4–1.0 km to Anna Nagar East Metro",
+    "commute": {
+      "jidokaMins": "~12–18 min",
+      "jidokaRoute": "Green Line 1–2 stops to Thirumangalam + auto to Jidoka",
+      "iitmMins": "~34–42 min",
+      "iitmRoute": "Green Line Anna Nagar East -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3000,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 4200,
+      "effectiveTotalPerPersonMax": 7300,
+      "priceNote": "D Block independent floor 1RKs range ₹6,000–₹9,000/unit (₹3k–₹4.5k/person) up to ₹11k near Chinthamani + direct TNEB.",
+      "budgetFit": "in-budget",
+      "deposit": "Negotiate 3–6 months (or NoBroker 2-mo)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "~45–50% bachelor-friendly independent owners (Verify on NoBroker)",
+    "features": {
+      "ac": "Add Rented AC (Fits easily inside ₹8k/person incl. EB!)",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "D Block Quiet Lanes (₹6k–₹9k/Unit)",
+          "detail": "Leaves wide budget room for rented Split AC + 12-min Jidoka hop"
+        },
+        {
+          "label": "Walkable to Green Line Metro",
+          "detail": "Direct metro line south toward Alandur/Guindy for IITM friend"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Half of Owners Prefer Families",
+          "detail": "Use NoBroker 'Bachelor' filter upfront to save calling time"
+        },
+        {
+          "label": "Verify 2-Month Exit Terms",
+          "detail": "Confirm internship notice & paint deductions before token"
+        }
+      ]
+    },
+    "redditSummary": "Anna Nagar East D Block keeps quiet residential charm and walkable Green Line Metro access at ₹6k–₹9k/unit for compact 1RKs.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-d_block_annanagar_east_chennai",
+      "listingLabel": "Browse Anna Nagar East D Block 1RKs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D+Block+Anna+Nagar+East+Chennai"
+    },
+    "source": "NoBroker",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dcvHWJgbYEZoJvbsZMkDnhRE/Photo_h300_w450/87320447_2_PropertyImage277-4675388431299_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/26/Photo_h300_w450/87092777_1_PropertyImage560-1419627621225_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/May/07/Photo_h300_w450/84551493_7_PropertyImage515-6934084758363_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jun/20/Photo_h300_w450/85192631_4_PropertyImage883-9278934784012_300_450.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dcvHWJgbYEZoJvbsZMkDnhRE/Photo_h300_w450/87320447_2_PropertyImage277-4675388431299_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "sunflower-boys-pg-little-mount-saidapet",
+    "name": "Sunflower PG for Boys (Little Mount / Saidapet Metro)",
+    "category": "Budget Men's PG",
+    "locality": "Saidapet",
+    "address": "Near Little Mount Metro Station & Anna Salai, Saidapet",
+    "metroStation": "Little Mount / Saidapet Metro (Blue Line)",
+    "metroWalk": "Walkable to Little Mount Metro",
+    "commute": {
+      "jidokaMins": "~38–46 min",
+      "jidokaRoute": "Blue Line Little Mount -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~10–16 min",
+      "iitmRoute": "Immediate hop down Sardar Patel Rd to IIT Madras Main Gate"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 6500,
+      "monthlyRentPerPersonMax": 9000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7500,
+      "effectiveTotalPerPersonMax": 10500,
+      "priceNote": "Saidapet / Little Mount boys AC sharing generally runs ₹6.5k–₹9k base depending on twin vs triple sharing.",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance",
+      "sharingType": "Single / Twin / Triple AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC twin/triple/single rooms)",
+      "beds": "Yes (Beds + TV + Power Backup + Wi-Fi)",
+      "kitchen": "Meals / Food Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Steps From Little Mount / IITM Gate",
+          "detail": "Fastest morning route to IIT Madras Sardar Patel Rd"
+        },
+        {
+          "label": "AC + Power Backup + Food",
+          "detail": "Complete turnkey setup for boys near Blue Line"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Twin vs Triple AC Rate",
+          "detail": "Check 2-share AC + electricity bill before confirming"
+        },
+        {
+          "label": "Longer Jidoka Metro Ride",
+          "detail": "~38–46 min across Blue->Green Alandur interchange"
+        }
+      ]
+    },
+    "redditSummary": "Little Mount sits right before IIT Madras Main Gate; ideal if prioritizing IITM proximity with Blue Line Metro backup.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-single-room-in-saidapet-chennai-pppfr",
+      "listingLabel": "Browse Saidapet / Little Mount PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sunflower+PG+Little+Mount+Saidapet+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528867_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528879_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528841_400_540.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528867_400_540.jpeg",
+    "imageType": "room-sample",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "sri-maha-gents-hostel-little-mount",
+    "name": "Sri Maha Gents Hostel (Little Mount — Anna Salai)",
+    "category": "Budget Men's PG",
+    "locality": "Saidapet",
+    "address": "Anna Salai near Little Mount Metro Station, Saidapet, Chennai",
+    "metroStation": "Little Mount Metro (Blue Line)",
+    "metroWalk": "~0.3–0.6 km to Little Mount Metro",
+    "commute": {
+      "jidokaMins": "~38–46 min",
+      "jidokaRoute": "Blue Line Little Mount -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~10–15 min",
+      "iitmRoute": "Short MTC bus / auto via Sardar Patel Rd to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 10000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 11500,
+      "priceNote": "Premium Gents PG near Little Mount Metro; call branch for current 2-share AC vs 3-share AC rates.",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2 / 3-Sharing AC & Non-AC"
+    },
+    "eligibility": "Men's / Gents Hostel",
+    "features": {
+      "ac": "Yes (AC rooms available)",
+      "beds": "Yes (Furnished Gents Hostel + Wi-Fi)",
+      "kitchen": "Meals Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Established Chennai Hostel Brand",
+          "detail": "Structured gents security, Wi-Fi & meals near Anna Salai"
+        },
+        {
+          "label": "Right Next to IIT Madras Feeder",
+          "detail": "Very quick Sardar Patel Rd commute"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Check Exact AC & EB Quote",
+          "detail": "Verify Twin AC + sub-metered EB charges"
+        },
+        {
+          "label": "No Self-Cooking",
+          "detail": "Mess food model"
+        }
+      ]
+    },
+    "redditSummary": "Well-known Little Mount men's hostel chain; useful comparison point alongside Saidapet & Alandur men's PGs.",
+    "links": {
+      "listingUrl": "https://srimahahostels.com/branches/little-mount-gents-hostel",
+      "listingLabel": "View Sri Maha Little Mount Branch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sri+Maha+Gents+Hostel+Little+Mount+Chennai"
+    },
+    "source": "Sri Maha Hostels",
+    "images": [
+      "https://srimahahostels.com/assets/images/new/little-mount-gents-hostel-hero.webp",
+      "https://srimahahostels.com/assets/images/new/sri-maha-hostels-chennai-safe-pg-hero.webp"
+    ],
+    "imageUrl": "https://srimahahostels.com/assets/images/new/little-mount-gents-hostel-hero.webp",
+    "imageType": "property",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "balaji-pg-nandanam-chamiers",
+    "name": "Balaji Men's PG (Chamiers Rd, Nandanam Metro)",
+    "category": "Budget Men's PG",
+    "locality": "T. Nagar / Teynampet",
+    "address": "Chamiers Rd, Nandanam (near Metro Bhavan & Nandanam Metro)",
+    "metroStation": "Nandanam Metro (Blue Line)",
+    "metroWalk": "Walkable to Nandanam Metro",
+    "commute": {
+      "jidokaMins": "~38–44 min",
+      "jidokaRoute": "Blue Line Nandanam -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmMins": "~16–24 min",
+      "iitmRoute": "Blue Line 2 stops to Little Mount / Guindy or direct Anna Salai bus"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7000,
+      "monthlyRentPerPersonMax": 9000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8000,
+      "effectiveTotalPerPersonMax": 10500,
+      "priceNote": "MagicBricks details: Deposit ₹10,000, 1-month notice period; confirm Twin vs Triple AC exact tariff.",
+      "budgetFit": "borderline",
+      "deposit": "₹10,000 (1-mo notice)",
+      "sharingType": "2 / 3-Sharing AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC rooms available)",
+      "beds": "Yes (Furnished + Laundry + RO Cooler + Housekeeping)",
+      "kitchen": "Food Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "RO Water, Laundry & Cleaning",
+          "detail": "Chamiers Rd central location walkable to Nandanam Metro"
+        },
+        {
+          "label": "Fixed ₹10k Deposit",
+          "detail": "Clear 1-month notice terms listed upfront"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "1-Month Notice Constraint",
+          "detail": "Give notice Day 30 if staying exactly 2 months"
+        },
+        {
+          "label": "Blue Line Interchange for Jidoka",
+          "detail": "Longer ride to Anna Nagar W Ext than Green Line PGs"
+        }
+      ]
+    },
+    "redditSummary": "Clean Nandanam central men's option if balancing Blue Line access to IIT Madras.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/balaji-pg-teynampet-in-chennai&pgid=4d42343032393533677261646532",
+      "listingLabel": "View Balaji PG on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Balaji+PG+Chamiers+Road+Nandanam+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Oct/23/Photo_h400_w540/GR2-402953-1922853_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Oct/23/Photo_h400_w540/GR2-402953-1922927_400_540.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Oct/23/Photo_h400_w540/GR2-402953-1922853_400_540.jpeg",
+    "imageType": "property",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
+  },
+  {
+    "id": "truliv-helios-cit-nagar",
+    "name": "Truliv Helios (CIT Nagar West / T. Nagar — Benchmark)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Saidapet",
+    "address": "CIT 1st Main Rd, CIT Nagar West (between T. Nagar & Saidapet Metro)",
+    "metroStation": "Nandanam / Saidapet Metro",
+    "metroWalk": "~1.0 km to Nandanam / Saidapet Metro",
+    "commute": {
+      "jidokaMins": "~34–42 min",
+      "jidokaRoute": "Blue Line Saidapet/Nandanam -> Alandur -> Green to Thirumangalam + auto",
+      "iitmMins": "~15–22 min",
+      "iitmRoute": "Short MTC bus/auto via Saidapet / Little Mount to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 12499,
+      "monthlyRentPerPersonMax": 16000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 2000,
+      "effectiveTotalPerPersonMin": 13700,
+      "effectiveTotalPerPersonMax": 18000,
+      "priceNote": "Official starting rate ₹12,499/mo (single ₹20,000+); AC, fridge, washing machine & power backup included.",
+      "budgetFit": "stretch",
+      "deposit": "Per Truliv flexible policy",
+      "sharingType": "Managed Twin / Triple AC"
+    },
+    "eligibility": "Co-ed / Managed Co-living",
+    "features": {
+      "ac": "Yes (AC rooms included)",
+      "beds": "Yes (Furnished + Fridge + Washing Machine + TV)",
+      "kitchen": "Common Fridge & Utility Space (Verify stove/cooking)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Flexible Digital Truliv Booking",
+          "detail": "Includes AC, washing machine, fridge, power backup & housekeeping"
+        },
+        {
+          "label": "Clean CIT Nagar Residential Belt",
+          "detail": "Close to IIT Madras & T. Nagar eateries"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Benchmark Tier (> ₹8k Cap)",
+          "detail": "₹12,499+ base sits well above internship budget target"
+        },
+        {
+          "label": "Common Fridge Only",
+          "detail": "Confirm light induction/reheating access"
+        }
+      ]
+    },
+    "redditSummary": "Verified RoomNiva/Truliv pricing benchmark for CIT Nagar West compared with ₹6.5k–₹8k budget men's PGs nearby.",
+    "links": {
+      "listingUrl": "https://roomniva.com/pg/chennai-41",
+      "listingLabel": "View Truliv Helios on RoomNiva",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Truliv+Helios+CIT+Nagar+West+Chennai"
+    },
+    "source": "RoomNiva / Truliv",
+    "images": [
+      "https://roomniva.com/_next/image?url=https%3A%2F%2Fyzptpwqrvnpizooqcved.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fpg-photos%2Ftruliv-helios-co-living-pg-in-cit-nagar-1.jpg&w=640&q=75",
+      "https://roomniva.com/_next/image?url=https%3A%2F%2Fyzptpwqrvnpizooqcved.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fpg-photos%2Ftruliv-helios-co-living-pg-in-cit-nagar-2.jpg&w=640&q=75"
+    ],
+    "imageUrl": "https://roomniva.com/_next/image?url=https%3A%2F%2Fyzptpwqrvnpizooqcved.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fpg-photos%2Ftruliv-helios-co-living-pg-in-cit-nagar-1.jpg&w=640&q=75",
+    "imageType": "property",
+    "addedRound": 12,
+    "addedAt": "2026-11-25T18:08:00+05:30"
   }
 ]
