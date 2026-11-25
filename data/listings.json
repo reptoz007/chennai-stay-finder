@@ -7960,5 +7960,360 @@
       "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365659_400_540.jpeg"
     ],
     "imageType": "neighborhood"
+  },
+  {
+    "id": "yube1-sarmani-anna-salai",
+    "name": "Yube1 Sarmani (Anna Salai / Blue Line Corridor — Managed Unisex PG)",
+    "category": "Co-living / Managed Unisex PG",
+    "locality": "Anna Salai / Mount Road",
+    "metroStation": "Thousand Lights / LIC / Nandanam Metro (Blue Line)",
+    "metroWalk": "Steps to Anna Salai Blue Line Metro stations",
+    "address": "Anna Salai (Mount Road corridor), Chennai 600002",
+    "eligibility": "Men & Women / Working Professionals & Students (Unisex Coed)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 10500,
+      "monthlyRentPerPersonMax": 18500,
+      "estimatedAcEbPerPersonMin": 900,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 11400,
+      "effectiveTotalPerPersonMax": 20100,
+      "deposit": "₹9,000",
+      "sharingType": "Single / Double / Triple AC",
+      "budgetFit": "stretch",
+      "priceNote": "MagicBricks verified listing: Single/Double/Triple from ₹10,500–₹18,500/mo; ₹9,000 security deposit, 1-month notice; Veg/Non-Veg food available."
+    },
+    "commute": {
+      "jidokaMins": "32–40 mins",
+      "iitmMins": "22–30 mins",
+      "jidokaRoute": "Blue Line -> Alandur/Central -> Green Line to Thirumangalam + auto to TVS Colony",
+      "iitmRoute": "Blue Line straight to Little Mount / Guindy + bus/auto to IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC rooms available + Power Backup)",
+      "beds": "Yes — Furnished cots, mattresses, TV, Wi-Fi",
+      "kitchen": "Verify (Daily meals & lounge included; check self-cook pantry rules)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Managed Co-living",
+          "detail": "High-speed Wi-Fi, WFH lounge, Veg & Non-Veg food options"
+        },
+        {
+          "label": "Metro Access",
+          "detail": "Direct Blue Line Metro link toward Guindy/IITM"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Stretch Budget",
+          "detail": "Starts ₹10.5k+ base (~₹11.4k+ incl. EB), above ₹8k cap"
+        },
+        {
+          "label": "Further from Jidoka",
+          "detail": "~35+ mins Metro ride to Padi vs Vadapalani/Koyambedu"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai favors managed PGs like Yube1 along Anna Salai for reliability, though rent sits higher than West Chennai options.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/yube1-sarmani-pg-anna-salai-in-chennai&pgid=4d42323930343933677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube1+Sarmani+Anna+Salai+Chennai"
+    },
+    "addedRound": 15,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356557_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356557_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356531_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356533_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356535_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/11/Photo_h400_w540/GR2-290493-1356537_400_540.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "sector-10-kk-nagar-1rk-housing",
+    "name": "Sector 10 K.K. Nagar 1RK Studio & Owner Flats (Near Ashok Nagar Metro)",
+    "category": "1RK / 1BHK Flat Pool",
+    "locality": "KK Nagar / Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (~1.2 km)",
+    "metroWalk": "6–10 min auto/cycle to Ashok Nagar Metro Station",
+    "address": "Sector 10, K.K. Nagar, Chennai 600078",
+    "eligibility": "Bachelors / 2 Male Flatmates (filter bachelor-friendly portions)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "₹25,000–₹40,000/flat (verify)",
+      "sharingType": "1RK / Compact 1BHK Split (2 guys)",
+      "budgetFit": "in-budget",
+      "priceNote": "Housing.com Sector 10 KK Nagar 1RK index: ₹10k–₹15k/flat (₹5k–₹7.5k/person base split); add ₹1.1k–₹1.6k/person if renting/using AC on TANGEDCO meter."
+    },
+    "commute": {
+      "jidokaMins": "22–30 mins",
+      "iitmMins": "22–28 mins",
+      "jidokaRoute": "Ashok Nagar Metro -> Green Line -> Thirumangalam + auto to TVS Colony",
+      "iitmRoute": "Ashok Nagar Metro -> Alandur/Guindy -> IITM Gate bus/auto (or 2-wheeler via Saidapet)"
+    },
+    "features": {
+      "ac": "Verify / Rent AC (most unfurnished portions exclude AC unit)",
+      "beds": "Semi/Unfurnished (budget floor mats/rental cots ₹400/mo)",
+      "kitchen": "Yes — Full private kitchen platform/sink for self-cooking",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "True Midpoint",
+          "detail": "~25 min balanced commute to both Jidoka & IITM"
+        },
+        {
+          "label": "Full Kitchen",
+          "detail": "Zero food-bill lock-in; cook/meal prep anytime"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Deposit & Furniture",
+          "detail": "Higher flat deposit + need rented cots/AC if unfurnished"
+        },
+        {
+          "label": "Bachelor Screening",
+          "detail": "Traditional blocks near Sector 10 require bachelor check upfront"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai notes K.K. Nagar Sectors drain relatively well in rain and keep exact ~25-min Green Line access between Anna Nagar & Guindy.",
+    "source": "Housing.com",
+    "links": {
+      "listingLabel": "Housing.com KK Nagar 1RK",
+      "listingUrl": "https://housing.com/rent/1rk-flats-for-rent-in-sector-10-kk-nagar-chennai-C1P4tlxeb4yseqihkep",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sector+10+KK+Nagar+Chennai"
+    },
+    "addedRound": 15,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "indira-colony-ashok-nagar-1rk",
+    "name": "Indira Colony Ashok Nagar Single Room / 1RK Portions (Next to Metro)",
+    "category": "1RK / Single Room Portion",
+    "locality": "Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (0.5 km)",
+    "metroWalk": "5–8 min walk to Ashok Nagar Metro & Kasi Theatre",
+    "address": "Indira Colony, Ashok Nagar, Chennai 600083",
+    "eligibility": "Men / Working Professionals & Bachelors",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "3–5 months rent (negotiable)",
+      "sharingType": "2-Person Shared 1RK / Portion (₹10k–₹15k unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "Housing.com Indira Colony index (₹10k–₹15k/unit, some basic single rooms ₹6k+): splitting a ₹11k–₹14k portion puts rent at ₹5.5k–₹7k/person base."
+    },
+    "commute": {
+      "jidokaMins": "22–28 mins",
+      "iitmMins": "18–25 mins",
+      "jidokaRoute": "Walk to Ashok Nagar Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Alandur -> Guindy -> IITM (or quick GST Rd bus)"
+    },
+    "features": {
+      "ac": "Verify / Add AC (window/split AC permission on owner meter)",
+      "beds": "Verify (mix of bare rooms & semi-furnished portions)",
+      "kitchen": "Verify (1RK has private sink/counter; single rooms vary)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Prime Metro Walk",
+          "detail": "Walkable to Ashok Nagar Metro & 100ft Road"
+        },
+        {
+          "label": "Strong Midpoint",
+          "detail": "One of the shortest balanced commutes for both"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Furnishing Variance",
+          "detail": "Confirm cot/AC point & kitchen sink before booking"
+        },
+        {
+          "label": "Deposit Negotiation",
+          "detail": "Clarify bachelor acceptance & sub-meter unit rate"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity threads frequently highlight Indira Colony / Jafferkhanpet side as more bachelor-open than inner Ashok Nagar avenues.",
+    "source": "Housing.com",
+    "links": {
+      "listingLabel": "Housing.com Ashok Nagar",
+      "listingUrl": "https://housing.com/rent/single-room-for-rent-in-indira-colony-ashok-nagar-chennai-10000-to-15000-C3P5s0xh1neh0rkumvaT7psUbko",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Indira+Colony+Ashok+Nagar+Chennai"
+    },
+    "addedRound": 15,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "west-mambalam-1bhk-ind-floor-99acres",
+    "name": "West Mambalam 1BHK Independent House Portions (₹10k–₹15k Pool)",
+    "category": "1BHK Independent Portion",
+    "locality": "West Mambalam",
+    "metroStation": "Saidapet / Ashok Nagar Metro (~1.8 km)",
+    "metroWalk": "6–10 min auto/share-auto to Saidapet Metro or Mambalam Station",
+    "address": "West Mambalam (Brindavan St / Thambiah Rd pockets), Chennai 600033",
+    "eligibility": "Bachelors (filter 'Tenants: Bachelors' on 99acres)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "₹30,000–₹50,000/flat",
+      "sharingType": "1BHK Split (2 interns)",
+      "budgetFit": "in-budget",
+      "priceNote": "99acres West Mambalam ₹10k–₹15k 1BHK filter: ₹5k–₹7.5k/person base + direct TANGEDCO EB (~₹1.1k–₹1.6k/person with AC)."
+    },
+    "commute": {
+      "jidokaMins": "26–35 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Auto to Ashok Nagar/Vadapalani Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Saidapet Metro / Anna Salai bus straight to IITM Main Gate"
+    },
+    "features": {
+      "ac": "Verify / Install or Rent AC (standard independent house wiring)",
+      "beds": "Unfurnished / Semi-furnished (check fan/wardrobe)",
+      "kitchen": "Yes — Dedicated 1BHK kitchen with shelves & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Full 1BHK + Kitchen",
+          "detail": "Separate bedroom + hall + private kitchen"
+        },
+        {
+          "label": "IITM QuickHop",
+          "detail": "Under 20 min to IITM Gate via Saidapet"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Family-Heavy Area",
+          "detail": "Some conservative streets prefer families; target Saidapet border"
+        },
+        {
+          "label": "Unfurnished Setup",
+          "detail": "Plan RentoMojo/Furlenco for beds & AC if unit is bare"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai notes West Mambalam rents stay fair for 1BHKs with strong T. Nagar market access, though owner bachelor filters vary block by block.",
+    "source": "99acres",
+    "links": {
+      "listingLabel": "99acres West Mambalam",
+      "listingUrl": "https://www.99acres.com/1-bhk-independent-house-for-rent-in-west-mambalam-chennai-south-10-thousand-to-15-thousand-ffid",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=West+Mambalam+1BHK+Chennai"
+    },
+    "addedRound": 15,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "akash-apt-kk-nagar-nobroker-1rk",
+    "name": "Akash Apartment / K.K. Nagar Direct-Owner 1RK Pool (No Brokerage)",
+    "category": "1RK Flat Pool",
+    "locality": "KK Nagar / Ashok Nagar",
+    "metroStation": "Ashok Nagar / Vadapalani Metro (~1.5 km)",
+    "metroWalk": "6–9 min auto to Ashok Nagar or Vadapalani Metro Station",
+    "address": "K.K. Nagar (near Akash Apartment / Anna Main Rd), Chennai 600078",
+    "eligibility": "Bachelors / Working Professionals (NoBroker owner filter)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1RK / Compact Portion (2 guys)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker KK Nagar zero-brokerage owner pool: saves 1-month broker fee vs offline agents; verify exact furnishing & AC EB per unit."
+    },
+    "commute": {
+      "jidokaMins": "22–30 mins",
+      "iitmMins": "22–28 mins",
+      "jidokaRoute": "Auto to Ashok Nagar/Vadapalani Metro -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing split/window AC or rent)",
+      "beds": "Verify (check furnished vs semi-furnished inventory)",
+      "kitchen": "Yes — Private 1RK cooking counter & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Zero Brokerage",
+          "detail": "Saves ₹10k–₹14k upfront broker fee on NoBroker"
+        },
+        {
+          "label": "Balanced Midpoint",
+          "detail": "Symmetric Metro access for both campuses"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Fast Turnover",
+          "detail": "Zero-fee KK Nagar 1RKs get taken within days"
+        },
+        {
+          "label": "Verify Furniture",
+          "detail": "Confirm cots & AC availability with owner"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai repeatedly recommends NoBroker for K.K. Nagar direct-owner deals to avoid 1-month brokerage.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker KK Nagar",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-akash-apartment-k-k-nagar-chennai-prjtl",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KK+Nagar+Anna+Main+Road+Chennai"
+    },
+    "addedRound": 15,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
   }
 ]

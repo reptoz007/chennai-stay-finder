@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 14,
-  "lastUpdated": "2026-11-25T18:45:00+05:30",
+  "roundsCompleted": 15,
+  "lastUpdated": "2026-11-25T19:21:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 15: Verify more individual 1RK/1BHK AC + private-kitchen flats in K.K. Nagar, West Mambalam, Ekkattuthangal, and Saidapet (via Olx/99acres/NoBroker) plus direct AC shared-PG rates in Thirumangalam & Koyambedu.",
+  "nextFocus": "Round 16: Search Ekkattuthangal, Guindy, and Saidapet specific independent 1RK/1BHK owner flats + verified Thirumangalam/Koyambedu AC Men's PG detail pages with room rents.",
   "searchLog": [
     {
       "round": 13,
@@ -163,6 +163,13 @@
       "queryFocus": "Padi & TVS Colony Jidoka-side PGs (Forse Mens PG, Sarasuvathi PG), Karambakkam/Porur budget AC (GK Mens Hostel), Anna Nagar study hub (Aspirants Nest), & r/Chennai flood-drainage threads",
       "addedCount": 7,
       "notes": "Added 4 verified stays (100% real MagicBricks/Anna Nagar photos, ₹500–₹10k deposits clearly flagged for AC vs Non-AC) & 3 monsoon/drainage Reddit guides. Total: 111 stays, 44 Reddit threads."
+    },
+    {
+      "round": 15,
+      "timestamp": "2026-11-25 19:21 IST",
+      "queryFocus": "K.K. Nagar Sector 10 & Akash Apt 1RK pools, Ashok Nagar Indira Colony portions, West Mambalam 1BHK floors, Yube1 Sarmani Anna Salai + r/Chennai flat/PG threads",
+      "addedCount": 8,
+      "notes": "Added 5 verified stays (1K/1BHK midpoint flats in KK Nagar, Ashok Nagar, West Mambalam + Yube1 Sarmani with 5 direct photos) & 3 Reddit threads. Total: 116 stays, 47 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
