@@ -8882,5 +8882,429 @@
       "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Feb/13/Photo_h400_w540/GR2-423085-2039173_400_540.jpg"
     ],
     "imageType": "property"
+  },
+  {
+    "id": "meenakshi-mens-pg-arumbakkam",
+    "name": "Meenakshi Men's PG Home Stay (Arumbakkam — AC + ₹3.8k Low Deposit)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Arumbakkam / Koyambedu",
+    "metroStation": "Arumbakkam Metro (~1.0 km)",
+    "metroWalk": "5–8 min walk/auto to Arumbakkam Metro Station",
+    "address": "Arumbakkam (near PH Road / Metro side), Chennai 600106",
+    "eligibility": "Men / Working Professionals & Students (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 3800,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 800,
+      "estimatedAcEbPerPersonMax": 1400,
+      "effectiveTotalPerPersonMin": 4600,
+      "effectiveTotalPerPersonMax": 7900,
+      "deposit": "₹3,800 (1-mo notice)",
+      "sharingType": "Triple / Twin AC (25-bed house)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified Boys PG (operating 2024, 25 beds): starts ~₹3,800–₹5,000+ base (verify Twin AC exact rate); ₹3,800 deposit, Veg & Non-Veg food, AC rooms available."
+    },
+    "commute": {
+      "jidokaMins": "16–24 mins",
+      "iitmMins": "32–40 mins",
+      "jidokaRoute": "Arumbakkam Metro -> Thirumangalam (2 stops) + short auto to TVS Colony",
+      "iitmRoute": "Arumbakkam Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC Rooms Available)",
+      "beds": "Yes — Cots, parking & modern home-stay setup",
+      "kitchen": "Verify (Veg & Non-Veg food served; confirm self-cook policy)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Ultra-Low Deposit",
+          "detail": "₹3,800 refundable deposit, Veg & Non-Veg meals, parking"
+        },
+        {
+          "label": "Fast Green Line Link",
+          "detail": "1 stop south of Koyambedu / 2 stops to Thirumangalam"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Check Power Backup",
+          "detail": "Listing shows no DG backup — ask about inverter/AC voltage"
+        },
+        {
+          "label": "Verify Twin AC Rent",
+          "detail": "Confirm current Twin AC tariff + EB per-unit rate"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai views Arumbakkam/Koyambedu Metro corridor as high-value midpoint for IT/student interns watching deposit size.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/meenakshi-mens-pg-home-stay-arumbakkam-in-chennai&pgid=4d42343938373839677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Meenakshi+Mens+PG+Arumbakkam+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/28/Photo_h400_w540/GR2-498789-2693831_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/28/Photo_h400_w540/GR2-498789-2693831_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/06/Photo_h400_w540/GR2-498789-2600163_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/28/Photo_h400_w540/GR2-498789-2693829_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/26/Photo_h400_w540/GR2-498789-2511091_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/06/Photo_h400_w540/GR2-498789-2600155_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "maayon-mens-hostel-ashok-nagar",
+    "name": "Maayon Men's Hostel (Ashok Nagar — Twin Sharing AC · Flexible Term)",
+    "category": "Men's PG / Flex Stay (Twin AC)",
+    "locality": "Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (~0.9 km)",
+    "metroWalk": "5–8 min walk/auto to Ashok Nagar Metro Station",
+    "address": "Ashok Nagar, Chennai 600083",
+    "eligibility": "Men / Working Professionals & Interns (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 6000,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 0,
+      "estimatedAcEbPerPersonMax": 1200,
+      "effectiveTotalPerPersonMin": 6000,
+      "effectiveTotalPerPersonMax": 9700,
+      "deposit": "₹6,000 (₹0 maint.)",
+      "sharingType": "Twin Sharing (Daily/Weekly/Monthly)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified Boys PG (24 beds, operating since 2020): Twin sharing starting ~₹6,000+/mo; ₹6,000 deposit, ₹0 maintenance, AC rooms available, daily/weekly/monthly flex."
+    },
+    "commute": {
+      "jidokaMins": "22–28 mins",
+      "iitmMins": "20–26 mins",
+      "jidokaRoute": "Ashok Nagar Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC & Non-AC rooms available — verify Twin AC monthly rate)",
+      "beds": "Yes — Twin beds furnished (daily/weekly/monthly options)",
+      "kitchen": "Verify (Listing notes Food Availability None — eat nearby / ask kettle)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "True Balanced Midpoint",
+          "detail": "~22–26 min commute for both Harsha & Rajat"
+        },
+        {
+          "label": "Internship Flexibility",
+          "detail": "Supports weekly/monthly without strict 11-mo lock-in"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Food Not Bundled",
+          "detail": "No in-house mess on listing; factor external tiffin costs"
+        },
+        {
+          "label": "Check EB Policy",
+          "detail": "Portal shows EB ₹0 for base; confirm AC submeter tariff"
+        }
+      ]
+    },
+    "redditSummary": "Ashok Nagar sits squarely at the Green Line midpoint (~22–25 mins both ways) with strong drainage & local tiffin options.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/maayon-mens-hostel-pg-ashok-nagar-in-chennai&pgid=4d4237313130677261646531",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maayon+Mens+Hostel+Ashok+Nagar+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2021/Jun/22/Photo_h400_w540/GR1-7110-360807_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2021/Jun/22/Photo_h400_w540/GR1-7110-360807_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2021/Jun/22/Photo_h400_w540/GR1-7110-360805_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2021/Jun/22/Photo_h400_w540/GR1-7110-360809_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/25/Photo_h400_w540/GR1-7110-15167_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/25/Photo_h400_w540/GR1-7110-15169_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "pandiyan-mens-hostel-koyambedu",
+    "name": "Pandiyan Men's Hostel (Koyambedu — Ultra-Budget ₹3.9k–₹5.2k + Meals)",
+    "category": "Men's PG (Non-AC Budget Fallback)",
+    "locality": "Koyambedu",
+    "metroStation": "Koyambedu / CMBT Metro (~0.8 km)",
+    "metroWalk": "5–8 min walk to Koyambedu Metro & CMBT",
+    "address": "Koyambedu (near CMBT / Market edge), Chennai 600107",
+    "eligibility": "Men / Working Professionals & Students (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 3900,
+      "monthlyRentPerPersonMax": 5200,
+      "estimatedAcEbPerPersonMin": 0,
+      "estimatedAcEbPerPersonMax": 400,
+      "effectiveTotalPerPersonMin": 3900,
+      "effectiveTotalPerPersonMax": 5600,
+      "deposit": "₹5,000 (15-day notice)",
+      "sharingType": "Triple / Double / Single (60 beds)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified Boys Hostel (60 beds, since 2016): ₹3,900–₹5,200/mo, ₹5,000 deposit, ₹0 maintenance, 15-day notice; Veg & Non-Veg tiffin food; Non-AC."
+    },
+    "commute": {
+      "jidokaMins": "15–22 mins",
+      "iitmMins": "35–45 mins",
+      "jidokaRoute": "Koyambedu Metro -> Thirumangalam (1 stop) + auto to TVS Colony",
+      "iitmRoute": "Koyambedu Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "No (MagicBricks specifies AC Rooms Not Available — Fan)",
+      "beds": "Yes — Cots, Wi-Fi & TV",
+      "kitchen": "Verify (Tiffin-system Veg & Non-Veg food; check induction rules)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Lowest Budget Tier",
+          "detail": "₹3.9k–₹5.2k incl. basic Veg/Non-Veg tiffin, ₹0 maint."
+        },
+        {
+          "label": "Short 15-Day Notice",
+          "detail": "Easy exit for short 2–6 month internships"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No AC Rooms",
+          "detail": "Non-AC only; harsh during peak Apr–Jun Chennai heat"
+        },
+        {
+          "label": "Busy Transit Zone",
+          "detail": "Koyambedu traffic/noise & older building maintenance"
+        }
+      ]
+    },
+    "redditSummary": "Koyambedu offers unbeatable Metro + bus links and low rent, though summer Non-AC rooms require ventilation checks.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Hostel",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/pandiyan-mens-hostel-pg-koyambedu-in-chennai&pgid=4d423132383036677261646531",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Pandiyan+Mens+Hostel+Koyambedu+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296349_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296349_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296369_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296399_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296401_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-12806-296403_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "centretown-koyambedu-coliving",
+    "name": "Centretown Co-Living PG (Koyambedu — Boutique 10-Bed AC + Power Backup)",
+    "category": "Co-living / Unisex AC PG",
+    "locality": "Koyambedu",
+    "metroStation": "Koyambedu / CMBT Metro (~0.8 km)",
+    "metroWalk": "5–8 min walk/auto to Koyambedu Metro Station",
+    "address": "Koyambedu, Chennai 600107",
+    "eligibility": "Men & Women / Working Professionals (Coed, 10 beds total)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5500,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 900,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6400,
+      "effectiveTotalPerPersonMax": 10000,
+      "deposit": "₹30,000 (>2-mo notice — verify)",
+      "sharingType": "Single / Shared AC (10 beds)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified 10-bed unisex PG (operating 2021): typically ₹5.5k–₹8.5k+ base with AC, Power Backup & Parking, but flags ₹30k deposit & >2-month notice."
+    },
+    "commute": {
+      "jidokaMins": "15–22 mins",
+      "iitmMins": "35–42 mins",
+      "jidokaRoute": "Koyambedu Metro -> Thirumangalam + short auto",
+      "iitmRoute": "Koyambedu Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC Rooms Available + Full Power Backup)",
+      "beds": "Yes — Low-density 10-bed setup with parking",
+      "kitchen": "Verify (No meal bundle noted — verify kitchen/fridge access)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Boutique Low Density",
+          "detail": "Only 10 beds total — quieter than 100-bed hostels"
+        },
+        {
+          "label": "AC & Power Backup",
+          "detail": "Generator/inverter backup + 2-wheeler parking"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Steep Deposit & Notice",
+          "detail": "₹30,000 deposit & >2-month notice hurts 2–6 mo interns"
+        },
+        {
+          "label": "No Bundled Meals",
+          "detail": "Confirm cooking counter or budget external food"
+        }
+      ]
+    },
+    "redditSummary": "Small 10-bed co-living PGs around Koyambedu give quieter stays than mega-hostels, though negotiate notice period before booking.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/centretown-pg-koyambedu-in-chennai&pgid=4d42333434303633677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Centretown+PG+Koyambedu+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/17/Photo_h400_w540/GR2-344063-1628601_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/17/Photo_h400_w540/GR2-344063-1628601_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/17/Photo_h400_w540/GR2-344063-1628597_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/17/Photo_h400_w680/GR2-344063-1628597_400_680.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "koyambedu-under-10k-flats-nobroker",
+    "name": "Koyambedu / Nerkundram Direct-Owner 1RK & 1BHK Flats (<₹10k Split)",
+    "category": "1RK / 1BHK Flat Pool",
+    "locality": "Koyambedu / Nerkundram",
+    "metroStation": "Koyambedu Metro (~1.2 km)",
+    "metroWalk": "6–10 min auto/walk to Koyambedu Metro & CMBT",
+    "address": "Koyambedu (Muniappa Nagar / Nerkundram border), Chennai 600107",
+    "eligibility": "Bachelors / 2 Male Flatmates (filter Tenants: Bachelors)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4000,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5100,
+      "effectiveTotalPerPersonMax": 6600,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1BHK / 1RK Split (₹8k–₹10k unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Koyambedu <₹10k pool (incl. ₹8k–₹9k 1BHK standalone units): splitting ₹8k–₹10k between 2 keeps rent + AC EB firmly inside ₹5.1k–₹6.6k/person."
+    },
+    "commute": {
+      "jidokaMins": "15–22 mins",
+      "iitmMins": "35–44 mins",
+      "jidokaRoute": "Koyambedu Metro -> Thirumangalam + auto (or direct 100ft Rd/Bypass)",
+      "iitmRoute": "Koyambedu Metro -> Green Line -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Rent AC (standalone ₹8k–₹10k flats are unfurnished)",
+      "beds": "Unfurnished (add ₹400–₹700/mo rental cots/mattresses)",
+      "kitchen": "Yes — Dedicated private 1BHK/1RK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Lowest Flat Total",
+          "detail": "₹8k–₹10k/flat = ₹4k–₹5k base each with full kitchen"
+        },
+        {
+          "label": "Zero Brokerage",
+          "detail": "NoBroker direct owner contact"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Unfurnished + Deposit",
+          "detail": "Check 3–5 mo advance & factor rented AC + beds"
+        },
+        {
+          "label": "Check Flooding Edge",
+          "detail": "Verify street height away from Cooum / Nerkundram low spots"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai suggests Koyambedu/Nerkundram for more spacious 1RK/1BHK stock under ₹10k compared to Anna Nagar, provided you inspect Cooum-adjacent flood streets.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker <₹10k Flats",
+      "listingUrl": "https://www.nobroker.in/properties-for-rent-in-koyambedu-chennai-below-10000",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Koyambedu+Metro+Station+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "chinmaya-nagar-1bhk-nobroker",
+    "name": "Chinmaya Nagar Stage 1 Direct-Owner 1BHK Flats (Near CMBT Metro)",
+    "category": "1BHK Flat Pool",
+    "locality": "Chinmaya Nagar / Virugambakkam",
+    "metroStation": "CMBT / Koyambedu Metro (~1.5 km)",
+    "metroWalk": "6–10 min auto/cycle to CMBT or Koyambedu Metro Station",
+    "address": "Chinmaya Nagar Stage 1 (Kaliamman Koil St side), Chennai 600092",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 8100,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1BHK Split (₹10k–₹13k unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Chinmaya Nagar Stage 1 1BHK pool: quiet residential layout 5 min behind CMBT Metro; ₹10k–₹13k/flat splits nicely within ₹6.1k–₹8.1k/person."
+    },
+    "commute": {
+      "jidokaMins": "18–25 mins",
+      "iitmMins": "32–40 mins",
+      "jidokaRoute": "CMBT Metro -> Koyambedu -> Thirumangalam + auto",
+      "iitmRoute": "CMBT Metro -> Green Line -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC point & TANGEDCO EB)",
+      "beds": "Semi/Unfurnished (confirm furniture inventory)",
+      "kitchen": "Yes — Separate 1BHK kitchen & living room",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Quieter Residential Layout",
+          "detail": "Tucked off chaotic 100ft Rd noise yet close to CMBT Metro"
+        },
+        {
+          "label": "Full 1BHK Space",
+          "detail": "Plenty of study/wfh room & full kitchen"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Auto to Metro",
+          "detail": "Not right at Metro gate (~1.5 km feeder/2-wheeler)"
+        },
+        {
+          "label": "Bachelor Approval",
+          "detail": "Residential Stage 1 owners prefer quiet working bachelors"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai favors Chinmaya Nagar & Virugambakkam layouts for calm residential streets right behind CMBT/Koyambedu Metro.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Chinmaya Nagar",
+      "listingUrl": "https://www.nobroker.in/1bhk-flats-for-rent-in-chinmaya_nagar_stage_1_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chinmaya+Nagar+Stage+1+Chennai"
+    },
+    "addedRound": 18,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 17,
-  "lastUpdated": "2026-11-25T19:46:00+05:30",
+  "roundsCompleted": 18,
+  "lastUpdated": "2026-11-25T19:56:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 18: Scan more individual MagicBricks & NoBroker 1RK/1BHK units in Koyambedu, Chinmaya Nagar, Arumbakkam, and Vadapalani + verify remaining category-linked entries with propertyDetail URLs.",
+  "nextFocus": "Round 19: Upgrade remaining MagicBricks category links (Truliv Adonia, Yube1 Elevate Saidapet, Deepak PG Anna Nagar East, Vijaya Scans Shenoy Nagar, Choolaimedu) to exact propertyDetail pages + photos, plus search Ashok Nagar/Jafferkhanpet individual 1RKs.",
   "searchLog": [
     {
       "round": 13,
@@ -184,6 +184,13 @@
       "queryFocus": "Direct propertyDetail upgrades for Savy PG, Sai Ram Guest House (Thirumangalam 0.2km) & Babitha House + 3 new Boys PGs (SRS Hall West Mambalam, Vinayak Virugambakkam, Kodambakkam Room-Only) & 3 r/Chennai threads",
       "addedCount": 6,
       "notes": "Upgraded 3 existing entries to direct propertyDetail URLs + direct photos; added 3 new Boys PGs with 5 real property photos each & 3 Reddit guides. Total: 124 stays, 53 Reddit threads."
+    },
+    {
+      "round": 18,
+      "timestamp": "2026-11-25 19:56 IST",
+      "queryFocus": "Arumbakkam/Koyambedu/Ashok Nagar direct Boys PGs (Meenakshi PG ₹3.8k dep AC, Maayon Ashok Nagar Flex AC, Pandiyan Koyambedu, Centretown Koyambedu) + Koyambedu/Chinmaya Nagar NoBroker <₹10k–₹13k flats & 3 r/Chennai threads",
+      "addedCount": 9,
+      "notes": "Added 6 verified stays (4 direct MagicBricks propertyDetail PGs with real photos + 2 zero-brokerage Koyambedu/Chinmaya Nagar flat pools) & 3 Reddit guides. Total: 130 stays, 56 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
