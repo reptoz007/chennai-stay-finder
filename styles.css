@@ -1650,6 +1650,60 @@ select {
   opacity: 1;
 }
 
+.login-pass-wrap {
+  margin-bottom: 16px;
+}
+
+.login-pass-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+
+.login-pass-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.login-pass-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 1.5px solid var(--border);
+  border-radius: 9px;
+  padding: 9px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--text);
+  background: #fff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.login-pass-input:focus {
+  outline: none;
+  border-color: var(--teal-dark);
+  box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.14);
+}
+
+.login-pass-input.is-invalid {
+  border-color: var(--red);
+  box-shadow: 0 0 0 3px rgba(185, 28, 28, 0.12);
+}
+
+.login-pass-toggle {
+  height: 39px;
+  padding: 0 11px !important;
+}
+
+.login-error {
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--red);
+}
+
 .login-footer {
   display: flex;
   align-items: center;

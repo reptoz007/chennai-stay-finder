@@ -238,10 +238,28 @@
         </button>
       </div>
 
-      <div class="login-footer">
-        <div class="login-room-note" id="login-room-note">Shared Room Sync: Active</div>
-        <button type="button" class="btn btn-primary login-enter-btn" id="login-enter-btn" disabled>Enter Shared Finder →</button>
-      </div>
+      <form id="login-form" novalidate>
+        <div class="login-pass-wrap">
+          <label for="login-password-input" class="login-pass-label">Passcode (for Harsha &amp; Rajat)</label>
+          <div class="login-pass-input-row">
+            <input
+              type="password"
+              id="login-password-input"
+              class="login-pass-input"
+              placeholder="Enter passcode to login"
+              autocomplete="current-password"
+              inputmode="numeric"
+            />
+            <button type="button" class="btn btn-xs login-pass-toggle" id="login-pass-toggle" aria-label="Show passcode">Show</button>
+          </div>
+          <div class="login-error hidden" id="login-error" role="alert">Incorrect passcode. Please try again.</div>
+        </div>
+
+        <div class="login-footer">
+          <div class="login-room-note" id="login-room-note">Shared Room Sync: Active</div>
+          <button type="submit" class="btn btn-primary login-enter-btn" id="login-enter-btn" disabled>Enter Shared Finder →</button>
+        </div>
+      </form>
     </div>
   </div>
 

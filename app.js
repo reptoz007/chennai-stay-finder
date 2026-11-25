@@ -33,9 +33,23 @@ const state = {
 
 const STORAGE_KEY = "staymid_chennai_user_state_v1";
 const PROFILE_KEY = "staymid_profile_v1";
+const AUTH_KEY = "staymid_pass_ok_v1";
 const COLLAB_STORAGE_KEY = "staymid_collab_cache_v1";
 const CHAT_SEEN_KEY = "staymid_chat_seen_ts_v1";
 const DEFAULT_COLLAB_ROOM = "staymid_chennai_9f4c2e1b8a3d7c50";
+
+function verifyPasscode(raw) {
+  const s = String(raw ?? "").trim();
+  if (s.length !== 6) return false;
+  let h1 = 0x811c9dc5 >>> 0;
+  let h2 = 5381 >>> 0;
+  for (let i = 0; i < s.length; i++) {
+    const c = s.charCodeAt(i);
+    h1 = Math.imul(h1 ^ c, 0x01000193) >>> 0;
+    h2 = (Math.imul(h2, 33) ^ c) >>> 0;
+  }
+  return h1 === 1857711445 && h2 === 3782405765;
+}
 const IS_EMBEDDED = Boolean(window.__EMBEDDED_STAYMID_DATA__);
 const IS_LOCAL_SERVER =
   location.hostname === "127.0.0.1" || location.hostname === "localhost";
@@ -1209,6 +1223,16 @@ function openLoginOverlay(canDismiss = false) {
     enterBtn.disabled = !pre;
     enterBtn.textContent = pre ? `Enter as ${profileDisplayName(pre)} →` : "Enter Shared Finder →";
   }
+  const passInput = document.getElementById("login-password-input");
+  const passToggle = document.getElementById("login-pass-toggle");
+  const errEl = document.getElementById("login-error");
+  if (passInput) {
+    passInput.value = "";
+    passInput.type = "password";
+    passInput.classList.remove("is-invalid");
+  }
+  if (passToggle) passToggle.textContent = "Show";
+  if (errEl) errEl.classList.add("hidden");
   const roomNote = document.getElementById("login-room-note");
   if (roomNote) {
     roomNote.textContent = state.collabSynced
@@ -1216,19 +1240,47 @@ function openLoginOverlay(canDismiss = false) {
       : "Offline / Local Storage Mode";
   }
   overlay.classList.remove("hidden");
+  if (pre && passInput) {
+    setTimeout(() => passInput.focus(), 40);
+  }
 }
 
 function confirmProfileLogin(chosen) {
   const p = chosen || state.pendingProfile;
-  if (p !== "harsha" && p !== "rajat") return;
+  const errEl = document.getElementById("login-error");
+  const passInput = document.getElementById("login-password-input");
+  if (p !== "harsha" && p !== "rajat") {
+    if (errEl) {
+      errEl.textContent = "Please select Harsha or Rajat first.";
+      errEl.classList.remove("hidden");
+    }
+    return false;
+  }
+  const entered = passInput ? passInput.value : "";
+  if (!verifyPasscode(entered)) {
+    if (passInput) {
+      passInput.classList.add("is-invalid");
+      passInput.focus();
+      passInput.select();
+    }
+    if (errEl) {
+      errEl.textContent = entered.trim()
+        ? "Incorrect passcode. Please try again."
+        : "Please enter passcode to login.";
+      errEl.classList.remove("hidden");
+    }
+    return false;
+  }
   state.profile = p;
   state.pendingProfile = p;
   try {
     localStorage.setItem(PROFILE_KEY, p);
+    localStorage.setItem(AUTH_KEY, "1");
   } catch {}
   document.getElementById("login-overlay")?.classList.add("hidden");
   renderAll();
   showToast(`Signed in as ${profileDisplayName(p)} — saves & chat sync on this link`);
+  return true;
 }
 
 function setChatMention(stayId) {
@@ -1663,7 +1715,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Profile Login & Switcher
   try {
     const savedProf = localStorage.getItem(PROFILE_KEY);
-    if (savedProf === "harsha" || savedProf === "rajat") {
+    const authOk = localStorage.getItem(AUTH_KEY) === "1";
+    if (authOk && (savedProf === "harsha" || savedProf === "rajat")) {
       state.profile = savedProf;
     }
     state.lastSeenMsgTs = Number(localStorage.getItem(CHAT_SEEN_KEY) || "0");
@@ -1683,14 +1736,26 @@ document.addEventListener("DOMContentLoaded", () => {
       enterBtn.disabled = false;
       enterBtn.textContent = `Enter as ${profileDisplayName(state.pendingProfile)} →`;
     }
+    document.getElementById("login-error")?.classList.add("hidden");
+    document.getElementById("login-password-input")?.focus();
   });
 
-  document.getElementById("login-profile-grid")?.addEventListener("dblclick", (e) => {
-    const btn = e.target.closest(".profile-choice");
-    if (btn) confirmProfileLogin(btn.dataset.profile);
+  document.getElementById("login-password-input")?.addEventListener("input", () => {
+    document.getElementById("login-password-input")?.classList.remove("is-invalid");
+    document.getElementById("login-error")?.classList.add("hidden");
   });
 
-  document.getElementById("login-enter-btn")?.addEventListener("click", () => {
+  document.getElementById("login-pass-toggle")?.addEventListener("click", () => {
+    const inp = document.getElementById("login-password-input");
+    const btn = document.getElementById("login-pass-toggle");
+    if (!inp || !btn) return;
+    const isHidden = inp.type === "password";
+    inp.type = isHidden ? "text" : "password";
+    btn.textContent = isHidden ? "Hide" : "Show";
+  });
+
+  document.getElementById("login-form")?.addEventListener("submit", (e) => {
+    e.preventDefault();
     confirmProfileLogin(state.pendingProfile);
   });
 
@@ -1806,7 +1871,13 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
     const loginOverlay = document.getElementById("login-overlay");
-    if (loginOverlay && !loginOverlay.classList.contains("hidden") && e.key === "Enter" && state.pendingProfile) {
+    if (
+      loginOverlay &&
+      !loginOverlay.classList.contains("hidden") &&
+      e.key === "Enter" &&
+      state.pendingProfile &&
+      e.target?.id !== "login-pass-toggle"
+    ) {
       e.preventDefault();
       confirmProfileLogin(state.pendingProfile);
     }
