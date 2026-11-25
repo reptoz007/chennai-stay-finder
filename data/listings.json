@@ -6411,5 +6411,425 @@
       "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h300_w450/84214679_4_PropertyImage986-3388040934835_300_450.jpg",
       "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/5398_1795594293863.1885_300_450.jpg"
     ]
+  },
+  {
+    "id": "flat-pool-aminjikarai-1rk-nobroker",
+    "name": "Aminjikarai 1RKs (Periyar Colony & Ampa Skywalk — NoBroker Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Arumbakkam / Koyambedu",
+    "address": "Periyar Colony, P.P. Garden & Ampa Skywalk / Nelson Manickam Rd, Aminjikarai",
+    "metroStation": "Shenoy Nagar / Arumbakkam Metro",
+    "metroWalk": "~1.0–1.5 km to Shenoy Nagar / Arumbakkam Metro",
+    "commute": {
+      "jidokaMins": "~18–25 min",
+      "jidokaRoute": "Green Line Shenoy Nagar / Arumbakkam -> Thirumangalam + auto",
+      "iitmMins": "~30–38 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy OR Poonamallee High Rd / Nungambakkam transit"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 2000,
+      "monthlyRentPerPersonMax": 4000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 3700,
+      "effectiveTotalPerPersonMax": 6700,
+      "priceNote": "Budget independent 1RK portions around ₹4,000–₹8,000/unit (₹2k–₹4k each) + direct TNEB + space inside ₹8k cap even with a rented split AC.",
+      "budgetFit": "in-budget",
+      "deposit": "Negotiate 3–6 months (TN bachelor reality)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-friendly pockets (Filter 'Bachelor' on NoBroker)",
+    "features": {
+      "ac": "Add Rented AC (PayRentz ~₹750–₹1.25k/person split)",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Lowest Green Line Corridor 1RKs",
+          "detail": "₹4k–₹8k/unit near P.P. Garden & Skywalk keeps full setup under ₹7k/person"
+        },
+        {
+          "label": "Private Kitchen + Direct TNEB",
+          "detail": "Zero brokerage on NoBroker owner listings"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Unfurnished Base",
+          "detail": "Requires floor mattresses & PayRentz/RentoMojo AC rental"
+        },
+        {
+          "label": "Deposit Negotiation",
+          "detail": "Confirm 2–4 months deposit & take move-in condition video"
+        }
+      ]
+    },
+    "redditSummary": "Aminjikarai inner streets (P.P. Garden / Periyar Colony) offer lower 1RK rents right next to Anna Nagar East & Shenoy Nagar Metro.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-aminjikarai_chennai",
+      "listingLabel": "Browse Aminjikarai 1RKs on NoBroker",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aminjikarai+Ampa+Skywalk+Chennai"
+    },
+    "source": "NoBroker",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mDkjVT89I9ds4TAdVPDxJzCcWQyYEp_L3h/Photo_h300_w450/44968523_3_PropertyImage1569264681712_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Apr/24/Photo_h300_w450/72483971_7_hatsAppImage20240419at7.02.58PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/10/Photo_h300_w450/86401819_1_hatsAppImage20260910at11.59.48AM2_300_450.jpeg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mDkjVT89I9ds4TAdVPDxJzCcWQyYEp_L3h/Photo_h300_w450/44968523_3_PropertyImage1569264681712_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "flat-pool-shenoy-nagar-1rk-nobroker",
+    "name": "Shenoy Nagar 1RKs (Bharathi Puram / Pachaiyappa's — NoBroker Pool)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Anna Nagar West / Thirumangalam",
+    "address": "Bharathi Puram & inner lanes behind Pachaiyappa's College, Shenoy Nagar",
+    "metroStation": "Shenoy Nagar Metro (Green Line)",
+    "metroWalk": "~0.5–1.0 km to Shenoy Nagar Metro",
+    "commute": {
+      "jidokaMins": "~15–22 min",
+      "jidokaRoute": "Green Line Shenoy Nagar -> Thirumangalam + auto",
+      "iitmMins": "~32–40 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3500,
+      "monthlyRentPerPersonMax": 6000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 4700,
+      "effectiveTotalPerPersonMax": 7800,
+      "priceNote": "Compact 1RKs behind Pachaiyappa's / Bharathi Puram run ₹7,000–₹12,000/unit (₹3.5k–₹6k/person) with direct TNEB.",
+      "budgetFit": "in-budget",
+      "deposit": "3–6 months' rent (negotiate for 2-mo internship)",
+      "sharingType": "Whole Independent 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-friendly pockets (Verify with owner on NoBroker)",
+    "features": {
+      "ac": "Add Rented AC or Select Semi-Furnished Units",
+      "beds": "Unfurnished / Semi-furnished",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Underground Shenoy Nagar Metro",
+          "detail": "Clean, fast direct Green Line commute to Jidoka"
+        },
+        {
+          "label": "Private Kitchen + Direct TNEB",
+          "detail": "No PG food fees or commercial EB surcharges"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Short Internship Acceptance",
+          "detail": "Independent owners may prefer 6–11 month leases"
+        },
+        {
+          "label": "AC & Beds Optional",
+          "detail": "Arrange floor mattresses / PayRentz AC if unfurnished"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai internship threads spotlight Shenoy Nagar on the Green Line for clean residential lanes & quick Metro commuting.",
+    "links": {
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-bharathi_puram_shenoy_nagar_chennai",
+      "listingLabel": "Browse Shenoy Nagar 1RKs on NoBroker",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bharathi+Puram+Shenoy+Nagar+Chennai"
+    },
+    "source": "NoBroker",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB48U9dswwvk-lhLmjWpryRtHFS-H2/Photo_h300_w450/86118301_3_PropertyImage1787766103165_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Jan/15/Photo_h300_w450/77054433_4_PropertyImage500-69433093932736_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/10/Photo_h300_w450/86871793_7_MG20250703161046_300_450.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB48U9dswwvk-lhLmjWpryRtHFS-H2/Photo_h300_w450/86118301_3_PropertyImage1787766103165_300_450.jpg",
+    "imageType": "room-sample",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "zolo-sage-choolaimedu-nelson-manickam",
+    "name": "Zolo Sage / Nelson Manickam Rd Boys AC PGs (Induction + Fridge)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Choolaimedu / Vadapalani",
+    "address": "Nelson Manickam Rd / Choolaimedu border (feeder to Shenoy Nagar Metro & Nungambakkam Rail)",
+    "metroStation": "Shenoy Nagar Metro / Nungambakkam Rail",
+    "metroWalk": "~1.2–1.6 km to Shenoy Nagar Metro",
+    "commute": {
+      "jidokaMins": "~20–28 min",
+      "jidokaRoute": "Short auto to Shenoy Nagar/Arumbakkam Metro -> Thirumangalam",
+      "iitmMins": "~28–36 min",
+      "iitmRoute": "Vadapalani/Shenoy Metro -> Guindy OR Nungambakkam-Saidapet corridor"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 9300,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 8700,
+      "effectiveTotalPerPersonMax": 11100,
+      "priceNote": "Zolo Sage AC multi-sharing averages ~₹9,300 (+ sub-metered EB); includes shared fridge, induction/kitchen & washing machine.",
+      "budgetFit": "borderline",
+      "deposit": "Per Zolo policy (1–2 months)",
+      "sharingType": "Managed Multi-Share / Twin AC"
+    },
+    "eligibility": "Men's / Managed Co-living",
+    "features": {
+      "ac": "Yes (AC rooms included)",
+      "beds": "Yes (Beds + Housekeeping + Washing Machine + RO)",
+      "kitchen": "Shared Induction / Kitchen + Fridge",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Shared Induction, Fridge & Laundry",
+          "detail": "Turns a managed PG into a self-cook friendly base"
+        },
+        {
+          "label": "Zero Brokerage + Housekeeping",
+          "detail": "Predictable Zolo maintenance & RO water"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "EB Billed Extra Above ₹9.3k",
+          "detail": "Sub-metered electricity pushes total to ~₹10.5k–₹11k/person"
+        },
+        {
+          "label": "Feeder Walk to Metro",
+          "detail": "10–15 min walk/share-auto from Nelson Manickam Rd to Metro"
+        }
+      ]
+    },
+    "redditSummary": "One of the more affordable Zolo options near Choolaimedu / Nelson Manickam Rd that keeps shared induction & fridge access.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/paying-guest-for-boys-in-nelson-manickam-road-chennai-pppfr",
+      "listingLabel": "View Nelson Manickam Rd Boys PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zolo+Sage+Choolaimedu+Nelson+Manickam+Road+Chennai"
+    },
+    "source": "MagicBricks / Zolo",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710513_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710525_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Mar/13/Photo_h400_w540/GR2-527609-2731003_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710513_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "nelson-manickam-mens-pg-aminjikarai",
+    "name": "Nelson Manickam Rd Men's AC Hostels (₹4.5k–₹7k Base Pool)",
+    "category": "Budget Men's PG",
+    "locality": "Choolaimedu / Vadapalani",
+    "address": "Nelson Manickam Rd & Choolaimedu High Rd, Aminjikarai",
+    "metroStation": "Shenoy Nagar / Vadapalani Metro feeder",
+    "metroWalk": "~1.2–1.8 km to Metro",
+    "commute": {
+      "jidokaMins": "~20–28 min",
+      "jidokaRoute": "Poonamallee High Rd bus/auto or Green Line Metro",
+      "iitmMins": "~28–36 min",
+      "iitmRoute": "Vadapalani Metro -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 4500,
+      "monthlyRentPerPersonMax": 7000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5500,
+      "effectiveTotalPerPersonMax": 8500,
+      "priceNote": "MagicBricks multi/4-sharing AC options start ₹4,500–₹6,000 (twin sharing typically ₹7k–₹9k); verify AC EB charge separately.",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance",
+      "sharingType": "2 / 3 / 4-Sharing AC & Non-AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC multi-share from ₹4.5k–₹6k+)",
+      "beds": "Yes (Cots + Wi-Fi + Food Options)",
+      "kitchen": "Verify Shared Kitchen / Meals Included",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Tight Central Budget",
+          "detail": "Sub-₹8k/person even with AC & Wi-Fi on higher sharing"
+        },
+        {
+          "label": "High Transit Frequency",
+          "detail": "Continuous MTC buses & autos linking Anna Nagar & T. Nagar"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm Twin-Share AC Tariff",
+          "detail": "₹4.5k–₹6k applies to 4-share; verify 2-share AC + EB"
+        },
+        {
+          "label": "Verify Self-Cooking",
+          "detail": "Most hostels serve mess meals rather than full kitchens"
+        }
+      ]
+    },
+    "redditSummary": "Local independent men's hostels along Nelson Manickam Rd stay cheaper than Anna Nagar West while bridging both corridors.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-nelson-manickam-road-chennai-pppfr",
+      "listingLabel": "View Nelson Manickam Rd PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mens+PG+Nelson+Manickam+Road+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710513_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710525_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Mar/13/Photo_h400_w540/GR2-527609-2731003_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/15/Photo_h400_w540/GR2-527609-2710513_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "yube1-metro-vadapalani-hub",
+    "name": "Yube1 Metro & Vadapalani Station Exit PGs (Twin/Triple AC)",
+    "category": "Managed Co-living (Zolo/Truliv/Yube1)",
+    "locality": "Vadapalani",
+    "address": "Adjacent to Vadapalani Metro Station & Nexus Vijaya Mall, Chennai",
+    "metroStation": "Vadapalani Metro (Green Line)",
+    "metroWalk": "~0.2–0.5 km to Vadapalani Metro",
+    "commute": {
+      "jidokaMins": "~20–26 min",
+      "jidokaRoute": "Green Line Vadapalani -> Thirumangalam (3 stops) + auto",
+      "iitmMins": "~28–36 min",
+      "iitmRoute": "Green Line -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 9000,
+      "monthlyRentPerPersonMax": 13000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1800,
+      "effectiveTotalPerPersonMin": 10200,
+      "effectiveTotalPerPersonMax": 14800,
+      "priceNote": "Vadapalani Metro-exit managed PGs run ₹9k–₹13k/mo for triple/twin AC sharing (+ EB).",
+      "budgetFit": "stretch",
+      "deposit": "Per property policy (usually ₹10k–₹15k)",
+      "sharingType": "Twin / Triple AC Co-living"
+    },
+    "eligibility": "Co-ed / Managed Boys Rooms",
+    "features": {
+      "ac": "Yes (AC standard)",
+      "beds": "Yes (Turnkey Beds + Power Backup + Wi-Fi)",
+      "kitchen": "Common Pantry / Induction (Per Yube1 format)",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "True Geographic Midpoint",
+          "detail": "Equal Metro travel to Jidoka (north) and IITM (south)"
+        },
+        {
+          "label": "Steps From Vadapalani Metro",
+          "detail": "Zero feeder auto needed in heat or rain"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Exceeds ₹8k Monthly Cap",
+          "detail": "₹10.2k–₹14.8k effective once AC electricity is included"
+        },
+        {
+          "label": "Confirm Kitchen Hours",
+          "detail": "Verify induction vs full cooking limits"
+        }
+      ]
+    },
+    "redditSummary": "Best managed co-living convenience at the Vadapalani midpoint if flexing budget past ₹10k.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-in-vadapalani-chennai-pppfr",
+      "listingLabel": "Browse Vadapalani Metro PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube1+Vadapalani+Metro+Chennai"
+    },
+    "source": "MagicBricks / Yube1",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
+  },
+  {
+    "id": "jafferkhanpet-ekkattuthangal-metro-boys-pg",
+    "name": "Jafferkhanpet & Ekkattuthangal Metro Boys AC PGs (Kitchen/Mess Pool)",
+    "category": "Budget Men's PG",
+    "locality": "Ekkattuthangal",
+    "address": "Ekkattuthangal Metro & Jafferkhanpet market corridor (near Olympia Tech Park)",
+    "metroStation": "Ekkattuthangal Metro (Green Line)",
+    "metroWalk": "~0.4–1.0 km to Ekkattuthangal Metro",
+    "commute": {
+      "jidokaMins": "~32–38 min",
+      "jidokaRoute": "Green Line Ekkattuthangal -> Thirumangalam + auto",
+      "iitmMins": "~18–26 min",
+      "iitmRoute": "Blue Line via Alandur or direct Guindy/Sardar Patel Rd bus"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 5500,
+      "monthlyRentPerPersonMax": 9000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6500,
+      "effectiveTotalPerPersonMax": 10500,
+      "priceNote": "MagicBricks Ekkattuthangal Metro PGs span ₹5,000–₹10,000+/mo; includes Wi-Fi, washing machines & common kitchen/mess options.",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance",
+      "sharingType": "Twin / Triple / Multi-Share AC"
+    },
+    "eligibility": "Men's / Boys PG",
+    "features": {
+      "ac": "Yes (AC rooms available)",
+      "beds": "Yes (Beds + Washing Machine + Wi-Fi)",
+      "kitchen": "Common Kitchen / Mess Meals (Per listing)",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Washing Machine + Common Kitchen",
+          "detail": "Strong fit for interns preferring budget laundry + light cooking"
+        },
+        {
+          "label": "Direct Green Line Metro",
+          "detail": "No line change for Jidoka + 1 stop to Alandur for IITM"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm Twin AC Exact Rate",
+          "detail": "₹5k–₹6.5k covers multi-share; Twin AC sits closer to ₹8k–₹9.5k"
+        },
+        {
+          "label": "Ask About AC EB Split",
+          "detail": "Check sub-meter tariff on site before paying deposit"
+        }
+      ]
+    },
+    "redditSummary": "Jafferkhanpet & Ekkattuthangal Green Line corridors balance budget hostels near Olympia Tech Park with smooth IITM access.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/pg-near-ekkattuthangal-metro-station-in-chennai-pppfr",
+      "listingLabel": "Browse Ekkattuthangal Metro PGs",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ekkattuthangal+Metro+Station+Chennai"
+    },
+    "source": "MagicBricks",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852415_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852413_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852421_400_540.jpg"
+    ],
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852415_400_540.jpg",
+    "imageType": "property",
+    "addedRound": 11,
+    "addedAt": "2026-11-25T17:56:00+05:30"
   }
 ]
