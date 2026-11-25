@@ -3925,5 +3925,426 @@
     "source": "99acres / NoBroker",
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30"
+  },
+  {
+    "id": "kpa-mens-pg-arumbakkam",
+    "name": "KPA Men's PG & Hostel (Arumbakkam — Self-Cooking ₹4.5k–₹6.5k)",
+    "category": "Budget Men's PG",
+    "locality": "Arumbakkam / Koyambedu",
+    "address": "34/2, 2nd West Cross Street, Amaravathi Nagar (Near Central Bank of India), Arumbakkam, Chennai 600106",
+    "metroStation": "Arumbakkam Metro (Green Line)",
+    "metroWalk": "~8–12 min walk",
+    "commute": {
+      "jidokaMins": "~16–22 min",
+      "jidokaRoute": "Arumbakkam -> Thirumangalam (Green Line) + auto",
+      "iitmMins": "~35–45 min",
+      "iitmRoute": "Arumbakkam -> Alandur -> Guindy + bus/auto to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 4500,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5500,
+      "effectiveTotalPerPersonMax": 8000,
+      "priceNote": "Base ₹4,500–₹6,500/month (no mandatory mess fee; confirm AC 2-sharing surcharge & EB)",
+      "budgetFit": "in-budget",
+      "deposit": "Verify advance directly",
+      "sharingType": "2-Sharing / 3-Sharing / Multi-Sharing"
+    },
+    "eligibility": "Men / Boys only",
+    "features": {
+      "ac": "Optional / AC Rooms Offered (Verify 2-Share)",
+      "beds": "Yes",
+      "kitchen": "Common Kitchen / Self-Cooking Allowed + Fridge",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Self-Cooking Kitchen + Fridge",
+          "detail": "No-food/cooking-allowed PG with common kitchen, fridge & RO"
+        },
+        {
+          "label": "Fits ₹5.5k–₹8k Total Cap",
+          "detail": "₹4.5k–₹6.5k base leaves budget for AC EB"
+        },
+        {
+          "label": "Washing Machine, Wi-Fi, Power Backup, CCTV",
+          "detail": "Attached bathrooms"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify AC 2-Sharing Availability",
+          "detail": "Many budget rooms here are non-AC; confirm AC twin rate + EB"
+        },
+        {
+          "label": "Confirm Stove/Induction Setup",
+          "detail": "Verify whether gas/induction is provided or BYO induction"
+        }
+      ]
+    },
+    "redditSummary": "Great Arumbakkam find right along Green Line Metro if you want self-cooking without paying ₹12k+ Zolo rents.",
+    "links": {
+      "listingUrl": "https://housing.com/paying-guests/16689763-kpa-men-s-pg-hostel-in-arumbakkam-chennai",
+      "listingLabel": "View on Housing.com",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=KPA+Mens+PG+Amaravathi+Nagar+Arumbakkam+Chennai"
+    },
+    "source": "Housing.com / GopGo / Justdial",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "nitu-hive-hitech-choolaimedu",
+    "name": "Nitu Hive Hitech PG (Choolaimedu — AC + Microwave & Fridge)",
+    "category": "Budget Men's PG",
+    "locality": "Choolaimedu / Vadapalani",
+    "address": "2nd Floor, S1, 42/65, Thiruvengadapuram 1st St, Off Choolaimedu High Rd, Chennai 600094",
+    "metroStation": "Vadapalani Metro / Nungambakkam Rail",
+    "metroWalk": "~12–15 min to Metro / short walk to Choolaimedu High Rd",
+    "commute": {
+      "jidokaMins": "~25–33 min",
+      "jidokaRoute": "Vadapalani/Shenoy Nagar Metro -> Thirumangalam + auto",
+      "iitmMins": "~28–36 min",
+      "iitmRoute": "Vadapalani -> Alandur -> Guindy or Nungambakkam bus"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 6750,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7750,
+      "effectiveTotalPerPersonMax": 10000,
+      "priceNote": "Listings cite ₹6,750–₹8,000+ (single/double/triple/4-share; AC options available; food not bundled)",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2-Sharing / 3-Sharing / 4-Sharing / Single"
+    },
+    "eligibility": "Men / Boys only",
+    "features": {
+      "ac": "Yes (AC rooms available)",
+      "beds": "Yes",
+      "kitchen": "Microwave + Fridge (No mandatory mess; verify induction)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "No Mandatory Mess Fee",
+          "detail": "Microwave, fridge, automatic washing machine, RO cooler, Wi-Fi, 2W parking"
+        },
+        {
+          "label": "AC Rooms + Midpoint Location",
+          "detail": "Choolaimedu High Rd sits centrally between Anna Nagar & Saidapet"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Microwave/Fridge Only Confirmed",
+          "detail": "Ask whether induction cooking is permitted"
+        },
+        {
+          "label": "Check Exact Twin AC + EB Total",
+          "detail": "Twin AC + EB likely lands ₹8.5k–₹10k/person"
+        }
+      ]
+    },
+    "redditSummary": "Choolaimedu is a lively student/intern belt; Nitu Hive gives modern utilities without forcing a hostel mess subscription.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/nitu-hive-hitech-choolaimedu-pg-choolaimedu-in-chennai&pgid=4d42333931343437677261646532",
+      "listingLabel": "View on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Nitu+Hive+Hitech+PG+Thiruvengadapuram+Choolaimedu+Chennai"
+    },
+    "source": "MagicBricks / Sulekha",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "av-castle-mens-choolaimedu",
+    "name": "AV Castle Men's PG (Choolaimedu / Metha Nagar)",
+    "category": "Budget Men's PG",
+    "locality": "Choolaimedu / Vadapalani",
+    "address": "No. 7, Thiruvalluvarpuram 1st St, Metha Nagar, Choolaimedu, Chennai 600094",
+    "metroStation": "Shenoy Nagar / Vadapalani Metro / Nungambakkam Rail",
+    "metroWalk": "~10–15 min",
+    "commute": {
+      "jidokaMins": "~24–32 min",
+      "jidokaRoute": "Shenoy Nagar/Vadapalani Metro -> Thirumangalam + auto",
+      "iitmMins": "~28–36 min",
+      "iitmRoute": "Vadapalani/Nungambakkam -> Guindy/Little Mount"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 8000,
+      "monthlyRentPerPersonMax": 9500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 9000,
+      "effectiveTotalPerPersonMax": 11000,
+      "priceNote": "Starts ~₹8,000+/month (AC on request; ₹15,000 security deposit)",
+      "budgetFit": "borderline",
+      "deposit": "~₹15,000",
+      "sharingType": "Single / Sharing (Verify 2-Share)"
+    },
+    "eligibility": "Men / Boys only",
+    "features": {
+      "ac": "Optional (AC on request)",
+      "beds": "Yes",
+      "kitchen": "Shared Fridge / Verify Cooking",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "High-Speed Wi-Fi, Washing Machine, Fridge",
+          "detail": "Power backup, daily room cleaning & bike parking"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Higher ₹15k Deposit + >₹8k With AC",
+          "detail": "Verify AC surcharge & whether cooking is allowed"
+        }
+      ]
+    },
+    "redditSummary": "Metha Nagar / Choolaimedu pocket offers good transit to both Anna Nagar and central/south rail & Metro lines.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/av-castle-pg-accommodation-choolaimedu-in-chennai&pgid=4d42323036393537677261646532",
+      "listingLabel": "View on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=AV+Castle+Mens+PG+Metha+Nagar+Choolaimedu+Chennai"
+    },
+    "source": "MagicBricks / Justdial",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "boys-girls-cit-nagar",
+    "name": "CIT Nagar Co-Ed AC PG (₹2k Deposit · Zero Notice)",
+    "category": "Budget Men's PG",
+    "locality": "Saidapet",
+    "address": "CIT Nagar (0.8 km Saidapet Metro, 0.8 km ASV Ramana Tech Park), Chennai",
+    "metroStation": "Saidapet Metro (Blue Line)",
+    "metroWalk": "~9–10 min walk (0.8 km)",
+    "commute": {
+      "jidokaMins": "~38–46 min",
+      "jidokaRoute": "Saidapet -> Alandur -> Thirumangalam + auto",
+      "iitmMins": "~12–20 min",
+      "iitmRoute": "Short bus/auto along Anna Salai / Sardar Patel Rd to IITM"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 8000,
+      "monthlyRentPerPersonMax": 8000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 9000,
+      "effectiveTotalPerPersonMax": 9500,
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹8,000 | Triple AC ₹6,000 | Single AC ₹11,000 (Food charge extra)",
+      "budgetFit": "borderline",
+      "deposit": "₹2,000 (Notice Period: None!)",
+      "sharingType": "2-Sharing / 3-Sharing / Single"
+    },
+    "eligibility": "Unisex / Co-ed (Boys & Girls)",
+    "features": {
+      "ac": "Yes (Twin Sharing With AC ₹8,000)",
+      "beds": "Yes",
+      "kitchen": "Fridge + Optional Food Extra (No private stove)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "₹2,000 Deposit & Zero Notice",
+          "detail": "Ideal internship flexibility"
+        },
+        {
+          "label": "Gym, Lift, Laundry, Fridge, RO, AC, Wi-Fi",
+          "detail": "5.0/5 MagicBricks listing"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Food & AC EB Extra",
+          "detail": "Total w/ EB ~₹9k–₹9.5k/person; no full cooking kitchen"
+        }
+      ]
+    },
+    "redditSummary": "Hard to beat ₹2k deposit and zero notice period near Saidapet Metro for short-term interns.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/boys-and-girls-pg-cit-nagar-in-chennai&pgid=4d42343238383239677261646532",
+      "listingLabel": "View on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=CIT+Nagar+Saidapet+Metro+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "barathvaaj-pg-tnagar",
+    "name": "Barathvaaj PG (T. Nagar — Twin AC ₹8k + Food)",
+    "category": "Budget Men's PG",
+    "locality": "T. Nagar / Teynampet",
+    "address": "T. Nagar (0.2 km Bascon Futura SV IT Park, 1.0 km Teynampet Metro), Chennai",
+    "metroStation": "Teynampet Metro (Blue Line)",
+    "metroWalk": "~11–12 min walk (1.0 km)",
+    "commute": {
+      "jidokaMins": "~34–42 min",
+      "jidokaRoute": "Teynampet -> Central/Alandur -> Thirumangalam + auto",
+      "iitmMins": "~18–26 min",
+      "iitmRoute": "Teynampet -> Saidapet/Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 8000,
+      "monthlyRentPerPersonMax": 8000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 9000,
+      "effectiveTotalPerPersonMax": 9500,
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹8,000 (Food Included) | Triple AC ₹6,000 | Single AC ₹10,000",
+      "budgetFit": "borderline",
+      "deposit": "₹6,000 (1-month notice)",
+      "sharingType": "2-Sharing / 3-Sharing / Single"
+    },
+    "eligibility": "Unisex / Co-ed (Boys & Girls)",
+    "features": {
+      "ac": "Yes (Twin Sharing With AC ₹8,000)",
+      "beds": "Yes",
+      "kitchen": "Veg & Non-Veg Food Included (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Veg & Non-Veg Meals Included",
+          "detail": "AC, Wi-Fi, TV, power backup, cleaning & parking"
+        },
+        {
+          "label": "₹6,000 Deposit",
+          "detail": "Clean central T. Nagar hub"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No Self-Cooking Kitchen",
+          "detail": "Includes mess food; EB extra pushes total ~₹9k–₹9.5k"
+        }
+      ]
+    },
+    "redditSummary": "Solid central T. Nagar option with both veg and non-veg food inside ₹8,000 Twin AC.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/barathvaaj-pg-t-nagar-in-chennai&pgid=4d42323630303531677261646532",
+      "listingLabel": "View on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barathvaaj+PG+T+Nagar+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "new-diyaa-pg-adyar",
+    "name": "New Diyaa Men's PG (Indira Nagar Adyar — Twin AC ₹7.5k–₹8k)",
+    "category": "Budget Men's PG",
+    "locality": "Adyar / Near IIT Madras",
+    "address": "Indira Nagar, Adyar (0.4 km TIDEL Park, 0.6 km Indira Nagar MRTS), Chennai",
+    "metroStation": "Indira Nagar MRTS / Little Mount Feeder",
+    "metroWalk": "~7 min walk to MRTS",
+    "commute": {
+      "jidokaMins": "~50–65 min",
+      "jidokaRoute": "MRTS/Bus -> Guindy/Central -> Thirumangalam Metro",
+      "iitmMins": "~5–12 min",
+      "iitmRoute": "Right next to IIT Madras Taramani / Main Gate"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 8000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 9500,
+      "priceNote": "MagicBricks lists Twin Sharing With AC ₹7,500–₹8,000 | Triple AC ₹6,500–₹7,000 (Food charge extra)",
+      "budgetFit": "borderline",
+      "deposit": "Verify advance",
+      "sharingType": "2-Sharing / 3-Sharing / 4-Sharing / Single"
+    },
+    "eligibility": "Men / Boys only",
+    "features": {
+      "ac": "Yes (Twin Sharing With AC)",
+      "beds": "Yes",
+      "kitchen": "Meals Extra + Fridge (No private kitchen)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "5–12 min to IIT Madras",
+          "detail": "AC, Wi-Fi, fridge, laundry, veg/non-veg meals optional"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Long Jidoka Commute (~50–65m)",
+          "detail": "Not in the middle—heavily IITM-biased"
+        }
+      ]
+    },
+    "redditSummary": "Popular Adyar men's PG near TIDEL/IITM Taramani gate; only pick if Jidoka intern accepts ~1 hr transit.",
+    "links": {
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/new-diyaa-paying-guest-for-mens-pg-adyar-in-chennai&pgid=4d42353230363435677261646532",
+      "listingLabel": "View on MagicBricks",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=New+Diyaa+PG+Indira+Nagar+Adyar+Chennai"
+    },
+    "source": "MagicBricks",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
+  },
+  {
+    "id": "flat-pool-vadapalani-alagiri-olx",
+    "name": "Vadapalani Semi-Furnished 1RKs (Alagiri Nagar / Temple — ₹6.4k–₹9k/unit)",
+    "category": "1RK / 1BHK Flat Pool (Self-Cooking)",
+    "locality": "Vadapalani",
+    "address": "Alagiri Nagar & near Vadapalani Murugan Temple / Metro, Chennai",
+    "metroStation": "Vadapalani Metro (Green Line)",
+    "metroWalk": "~6–12 min walk",
+    "commute": {
+      "jidokaMins": "~22–28 min",
+      "jidokaRoute": "Vadapalani Metro -> Thirumangalam + auto",
+      "iitmMins": "~30–38 min",
+      "iitmRoute": "Vadapalani -> Alandur -> Guindy + bus/auto"
+    },
+    "pricing": {
+      "monthlyRentPerPersonMin": 3200,
+      "monthlyRentPerPersonMax": 4500,
+      "estimatedAcEbPerPersonMin": 1700,
+      "estimatedAcEbPerPersonMax": 2700,
+      "effectiveTotalPerPersonMin": 4900,
+      "effectiveTotalPerPersonMax": 7200,
+      "priceNote": "OLX verified ₹6,400–₹9,000/unit (₹3.2k–₹4.5k/person) + optional rented AC (~₹750–₹1,250/person on RentoMojo/PayRentz) + direct EB = ₹4.9k–₹7.2k/person!",
+      "budgetFit": "in-budget",
+      "deposit": "₹20,000–₹35,000 per unit (₹10k–₹17.5k each)",
+      "sharingType": "Whole Semi-Furnished 1RK Split by 2"
+    },
+    "eligibility": "Bachelor-friendly independent portions (verify on OLX chat)",
+    "features": {
+      "ac": "Add Rented AC (~₹750–₹1.25k/person via RentoMojo/Glacier Arumbakkam)",
+      "beds": "Semi-furnished (Bring/rent floor mattresses)",
+      "kitchen": "Full Private Kitchen Included",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Private Kitchen + Direct TNEB",
+          "detail": "Hits ₹5k–₹7.2k/person EVEN AFTER renting an AC for your internship!"
+        },
+        {
+          "label": "True Metro Midpoint (Alagiri Nagar)",
+          "detail": "Balanced commute for Jidoka & IIT Madras"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "AC & Beds Not Pre-Installed",
+          "detail": "Pair with RentoMojo/PayRentz or Glacier AC rental (Arumbakkam)"
+        },
+        {
+          "label": "₹20k–₹35k Unit Deposit",
+          "detail": "Higher than PG deposits; confirm bachelor approval & exit terms"
+        }
+      ]
+    },
+    "redditSummary": "Combo strategy backed by r/Chennai: rent a ₹6.4k–₹9k 1RK near Vadapalani Metro + rent a 1-ton AC (~₹1.5k–₹2.5k split 2 ways) to get AC + private kitchen under ₹7.5k/person.",
+    "links": {
+      "listingUrl": "https://www.olx.in/vadapalani_g5334969/rent-apartments_c1723/q-1rk",
+      "listingLabel": "Browse Vadapalani 1RKs on OLX",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alagiri+Nagar+Vadapalani+Chennai"
+    },
+    "source": "OLX India",
+    "addedRound": 6,
+    "addedAt": "2026-11-25T16:56:00+05:30"
   }
 ]

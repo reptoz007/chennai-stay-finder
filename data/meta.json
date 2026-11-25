@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 5,
-  "lastUpdated": "2026-11-25T16:44:00+05:30",
+  "roundsCompleted": 6,
+  "lastUpdated": "2026-11-25T16:56:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,8 +64,15 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 6: Hunting individual NoBroker/OLX furnished 1BHK/1RK ads with pre-installed AC & beds in Arumbakkam, Choolaimedu, Vadapalani, Ashok Nagar & Saidapet + verifying KPA Men's PG (Arumbakkam self-cooking) details.",
+  "nextFocus": "Round 7: Checking Alandur/St. Thomas Mount specific Men's PGs (Karpaga Vinayagar Koil St / Collector's Nagar), PayRentz/local AC rental rates, and individual Nestaway/Sulekha shared-flat rooms in Vadapalani & Guindy.",
   "searchLog": [
+    {
+      "round": 6,
+      "timestamp": "2026-11-25T16:56:00+05:30",
+      "queryFocus": "KPA Men's PG (Arumbakkam self-cooking), Nitu Hive & AV Castle (Choolaimedu), CIT Nagar Co-Ed ₹2k-deposit PG, Barathvaaj (T. Nagar), New Diyaa (Adyar), OLX Vadapalani Alagiri Nagar 1RKs + r/Chennai AC/furniture rental threads",
+      "addedCount": 7,
+      "notes": "Added 7 verified stays including KPA Men's PG Arumbakkam (self-cooking kitchen + fridge + ₹4.5k–₹6.5k base), CIT Nagar Co-Ed AC PG (₹2k deposit & zero notice), Nitu Hive & AV Castle (Choolaimedu), Barathvaaj (T. Nagar), New Diyaa (Adyar), and Vadapalani Alagiri Nagar 1RK + rented-AC combo strategy backed by 2 new r/chennaicity threads."
+    },
     {
       "round": 5,
       "timestamp": "2026-11-25T16:44:00+05:30",
