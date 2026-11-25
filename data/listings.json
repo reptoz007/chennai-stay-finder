@@ -8315,5 +8315,359 @@
       "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
     ],
     "imageType": "neighborhood"
+  },
+  {
+    "id": "ekkattuthangal-boys-pg-pool-mb",
+    "name": "Ekkattuthangal Boys PGs (Best Care ₹6k+ / Sai Ram ₹5.5k+ AC Index)",
+    "category": "Men's PG (Twin / Triple / 4-Sharing)",
+    "locality": "Ekkattuthangal",
+    "metroStation": "Ekkattuthangal Metro (Green Line)",
+    "metroWalk": "5–10 min walk across Ekkattuthangal & Defence Colony lanes",
+    "address": "Ekkattuthangal (near Metro & Olympia Tech Park side), Chennai 600032",
+    "eligibility": "Men / Working Professionals & Interns (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5500,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 900,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6400,
+      "effectiveTotalPerPersonMax": 10000,
+      "deposit": "₹3,000–₹8,000 (verify branch)",
+      "sharingType": "Triple / Four / Twin AC",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks Ekkattuthangal Boys PG index: Sai Ram Men's Hostel starts ~₹5,500 & Best Care ~₹6,000+ (3-time meals/AC/Wi-Fi); Twin AC pushes ₹8.5k–₹10k."
+    },
+    "commute": {
+      "jidokaMins": "30–36 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Ekkattuthangal Metro -> Green Line -> Thirumangalam + short auto",
+      "iitmRoute": "Auto/bus past Guindy Kathipara straight to IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC rooms available across sharing tiers)",
+      "beds": "Yes — Furnished cots, mattresses, TV, Wi-Fi",
+      "kitchen": "Verify (3-time PG meals usually included; verify self-cook rules)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Direct Green Line",
+          "detail": "Walk to Ekkattuthangal Metro straight to Thirumangalam"
+        },
+        {
+          "label": "Short IITM Ride",
+          "detail": "~15–20 min quick hop to Guindy / IIT Madras Gate"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Crowded Lower Tiers",
+          "detail": "Reddit warns ₹5.5k–₹6.5k rooms are often tight 3–4 sharing"
+        },
+        {
+          "label": "EB Rate Check",
+          "detail": "Confirm commercial AC meter rate before paying advance"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity advises inspecting Ekkattuthangal budget PGs in person for room space, sub-meter EB rate, and drainage height.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Ekkattuthangal",
+      "listingUrl": "https://www.magicbricks.com/paying-guest-for-boys-in-ekkatuthangal-chennai-pppfr",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Best+Care+Mens+Hostel+Ekkattuthangal+Chennai"
+    },
+    "addedRound": 16,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "alandur-interchange-1rk-nobroker",
+    "name": "Alandur Interchange 1RK Direct-Owner Flats (Zero Brokerage · Green + Blue Hub)",
+    "category": "1RK Flat Pool",
+    "locality": "Alandur",
+    "metroStation": "Alandur Metro (Green & Blue Interchange)",
+    "metroWalk": "5–10 min walk to Alandur / St. Thomas Mount Metro Hub",
+    "address": "Alandur / MKM Rd / Near Alandur Metro, Chennai 600016",
+    "eligibility": "Bachelors / 2 Male Flatmates (filter Tenants: Bachelors)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4500,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5600,
+      "effectiveTotalPerPersonMax": 8100,
+      "deposit": "Zero Brokerage (owner deposit ₹25k–₹40k)",
+      "sharingType": "1RK / Compact Portion (₹9k–₹13k split)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Alandur 1RK direct-owner index: ₹9k–₹13k/unit splits cleanly to ₹4.5k–₹6.5k/person + AC EB (~₹5.6k–₹8.1k total) with zero broker fees."
+    },
+    "commute": {
+      "jidokaMins": "32–38 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Alandur Metro -> Direct Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Blue Line 1 stop to Guindy + 10 min bus/auto to IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm split/window AC or rent)",
+      "beds": "Semi/Unfurnished (budget RentoMojo cots/mattresses)",
+      "kitchen": "Yes — Private 1RK kitchen slab & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Interchange Hub",
+          "detail": "Both Green Line & Blue Line without changing platforms"
+        },
+        {
+          "label": "Zero Brokerage",
+          "detail": "Direct owner listing saves 1 month broker fee"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Slightly Asymmetric",
+          "detail": "Faster to IITM (~18m) vs Jidoka (~35m Green Line)"
+        },
+        {
+          "label": "Low-Lying Pockets",
+          "detail": "Avoid ground floors in narrow interior Alandur lanes"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity flags Alandur Metro hub as top Blue+Green Line convenience for IITM/Guindy commuters without breaking budget.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Alandur 1RK",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-alandur_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Alandur+Metro+Station+Chennai"
+    },
+    "addedRound": 16,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "ekkattuthangal-1rk-nobroker-pool",
+    "name": "Ekkattuthangal Direct-Owner 1RK Flats (NoBroker Zero Brokerage)",
+    "category": "1RK Flat Pool",
+    "locality": "Ekkattuthangal",
+    "metroStation": "Ekkattuthangal Metro (Green Line)",
+    "metroWalk": "5–10 min walk to Ekkattuthangal Metro",
+    "address": "Ekkattuthangal (near Kalaimagal Nagar / Metro lanes), Chennai 600032",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4500,
+      "monthlyRentPerPersonMax": 6800,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5600,
+      "effectiveTotalPerPersonMax": 8400,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1RK / Studio Split (₹9k–₹13.5k flat)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Ekkattuthangal zero-fee 1RKs typically run ₹9k–₹13.5k/unit (₹4.5k–₹6.8k/person base); check bachelor permission & direct TANGEDCO EB."
+    },
+    "commute": {
+      "jidokaMins": "30–36 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Ekkattuthangal Metro -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Kathipara / Guindy Rd bus/auto to IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC or rental permission)",
+      "beds": "Semi/Unfurnished (check cot/wardrobe)",
+      "kitchen": "Yes — Dedicated 1RK cooking counter & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Bachelor-Friendly Belt",
+          "detail": "IT Estate adjacency means high bachelor acceptance"
+        },
+        {
+          "label": "Full Kitchen",
+          "detail": "Private bathroom + full self-cooking freedom"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Furnishing Cost",
+          "detail": "Budget rented cots & AC if owner unit is bare"
+        },
+        {
+          "label": "Peak Traffic",
+          "detail": "Kathipara junction backs up during evening peak"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity recommends Ekkattuthangal 1RKs over cramped PGs for singles/pairs who want a private bath and kitchen access.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Ekkattuthangal",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-ekkatuthangal_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ekkattuthangal+Metro+Station+Chennai"
+    },
+    "addedRound": 16,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "saidapet-1rk-nobroker-pool",
+    "name": "Saidapet Direct-Owner 1RK Pool (NoBroker · Zero Brokerage Blue Line)",
+    "category": "1RK Flat Pool",
+    "locality": "Saidapet",
+    "metroStation": "Saidapet / Little Mount Metro (Blue Line)",
+    "metroWalk": "5–8 min walk to Saidapet Metro & Anna Salai buses",
+    "address": "Saidapet / Jones Rd / West Saidapet, Chennai 600015",
+    "eligibility": "Bachelors / 2 Male Flatmates",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4500,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5600,
+      "effectiveTotalPerPersonMax": 8100,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1RK Portion (₹9k–₹13k split)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Saidapet direct-owner 1RKs (~₹9k–₹13k/unit): zero brokerage saves upfront cash; ₹5.6k–₹8.1k/person est. incl. AC EB."
+    },
+    "commute": {
+      "jidokaMins": "32–40 mins",
+      "iitmMins": "10–16 mins",
+      "jidokaRoute": "Saidapet Metro -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmRoute": "10–15 min direct bus/auto to IITM Main Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC or window slot)",
+      "beds": "Semi/Unfurnished (confirm cot availability)",
+      "kitchen": "Yes — Private 1RK kitchen platform & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "IITM Doorstep",
+          "detail": "10–15 mins straight to IITM Gate"
+        },
+        {
+          "label": "Zero Brokerage",
+          "detail": "Direct owner deals with full cooking setup"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Longer for Harsha",
+          "detail": "~35–40 min Metro+interchange ride up to Padi"
+        },
+        {
+          "label": "Street Check",
+          "detail": "Avoid low-lying Adyar riverfront/Jones Rd edges"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity notes Saidapet/Little Mount keeps rents significantly lower than Adyar while sitting one bus hop from IITM.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Saidapet 1RK",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-saidapet_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Saidapet+Metro+Station+Chennai"
+    },
+    "addedRound": 16,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "guindy-1rk-nobroker-pool",
+    "name": "Guindy Direct-Owner 1RK Flats Pool (NoBroker · Zero Brokerage)",
+    "category": "1RK Flat Pool",
+    "locality": "Guindy",
+    "metroStation": "Guindy Metro (Blue Line + MRTS/Rail)",
+    "metroWalk": "5–10 min walk to Guindy Metro & Sardar Patel Rd",
+    "address": "Guindy (Industrial Estate / Race Course side), Chennai 600032",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 9100,
+      "deposit": "Zero Brokerage (owner deposit)",
+      "sharingType": "1RK / Studio Split (₹10k–₹15k unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Guindy zero-fee 1RKs typically list ₹10k–₹15k/flat (₹5k–₹7.5k/person split); add ₹1.1k–₹1.6k/person for AC EB."
+    },
+    "commute": {
+      "jidokaMins": "32–40 mins",
+      "iitmMins": "8–15 mins",
+      "jidokaRoute": "Guindy Metro -> Alandur -> Green Line -> Thirumangalam + auto",
+      "iitmRoute": "Immediate Sardar Patel Rd bus/auto to IITM Gate"
+    },
+    "features": {
+      "ac": "Verify / Add AC (confirm existing AC point)",
+      "beds": "Semi/Unfurnished (check furniture)",
+      "kitchen": "Yes — Private 1RK kitchen platform & sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "IITM Hub",
+          "detail": "8–15 mins directly along Sardar Patel Rd"
+        },
+        {
+          "label": "Multi-Modal Transit",
+          "detail": "Metro, suburban rail & MTC terminus right there"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Harsha Commute",
+          "detail": "Requires Alandur Green Line transfer up to Padi"
+        },
+        {
+          "label": "Stock Competition",
+          "detail": "Guindy 1RKs get picked fast by industrial-estate staff"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai favors Guindy/Sardar Patel Rd edge for zero commute to IITM + instant Metro access.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Guindy 1RK",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-guindy_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Guindy+Metro+Station+Chennai"
+    },
+    "addedRound": 16,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
   }
 ]

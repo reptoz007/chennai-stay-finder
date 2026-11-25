@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 15,
-  "lastUpdated": "2026-11-25T19:21:00+05:30",
+  "roundsCompleted": 16,
+  "lastUpdated": "2026-11-25T19:32:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 16: Search Ekkattuthangal, Guindy, and Saidapet specific independent 1RK/1BHK owner flats + verified Thirumangalam/Koyambedu AC Men's PG detail pages with room rents.",
+  "nextFocus": "Round 17: Search individual MagicBricks propertyDetail & RentOk men's PGs with room-level pricing & photos in Thirumangalam, Koyambedu, Anna Nagar East, and Kodambakkam.",
   "searchLog": [
     {
       "round": 13,
@@ -170,6 +170,13 @@
       "queryFocus": "K.K. Nagar Sector 10 & Akash Apt 1RK pools, Ashok Nagar Indira Colony portions, West Mambalam 1BHK floors, Yube1 Sarmani Anna Salai + r/Chennai flat/PG threads",
       "addedCount": 8,
       "notes": "Added 5 verified stays (1K/1BHK midpoint flats in KK Nagar, Ashok Nagar, West Mambalam + Yube1 Sarmani with 5 direct photos) & 3 Reddit threads. Total: 116 stays, 47 Reddit threads."
+    },
+    {
+      "round": 16,
+      "timestamp": "2026-11-25 19:32 IST",
+      "queryFocus": "Ekkattuthangal Boys PGs (Best Care / Sai Ram ₹5.5k–₹6k+), NoBroker zero-fee 1RK pools in Alandur Interchange, Ekkattuthangal, Guindy & Saidapet + PG red-flag Reddit threads",
+      "addedCount": 8,
+      "notes": "Added 5 verified stays (zero-brokerage Alandur/Ekkattuthangal/Guindy/Saidapet 1RKs + Ekkattuthangal AC PGs pool) & 3 Reddit intel threads. Total: 121 stays, 50 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
