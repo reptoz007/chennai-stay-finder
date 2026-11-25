@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 13,
-  "lastUpdated": "2026-11-25T18:20:00+05:30",
+  "roundsCompleted": 14,
+  "lastUpdated": "2026-11-25T18:45:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 14: Exact street-level Men's PGs & 1RKs along Padi / Anna Nagar Western Extension (near Jidoka gate), K.K. Nagar West / MGR Nagar budget hostels, and fresh r/Chennai monsoons/waterlogging checks by locality.",
+  "nextFocus": "Round 15: Verify more individual 1RK/1BHK AC + private-kitchen flats in K.K. Nagar, West Mambalam, Ekkattuthangal, and Saidapet (via Olx/99acres/NoBroker) plus direct AC shared-PG rates in Thirumangalam & Koyambedu.",
   "searchLog": [
     {
       "round": 13,
@@ -156,6 +156,15 @@
       "queryFocus": "MagicBricks, ZoloStays, Truliv, Yube1, SpaceOS, Justdial, NoBroker, Housing.com, 99acres, OLX & r/Chennai / r/chennaicity across Koyambedu–Saidapet Metro belt",
       "addedCount": 22,
       "notes": "Indexed 11 local Men's/Boys PGs, 7 managed co-living benchmarks (Zolo/Truliv/Yube1), 4 verified 1RK/1BHK Metro-midpoint rental pools, and 10 resolved Reddit review threads. Filtered out Radha Residency (Ashok Nagar) after Justdial/MagicBricks cross-check showed Women/Girls eligibility, and Stanza Living Grodno House (located in Pallikaranai, outside Metro midpoint)."
+    },
+    {
+      "round": 14,
+      "timestamp": "2026-11-25 18:45 IST",
+      "queryFocus": "Padi & TVS Colony Jidoka-side PGs (Forse Mens PG, Sarasuvathi PG), Karambakkam/Porur budget AC (GK Mens Hostel), Anna Nagar study hub (Aspirants Nest), & r/Chennai flood-drainage threads",
+      "addedCount": 7,
+      "notes": "Added 4 verified stays (100% real MagicBricks/Anna Nagar photos, ₹500–₹10k deposits clearly flagged for AC vs Non-AC) & 3 monsoon/drainage Reddit guides. Total: 111 stays, 44 Reddit threads."
     }
-  ]
+  ],
+  "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
+  "collabEndpoint": "https://textdb.dev/api/data/staymid_chennai_9f4c2e1b8a3d7c50"
 }

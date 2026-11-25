@@ -3,6 +3,19 @@ const state = {
   listings: [],
   reddit: [],
   userState: { shortlisted: [], hidden: [], notes: {} },
+  profile: null,
+  pendingProfile: null,
+  chatOpen: false,
+  chatMentionId: null,
+  collabSynced: true,
+  lastSeenMsgTs: 0,
+  collab: {
+    version: 1,
+    room: "staymid_chennai_9f4c2e1b8a3d7c50",
+    saved: { harsha: [], rajat: [] },
+    messages: [],
+    notes: { harsha: {}, rajat: {} },
+  },
   activeSection: "listings",
   activeChip: "all",
   viewMode: "cards",
@@ -19,9 +32,215 @@ const state = {
 };
 
 const STORAGE_KEY = "staymid_chennai_user_state_v1";
+const PROFILE_KEY = "staymid_profile_v1";
+const COLLAB_STORAGE_KEY = "staymid_collab_cache_v1";
+const CHAT_SEEN_KEY = "staymid_chat_seen_ts_v1";
+const DEFAULT_COLLAB_ROOM = "staymid_chennai_9f4c2e1b8a3d7c50";
 const IS_EMBEDDED = Boolean(window.__EMBEDDED_STAYMID_DATA__);
 const IS_LOCAL_SERVER =
   location.hostname === "127.0.0.1" || location.hostname === "localhost";
+
+function getCollabRoomId() {
+  try {
+    const sp = new URLSearchParams(location.search);
+    const hashMatch = location.hash.match(/room=([A-Za-z0-9_-]+)/);
+    return (
+      sp.get("room") ||
+      (hashMatch && hashMatch[1]) ||
+      state.meta?.collabRoomId ||
+      DEFAULT_COLLAB_ROOM
+    );
+  } catch {
+    return state.meta?.collabRoomId || DEFAULT_COLLAB_ROOM;
+  }
+}
+
+function getRemoteCollabUrl() {
+  const room = getCollabRoomId();
+  if (state.meta?.collabEndpoint && room === state.meta?.collabRoomId) {
+    return state.meta.collabEndpoint;
+  }
+  return `https://textdb.dev/api/data/${room}`;
+}
+
+function normalizeCollab(raw) {
+  const obj = raw && typeof raw === "object" ? raw : {};
+  const saved = obj.saved && typeof obj.saved === "object" ? obj.saved : {};
+  const notes = obj.notes && typeof obj.notes === "object" ? obj.notes : {};
+  return {
+    version: 1,
+    room: obj.room || getCollabRoomId(),
+    saved: {
+      harsha: Array.isArray(saved.harsha) ? Array.from(new Set(saved.harsha)) : [],
+      rajat: Array.isArray(saved.rajat) ? Array.from(new Set(saved.rajat)) : [],
+    },
+    messages: Array.isArray(obj.messages)
+      ? obj.messages
+          .filter((m) => m && typeof m === "object" && m.id && m.sender)
+          .sort((a, b) => (a.ts || 0) - (b.ts || 0))
+          .slice(-250)
+      : [],
+    notes: {
+      harsha: notes.harsha && typeof notes.harsha === "object" ? { ...notes.harsha } : {},
+      rajat: notes.rajat && typeof notes.rajat === "object" ? { ...notes.rajat } : {},
+    },
+  };
+}
+
+function loadLocalCollab() {
+  try {
+    const raw = localStorage.getItem(COLLAB_STORAGE_KEY);
+    return raw ? normalizeCollab(JSON.parse(raw)) : null;
+  } catch {
+    return null;
+  }
+}
+
+function persistCollabLocal() {
+  try {
+    localStorage.setItem(COLLAB_STORAGE_KEY, JSON.stringify(state.collab));
+  } catch {}
+}
+
+function profileDisplayName(p) {
+  return p === "rajat" ? "Rajat" : p === "harsha" ? "Harsha" : "Guest";
+}
+
+function getSaveInfo(id) {
+  const h = (state.collab.saved?.harsha || []).includes(id);
+  const r = (state.collab.saved?.rajat || []).includes(id);
+  return {
+    harsha: h,
+    rajat: r,
+    both: h && r,
+    any: h || r,
+    mine: state.profile ? (state.collab.saved?.[state.profile] || []).includes(id) : false,
+  };
+}
+
+function saveBadgeHtml(id) {
+  const s = getSaveInfo(id);
+  if (s.both) return `<span class="badge badge-save-both" title="Saved by both Harsha & Rajat">★ Both Saved</span>`;
+  if (s.harsha) return `<span class="badge badge-save-harsha" title="Saved by Harsha">★ Harsha</span>`;
+  if (s.rajat) return `<span class="badge badge-save-rajat" title="Saved by Rajat">★ Rajat</span>`;
+  return "";
+}
+
+async function fetchRemoteCollabRaw() {
+  const url = `${getRemoteCollabUrl()}?t=${Date.now()}`;
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Remote HTTP ${res.status}`);
+  const txt = await res.text();
+  if (!txt || txt.trim() === "" || txt.trim() === "{}") return null;
+  const parsed = JSON.parse(txt);
+  if (!parsed || typeof parsed !== "object" || !parsed.saved) return null;
+  return normalizeCollab(parsed);
+}
+
+async function writeRemoteCollab(payload) {
+  const clean = normalizeCollab(payload);
+  const res = await fetch(getRemoteCollabUrl(), {
+    method: "POST",
+    headers: { "Content-Type": "text/plain" },
+    body: JSON.stringify(clean),
+  });
+  if (!res.ok) throw new Error(`Remote save HTTP ${res.status}`);
+  if (IS_LOCAL_SERVER) {
+    try {
+      await fetch("/api/collab", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(clean),
+      });
+    } catch {}
+  }
+}
+
+async function fetchCollabSync() {
+  if (IS_EMBEDDED) {
+    const cached = loadLocalCollab();
+    if (cached) state.collab = cached;
+    state.collabSynced = false;
+    return;
+  }
+  try {
+    const remote = await fetchRemoteCollabRaw();
+    if (remote) {
+      state.collab = remote;
+      persistCollabLocal();
+      state.collabSynced = true;
+      if (IS_LOCAL_SERVER) {
+        fetch("/api/collab", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(remote),
+        }).catch(() => {});
+      }
+      return;
+    }
+  } catch {
+    state.collabSynced = false;
+  }
+  if (IS_LOCAL_SERVER) {
+    try {
+      const lr = await fetch(`/api/collab?t=${Date.now()}`, { cache: "no-store" });
+      if (lr.ok) {
+        state.collab = normalizeCollab(await lr.json());
+        persistCollabLocal();
+      }
+    } catch {}
+  }
+}
+
+async function updateCollab(mutator) {
+  if (!state.profile) {
+    openLoginOverlay(true);
+    return;
+  }
+  mutator(state.collab);
+  persistCollabLocal();
+  renderAll();
+  try {
+    const remote = await fetchRemoteCollabRaw();
+    if (remote) {
+      mutator(remote);
+      state.collab = remote;
+    }
+    await writeRemoteCollab(state.collab);
+    persistCollabLocal();
+    state.collabSynced = true;
+  } catch {
+    state.collabSynced = false;
+  }
+  renderAll();
+}
+
+async function toggleSaveStay(id) {
+  if (!state.profile) {
+    openLoginOverlay(true);
+    return;
+  }
+  const actor = state.profile;
+  const currentlySaved = (state.collab.saved?.[actor] || []).includes(id);
+  const targetSaved = !currentlySaved;
+  await updateCollab((c) => {
+    const set = new Set(c.saved[actor] || []);
+    if (targetSaved) set.add(id);
+    else set.delete(id);
+    c.saved[actor] = Array.from(set);
+  });
+  showToast(
+    targetSaved
+      ? `Saved by ${profileDisplayName(actor)} (shared live!)`
+      : `Removed from ${profileDisplayName(actor)}'s saves`
+  );
+}
+
+function getSharedUrl() {
+  const room = getCollabRoomId();
+  const base = location.href.split("#")[0].split("?")[0];
+  return room && room !== DEFAULT_COLLAB_ROOM ? `${base}?room=${encodeURIComponent(room)}` : base;
+}
 
 function loadLocalUserState() {
   try {
@@ -165,7 +384,13 @@ function matchesChip(item, chip) {
     case "coliving":
       return cat.includes("co-living");
     case "shortlisted":
-      return state.userState.shortlisted.includes(item.id);
+      return getSaveInfo(item.id).any;
+    case "saved-harsha":
+      return getSaveInfo(item.id).harsha;
+    case "saved-rajat":
+      return getSaveInfo(item.id).rajat;
+    case "saved-both":
+      return getSaveInfo(item.id).both;
     default:
       return true;
   }
@@ -214,21 +439,78 @@ function getFilteredListings() {
   return filtered;
 }
 
+function ensureSaveFilterChips(hCount, rCount, bothCount, unionCount) {
+  const row = document.getElementById("filter-chips");
+  if (!row) return;
+  const legacy = row.querySelector('[data-filter="shortlisted"]');
+  if (legacy && !row.querySelector('[data-filter="saved-harsha"]')) {
+    legacy.insertAdjacentHTML(
+      "afterend",
+      `
+      <button class="chip" data-filter="saved-harsha">Harsha Saved (0)</button>
+      <button class="chip" data-filter="saved-rajat">Rajat Saved (0)</button>
+      <button class="chip" data-filter="saved-both">Both Saved ★ (0)</button>
+    `
+    );
+  }
+  const map = {
+    shortlisted: `Any Saved ★ (${unionCount})`,
+    "saved-harsha": `Harsha Saved (${hCount})`,
+    "saved-rajat": `Rajat Saved (${rCount})`,
+    "saved-both": `Both Saved ★ (${bothCount})`,
+  };
+  Object.entries(map).forEach(([f, txt]) => {
+    const el = row.querySelector(`[data-filter="${f}"]`);
+    if (el) {
+      el.textContent = txt;
+      el.classList.toggle("active", state.activeChip === f);
+    }
+  });
+}
+
 function renderHeaderAndKpis() {
   const total = state.listings.length;
   const inBudget = state.listings.filter((x) => x.pricing?.budgetFit === "in-budget").length;
   const hasKitchen = state.listings.filter((x) => matchesChip(x, "kitchen")).length;
-  const shortlistedCount = (state.userState.shortlisted || []).filter((id) =>
-    state.listings.some((x) => x.id === id)
-  ).length;
+  const validIds = new Set(state.listings.map((x) => x.id));
+  const hSaved = (state.collab.saved?.harsha || []).filter((id) => validIds.has(id));
+  const rSaved = (state.collab.saved?.rajat || []).filter((id) => validIds.has(id));
+  const hSet = new Set(hSaved);
+  const rSet = new Set(rSaved);
+  const bothCount = hSaved.filter((id) => rSet.has(id)).length;
+  const unionCount = new Set([...hSaved, ...rSaved]).size;
 
   document.getElementById("kpi-total").textContent = total;
   document.getElementById("kpi-inbudget").textContent = inBudget;
   document.getElementById("kpi-kitchen").textContent = hasKitchen;
-  document.getElementById("kpi-shortlisted").textContent = shortlistedCount;
+  document.getElementById("kpi-shortlisted").textContent = unionCount;
+  const kpiShortLbl = document.getElementById("kpi-shortlisted")?.parentElement?.querySelector("span");
+  if (kpiShortLbl) kpiShortLbl.textContent = `Saved (H:${hSaved.length} · R:${rSaved.length})`;
+  ensureSaveFilterChips(hSaved.length, rSaved.length, bothCount, unionCount);
   document.getElementById("tab-count-listings").textContent = total;
   document.getElementById("tab-count-reddit").textContent = state.reddit.length;
   document.getElementById("hidden-count").textContent = (state.userState.hidden || []).length;
+
+  const hStat = document.getElementById("login-stat-harsha");
+  const rStat = document.getElementById("login-stat-rajat");
+  if (hStat) hStat.textContent = `${hSaved.length} stay${hSaved.length === 1 ? "" : "s"} saved`;
+  if (rStat) rStat.textContent = `${rSaved.length} stay${rSaved.length === 1 ? "" : "s"} saved`;
+
+  const profBtn = document.getElementById("profile-switch-btn");
+  if (profBtn) {
+    if (state.profile) {
+      profBtn.classList.remove("hidden");
+      const av = document.getElementById("topbar-avatar");
+      const nm = document.getElementById("topbar-profile-name");
+      if (av) {
+        av.textContent = state.profile === "rajat" ? "R" : "H";
+        av.className = `profile-avatar ${state.profile === "rajat" ? "avatar-rajat" : "avatar-harsha"}`;
+      }
+      if (nm) nm.textContent = profileDisplayName(state.profile);
+    } else {
+      profBtn.classList.add("hidden");
+    }
+  }
 
   const round = state.meta.roundsCompleted ?? 1;
   document.getElementById("meta-round").textContent = round;
@@ -362,8 +644,9 @@ function renderListingsTable(items, shortlistedSet, hiddenSet) {
               const p = item.pricing || {};
               const fit = fitBadgeMeta(p.budgetFit);
               const { acStatus, bedsStatus, kitStatus } = amenityStatuses(item);
-              const isStar = shortlistedSet.has(item.id);
+              const isStar = getSaveInfo(item.id).mine;
               const isHidden = hiddenSet.has(item.id);
+              const saveBadge = saveBadgeHtml(item.id);
               return `
                 <tr class="${isHidden ? "is-hidden-card" : ""}">
                   <td>
@@ -375,7 +658,7 @@ function renderListingsTable(items, shortlistedSet, hiddenSet) {
                       }
                       <div>
                         <div style="font-weight:700; color:var(--text);">${escapeHtml(item.name)}</div>
-                        <div class="muted-xs">${escapeHtml(item.locality)} · ${escapeHtml(shortCategory(item.category))}</div>
+                        <div class="muted-xs">${escapeHtml(item.locality)} · ${escapeHtml(shortCategory(item.category))} ${saveBadge}</div>
                       </div>
                     </div>
                   </td>
@@ -397,8 +680,9 @@ function renderListingsTable(items, shortlistedSet, hiddenSet) {
                   <td>
                     <div style="display:flex; gap:5px; align-items:center;">
                       <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">Open ↗</a>
-                      <button class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
-                      <button class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" title="Save">${isStar ? "★" : "☆"}</button>
+                      <button type="button" class="btn btn-discuss js-discuss" data-id="${escapeHtml(item.id)}">Discuss</button>
+                      <button type="button" class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
+                      <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" title="Save">${isStar ? "★" : "☆"}</button>
                     </div>
                   </td>
                 </tr>
@@ -436,7 +720,9 @@ function renderListings() {
       const p = item.pricing || {};
       const fit = fitBadgeMeta(p.budgetFit);
       const { acStatus, bedsStatus, kitStatus } = amenityStatuses(item);
-      const isStar = shortlistedSet.has(item.id);
+      const saveInfo = getSaveInfo(item.id);
+      const isStar = saveInfo.mine;
+      const saveBadge = saveBadgeHtml(item.id);
       const isHidden = hiddenSet.has(item.id);
       const isNew = latestRound > 1 && item.addedRound === latestRound;
       const included = (item.features?.included || []).slice(0, 2);
@@ -447,7 +733,7 @@ function renderListings() {
       const fallbackTxt = `${item.locality || item.metroStation} · ${shortCategory(item.category)}`;
 
       return `
-        <article class="stay-card ${isStar ? "shortlisted" : ""} ${isHidden ? "is-hidden-card" : ""}" data-id="${escapeHtml(item.id)}">
+        <article class="stay-card ${saveInfo.any ? "shortlisted" : ""} ${isHidden ? "is-hidden-card" : ""}" data-id="${escapeHtml(item.id)}">
           <div class="card-media ${activeImg ? "" : "img-fallback"} js-card-photo" data-id="${escapeHtml(item.id)}">
             ${
               activeImg
@@ -464,9 +750,10 @@ function renderListings() {
               <div class="card-badges">
                 <span class="badge ${fit.cls}">${fit.label}</span>
                 <span class="badge badge-cat">${escapeHtml(shortCategory(item.category))}</span>
+                ${saveBadge}
                 ${isNew ? `<span class="badge badge-new">R${item.addedRound} New</span>` : ""}
               </div>
-              <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" aria-label="${isStar ? "Remove bookmark" : "Save stay"}" title="${isStar ? "Saved" : "Save stay"}">${isStar ? "★" : "☆"}</button>
+              <button type="button" class="btn-icon-star ${isStar ? "active" : ""} js-star" data-id="${escapeHtml(item.id)}" aria-label="${isStar ? "Remove save" : "Save stay"}" title="${state.profile ? (isStar ? `Saved by ${profileDisplayName(state.profile)}` : `Save as ${profileDisplayName(state.profile)}`) : "Choose Harsha / Rajat to save"}">${isStar ? "★" : "☆"}</button>
             </div>
             <div class="card-media-bottom">
               ${photoTagHtml(item)}
@@ -521,7 +808,7 @@ function renderListings() {
 
           <div class="card-actions">
             <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.links?.listingLabel || "Open Listing")} ↗</a>
-            <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer" title="Open location in Google Maps">Maps</a>
+            <button type="button" class="btn btn-discuss js-discuss" data-id="${escapeHtml(item.id)}" title="Mention this stay &amp; discuss in chat">Discuss</button>
             <button type="button" class="btn js-details" data-id="${escapeHtml(item.id)}">Details</button>
             <button type="button" class="btn js-hide" data-id="${escapeHtml(item.id)}" title="Hide from list">${isHidden ? "Unhide" : "Hide"}</button>
           </div>
@@ -644,7 +931,13 @@ function openDetailsModal(id) {
   const item = state.listings.find((x) => x.id === id);
   if (!item) return;
   const p = item.pricing || {};
-  const note = (state.userState.notes || {})[id] || "";
+  const saveInfo = getSaveInfo(id);
+  const myNote =
+    (state.profile && state.collab.notes?.[state.profile]?.[id]) ||
+    (state.userState.notes || {})[id] ||
+    "";
+  const partner = state.profile === "rajat" ? "harsha" : "rajat";
+  const partnerNote = state.collab.notes?.[partner]?.[id] || "";
   const imgs = getImages(item);
   const startIdx = Math.min(state.cardImageIdx[id] ?? 0, Math.max(0, imgs.length - 1));
   state.modalItemId = id;
@@ -683,6 +976,7 @@ function openDetailsModal(id) {
       <span class="badge ${fitBadgeMeta(p.budgetFit).cls}">${fitBadgeMeta(p.budgetFit).label}</span>
       <span class="badge badge-cat">${escapeHtml(item.category)}</span>
       <span class="badge badge-metro">${escapeHtml(item.metroStation)}</span>
+      ${saveBadgeHtml(id)}
       <span class="badge badge-cat">Source: ${escapeHtml(item.source)}</span>
     </div>
     <h2 id="modal-title" style="margin:0 0 4px; font-size:19px;">${escapeHtml(item.name)}</h2>
@@ -730,15 +1024,26 @@ function openDetailsModal(id) {
       <strong>Reddit / Community Note:</strong> ${escapeHtml(item.redditSummary)}
     </div>
 
+    ${
+      partnerNote
+        ? `<div class="modal-box" style="margin-bottom:12px; background:var(--blue-bg); border-color:var(--blue-border);">
+            <h4 style="color:var(--blue);">${escapeHtml(profileDisplayName(partner))}'s Visit Note</h4>
+            <div style="font-size:12.5px;">${escapeHtml(partnerNote)}</div>
+           </div>`
+        : ""
+    }
+
     <div style="margin-bottom:14px;">
-      <label for="modal-notes" style="font-size:12px; font-weight:700;">Visit / Call Notes (saved locally in browser):</label>
-      <textarea id="modal-notes" class="notes-area" placeholder="e.g., Called owner: ₹11k flat incl. AC, EB direct meter, visiting Saturday...">${escapeHtml(note)}</textarea>
-      <button type="button" class="btn" id="save-note-btn" data-id="${escapeHtml(item.id)}" style="margin-top:6px;">Save Note</button>
+      <label for="modal-notes" style="font-size:12px; font-weight:700;">${escapeHtml(state.profile ? profileDisplayName(state.profile) + "'s" : "Shared")} Visit / Call Note (synced with partner):</label>
+      <textarea id="modal-notes" class="notes-area" placeholder="e.g., Called owner: ₹11k flat incl. AC, EB direct meter, visiting Saturday...">${escapeHtml(myNote)}</textarea>
+      <button type="button" class="btn" id="save-note-btn" data-id="${escapeHtml(item.id)}" style="margin-top:6px;">Save Shared Note</button>
     </div>
 
     <div class="card-actions" style="border-top:0; padding-top:0;">
       <a class="btn btn-primary" href="${escapeHtml(item.links?.listingUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(item.links?.listingLabel || "Open Listing")} ↗</a>
       <a class="btn" href="${escapeHtml(item.links?.mapsUrl)}" target="_blank" rel="noopener noreferrer">Open Google Maps ↗</a>
+      <button type="button" class="btn" id="modal-save-btn" data-id="${escapeHtml(item.id)}">${saveInfo.mine ? "★ Saved by Me" : "☆ Save Stay"}</button>
+      <button type="button" class="btn btn-discuss" id="modal-discuss-btn" data-id="${escapeHtml(item.id)}">Discuss in Chat</button>
     </div>
   `;
 
@@ -756,6 +1061,231 @@ function setActiveChip(filterVal) {
   renderListings();
 }
 
+function openLoginOverlay(canDismiss = false) {
+  const overlay = document.getElementById("login-overlay");
+  if (!overlay) return;
+  overlay.dataset.dismissible = canDismiss ? "1" : "0";
+  const pre = state.profile || state.pendingProfile || null;
+  state.pendingProfile = pre;
+  document.querySelectorAll("#login-profile-grid .profile-choice").forEach((el) => {
+    el.classList.toggle("selected", el.dataset.profile === pre);
+  });
+  const enterBtn = document.getElementById("login-enter-btn");
+  if (enterBtn) {
+    enterBtn.disabled = !pre;
+    enterBtn.textContent = pre ? `Enter as ${profileDisplayName(pre)} →` : "Enter Shared Finder →";
+  }
+  const roomNote = document.getElementById("login-room-note");
+  if (roomNote) {
+    roomNote.textContent = state.collabSynced
+      ? "Shared Sync: Live across this link"
+      : "Offline / Local Storage Mode";
+  }
+  overlay.classList.remove("hidden");
+}
+
+function confirmProfileLogin(chosen) {
+  const p = chosen || state.pendingProfile;
+  if (p !== "harsha" && p !== "rajat") return;
+  state.profile = p;
+  state.pendingProfile = p;
+  try {
+    localStorage.setItem(PROFILE_KEY, p);
+  } catch {}
+  document.getElementById("login-overlay")?.classList.add("hidden");
+  renderAll();
+  showToast(`Signed in as ${profileDisplayName(p)} — saves & chat sync on this link`);
+}
+
+function setChatMention(stayId) {
+  state.chatMentionId = stayId || null;
+  const sel = document.getElementById("chat-stay-select");
+  if (sel) sel.value = state.chatMentionId || "";
+  const attached = document.getElementById("chat-attached-pill");
+  if (attached) {
+    if (!state.chatMentionId) {
+      attached.classList.add("hidden");
+      attached.innerHTML = "";
+    } else {
+      const item = state.listings.find((x) => x.id === state.chatMentionId);
+      attached.classList.remove("hidden");
+      attached.innerHTML = `
+        <span>Mentioning: <strong>${escapeHtml(item ? item.name : state.chatMentionId)}</strong></span>
+        <button type="button" class="chat-attached-clear" aria-label="Clear mentioned stay">✕</button>
+      `;
+    }
+  }
+}
+
+function openChatDrawer(mentionId = null) {
+  if (!state.profile) {
+    openLoginOverlay(true);
+    return;
+  }
+  state.chatOpen = true;
+  document.getElementById("chat-drawer")?.classList.remove("hidden");
+  markChatSeen();
+  if (mentionId) setChatMention(mentionId);
+  renderCollabUi();
+  setTimeout(() => {
+    const listEl = document.getElementById("chat-messages");
+    if (listEl) listEl.scrollTop = listEl.scrollHeight;
+    const inp = document.getElementById("chat-input");
+    if (inp) inp.focus();
+  }, 50);
+}
+
+function markChatSeen() {
+  const msgs = state.collab.messages || [];
+  const maxTs = msgs.length ? Math.max(...msgs.map((m) => m.ts || 0)) : Date.now();
+  state.lastSeenMsgTs = Math.max(state.lastSeenMsgTs || 0, maxTs);
+  try {
+    localStorage.setItem(CHAT_SEEN_KEY, String(state.lastSeenMsgTs));
+  } catch {}
+}
+
+function updateChatMentionSelect() {
+  const sel = document.getElementById("chat-stay-select");
+  if (!sel) return;
+  const hSet = new Set(state.collab.saved?.harsha || []);
+  const rSet = new Set(state.collab.saved?.rajat || []);
+  const savedItems = state.listings.filter((x) => hSet.has(x.id) || rSet.has(x.id));
+  const otherItems = state.listings.filter((x) => !hSet.has(x.id) && !rSet.has(x.id));
+  const tagPrefix = (id) => {
+    if (hSet.has(id) && rSet.has(id)) return "[Both ★] ";
+    if (hSet.has(id)) return "[Harsha ★] ";
+    if (rSet.has(id)) return "[Rajat ★] ";
+    return "";
+  };
+  sel.innerHTML =
+    `<option value="">No specific stay (General chat)</option>` +
+    (savedItems.length
+      ? `<optgroup label="Saved Stays (Harsha / Rajat)">${savedItems
+          .map(
+            (x) =>
+              `<option value="${escapeHtml(x.id)}">${escapeHtml(tagPrefix(x.id) + x.name)}</option>`
+          )
+          .join("")}</optgroup>`
+      : "") +
+    `<optgroup label="All Other Verified Stays">${otherItems
+      .map(
+        (x) =>
+          `<option value="${escapeHtml(x.id)}">${escapeHtml(x.name)} (${escapeHtml(x.locality || "")})</option>`
+      )
+      .join("")}</optgroup>`;
+  sel.value = state.chatMentionId || "";
+}
+
+function renderCollabUi() {
+  const msgs = state.collab.messages || [];
+  const countPill = document.getElementById("chat-count-pill");
+  if (countPill) countPill.textContent = String(msgs.length);
+
+  const toggleBtn = document.getElementById("chat-toggle-btn");
+  if (toggleBtn) {
+    const unread = msgs.some(
+      (m) => (m.ts || 0) > (state.lastSeenMsgTs || 0) && m.sender !== state.profile
+    );
+    toggleBtn.classList.toggle("has-unread", unread && !state.chatOpen);
+  }
+
+  const syncBadge = document.getElementById("chat-sync-status");
+  if (syncBadge) {
+    syncBadge.textContent = state.collabSynced ? "Synced Live" : "Local Mode";
+    syncBadge.classList.toggle("offline", !state.collabSynced);
+  }
+
+  const savedBar = document.getElementById("chat-saved-bar");
+  if (savedBar) {
+    const hSet = new Set(state.collab.saved?.harsha || []);
+    const rSet = new Set(state.collab.saved?.rajat || []);
+    const unionIds = Array.from(new Set([...hSet, ...rSet]));
+    const savedStays = unionIds
+      .map((id) => state.listings.find((x) => x.id === id))
+      .filter(Boolean);
+    if (!savedStays.length) {
+      savedBar.innerHTML = `<span class="muted-xs">No saved stays yet — click ☆ on any card to shortlist &amp; mention here!</span>`;
+    } else {
+      savedBar.innerHTML = savedStays
+        .map((x) => {
+          const s = getSaveInfo(x.id);
+          const who = s.both ? "★ Both" : s.harsha ? "H" : "R";
+          return `<button type="button" class="chat-saved-pill ${s.both ? "is-both" : ""} js-mention-pill" data-id="${escapeHtml(x.id)}" title="Click to mention ${escapeHtml(x.name)} in chat">${who} · ${escapeHtml(x.name.split("(")[0].trim().slice(0, 26))}</button>`;
+        })
+        .join("");
+    }
+  }
+
+  updateChatMentionSelect();
+
+  const listEl = document.getElementById("chat-messages");
+  if (listEl) {
+    if (!msgs.length) {
+      listEl.innerHTML = `<div class="chat-empty">No messages yet!<br />Click a saved location chip above or click <strong>Discuss</strong> on any card to mention a stay and decide together.</div>`;
+    } else {
+      const wasAtBottom = listEl.scrollHeight - listEl.scrollTop - listEl.clientHeight < 60;
+      listEl.innerHTML = msgs
+        .map((m) => {
+          const isMine = m.sender === state.profile;
+          const stay = m.stayId ? state.listings.find((x) => x.id === m.stayId) : null;
+          const dt = new Date(m.ts || Date.now());
+          const tm = Number.isNaN(dt.getTime())
+            ? ""
+            : dt.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+          const mentionCard = stay
+            ? `<button type="button" class="chat-stay-mention js-open-stay-from-chat" data-id="${escapeHtml(stay.id)}" title="Open details for ${escapeHtml(stay.name)}">
+                <span class="chat-stay-mention-title">★ ${escapeHtml(stay.name)}</span>
+                <span class="chat-stay-mention-sub">${escapeHtml(stay.metroStation)} · ${escapeHtml(formatRange(stay.pricing?.effectiveTotalPerPersonMin, stay.pricing?.effectiveTotalPerPersonMax))}/mo · View Details ↗</span>
+               </button>`
+            : "";
+          return `
+            <div class="chat-msg ${isMine ? "is-mine" : ""} sender-${escapeHtml(m.sender)}">
+              <div class="chat-msg-meta">
+                <span class="chat-author-tag ${escapeHtml(m.sender)}">${escapeHtml(profileDisplayName(m.sender))}</span>
+                <span>${escapeHtml(tm)}</span>
+              </div>
+              <div class="chat-bubble">
+                ${mentionCard}
+                <div>${escapeHtml(m.text)}</div>
+              </div>
+            </div>
+          `;
+        })
+        .join("");
+      if (wasAtBottom) {
+        listEl.scrollTop = listEl.scrollHeight;
+      }
+    }
+  }
+}
+
+async function sendChatMessage(rawText) {
+  const text = String(rawText || "").trim();
+  if (!text) return;
+  if (!state.profile) {
+    openLoginOverlay(true);
+    return;
+  }
+  const msg = {
+    id: `${Date.now()}_${state.profile}_${Math.random().toString(36).slice(2, 7)}`,
+    ts: Date.now(),
+    sender: state.profile,
+    text,
+    stayId: state.chatMentionId || null,
+  };
+  await updateCollab((c) => {
+    c.messages = c.messages || [];
+    if (!c.messages.some((m) => m.id === msg.id)) {
+      c.messages.push(msg);
+      c.messages = c.messages.sort((a, b) => (a.ts || 0) - (b.ts || 0)).slice(-250);
+    }
+  });
+  markChatSeen();
+  const inp = document.getElementById("chat-input");
+  if (inp) inp.value = "";
+  setChatMention(null);
+}
+
 function renderAll() {
   renderHeaderAndKpis();
   populateLocalities();
@@ -763,6 +1293,7 @@ function renderAll() {
   renderMetroSection();
   renderRedditSection();
   renderSearchLog();
+  renderCollabUi();
 }
 
 async function fetchState(isPoll = false) {
@@ -823,7 +1354,11 @@ async function fetchState(isPoll = false) {
 
     state.lastKnownRound = nextRound;
     state.lastKnownCount = nextCount;
+    await fetchCollabSync();
     renderAll();
+    if (state.modalItemId && !document.getElementById("detail-modal").classList.contains("hidden")) {
+      // keep modal intact; refresh collab badges cleanly
+    }
   } catch (err) {
     console.error("Failed to fetch state", err);
   }
@@ -913,14 +1448,10 @@ document.addEventListener("DOMContentLoaded", () => {
       stepCardImage(id, 1);
     } else if (btn.classList.contains("js-details")) {
       openDetailsModal(id);
+    } else if (btn.classList.contains("js-discuss")) {
+      openChatDrawer(id);
     } else if (btn.classList.contains("js-star")) {
-      const list = new Set(state.userState.shortlisted || []);
-      if (list.has(id)) list.delete(id);
-      else list.add(id);
-      state.userState.shortlisted = Array.from(list);
-      await saveUserState();
-      renderHeaderAndKpis();
-      renderListings();
+      await toggleSaveStay(id);
     } else if (btn.classList.contains("js-hide")) {
       const list = new Set(state.userState.hidden || []);
       if (list.has(id)) list.delete(id);
@@ -962,26 +1493,166 @@ document.addEventListener("DOMContentLoaded", () => {
       updateModalPhoto(Number(thumbBtn.dataset.idx) || 0);
       return;
     }
+    if (e.target.id === "modal-save-btn") {
+      const id = e.target.dataset.id;
+      await toggleSaveStay(id);
+      openDetailsModal(id);
+      return;
+    }
+    if (e.target.id === "modal-discuss-btn") {
+      const id = e.target.dataset.id;
+      document.getElementById("detail-modal").classList.add("hidden");
+      openChatDrawer(id);
+      return;
+    }
     if (e.target.id === "save-note-btn") {
       const id = e.target.dataset.id;
       const val = document.getElementById("modal-notes").value;
       state.userState.notes = state.userState.notes || {};
       state.userState.notes[id] = val;
       await saveUserState();
-      showToast("Saved visit note locally!");
+      if (state.profile) {
+        await updateCollab((c) => {
+          c.notes = c.notes || { harsha: {}, rajat: {} };
+          c.notes[state.profile] = c.notes[state.profile] || {};
+          c.notes[state.profile][id] = val;
+        });
+      }
+      showToast("Saved visit note & synced!");
+    }
+  });
+
+  // Profile Login & Switcher
+  try {
+    const savedProf = localStorage.getItem(PROFILE_KEY);
+    if (savedProf === "harsha" || savedProf === "rajat") {
+      state.profile = savedProf;
+    }
+    state.lastSeenMsgTs = Number(localStorage.getItem(CHAT_SEEN_KEY) || "0");
+    const cachedCollab = loadLocalCollab();
+    if (cachedCollab) state.collab = cachedCollab;
+  } catch {}
+
+  document.getElementById("login-profile-grid")?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".profile-choice");
+    if (!btn) return;
+    state.pendingProfile = btn.dataset.profile;
+    document.querySelectorAll("#login-profile-grid .profile-choice").forEach((el) => {
+      el.classList.toggle("selected", el.dataset.profile === state.pendingProfile);
+    });
+    const enterBtn = document.getElementById("login-enter-btn");
+    if (enterBtn) {
+      enterBtn.disabled = false;
+      enterBtn.textContent = `Enter as ${profileDisplayName(state.pendingProfile)} →`;
+    }
+  });
+
+  document.getElementById("login-profile-grid")?.addEventListener("dblclick", (e) => {
+    const btn = e.target.closest(".profile-choice");
+    if (btn) confirmProfileLogin(btn.dataset.profile);
+  });
+
+  document.getElementById("login-enter-btn")?.addEventListener("click", () => {
+    confirmProfileLogin(state.pendingProfile);
+  });
+
+  document.getElementById("login-overlay")?.addEventListener("click", (e) => {
+    const overlay = document.getElementById("login-overlay");
+    if (e.target.id === "login-overlay" && overlay.dataset.dismissible === "1") {
+      overlay.classList.add("hidden");
+    }
+  });
+
+  document.getElementById("profile-switch-btn")?.addEventListener("click", () => {
+    openLoginOverlay(true);
+  });
+
+  // Copy shared link buttons
+  const copyLinkHandler = async () => {
+    const link = getSharedUrl();
+    try {
+      await navigator.clipboard.writeText(link);
+      showToast("Shared link copied! Send it to your partner.");
+    } catch {
+      window.prompt("Copy this shared link for your partner:", link);
+    }
+  };
+  document.getElementById("copy-shared-link-btn")?.addEventListener("click", copyLinkHandler);
+  document.getElementById("chat-copy-link-btn")?.addEventListener("click", copyLinkHandler);
+
+  // Chat drawer listeners
+  document.getElementById("chat-toggle-btn")?.addEventListener("click", () => {
+    if (state.chatOpen) {
+      state.chatOpen = false;
+      document.getElementById("chat-drawer")?.classList.add("hidden");
+    } else {
+      openChatDrawer();
+    }
+  });
+
+  document.getElementById("chat-close-btn")?.addEventListener("click", () => {
+    state.chatOpen = false;
+    document.getElementById("chat-drawer")?.classList.add("hidden");
+  });
+
+  document.getElementById("chat-saved-bar")?.addEventListener("click", (e) => {
+    const pill = e.target.closest(".js-mention-pill");
+    if (!pill) return;
+    setChatMention(pill.dataset.id);
+    document.getElementById("chat-input")?.focus();
+  });
+
+  document.getElementById("chat-stay-select")?.addEventListener("change", (e) => {
+    setChatMention(e.target.value || null);
+  });
+
+  document.getElementById("chat-attached-pill")?.addEventListener("click", (e) => {
+    if (e.target.closest(".chat-attached-clear")) setChatMention(null);
+  });
+
+  document.getElementById("chat-messages")?.addEventListener("click", (e) => {
+    const btn = e.target.closest(".js-open-stay-from-chat");
+    if (!btn) return;
+    if (window.innerWidth <= 760) {
+      state.chatOpen = false;
+      document.getElementById("chat-drawer")?.classList.add("hidden");
+    }
+    openDetailsModal(btn.dataset.id);
+  });
+
+  document.getElementById("chat-form")?.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const inp = document.getElementById("chat-input");
+    if (inp) await sendChatMessage(inp.value);
+  });
+
+  document.getElementById("chat-input")?.addEventListener("keydown", async (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      await sendChatMessage(e.target.value);
     }
   });
 
   document.addEventListener("keydown", (e) => {
     const modal = document.getElementById("detail-modal");
-    if (modal.classList.contains("hidden")) return;
-    if (e.key === "ArrowRight") updateModalPhoto(state.modalImageIdx + 1);
-    else if (e.key === "ArrowLeft") updateModalPhoto(state.modalImageIdx - 1);
-    else if (e.key === "Escape") modal.classList.add("hidden");
+    if (!modal.classList.contains("hidden")) {
+      if (e.key === "ArrowRight") updateModalPhoto(state.modalImageIdx + 1);
+      else if (e.key === "ArrowLeft") updateModalPhoto(state.modalImageIdx - 1);
+      else if (e.key === "Escape") modal.classList.add("hidden");
+      return;
+    }
+    const loginOverlay = document.getElementById("login-overlay");
+    if (loginOverlay && !loginOverlay.classList.contains("hidden") && e.key === "Enter" && state.pendingProfile) {
+      e.preventDefault();
+      confirmProfileLogin(state.pendingProfile);
+    }
   });
 
+  if (!state.profile) {
+    openLoginOverlay(false);
+  }
   fetchState(false);
   if (!IS_EMBEDDED) {
-    setInterval(() => fetchState(true), IS_LOCAL_SERVER ? 5000 : 30000);
+    setInterval(() => fetchState(true), IS_LOCAL_SERVER ? 4500 : 8000);
   }
 });

@@ -7679,5 +7679,286 @@
     "imageType": "property",
     "addedRound": 13,
     "addedAt": "2026-11-25T18:20:00+05:30"
+  },
+  {
+    "id": "forse-mens-pg-padi",
+    "name": "Forse Mens PG (Padi — Right Beside Jidoka / TVS Colony)",
+    "category": "Men's PG (Double / Triple)",
+    "locality": "Padi / Anna Nagar West Ext",
+    "metroStation": "Thirumangalam Metro (2.4 km)",
+    "metroWalk": "5–10 min auto/walk inside Padi–TVS Colony · ~8 min auto to Metro",
+    "address": "Padi (near Dunlop / TVS Colony side), Chennai 600050",
+    "eligibility": "Men / Working Professionals & Students (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 6500,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 0,
+      "estimatedAcEbPerPersonMax": 500,
+      "effectiveTotalPerPersonMin": 6500,
+      "effectiveTotalPerPersonMax": 8000,
+      "deposit": "₹6,500",
+      "sharingType": "Double / Triple Sharing",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks owner listing (Sabukossy): Double & Triple sharing from ₹6,500/mo; food charge extra (Veg & Non-Veg available); 1-month notice; Non-AC."
+    },
+    "commute": {
+      "jidokaMins": "5–10 mins",
+      "iitmMins": "45–55 mins",
+      "jidokaRoute": "Walk / 5-min auto in Padi–TVS Colony",
+      "iitmRoute": "Auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "No (MagicBricks lists AC Rooms Not Available — Fan)",
+      "beds": "Yes — Furnished Double & Triple cots",
+      "kitchen": "Verify (Meals Veg & Non-Veg available extra; check induction rules)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Location Edge",
+          "detail": "Immediate Padi / Jidoka doorstep, ₹6.5k low deposit"
+        },
+        {
+          "label": "Essentials",
+          "detail": "Wi-Fi, TV, room cleaning, Veg & Non-Veg meal plan opt."
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "No AC",
+          "detail": "Listing marks AC Not Available; verify summer ventilation"
+        },
+        {
+          "label": "Asymmetric Commute",
+          "detail": "5 mins for Harsha vs ~50 mins via Metro for Rajat"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai notes Padi/Anna Nagar West saves Harsha commute time, though low-lying Padi streets need storm-drain checks before monsoon.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/forse-mens-pg-padi-in-chennai&pgid=4d42323730333333677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Forse+Mens+PG+Padi+Chennai"
+    },
+    "addedRound": 14,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/09/Photo_h400_w540/GR2-270333-1266837_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/09/Photo_h400_w540/GR2-270333-1266837_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/09/Photo_h400_w540/GR2-270333-1266833_400_540.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "sarasuvathi-pg-anna-nagar-west",
+    "name": "Sarasuvathi Men's PG (Anna Nagar West Extn / Near TVS Colony)",
+    "category": "Men's PG (Twin / Triple)",
+    "locality": "Anna Nagar West Ext",
+    "metroStation": "Thirumangalam Metro (1.8 km)",
+    "metroWalk": "Walkable/5-min auto to TVS Colony · ~7 min auto to Thirumangalam Metro",
+    "address": "Anna Nagar West Extension (near TVS Colony / Padi), Chennai 600101",
+    "eligibility": "Men / Working Professionals & Students (Boys Only)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4600,
+      "monthlyRentPerPersonMax": 10400,
+      "estimatedAcEbPerPersonMin": 0,
+      "estimatedAcEbPerPersonMax": 500,
+      "effectiveTotalPerPersonMin": 4600,
+      "effectiveTotalPerPersonMax": 10900,
+      "deposit": "₹10,000 (₹0 maint.)",
+      "sharingType": "Triple ₹4.6k+ / Twin ₹10.4k",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified 52-bed PG operating since 2019: Economy Triple ₹4,600+, Twin from ₹10,400; Veg & Non-Veg tiffin/meals, 15-day notice, ₹0 maintenance."
+    },
+    "commute": {
+      "jidokaMins": "5–10 mins",
+      "iitmMins": "42–50 mins",
+      "jidokaRoute": "Walk / short auto in Anna Nagar West Ext (TVS Colony side)",
+      "iitmRoute": "Auto to Thirumangalam Metro -> Green/Blue Line -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "No (MagicBricks lists AC Rooms Not Available)",
+      "beds": "Yes — Cots, mattresses & cupboards (3 floors, 52 beds)",
+      "kitchen": "Verify (Both Veg & Non-Veg food served; confirm kettle/induction policy)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Terms & Notice",
+          "detail": "15-day notice period, ₹0 maintenance, Veg & Non-Veg meals"
+        },
+        {
+          "label": "Location",
+          "detail": "Directly in Anna Nagar West Ext near Jidoka office"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Non-AC Listing",
+          "detail": "MagicBricks indicates AC Not Available; check fan/room heat"
+        },
+        {
+          "label": "IITM Haul",
+          "detail": "~45+ min daily Metro/Bus commute for Rajat"
+        }
+      ]
+    },
+    "redditSummary": "Anna Nagar planned grid holds up better than low suburbs, though twin room tariff (₹10.4k) sits above budget while triple starts ₹4.6k.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/sarasuvathi-pg-anna-nagar-west-in-chennai&pgid=4d423132393839677261646531",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sarasuvathi+PG+Anna+Nagar+West+Extension+Chennai"
+    },
+    "addedRound": 14,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315923_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315923_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315925_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315937_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315939_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/19/Photo_h400_w540/GR1-12989-315941_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "gk-mens-hostel-karambakkam",
+    "name": "GK Mens Hostel (Karambakkam / Porur–Guindy Corridor — AC + ₹500 Dep)",
+    "category": "Men's PG / Hostel (AC & Non-AC)",
+    "locality": "Karambakkam / Porur",
+    "metroStation": "Ekkattuthangal / Guindy Metro Corridor (~5.5 km)",
+    "metroWalk": "15–20 min bus/auto on Arcot Rd or Mount-Poonamallee Rd to Guindy/Vadapalani Metro",
+    "address": "Karambakkam (Porur / West Guindy corridor), Chennai 600116",
+    "eligibility": "Men / All Preferred (Boys Hostel, operating since 2018)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4250,
+      "monthlyRentPerPersonMax": 7500,
+      "estimatedAcEbPerPersonMin": 800,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5050,
+      "effectiveTotalPerPersonMax": 9000,
+      "deposit": "₹500 (Ultra-low, 0-day notice)",
+      "sharingType": "Triple / Dorm / Single AC",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks listing: Base from ₹4,250/mo (Triple/Dorm), AC rooms available (confirm Twin/Triple AC tariff); ₹500 security deposit, ₹0 maintenance, Zero Notice Period."
+    },
+    "commute": {
+      "jidokaMins": "25–35 mins",
+      "iitmMins": "28–38 mins",
+      "jidokaRoute": "Bypass / Maduravoyal -> Ambattur Estate / Padi road (auto/bike/bus)",
+      "iitmRoute": "Mount-Poonamallee Rd -> Guindy -> Sardar Patel Rd to IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC Rooms Available — verify per-bed AC tariff & EB)",
+      "beds": "Yes — Cots & furnished hostel setup",
+      "kitchen": "Verify (Both Veg & Non-Veg food served; confirm self-cooking)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Ultra-Low Friction",
+          "detail": "Only ₹500 deposit, Zero Notice Period, Power Backup + Parking"
+        },
+        {
+          "label": "AC & Food",
+          "detail": "AC rooms + Veg/Non-Veg meals included in options"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Not Walkable to Metro",
+          "detail": "Requires bus/bike/auto ~15 min to Vadapalani or Guindy Metro"
+        },
+        {
+          "label": "Verify Room Config",
+          "detail": "Listing specifies Single/Triple/Dorm; ask if 2-sharing AC is free"
+        }
+      ]
+    },
+    "redditSummary": "Western bypass / Porur side balances IITM (via Guindy) & Padi (via bypass) well if you have a 2-wheeler or bus pass.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/gk-mens-hostel-pg-karambakkam-in-chennai&pgid=4d423130333935677261646531",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=GK+Mens+Hostel+Karambakkam+Porur+Chennai"
+    },
+    "addedRound": 14,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/19/Photo_h400_w540/GR1-10395-276597_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/19/Photo_h400_w540/GR1-10395-276597_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/19/Photo_h400_w540/GR1-10395-276601_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/13/Photo_h400_w540/GR1-10395-219261_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/13/Photo_h400_w540/GR1-10395-219267_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/13/Photo_h400_w540/GR1-10395-219271_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "aspirants-nest-anna-nagar-pool",
+    "name": "Aspirants Nest / Anna Nagar Men's PG Directory (Study + AC Options)",
+    "category": "Men's PG (Twin / Triple / 4-Sharing)",
+    "locality": "Anna Nagar",
+    "metroStation": "Anna Nagar East / Tower / Thirumangalam Metro",
+    "metroWalk": "5–10 min walk across Anna Nagar 2nd Ave / Shanthi Colony blocks",
+    "address": "Anna Nagar Main Grid (IAS/UPSC Study Hub belt), Chennai 600040",
+    "eligibility": "Men / Working Professionals & UPSC/Internship Students",
+    "pricing": {
+      "monthlyRentPerPersonMin": 8000,
+      "monthlyRentPerPersonMax": 11000,
+      "estimatedAcEbPerPersonMin": 800,
+      "estimatedAcEbPerPersonMax": 1400,
+      "effectiveTotalPerPersonMin": 8800,
+      "effectiveTotalPerPersonMax": 12400,
+      "deposit": "1 month (verify branch)",
+      "sharingType": "Twin / Triple / 4-Sharing",
+      "budgetFit": "borderline",
+      "priceNote": "ChennaiProperties Anna Nagar index (incl. Aspirants Nest): typically ₹8k–₹11k/mo covering breakfast, lunch, dinner + common kitchen access; confirm AC EB split."
+    },
+    "commute": {
+      "jidokaMins": "12–18 mins",
+      "iitmMins": "35–42 mins",
+      "jidokaRoute": "Thirumangalam / 2nd Ave -> Ambattur Estate / TVS Colony",
+      "iitmRoute": "Anna Nagar Tower/East Metro -> Alandur -> Guindy -> IITM Gate"
+    },
+    "features": {
+      "ac": "Yes (AC & Non-AC rooms available across sharing tiers)",
+      "beds": "Yes — Study tables, beds & housekeeping included",
+      "kitchen": "Yes — Common kitchen + 3 meals usually included in tariff",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Study & Intern Fit",
+          "detail": "Quiet study-hub belt, high-speed Wi-Fi, CCTV, 3 meals"
+        },
+        {
+          "label": "Common Kitchen",
+          "detail": "Common kitchen access alongside daily tiffin/meals"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Above ₹8k Floor",
+          "detail": "AC 2/3-sharing typically pushes ₹9k–₹12k incl. EB"
+        },
+        {
+          "label": "Directory Verification",
+          "detail": "Confirm bed vacancy directly as UPSC intake fills fast"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai repeatedly praises Anna Nagar study-hub PGs for cleaner water, reliable power, and fast flood drainage via planned grid roads.",
+    "source": "ChennaiProperties",
+    "links": {
+      "listingLabel": "ChennaiProperties Anna Nagar",
+      "listingUrl": "https://www.chennaiproperties.com/rent/pg-hostels/anna-nagar",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aspirants+Nest+PG+Anna+Nagar+Chennai"
+    },
+    "addedRound": 14,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354655_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354655_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354657_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365651_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365655_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365659_400_540.jpeg"
+    ],
+    "imageType": "neighborhood"
   }
 ]

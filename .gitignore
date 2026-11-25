@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
 data/user_state.json
+data/collab_state.json
 server.py
 build_share.py

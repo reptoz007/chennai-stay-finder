@@ -25,6 +25,17 @@
       </nav>
 
       <div class="topbar-actions">
+        <button type="button" class="btn profile-pill hidden" id="profile-switch-btn" title="Switch active profile (Harsha / Rajat)">
+          <span class="profile-avatar" id="topbar-avatar">H</span>
+          <span id="topbar-profile-name">Harsha</span>
+          <span class="caret">▾</span>
+        </button>
+        <button type="button" class="btn btn-chat-toggle" id="chat-toggle-btn" title="Open shared Harsha &amp; Rajat chat">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <span>Chat</span>
+          <span class="pill-count" id="chat-count-pill">0</span>
+        </button>
+        <button type="button" class="btn btn-copy-link" id="copy-shared-link-btn" title="Copy the exact shared URL for your friend">Copy Link</button>
         <div class="live-pill" id="live-status-pill" title="Auto-updates every search round until stopped">
           <span class="pulse-dot"></span>
           <span id="live-status-text">Live · Round 1</span>
@@ -194,6 +205,79 @@
   <!-- Live update toast -->
   <div id="toast" class="toast hidden"></div>
 
-  <script src="app.js"></script>
+    <!-- Profile Login Modal (Rajat / Harsha) -->
+  <div class="modal-backdrop hidden" id="login-overlay" role="dialog" aria-modal="true" aria-labelledby="login-title">
+    <div class="login-card">
+      <div class="login-brand-row">
+        <span class="brand-badge">SM</span>
+        <div>
+          <h2 id="login-title" style="margin:0; font-size:18px; letter-spacing:-0.02em;">Choose Who Is Browsing</h2>
+          <p class="muted-xs" style="margin:2px 0 0;">Same shared link syncs your saved stays &amp; discussion live between Harsha &amp; Rajat.</p>
+        </div>
+      </div>
+
+      <div class="profile-grid" id="login-profile-grid">
+        <button type="button" class="profile-choice" data-profile="harsha" id="choose-harsha">
+          <div class="profile-avatar lg avatar-harsha">H</div>
+          <div class="profile-choice-meta">
+            <strong>Harsha</strong>
+            <span>Jidoka · Padi / Anna Nagar W Ext</span>
+            <span class="profile-save-stat" id="login-stat-harsha">0 stays saved</span>
+          </div>
+          <span class="profile-check">✓</span>
+        </button>
+
+        <button type="button" class="profile-choice" data-profile="rajat" id="choose-rajat">
+          <div class="profile-avatar lg avatar-rajat">R</div>
+          <div class="profile-choice-meta">
+            <strong>Rajat</strong>
+            <span>IIT Madras · Adyar / Guindy</span>
+            <span class="profile-save-stat" id="login-stat-rajat">0 stays saved</span>
+          </div>
+          <span class="profile-check">✓</span>
+        </button>
+      </div>
+
+      <div class="login-footer">
+        <div class="login-room-note" id="login-room-note">Shared Room Sync: Active</div>
+        <button type="button" class="btn btn-primary login-enter-btn" id="login-enter-btn" disabled>Enter Shared Finder →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shared Discussion Chat Drawer -->
+  <aside class="chat-drawer hidden" id="chat-drawer" aria-label="Harsha and Rajat Stay Discussion">
+    <div class="chat-head">
+      <div>
+        <div class="chat-title-row">
+          <strong>Shared Stay Discussion</strong>
+          <span class="chat-sync-badge" id="chat-sync-status">Synced</span>
+        </div>
+        <div class="muted-xs">Harsha &amp; Rajat · Mention saved stays &amp; decide together</div>
+      </div>
+      <div class="chat-head-actions">
+        <button type="button" class="btn btn-xs" id="chat-copy-link-btn" title="Copy same link for partner">Copy Link</button>
+        <button type="button" class="chat-close-btn" id="chat-close-btn" aria-label="Close chat">✕</button>
+      </div>
+    </div>
+
+    <div class="chat-saved-bar" id="chat-saved-bar"></div>
+
+    <div class="chat-messages" id="chat-messages"></div>
+
+    <form class="chat-compose" id="chat-form">
+      <div class="chat-mention-row">
+        <label class="muted-xs" for="chat-stay-select" style="font-weight:700; white-space:nowrap;">@ Mention stay:</label>
+        <select id="chat-stay-select" class="chat-stay-select"></select>
+      </div>
+      <div class="chat-attached-pill hidden" id="chat-attached-pill"></div>
+      <div class="chat-input-row">
+        <textarea id="chat-input" class="chat-input" rows="2" placeholder="Write a message about a saved place (Enter to send)..."></textarea>
+        <button type="submit" class="btn btn-primary chat-send-btn">Send</button>
+      </div>
+    </form>
+  </aside>
+
+<script src="app.js"></script>
 </body>
 </html>
