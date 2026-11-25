@@ -1,8 +1,8 @@
 {
   "searchStatus": "ACTIVE",
   "statusLabel": "Live Continuous Search Running (Until You Say Stop)",
-  "roundsCompleted": 18,
-  "lastUpdated": "2026-11-25T19:56:00+05:30",
+  "roundsCompleted": 19,
+  "lastUpdated": "2026-11-25T20:08:00+05:30",
   "budgetTargetPerPerson": {
     "min": 6000,
     "max": 8000,
@@ -64,7 +64,7 @@
       "vibe": "Budget inner-lane 1RKs & men's PGs; very easy IITM commute"
     }
   ],
-  "nextFocus": "Round 19: Upgrade remaining MagicBricks category links (Truliv Adonia, Yube1 Elevate Saidapet, Deepak PG Anna Nagar East, Vijaya Scans Shenoy Nagar, Choolaimedu) to exact propertyDetail pages + photos, plus search Ashok Nagar/Jafferkhanpet individual 1RKs.",
+  "nextFocus": "Round 20: Upgrade remaining MagicBricks category links (Truliv Adonia, Krisna Boys Koyambedu, Yube1 Castle Mogappair, Yube1 Metro Vadapalani, Zolo/Gupta/Nelson Manickam) to exact propertyDetail pages + photos, and audit more Koyambedu/Thirumangalam/Vadapalani AC deals.",
   "searchLog": [
     {
       "round": 13,
@@ -191,6 +191,13 @@
       "queryFocus": "Arumbakkam/Koyambedu/Ashok Nagar direct Boys PGs (Meenakshi PG ₹3.8k dep AC, Maayon Ashok Nagar Flex AC, Pandiyan Koyambedu, Centretown Koyambedu) + Koyambedu/Chinmaya Nagar NoBroker <₹10k–₹13k flats & 3 r/Chennai threads",
       "addedCount": 9,
       "notes": "Added 6 verified stays (4 direct MagicBricks propertyDetail PGs with real photos + 2 zero-brokerage Koyambedu/Chinmaya Nagar flat pools) & 3 Reddit guides. Total: 130 stays, 56 Reddit threads."
+    },
+    {
+      "round": 19,
+      "timestamp": "2026-11-25 20:08 IST",
+      "queryFocus": "Upgraded 5 existing entries (Deepak PG Anna Nagar East, Vijaya Scans Shenoy Nagar, Yube1 Elevate Saidapet, Zolo Sage Choolaimedu, Sunflower Boys Saidapet) to direct propertyDetail URLs + photos; added PK's Men's PG, Sri Kailash Choolaimedu, Jafferkhanpet/Aminjikarai/Nesapakkam <₹10k 1RKs & 2 flood Reddit guides",
+      "addedCount": 7,
+      "notes": "Upgraded 5 listings to exact propertyDetail links + verified photos; added 5 new stays & 2 flood-elevation Reddit threads. Total: 135 stays, 58 Reddit threads."
     }
   ],
   "collabRoomId": "staymid_chennai_9f4c2e1b8a3d7c50",
