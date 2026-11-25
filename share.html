@@ -1311,7 +1311,7 @@ select {
   inset: 0;
   background: rgba(15, 23, 42, 0.5);
   backdrop-filter: blur(3px);
-  z-index: 60;
+  z-index: 90;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1406,11 +1406,14 @@ select {
   box-shadow: 0 12px 24px rgba(15, 23, 42, 0.25);
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1120px) {
   .topbar-inner {
     flex-wrap: wrap;
     padding-top: 8px;
     padding-bottom: 8px;
+  }
+  .brand-sub {
+    display: none;
   }
   .nav-tabs {
     order: 3;
@@ -2318,13 +2321,19 @@ function getRemoteCollabUrl() {
 function normalizeCollab(raw) {
   const obj = raw && typeof raw === "object" ? raw : {};
   const saved = obj.saved && typeof obj.saved === "object" ? obj.saved : {};
+  const savedAt = obj.savedAt && typeof obj.savedAt === "object" ? obj.savedAt : {};
   const notes = obj.notes && typeof obj.notes === "object" ? obj.notes : {};
+  const notesAt = obj.notesAt && typeof obj.notesAt === "object" ? obj.notesAt : {};
   return {
     version: 1,
     room: obj.room || getCollabRoomId(),
     saved: {
       harsha: Array.isArray(saved.harsha) ? Array.from(new Set(saved.harsha)) : [],
       rajat: Array.isArray(saved.rajat) ? Array.from(new Set(saved.rajat)) : [],
+    },
+    savedAt: {
+      harsha: Number(savedAt.harsha) || 0,
+      rajat: Number(savedAt.rajat) || 0,
     },
     messages: Array.isArray(obj.messages)
       ? obj.messages
@@ -2336,7 +2345,54 @@ function normalizeCollab(raw) {
       harsha: notes.harsha && typeof notes.harsha === "object" ? { ...notes.harsha } : {},
       rajat: notes.rajat && typeof notes.rajat === "object" ? { ...notes.rajat } : {},
     },
+    notesAt: {
+      harsha: Number(notesAt.harsha) || 0,
+      rajat: Number(notesAt.rajat) || 0,
+    },
   };
+}
+
+let collabWriteChain = Promise.resolve();
+let collabPendingWrites = 0;
+
+function mergeCollab(localRaw, remoteRaw) {
+  const local = normalizeCollab(localRaw);
+  const remote = normalizeCollab(remoteRaw);
+  const out = normalizeCollab({ room: remote.room || local.room });
+
+  ["harsha", "rajat"].forEach((u) => {
+    const lTs = local.savedAt[u] || 0;
+    const rTs = remote.savedAt[u] || 0;
+    if (lTs > rTs) {
+      out.saved[u] = [...local.saved[u]];
+      out.savedAt[u] = lTs;
+    } else if (rTs > lTs) {
+      out.saved[u] = [...remote.saved[u]];
+      out.savedAt[u] = rTs;
+    } else {
+      out.saved[u] = Array.from(new Set([...local.saved[u], ...remote.saved[u]]));
+      out.savedAt[u] = Math.max(lTs, rTs);
+    }
+
+    const lnTs = local.notesAt[u] || 0;
+    const rnTs = remote.notesAt[u] || 0;
+    if (lnTs >= rnTs && lnTs > 0) {
+      out.notes[u] = { ...remote.notes[u], ...local.notes[u] };
+      out.notesAt[u] = lnTs;
+    } else {
+      out.notes[u] = { ...local.notes[u], ...remote.notes[u] };
+      out.notesAt[u] = Math.max(lnTs, rnTs);
+    }
+  });
+
+  const msgMap = new Map();
+  [...remote.messages, ...local.messages].forEach((m) => {
+    if (m && m.id) msgMap.set(m.id, m);
+  });
+  out.messages = Array.from(msgMap.values())
+    .sort((a, b) => (a.ts || 0) - (b.ts || 0))
+    .slice(-250);
+  return out;
 }
 
 function loadLocalCollab() {
@@ -2411,21 +2467,23 @@ async function writeRemoteCollab(payload) {
 async function fetchCollabSync() {
   if (IS_EMBEDDED) {
     const cached = loadLocalCollab();
-    if (cached) state.collab = cached;
+    if (cached) state.collab = mergeCollab(state.collab, cached);
     state.collabSynced = false;
     return;
   }
+  if (collabPendingWrites > 0) return;
   try {
     const remote = await fetchRemoteCollabRaw();
     if (remote) {
-      state.collab = remote;
+      if (collabPendingWrites > 0) return;
+      state.collab = mergeCollab(state.collab, remote);
       persistCollabLocal();
       state.collabSynced = true;
       if (IS_LOCAL_SERVER) {
         fetch("/api/collab", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(remote),
+          body: JSON.stringify(state.collab),
         }).catch(() => {});
       }
       return;
@@ -2433,11 +2491,11 @@ async function fetchCollabSync() {
   } catch {
     state.collabSynced = false;
   }
-  if (IS_LOCAL_SERVER) {
+  if (IS_LOCAL_SERVER && collabPendingWrites === 0) {
     try {
       const lr = await fetch(`/api/collab?t=${Date.now()}`, { cache: "no-store" });
       if (lr.ok) {
-        state.collab = normalizeCollab(await lr.json());
+        state.collab = mergeCollab(state.collab, await lr.json());
         persistCollabLocal();
       }
     } catch {}
@@ -2449,22 +2507,32 @@ async function updateCollab(mutator) {
     openLoginOverlay(true);
     return;
   }
+  collabPendingWrites += 1;
   mutator(state.collab);
+  state.collab = normalizeCollab(state.collab);
   persistCollabLocal();
   renderAll();
-  try {
-    const remote = await fetchRemoteCollabRaw();
-    if (remote) {
-      mutator(remote);
-      state.collab = remote;
+
+  collabWriteChain = collabWriteChain.then(async () => {
+    try {
+      let base = state.collab;
+      try {
+        const remote = await fetchRemoteCollabRaw();
+        if (remote) base = mergeCollab(state.collab, remote);
+      } catch {}
+      mutator(base);
+      state.collab = normalizeCollab(base);
+      persistCollabLocal();
+      await writeRemoteCollab(state.collab);
+      state.collabSynced = true;
+    } catch {
+      state.collabSynced = false;
+    } finally {
+      collabPendingWrites = Math.max(0, collabPendingWrites - 1);
+      renderAll();
     }
-    await writeRemoteCollab(state.collab);
-    persistCollabLocal();
-    state.collabSynced = true;
-  } catch {
-    state.collabSynced = false;
-  }
-  renderAll();
+  });
+  return collabWriteChain;
 }
 
 async function toggleSaveStay(id) {
@@ -2475,11 +2543,14 @@ async function toggleSaveStay(id) {
   const actor = state.profile;
   const currentlySaved = (state.collab.saved?.[actor] || []).includes(id);
   const targetSaved = !currentlySaved;
+  const opTs = Date.now();
   await updateCollab((c) => {
     const set = new Set(c.saved[actor] || []);
     if (targetSaved) set.add(id);
     else set.delete(id);
     c.saved[actor] = Array.from(set);
+    c.savedAt = c.savedAt || { harsha: 0, rajat: 0 };
+    c.savedAt[actor] = opTs;
   });
   showToast(
     targetSaved
@@ -3764,10 +3835,14 @@ document.addEventListener("DOMContentLoaded", () => {
       state.userState.notes[id] = val;
       await saveUserState();
       if (state.profile) {
+        const actor = state.profile;
+        const noteTs = Date.now();
         await updateCollab((c) => {
           c.notes = c.notes || { harsha: {}, rajat: {} };
-          c.notes[state.profile] = c.notes[state.profile] || {};
-          c.notes[state.profile][id] = val;
+          c.notes[actor] = c.notes[actor] || {};
+          c.notes[actor][id] = val;
+          c.notesAt = c.notesAt || { harsha: 0, rajat: 0 };
+          c.notesAt[actor] = noteTs;
         });
       }
       showToast("Saved visit note & synced!");
