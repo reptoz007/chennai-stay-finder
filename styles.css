@@ -655,10 +655,10 @@ select {
 .modal-hero-img {
   position: relative;
   width: 100%;
-  height: 210px;
+  height: 245px;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   background: linear-gradient(135deg, #0f172a 0%, #134e4a 100%);
 }
 
@@ -673,6 +673,134 @@ select {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 2;
+}
+
+/* Multi-Image Carousel Controls (Card + Modal Preview) */
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 700;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.carousel-nav:hover {
+  background: rgba(15, 23, 42, 0.9);
+  transform: translateY(-50%) scale(1.06);
+}
+
+.carousel-prev {
+  left: 8px;
+}
+
+.carousel-next {
+  right: 8px;
+}
+
+.modal-hero-img .carousel-nav {
+  width: auto;
+  min-width: 34px;
+  height: 34px;
+  padding: 0 11px;
+  font-size: 13px;
+  gap: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.photo-count-pill {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: #f8fafc;
+  background: rgba(15, 23, 42, 0.68);
+  backdrop-filter: blur(6px);
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.modal-hero-img .photo-count-pill {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 2;
+  font-size: 11px;
+}
+
+.carousel-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 6px;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.carousel-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.carousel-dot.active {
+  background: #ffffff;
+  transform: scale(1.25);
+}
+
+.modal-thumbs {
+  display: flex;
+  gap: 7px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  margin-bottom: 12px;
+}
+
+.modal-thumb-btn {
+  border: 2px solid transparent;
+  padding: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  width: 68px;
+  height: 48px;
+  flex-shrink: 0;
+  cursor: pointer;
+  background: #0f172a;
+  opacity: 0.68;
+  transition: opacity 0.15s ease, border-color 0.15s ease;
+}
+
+.modal-thumb-btn:hover {
+  opacity: 0.95;
+}
+
+.modal-thumb-btn.active {
+  border-color: var(--teal);
+  opacity: 1;
+}
+
+.modal-thumb-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 /* Card Band 1: Top Status & Bookmark */

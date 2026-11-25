@@ -11,6 +11,9 @@ const state = {
   locality: "all",
   sortBy: "best-match",
   showHidden: false,
+  cardImageIdx: {},
+  modalItemId: null,
+  modalImageIdx: 0,
   lastKnownRound: null,
   lastKnownCount: null,
 };
@@ -278,6 +281,11 @@ function fitBadgeMeta(fit) {
   return { cls: "badge-fit-stretch", label: "> ₹8k Cap" };
 }
 
+function getImages(item) {
+  if (Array.isArray(item.images) && item.images.length) return item.images.filter(Boolean);
+  return item.imageUrl ? [item.imageUrl] : [];
+}
+
 function handleImgError(imgEl, fallbackText) {
   const wrap = imgEl.parentElement;
   imgEl.remove();
@@ -286,12 +294,42 @@ function handleImgError(imgEl, fallbackText) {
   if (!wrap.querySelector(".fallback-label")) {
     const span = document.createElement("div");
     span.className = "fallback-label";
-    span.textContent = fallbackText || "Chennai Metro Midpoint";
+    span.textContent = fallbackText || "Stay Photo Unavailable";
     wrap.appendChild(span);
   }
 }
 
 window.handleImgError = handleImgError;
+
+function stepCardImage(id, delta) {
+  const item = state.listings.find((x) => x.id === id);
+  if (!item) return;
+  const imgs = getImages(item);
+  if (!imgs.length) return;
+  const cur = state.cardImageIdx[id] ?? 0;
+  const next = delta === 0 ? Math.min(cur, imgs.length - 1) : (cur + delta + imgs.length) % imgs.length;
+  state.cardImageIdx[id] = next;
+
+  const media = document.querySelector(`.stay-card[data-id="${CSS.escape(id)}"] .card-media`);
+  if (!media) return;
+  let img = media.querySelector("img");
+  if (!img) {
+    media.classList.remove("img-fallback");
+    media.querySelector(".fallback-label")?.remove();
+    img = document.createElement("img");
+    img.alt = item.name;
+    img.referrerPolicy = "no-referrer";
+    const fb = `${item.locality || item.metroStation} · ${shortCategory(item.category)}`;
+    img.onerror = () => handleImgError(img, fb);
+    media.prepend(img);
+  }
+  img.src = imgs[next];
+  const counter = media.querySelector(".js-photo-idx");
+  if (counter) counter.textContent = `${next + 1} / ${imgs.length}`;
+  media.querySelectorAll(".carousel-dot").forEach((d, idx) => {
+    d.classList.toggle("active", idx === next);
+  });
+}
 
 function photoTagHtml(item) {
   const isProp = item.imageType === "property";
@@ -403,15 +441,24 @@ function renderListings() {
       const isNew = latestRound > 1 && item.addedRound === latestRound;
       const included = (item.features?.included || []).slice(0, 2);
       const missing = (item.features?.missingOrCaveat || []).slice(0, 2);
-      const fallbackTxt = `${item.metroStation || item.locality} · ${shortCategory(item.category)}`;
+      const imgs = getImages(item);
+      const imgIdx = Math.min(state.cardImageIdx[item.id] ?? 0, Math.max(0, imgs.length - 1));
+      const activeImg = imgs[imgIdx] || "";
+      const fallbackTxt = `${item.locality || item.metroStation} · ${shortCategory(item.category)}`;
 
       return `
         <article class="stay-card ${isStar ? "shortlisted" : ""} ${isHidden ? "is-hidden-card" : ""}" data-id="${escapeHtml(item.id)}">
-          <div class="card-media ${item.imageUrl ? "" : "img-fallback"} js-card-photo" data-id="${escapeHtml(item.id)}">
+          <div class="card-media ${activeImg ? "" : "img-fallback"} js-card-photo" data-id="${escapeHtml(item.id)}">
             ${
-              item.imageUrl
-                ? `<img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImgError(this, '${escapeHtml(fallbackTxt).replaceAll("'", "\\'")}')" />`
+              activeImg
+                ? `<img src="${escapeHtml(activeImg)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" loading="lazy" onerror="handleImgError(this, '${escapeHtml(fallbackTxt).replaceAll("'", "\\'")}')" />`
                 : `<div class="fallback-label">${escapeHtml(fallbackTxt)}</div>`
+            }
+            ${
+              imgs.length > 1
+                ? `<button type="button" class="carousel-nav carousel-prev js-prev-img" data-id="${escapeHtml(item.id)}" aria-label="Previous image">&#8249;</button>
+                   <button type="button" class="carousel-nav carousel-next js-next-img" data-id="${escapeHtml(item.id)}" aria-label="Next image">&#8250;</button>`
+                : ""
             }
             <div class="card-media-top">
               <div class="card-badges">
@@ -423,6 +470,14 @@ function renderListings() {
             </div>
             <div class="card-media-bottom">
               ${photoTagHtml(item)}
+              ${
+                imgs.length > 1
+                  ? `<div style="display:flex; align-items:center; gap:5px;">
+                       <div class="carousel-dots">${imgs.map((_, i) => `<span class="carousel-dot ${i === imgIdx ? "active" : ""}"></span>`).join("")}</div>
+                       <span class="photo-count-pill js-photo-idx">${imgIdx + 1} / ${imgs.length}</span>
+                     </div>`
+                  : ""
+              }
             </div>
           </div>
 
@@ -566,20 +621,62 @@ function renderSearchLog() {
     .join("");
 }
 
+function updateModalPhoto(nextIdx) {
+  const item = state.listings.find((x) => x.id === state.modalItemId);
+  if (!item) return;
+  const imgs = getImages(item);
+  if (!imgs.length) return;
+  const idx = ((nextIdx % imgs.length) + imgs.length) % imgs.length;
+  state.modalImageIdx = idx;
+  state.cardImageIdx[item.id] = idx;
+
+  const mainImg = document.getElementById("modal-main-photo");
+  if (mainImg) mainImg.src = imgs[idx];
+  const pill = document.getElementById("modal-photo-count");
+  if (pill) pill.textContent = `${idx + 1} / ${imgs.length}`;
+  document.querySelectorAll("#modal-thumbs .modal-thumb-btn").forEach((b, i) => {
+    b.classList.toggle("active", i === idx);
+  });
+  stepCardImage(item.id, 0);
+}
+
 function openDetailsModal(id) {
   const item = state.listings.find((x) => x.id === id);
   if (!item) return;
   const p = item.pricing || {};
   const note = (state.userState.notes || {})[id] || "";
+  const imgs = getImages(item);
+  const startIdx = Math.min(state.cardImageIdx[id] ?? 0, Math.max(0, imgs.length - 1));
+  state.modalItemId = id;
+  state.modalImageIdx = startIdx;
   const modalBody = document.getElementById("modal-body");
 
   modalBody.innerHTML = `
     ${
-      item.imageUrl
+      imgs.length
         ? `<div class="modal-hero-img">
-            <img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" onerror="handleImgError(this, '${escapeHtml(item.metroStation || item.locality).replaceAll("'", "\\'")}')" />
+            <img id="modal-main-photo" src="${escapeHtml(imgs[startIdx])}" alt="${escapeHtml(item.name)}" referrerpolicy="no-referrer" onerror="handleImgError(this, '${escapeHtml(item.locality || item.metroStation).replaceAll("'", "\\'")}')" />
+            ${
+              imgs.length > 1
+                ? `<button type="button" class="carousel-nav carousel-prev" id="modal-prev-btn" aria-label="Previous image">&#8249; Prev</button>
+                   <button type="button" class="carousel-nav carousel-next" id="modal-next-btn" aria-label="Next image">Next &#8250;</button>
+                   <span class="photo-count-pill" id="modal-photo-count">${startIdx + 1} / ${imgs.length}</span>`
+                : ""
+            }
             ${photoTagHtml(item)}
-          </div>`
+          </div>
+          ${
+            imgs.length > 1
+              ? `<div class="modal-thumbs" id="modal-thumbs">
+                  ${imgs
+                    .map(
+                      (src, i) =>
+                        `<button type="button" class="modal-thumb-btn ${i === startIdx ? "active" : ""}" data-idx="${i}" aria-label="View image ${i + 1}"><img src="${escapeHtml(src)}" alt="" referrerpolicy="no-referrer" loading="lazy" /></button>`
+                    )
+                    .join("")}
+                 </div>`
+              : ""
+          }`
         : ""
     }
     <div class="card-badges" style="margin-bottom:8px;">
@@ -810,7 +907,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const id = btn.dataset.id;
     if (!id) return;
 
-    if (btn.classList.contains("js-details")) {
+    if (btn.classList.contains("js-prev-img")) {
+      stepCardImage(id, -1);
+    } else if (btn.classList.contains("js-next-img")) {
+      stepCardImage(id, 1);
+    } else if (btn.classList.contains("js-details")) {
       openDetailsModal(id);
     } else if (btn.classList.contains("js-star")) {
       const list = new Set(state.userState.shortlisted || []);
@@ -848,6 +949,19 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("detail-modal").classList.add("hidden");
       return;
     }
+    if (e.target.closest("#modal-prev-btn")) {
+      updateModalPhoto(state.modalImageIdx - 1);
+      return;
+    }
+    if (e.target.closest("#modal-next-btn")) {
+      updateModalPhoto(state.modalImageIdx + 1);
+      return;
+    }
+    const thumbBtn = e.target.closest(".modal-thumb-btn");
+    if (thumbBtn) {
+      updateModalPhoto(Number(thumbBtn.dataset.idx) || 0);
+      return;
+    }
     if (e.target.id === "save-note-btn") {
       const id = e.target.dataset.id;
       const val = document.getElementById("modal-notes").value;
@@ -856,6 +970,14 @@ document.addEventListener("DOMContentLoaded", () => {
       await saveUserState();
       showToast("Saved visit note locally!");
     }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    const modal = document.getElementById("detail-modal");
+    if (modal.classList.contains("hidden")) return;
+    if (e.key === "ArrowRight") updateModalPhoto(state.modalImageIdx + 1);
+    else if (e.key === "ArrowLeft") updateModalPhoto(state.modalImageIdx - 1);
+    else if (e.key === "Escape") modal.classList.add("hidden");
   });
 
   fetchState(false);

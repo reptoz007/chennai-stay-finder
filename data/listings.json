@@ -78,7 +78,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
-    "imageType": "room-sample"
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg"
+    ]
   },
   {
     "id": "royal-comfort-vadapalani",
@@ -147,7 +154,10 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://occuhub.onrender.com/public/listings/prop_3b90459e0e5d/photo/0",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://occuhub.onrender.com/public/listings/prop_3b90459e0e5d/photo/0"
+    ]
   },
   {
     "id": "kr-mansion-vadapalani",
@@ -224,7 +234,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220755_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220755_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220757_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220763_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220767_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/27/Photo_h400_w540/GR2-260855-1220765_400_540.jpg"
+    ]
   },
   {
     "id": "shri-senthil-mansion-vadapalani",
@@ -301,7 +318,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297877_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297877_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297879_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297881_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297883_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Mar/07/Photo_h400_w540/GR1-13236-297885_400_540.jpg"
+    ]
   },
   {
     "id": "pg-saidapet-metro",
@@ -374,7 +398,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528867_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528867_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528879_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528841_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528843_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-118909-2528847_400_540.jpeg"
+    ]
   },
   {
     "id": "aristo-clouds-prince-arumbakkam",
@@ -442,8 +473,15 @@
     "source": "Justdial",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845093_400_540.jpg"
+    ]
   },
   {
     "id": "shree-vinayaga-vadapalani",
@@ -512,7 +550,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://www.menspginchennai.com/img/SRI-VINAYAGA-MENS-MANSION.png",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://www.menspginchennai.com/img/SRI-VINAYAGA-MENS-MANSION.png",
+      "https://www.menspginchennai.com/img/mansion_hero.png",
+      "https://www.menspginchennai.com/img/ac_room.png",
+      "https://www.menspginchennai.com/img/non_ac_room.png",
+      "https://www.menspginchennai.com/img/facilities.png"
+    ]
   },
   {
     "id": "lucky-boys-jafferkhanpet",
@@ -581,7 +626,10 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://lucky-hostels.com/_next/image?url=%2Fimages%2Froom-window.jpg&w=3840&q=75",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://lucky-hostels.com/_next/image?url=%2Fimages%2Froom-window.jpg&w=3840&q=75"
+    ]
   },
   {
     "id": "mithran-mens-ashok-nagar",
@@ -645,8 +693,15 @@
     "source": "Justdial",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484431_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg"
+    ]
   },
   {
     "id": "deekshitha-gents-ekkattuthangal",
@@ -715,7 +770,11 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://www.deekshithagentshostelandpg.com/images/about.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://www.deekshithagentshostelandpg.com/images/about.jpg",
+      "https://www.deekshithagentshostelandpg.com/images/about1.jpg"
+    ]
   },
   {
     "id": "sky-hostel-guindy",
@@ -783,8 +842,15 @@
     "source": "Justdial / Sulekha",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852181_400_540.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg"
+    ]
   },
   {
     "id": "truliv-althea-vadapalani",
@@ -853,7 +919,10 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://truliv.in/SEO/og-co-living-property.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://truliv.in/SEO/og-co-living-property.jpg"
+    ]
   },
   {
     "id": "zolo-cascade-ekkattuthangal",
@@ -925,8 +994,15 @@
     "source": "ZoloStays / MagicBricks",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg"
+    ]
   },
   {
     "id": "zolo-drift-arumbakkam",
@@ -990,8 +1066,15 @@
     "source": "ZoloStays / MagicBricks",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845093_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg"
+    ]
   },
   {
     "id": "zolo-hive-vadapalani",
@@ -1056,7 +1139,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg"
+    ]
   },
   {
     "id": "zolo-shack-vadapalani",
@@ -1120,8 +1210,15 @@
     "source": "ZoloStays",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg"
+    ]
   },
   {
     "id": "zolo-gem-saidapet",
@@ -1185,8 +1282,15 @@
     "source": "ZoloStays / MagicBricks",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg"
+    ]
   },
   {
     "id": "yube1-uptown-saligramam",
@@ -1251,7 +1355,14 @@
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
     "imageUrl": "https://admin.yube1.in/storage/uploads/mainimage/property-35/2025-06-21_1750488412_WhatsApp%20Image%202025-06-21%20at%2011.07.50%20-%20Edited%20-%20Edited.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://admin.yube1.in/storage/uploads/mainimage/property-35/2025-06-21_1750488412_WhatsApp%20Image%202025-06-21%20at%2011.07.50%20-%20Edited%20-%20Edited.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-35/2025-09-08_1757328234_IMGL0026.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-35/2025-09-08_1757328234_IMGL0017%20(1).jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-35/2025-09-08_1757328234_IMGL0007%20(1).jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-35/2025-09-08_1757328234_IMGL0004%20(3).jpg"
+    ]
   },
   {
     "id": "flat-pool-vadapalani-1rk",
@@ -1319,8 +1430,15 @@
     "source": "Housing.com / NoBroker / OLX / 99acres",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/87547937_1_hatsAppImage20261124at2.14.49PM_300_450.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/25/Photo_h300_w450/87081367_6_hatsAppImage20260923at5.46.45PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/87547937_1_hatsAppImage20261124at2.14.49PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg"
+    ]
   },
   {
     "id": "flat-pool-ashok-nagar-1rk",
@@ -1388,8 +1506,15 @@
     "source": "NoBroker / Housing.com / 99acres",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg"
+    ]
   },
   {
     "id": "flat-pool-saidapet-1rk",
@@ -1457,8 +1582,15 @@
     "source": "NoBroker / Housing.com / 99acres / OLX",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h300_w450/84214679_4_PropertyImage986-3388040934835_300_450.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVK4849ds8ur6D_hl8ez8n71sawRcZ4/Photo_h300_w450/85703375_1_PropertyImage997-7314020941199_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVK4849ds8ur6D_hl8ez8n71sawRcZ4/Photo_h300_w450/85703375_1_PropertyImage997-7314020941199_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h300_w450/84214679_4_PropertyImage986-3388040934835_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/5398_1795594293863.1885_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/30/Photo_h300_w450/87112747_1_PropertyImage346-68797239778405_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h180_w240/84214679_4_PropertyImage170-81793619003682_180_240.jpg"
+    ]
   },
   {
     "id": "flat-pool-arumbakkam-guindy",
@@ -1522,8 +1654,15 @@
     "source": "NoBroker / OLX / 99acres",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h180_w240/77280255_4_PropertyImage53-35341638028501_180_240.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Aug/06/Photo_h300_w450/2486_1786031427664.8630_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Aug/06/Photo_h300_w450/2486_1786031427664.8630_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Feb/20/Photo_h300_w450/77879315_2_PropertyImage158-55424045011745_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/07/Photo_h300_w450/86823113_5_hatsAppImage20261006at3.34.34PM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h180_w240/77280255_4_PropertyImage53-35341638028501_180_240.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h300_w450/77280255_5_PropertyImage345-10069973822874_300_450.jpg"
+    ]
   },
   {
     "id": "maadharsai-mens-elite-ramapuram",
@@ -1592,7 +1731,10 @@
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/30/Photo_h400_w540/GR2-545383-2816187_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/30/Photo_h400_w540/GR2-545383-2816187_400_540.jpg"
+    ]
   },
   {
     "id": "touch-mens-ashok-nagar",
@@ -1656,8 +1798,15 @@
     "source": "Justdial",
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484431_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg"
+    ]
   },
   {
     "id": "settl-cardiff-kknagar",
@@ -1718,7 +1867,10 @@
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
     "imageUrl": "https://www.thesettl.com/wp-content/uploads/2025/09/Cardiff.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://www.thesettl.com/wp-content/uploads/2025/09/Cardiff.jpg"
+    ]
   },
   {
     "id": "truliv-vesta-west-mambalam",
@@ -1783,7 +1935,14 @@
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/14/Photo_h400_w540/GR2-401313-2281099_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/14/Photo_h400_w540/GR2-401313-2281099_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-401313-2106069_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/14/Photo_h400_w540/GR2-401313-2281147_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/16/Photo_h400_w540/GR2-401313-2106067_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-401313-2101697_400_540.png"
+    ]
   },
   {
     "id": "truliv-iris-cit-nagar",
@@ -1848,7 +2007,10 @@
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
     "imageUrl": "https://truliv.in/SEO/og-co-living-property.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://truliv.in/SEO/og-co-living-property.jpg"
+    ]
   },
   {
     "id": "zolo-standpoint-arumbakkam",
@@ -1912,8 +2074,15 @@
     "source": "ZoloStays / MagicBricks",
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845093_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg"
+    ]
   },
   {
     "id": "zolo-rozzby-saidapet",
@@ -1977,8 +2146,15 @@
     "source": "ZoloStays",
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg"
+    ]
   },
   {
     "id": "yube1-elevate-saidapet",
@@ -2043,7 +2219,14 @@
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875599_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875593_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875587_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875591_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-west-mambalam-koyambedu",
@@ -2107,8 +2290,15 @@
     "source": "Housing.com / 99acres / NoBroker",
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h180_w240/7622_PropertyImage46.085597865523354_180_240.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ]
   },
   {
     "id": "sai-ashirwad-west-mambalam",
@@ -2177,7 +2367,14 @@
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192147_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192147_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192131_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192145_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254173-1192135_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w680/GR2-254173-1192145_400_680.jpg"
+    ]
   },
   {
     "id": "rahini-mens-vadapalani",
@@ -2241,8 +2438,15 @@
     "source": "Rahini Hostel / MagicBricks / MagicPin",
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
-    "imageUrl": "https://rahinihostel.in/assets/images/hero-branches-banner.jpg",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg"
+    ]
   },
   {
     "id": "mm-sai-nungambakkam",
@@ -2307,7 +2511,14 @@
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/19/Photo_h400_w540/GR1-6029-276013_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Feb/19/Photo_h400_w540/GR1-6029-276013_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-6029-43645_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-6029-43653_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-6029-43655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd1/cropped_images/2020/Jan/27/Photo_h400_w540/GR1-6029-43657_400_540.jpg"
+    ]
   },
   {
     "id": "stanza-mildura-vadapalani",
@@ -2372,7 +2583,10 @@
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
     "imageUrl": "https://typeindia.com/wp-content/uploads/bulk/Boys-Hostel-31.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://typeindia.com/wp-content/uploads/bulk/Boys-Hostel-31.jpg"
+    ]
   },
   {
     "id": "truliv-adonia-kodambakkam",
@@ -2429,7 +2643,14 @@
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852171_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852171_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852181_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852177_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852179_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852161_400_540.jpg"
+    ]
   },
   {
     "id": "zolo-moorfield-kodambakkam",
@@ -2490,7 +2711,14 @@
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852171_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852171_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852181_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852177_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852179_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852161_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-virugambakkam-chinmaya",
@@ -2554,8 +2782,15 @@
     "source": "99acres / Housing.com",
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/25/Photo_h300_w450/87081367_6_hatsAppImage20260923at5.46.45PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/87547937_1_hatsAppImage20261124at2.14.49PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg"
+    ]
   },
   {
     "id": "flat-pool-nesapakkam-1rk",
@@ -2615,8 +2850,15 @@
     "source": "99acres",
     "addedRound": 3,
     "addedAt": "2026-11-25T16:32:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg"
+    ]
   },
   {
     "id": "sun-palace-arumbakkam-metro",
@@ -2689,7 +2931,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/03/Photo_h400_w540/GR2-510907-2597097_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/03/Photo_h400_w540/GR2-510907-2597097_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Oct/03/Photo_h400_w540/GR2-510907-2597099_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/05/Photo_h400_w540/GR2-510907-2749349_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/05/Photo_h400_w540/GR2-510907-2749351_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/06/Photo_h400_w540/GR2-510907-2750015_400_540.jpeg"
+    ]
   },
   {
     "id": "success-mens-nandanam",
@@ -2758,7 +3007,10 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/20/Photo_h400_w540/GR2-418815-2014567_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/20/Photo_h400_w540/GR2-418815-2014567_400_540.jpg"
+    ]
   },
   {
     "id": "success-mens-teynampet",
@@ -2819,7 +3071,12 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/28/Photo_h400_w540/GR2-246249-1157329_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/28/Photo_h400_w540/GR2-246249-1157329_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/28/Photo_h400_w540/GR2-246249-1157325_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/28/Photo_h400_w540/GR2-246249-1157319_400_540.jpg"
+    ]
   },
   {
     "id": "vinayak-homes-kk-nagar",
@@ -2888,7 +3145,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847471_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847471_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847473_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847475_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847477_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/01/Photo_h400_w540/GR2-550563-2847479_400_540.jpg"
+    ]
   },
   {
     "id": "gupta-pg-west-saidapet",
@@ -2957,7 +3221,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008221_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008221_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008227_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008225_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008229_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/14/Photo_h400_w540/GR2-417763-2008231_400_540.jpg"
+    ]
   },
   {
     "id": "gupta-pg-kodambakkam",
@@ -3025,8 +3296,15 @@
     "source": "MagicBricks",
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484431_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg"
+    ]
   },
   {
     "id": "rp-luxury-kodambakkam",
@@ -3087,7 +3365,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069705_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069705_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069709_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069707_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069713_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428961-2069715_400_540.jpg"
+    ]
   },
   {
     "id": "heaven-mens-saidapet",
@@ -3152,7 +3437,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150397_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150397_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150401_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150399_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150405_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/01/Photo_h400_w540/GR2-444271-2150403_400_540.jpg"
+    ]
   },
   {
     "id": "sri-kailash-choolaimedu",
@@ -3213,7 +3505,13 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/30/Photo_h400_w540/GR2-488323-2435237_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/30/Photo_h400_w540/GR2-488323-2435237_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/30/Photo_h400_w540/GR2-488323-2435245_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/30/Photo_h400_w540/GR2-488323-2435239_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Mar/30/Photo_h400_w540/GR2-488323-2435241_400_540.jpeg"
+    ]
   },
   {
     "id": "boys-girls-choolaimedu",
@@ -3278,7 +3576,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860867_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860867_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860871_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860873_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860869_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/18/Photo_h400_w540/GR2-376493-2860875_400_540.jpg"
+    ]
   },
   {
     "id": "sai-ram-ekkattuthangal",
@@ -3343,7 +3648,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270115_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270115_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270117_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270131_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270119_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/12/Photo_h400_w540/GR2-270977-1270121_400_540.jpg"
+    ]
   },
   {
     "id": "deluxe-residency-kotturpuram",
@@ -3408,7 +3720,13 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/19/Photo_h400_w540/GR2-436433-2108799_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/19/Photo_h400_w540/GR2-436433-2108799_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/19/Photo_h400_w540/GR2-436433-2108801_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/19/Photo_h400_w680/GR2-436433-2108799_400_680.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/19/Photo_h400_w680/GR2-436433-2108801_400_680.jpg"
+    ]
   },
   {
     "id": "individual-home-anna-nagar-east",
@@ -3473,7 +3791,11 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354655_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354655_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/May/09/Photo_h400_w540/GR2-290113-1354657_400_540.jpeg"
+    ]
   },
   {
     "id": "deepak-pg-anna-nagar-east",
@@ -3538,7 +3860,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365651_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365651_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365655_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/13/Photo_h400_w540/GR2-392985-2365659_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Apr/11/Photo_h400_w540/GR2-392985-2445821_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Apr/11/Photo_h400_w540/GR2-392985-2445829_400_540.jpeg"
+    ]
   },
   {
     "id": "vijaya-scans-shenoy-nagar",
@@ -3599,7 +3928,14 @@
     "addedRound": 4,
     "addedAt": "2026-11-25T16:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1977977_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1977977_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1977979_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1977981_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1978003_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/18/Photo_h400_w540/GR2-412725-1977983_400_540.jpg"
+    ]
   },
   {
     "id": "gupta-pg-cit-nagar",
@@ -3663,8 +3999,15 @@
     "source": "MagicBricks",
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484431_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg"
+    ]
   },
   {
     "id": "gupta-pg-tnagar",
@@ -3725,7 +4068,14 @@
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/27/Photo_h400_w540/GR2-536457-2765419_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Apr/27/Photo_h400_w540/GR2-536457-2765419_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/21/Photo_h400_w540/GR2-544279-2809287_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/21/Photo_h400_w540/GR2-544279-2809293_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/21/Photo_h400_w540/GR2-544279-2809299_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jun/21/Photo_h400_w540/GR2-544279-2809297_400_540.jpg"
+    ]
   },
   {
     "id": "thathan-kuppam-2bhk-pg",
@@ -3790,7 +4140,11 @@
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/06/Photo_h400_w540/GR2-556097-2874917_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/06/Photo_h400_w540/GR2-556097-2874917_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/06/Photo_h400_w540/GR2-556097-2874919_400_540.jpg"
+    ]
   },
   {
     "id": "rr-mens-womens-mogappair-east",
@@ -3855,7 +4209,14 @@
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961731_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961731_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961739_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961719_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961721_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Dec/02/Photo_h400_w540/GR2-409823-1961733_400_540.jpeg"
+    ]
   },
   {
     "id": "boygirls-pg-anna-nagar",
@@ -3920,7 +4281,13 @@
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/12/Photo_h400_w540/GR2-342549-1620135_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/12/Photo_h400_w540/GR2-342549-1620135_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/12/Photo_h400_w540/GR2-342549-1620143_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/12/Photo_h400_w540/GR2-342549-1620093_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jan/12/Photo_h400_w540/GR2-342549-1620137_400_540.jpg"
+    ]
   },
   {
     "id": "udaya-priya-villa-adyar",
@@ -3985,7 +4352,13 @@
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/08/Photo_h400_w540/GR2-263367-1233193_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/08/Photo_h400_w540/GR2-263367-1233193_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/08/Photo_h400_w540/GR2-263367-1233189_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/08/Photo_h400_w540/GR2-263367-1233191_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/08/Photo_h400_w540/GR2-263367-1233195_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-arumbakkam-nsk",
@@ -4045,8 +4418,15 @@
     "source": "99acres / NoBroker",
     "addedRound": 5,
     "addedAt": "2026-11-25T16:44:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h180_w240/77280255_4_PropertyImage53-35341638028501_180_240.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h300_w450/77280255_5_PropertyImage345-10069973822874_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h300_w450/77280255_5_PropertyImage345-10069973822874_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Aug/06/Photo_h300_w450/2486_1786031427664.8630_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2025/Feb/20/Photo_h300_w450/77879315_2_PropertyImage158-55424045011745_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/07/Photo_h300_w450/86823113_5_hatsAppImage20261006at3.34.34PM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVK98w9dskYZ0tSbxvxfNrXtDsqoe7b/Photo_h180_w240/77280255_4_PropertyImage53-35341638028501_180_240.jpg"
+    ]
   },
   {
     "id": "kpa-mens-pg-arumbakkam",
@@ -4115,7 +4495,14 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg",
-    "imageType": "room-sample"
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845093_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg"
+    ]
   },
   {
     "id": "nitu-hive-hitech-choolaimedu",
@@ -4180,7 +4567,14 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Aug/22/Photo_h400_w540/GR2-391447-1859583_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Aug/22/Photo_h400_w540/GR2-391447-1859583_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-391447-2068889_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-391447-2068891_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Aug/22/Photo_h400_w540/GR2-391447-1859585_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Aug/22/Photo_h400_w540/GR2-391447-1859587_400_540.jpeg"
+    ]
   },
   {
     "id": "av-castle-mens-choolaimedu",
@@ -4237,7 +4631,14 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Aug/23/Photo_h400_w540/GR2-206957-1053165_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Aug/23/Photo_h400_w540/GR2-206957-1053165_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Aug/25/Photo_h400_w540/GR2-206957-1056853_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Jul/22/Photo_h400_w540/GR2-206957-995355_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Jul/22/Photo_h400_w540/GR2-206957-995357_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Jul/22/Photo_h400_w540/GR2-206957-995359_400_540.jpg"
+    ]
   },
   {
     "id": "boys-girls-cit-nagar",
@@ -4298,7 +4699,14 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069053_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069053_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069063_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069057_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069061_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Mar/12/Photo_h400_w540/GR2-428829-2069065_400_540.jpg"
+    ]
   },
   {
     "id": "barathvaaj-pg-tnagar",
@@ -4359,7 +4767,12 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/23/Photo_h400_w540/GR2-260051-1216893_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/23/Photo_h400_w540/GR2-260051-1216893_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/23/Photo_h400_w540/GR2-260051-1216887_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Dec/23/Photo_h400_w540/GR2-260051-1216889_400_540.jpeg"
+    ]
   },
   {
     "id": "new-diyaa-pg-adyar",
@@ -4416,7 +4829,14 @@
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664547_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664547_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664539_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664545_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664541_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/22/Photo_h400_w540/GR2-520645-2664543_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-vadapalani-alagiri-olx",
@@ -4480,8 +4900,15 @@
     "source": "OLX India",
     "addedRound": 6,
     "addedAt": "2026-11-25T16:56:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/25/Photo_h300_w450/87081367_6_hatsAppImage20260923at5.46.45PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/87547937_1_hatsAppImage20261124at2.14.49PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg"
+    ]
   },
   {
     "id": "vsn-mens-pg-alandur",
@@ -4545,8 +4972,15 @@
     "source": "MagicBricks",
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852177_400_540.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629811_400_540.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629811_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685713_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685711_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685723_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629809_400_540.jpg"
+    ]
   },
   {
     "id": "vetrivel-residency-ekkattuthangal",
@@ -4611,7 +5045,14 @@
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782359_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782359_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782367_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782361_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782369_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Jun/16/Photo_h400_w540/GR2-377079-1782373_400_540.jpg"
+    ]
   },
   {
     "id": "bambooz-residency-alandur",
@@ -4676,7 +5117,14 @@
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
     "imageUrl": "https://merahostel.com/assets/images/1.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://merahostel.com/assets/images/1.jpg",
+      "https://www.merahostel.com/assets/images/hostel_room6-a6a738e92ce53961ec8d88af8de985d0.jpeg",
+      "https://www.merahostel.com/assets/images/zolo1-f32f157236ac2f608edc103b398c8006.png",
+      "https://www.merahostel.com/assets/images/zolo2-0194bfa297dd7278677844101959def8.png",
+      "https://www.merahostel.com/assets/images/zolo3-5bd20941098706e0b7bbb8cdeb85e90b.jpg"
+    ]
   },
   {
     "id": "cv-pg-guindy-estate",
@@ -4741,7 +5189,13 @@
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg"
+    ]
   },
   {
     "id": "zolo-gleeful-homes-alandur",
@@ -4805,8 +5259,15 @@
     "source": "ZoloStays",
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
-    "imageUrl": "https://play-zelo-production.s3.ap-south-1.amazonaws.com/uploads/banners/desktop/stressFreeLifeBanner.png",
-    "imageType": "property"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629809_400_540.jpg",
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629809_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629811_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685713_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685711_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685723_400_540.jpg"
+    ]
   },
   {
     "id": "yube1-transit-alandur",
@@ -4871,7 +5332,14 @@
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
     "imageUrl": "https://admin.yube1.in/storage/uploads/mainimage/property-41/2025-11-17_1763363424_wire%20removed.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://admin.yube1.in/storage/uploads/mainimage/property-41/2025-11-17_1763363424_wire%20removed.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8325.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8241.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8273.jpg",
+      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8249.jpg"
+    ]
   },
   {
     "id": "sri-mens-pg-guindy",
@@ -4935,8 +5403,15 @@
     "source": "ChennaiProperties",
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-361171-2852177_400_540.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg"
+    ]
   },
   {
     "id": "sharma-dormitory-koyambedu",
@@ -5001,7 +5476,14 @@
     "addedRound": 8,
     "addedAt": "2026-11-25T17:22:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/20/Photo_h400_w540/GR2-347621-1947197_400_540.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/20/Photo_h400_w540/GR2-347621-1947197_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/11/Photo_h400_w540/GR2-347621-1660055_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/11/Photo_h400_w540/GR2-347621-1660057_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/11/Photo_h400_w540/GR2-347621-1660059_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Nov/20/Photo_h400_w680/GR2-347621-1947197_400_680.jpg"
+    ]
   },
   {
     "id": "gupta-pg-saligramam",
@@ -5066,7 +5548,14 @@
     "addedRound": 8,
     "addedAt": "2026-11-25T17:22:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101465_400_540.png",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101465_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101461_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101463_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101471_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-307021-2101467_400_540.png"
+    ]
   },
   {
     "id": "babitha-house-virugambakkam",
@@ -5131,7 +5620,14 @@
     "addedRound": 8,
     "addedAt": "2026-11-25T17:22:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
-    "imageType": "room-sample"
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883655_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883657_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883653_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883651_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/16/Photo_h400_w540/GR2-361231-2883649_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-ashok-sulekha-1rk",
@@ -5195,8 +5691,15 @@
     "source": "Sulekha / NoBroker",
     "addedRound": 8,
     "addedAt": "2026-11-25T17:22:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h180_w240/7622_PropertyImage46.085597865523354_180_240.jpg",
-    "imageType": "room-sample"
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+    "imageType": "room-sample",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg"
+    ]
   },
   {
     "id": "sai-ram-guest-house-anna-nagar-west",
@@ -5261,7 +5764,14 @@
     "addedRound": 9,
     "addedAt": "2026-11-25T17:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/06/Photo_h400_w540/GR2-560745-2899899_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/06/Photo_h400_w540/GR2-560745-2899899_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/10/Photo_h400_w540/GR2-560745-2903807_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/19/Photo_h400_w540/GR2-560745-2910077_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/19/Photo_h400_w540/GR2-560745-2910081_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Oct/06/Photo_h400_w540/GR2-560745-2899901_400_540.jpeg"
+    ]
   },
   {
     "id": "savy-mens-pg-anna-nagar-west",
@@ -5326,7 +5836,14 @@
     "addedRound": 9,
     "addedAt": "2026-11-25T17:36:00+05:30",
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/28/Photo_h400_w540/GR2-398131-2893973_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845085_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845087_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845089_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/30/Photo_h400_w540/GR2-398131-2845093_400_540.jpg"
+    ]
   },
   {
     "id": "settl-lagos-anna-nagar-west",
@@ -5391,7 +5908,10 @@
     "addedRound": 9,
     "addedAt": "2026-11-25T17:36:00+05:30",
     "imageUrl": "https://www.thesettl.com/wp-content/uploads/2025/09/Lagos.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://www.thesettl.com/wp-content/uploads/2025/09/Lagos.jpg"
+    ]
   },
   {
     "id": "settl-belmonte-tnagar",
@@ -5456,7 +5976,10 @@
     "addedRound": 9,
     "addedAt": "2026-11-25T17:36:00+05:30",
     "imageUrl": "https://www.thesettl.com/wp-content/uploads/2025/09/Belmonte.jpg",
-    "imageType": "property"
+    "imageType": "property",
+    "images": [
+      "https://www.thesettl.com/wp-content/uploads/2025/09/Belmonte.jpg"
+    ]
   },
   {
     "id": "krisna-boys-hostel-koyambedu-thirumangalam",
@@ -5521,7 +6044,14 @@
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839691_400_540.jpg",
     "imageType": "property",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839691_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839705_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839693_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/24/Photo_h400_w540/GR2-477985-2839695_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jan/06/Photo_h400_w540/GR2-477985-2358071_400_540.png"
+    ]
   },
   {
     "id": "simsan-stay-kk-nagar-80ft",
@@ -5586,7 +6116,13 @@
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285385_400_540.jpeg",
     "imageType": "property",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285385_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285407_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285409_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/18/Photo_h400_w540/GR2-468259-2285393_400_540.jpeg"
+    ]
   },
   {
     "id": "triptii-mens-hostel-west-mambalam",
@@ -5651,7 +6187,14 @@
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
     "imageType": "property",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484285_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484431_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484919_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/May/28/Photo_h400_w540/GR2-492867-2484921_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jun/02/Photo_h400_w540/GR2-492867-2488113_400_540.jpeg"
+    ]
   },
   {
     "id": "yube1-castle-mogappair-boys",
@@ -5716,7 +6259,14 @@
     "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889299_400_540.jpg",
     "imageType": "property",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889299_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889313_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889297_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889301_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/23/Photo_h400_w540/GR2-534833-2889293_400_540.jpg"
+    ]
   },
   {
     "id": "flat-pool-kodambakkam-1rk-nobroker",
@@ -5778,10 +6328,17 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Trustpuram+Kodambakkam+Chennai"
     },
     "source": "NoBroker",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnjVE88E9dMwdWmntyMcO5OKmieVseDS8/Photo_h180_w240/82460565_1_PropertyImage669-804957078573_180_240.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
     "imageType": "room-sample",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/17/Photo_h300_w450/87410987_4_PropertyImage342-3383213912234_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/19/Photo_h300_w450/87445965_1_Bathroom_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/25/Photo_h300_w450/87081367_6_hatsAppImage20260923at5.46.45PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/87547937_1_hatsAppImage20261124at2.14.49PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/20/Photo_h300_w450/87008915_1_PropertyImage268-6367296186197_300_450.jpg"
+    ]
   },
   {
     "id": "flat-pool-west-mambalam-olx-1rk",
@@ -5843,9 +6400,16 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ramakrishnapuram+West+Mambalam+Chennai"
     },
     "source": "OLX India",
-    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2020/Sep/11/Photo_h300_w450/50928756_1_545924477016_300_450.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/30/Photo_h300_w450/87112747_1_PropertyImage346-68797239778405_300_450.jpg",
     "imageType": "room-sample",
     "addedRound": 10,
-    "addedAt": "2026-11-25T17:44:00+05:30"
+    "addedAt": "2026-11-25T17:44:00+05:30",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/30/Photo_h300_w450/87112747_1_PropertyImage346-68797239778405_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h180_w240/84214679_4_PropertyImage170-81793619003682_180_240.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVK4849ds8ur6D_hl8ez8n71sawRcZ4/Photo_h300_w450/85703375_1_PropertyImage997-7314020941199_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVB5tA9dcmAiXkYjw0fRkb-LTHkJpZ4/Photo_h300_w450/84214679_4_PropertyImage986-3388040934835_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Nov/25/Photo_h300_w450/5398_1795594293863.1885_300_450.jpg"
+    ]
   }
 ]
