@@ -939,16 +939,16 @@
       "iitmRoute": "Auto/bus via Kathipara / Guindy to IITM"
     },
     "pricing": {
-      "monthlyRentPerPersonMin": 9180,
-      "monthlyRentPerPersonMax": 12000,
+      "monthlyRentPerPersonMin": 10710,
+      "monthlyRentPerPersonMax": 13685,
       "estimatedAcEbPerPersonMin": 1200,
       "estimatedAcEbPerPersonMax": 1800,
-      "effectiveTotalPerPersonMin": 10380,
-      "effectiveTotalPerPersonMax": 13800,
-      "priceNote": "Zolo lists multi-sharing from ₹9,180–₹10,710+/mo; AC twin-sharing & sub-metered EB push total above ₹10.3k",
+      "effectiveTotalPerPersonMin": 11910,
+      "effectiveTotalPerPersonMax": 15485,
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹10,710, Twin AC ₹13,685, Single AC ₹21,463; Deposit ₹10,710; No Notice Period; Food Not Available (60 beds, Near St Thomas Hospital).",
       "budgetFit": "stretch",
-      "deposit": "1 month rent (Zolo app terms + exit charges)",
-      "sharingType": "2-Sharing / 3-Sharing / Private"
+      "deposit": "₹10,710 (No Notice Period)",
+      "sharingType": "Triple AC ₹10,710 / Twin AC ₹13,685"
     },
     "eligibility": "Unisex / Co-ed",
     "features": {
@@ -987,21 +987,21 @@
     },
     "redditSummary": "Zolo is convenient for short internships (1-month deposit), but r/Chennai highlights sub-metered EB shocks and slow app support tickets.",
     "links": {
-      "listingUrl": "https://zolostays.com/pgs-in-ekkatuthangal-chennai",
-      "listingLabel": "View on ZoloStays",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/zolo-cascade-pg-ekkatuthangal-in-chennai&pgid=4d42343737393833677261646532",
+      "listingLabel": "MagicBricks Zolo Cascade (Direct PG)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zolo+Cascade+Ekkattuthangal+Chennai"
     },
     "source": "ZoloStays / MagicBricks",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
     "imageType": "property",
     "images": [
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
       "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg"
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875599_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875593_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875587_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875591_400_540.jpg"
     ]
   },
   {
@@ -1235,16 +1235,16 @@
       "iitmRoute": "Quick bus/auto along Sardar Patel Rd to IITM"
     },
     "pricing": {
-      "monthlyRentPerPersonMin": 13050,
-      "monthlyRentPerPersonMax": 15000,
+      "monthlyRentPerPersonMin": 19975,
+      "monthlyRentPerPersonMax": 24268,
       "estimatedAcEbPerPersonMin": 1200,
       "estimatedAcEbPerPersonMax": 1800,
-      "effectiveTotalPerPersonMin": 14250,
-      "effectiveTotalPerPersonMax": 16800,
-      "priceNote": "Double sharing AC starts ~₹13,050/month + EB",
+      "effectiveTotalPerPersonMin": 21175,
+      "effectiveTotalPerPersonMax": 26068,
+      "priceNote": "Verified MagicBricks tariff: Single AC ₹19,975, Twin AC ₹24,268; Deposit ₹19,975; 1 Month Notice; Food: None (50 beds, near Olympia Tech Park).",
       "budgetFit": "stretch",
-      "deposit": "1 month rent",
-      "sharingType": "2-Sharing / Single"
+      "deposit": "₹19,975 (1 Month Notice)",
+      "sharingType": "Single AC ₹19,975 / Twin AC ₹24,268"
     },
     "eligibility": "Unisex / Co-ed",
     "features": {
@@ -1275,21 +1275,21 @@
     },
     "redditSummary": "One of the few Zolo properties with induction stoves for cooking, though price is well above ₹8k/person.",
     "links": {
-      "listingUrl": "https://zolostays.com/pg-hostel-near-saidapet-in-chennai-zolo_gem-zolgm",
-      "listingLabel": "View on ZoloStays",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/zolo-gem-pg-saidapet-in-chennai&pgid=4d42343531373233677261646532",
+      "listingLabel": "MagicBricks Zolo Gem (Direct PG)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zolo+Gem+Saidapet+Chennai"
     },
     "source": "ZoloStays / MagicBricks",
     "addedRound": 1,
     "addedAt": "2026-11-25T16:16:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852415_400_540.jpg",
     "imageType": "property",
     "images": [
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679069_400_540.jpeg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Nov/11/Photo_h400_w540/GR2-353317-2924759_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679071_400_540.jpeg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Sep/07/Photo_h400_w540/GR2-477983-2875589_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Mar/03/Photo_h400_w540/GR2-353317-1679073_400_540.jpeg"
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852415_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852413_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852421_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852423_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Aug/07/Photo_h400_w540/GR2-451723-2852417_400_540.jpg"
     ]
   },
   {
@@ -1959,16 +1959,16 @@
       "iitmRoute": "Short bus/auto via Sardar Patel Rd to IITM"
     },
     "pricing": {
-      "monthlyRentPerPersonMin": 13999,
-      "monthlyRentPerPersonMax": 16000,
+      "monthlyRentPerPersonMin": 10999,
+      "monthlyRentPerPersonMax": 13999,
       "estimatedAcEbPerPersonMin": 1200,
       "estimatedAcEbPerPersonMax": 1800,
-      "effectiveTotalPerPersonMin": 15199,
-      "effectiveTotalPerPersonMax": 17800,
-      "priceNote": "Double sharing AC starts ~₹13,999/month (triple sharing from ₹10,999) + EB",
+      "effectiveTotalPerPersonMin": 12199,
+      "effectiveTotalPerPersonMax": 15799,
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹10,999, Twin AC ₹13,999; Deposit ₹16,498; 1 Month Notice; Unisex AC Co-living (50 beds, CIT Nagar).",
       "budgetFit": "stretch",
-      "deposit": "1–2 months rent",
-      "sharingType": "2-Sharing / 3-Sharing / Private"
+      "deposit": "₹16,498 (1 Month Notice)",
+      "sharingType": "Triple AC ₹10,999 / Twin AC ₹13,999"
     },
     "eligibility": "Unisex / Co-ed",
     "features": {
@@ -1999,17 +1999,21 @@
     },
     "redditSummary": "Good IITM commute and shared kitchen, but steep pricing makes it mainly a benchmark unless budget increases.",
     "links": {
-      "listingUrl": "https://truliv.in/coliving-rent-in-chennai/pgs-near-t-nagar/truliv-iris",
-      "listingLabel": "View on Truliv",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/truliv-iris-pg-cit-nagar-in-chennai&pgid=4d42333334393533677261646532",
+      "listingLabel": "MagicBricks Truliv Iris (Direct PG)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Truliv+Iris+CIT+Nagar+Chennai"
     },
     "source": "Truliv / MagicBricks / GopGo",
     "addedRound": 2,
     "addedAt": "2026-11-25T16:24:00+05:30",
-    "imageUrl": "https://truliv.in/SEO/og-co-living-property.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-334953-2101623_400_540.png",
     "imageType": "property",
     "images": [
-      "https://truliv.in/SEO/og-co-living-property.jpg"
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-334953-2101623_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-334953-2101615_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Sep/26/Photo_h400_w540/GR2-334953-2264989_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-334953-2101629_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-334953-2101631_400_540.png"
     ]
   },
   {
@@ -5211,16 +5215,16 @@
       "iitmRoute": "Blue Line / GST Rd bus to Guindy & IITM"
     },
     "pricing": {
-      "monthlyRentPerPersonMin": 8798,
-      "monthlyRentPerPersonMax": 14500,
+      "monthlyRentPerPersonMin": 9775,
+      "monthlyRentPerPersonMax": 14195,
       "estimatedAcEbPerPersonMin": 1200,
       "estimatedAcEbPerPersonMax": 2000,
-      "effectiveTotalPerPersonMin": 10000,
-      "effectiveTotalPerPersonMax": 16500,
-      "priceNote": "Zolo rates: multi-sharing ₹8,798–₹9,775+, Twin Sharing ~₹14,000+, Private ₹20,800+; electricity billed extra.",
-      "budgetFit": "stretch",
-      "deposit": "Per Zolo policy (1–2 months)",
-      "sharingType": "Twin (~₹14k+) / Multi-Share (₹8.8k+)"
+      "effectiveTotalPerPersonMin": 10975,
+      "effectiveTotalPerPersonMax": 16195,
+      "priceNote": "Verified MagicBricks tariff: Four AC ₹9,775, Triple AC ₹11,985, Twin ₹14,195; Deposit ₹9,775; Boys Only; Food Available (Veg & Non-Veg); near Jothi Theatre.",
+      "budgetFit": "borderline",
+      "deposit": "₹9,775 (1 Month Notice)",
+      "sharingType": "Four AC ₹9,775 / Triple AC ₹11,985 / Twin ₹14,195"
     },
     "eligibility": "Male / Co-living Managed Property",
     "features": {
@@ -5251,21 +5255,21 @@
     },
     "redditSummary": "r/chennaicity reviews note Zolo offers clean self-cooking kitchen access, though effective monthly bills with EB usually overshoot a ₹8k cap.",
     "links": {
-      "listingUrl": "https://zolostays.com/pg-hostel-near-alandur-in-chennai-zolo_gleeful_homes-zoghm",
-      "listingLabel": "View Zolo Gleeful Homes",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/zolo-gleeful-homes-pg-alandur-in-chennai&pgid=4d42343133363235677261646532",
+      "listingLabel": "MagicBricks Zolo Gleeful Homes (Direct PG)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zolo+Gleeful+Homes+Alandur+Chennai"
     },
     "source": "ZoloStays",
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
-    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629809_400_540.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685711_400_540.jpg",
     "imageType": "property",
     "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685711_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685723_400_540.jpg",
       "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629809_400_540.jpg",
       "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Nov/12/Photo_h400_w540/GR2-413625-2629811_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685713_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685711_400_540.jpg",
-      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685723_400_540.jpg"
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jan/19/Photo_h400_w540/GR2-413625-2685713_400_540.jpg"
     ]
   },
   {
@@ -5289,10 +5293,10 @@
       "estimatedAcEbPerPersonMax": 2000,
       "effectiveTotalPerPersonMin": 13200,
       "effectiveTotalPerPersonMax": 17000,
-      "priceNote": "Verified tariffs: Triple AC ~₹12,000, Twin AC ~₹15,000, Deposit ₹12,000; EB billed per actual consumption.",
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹12,000, Twin AC ₹15,000; Deposit ₹12,000; 1 Month Notice; Food Not Available (Near Radisson Blu Hotel GRT).",
       "budgetFit": "stretch",
-      "deposit": "₹12,000",
-      "sharingType": "Twin AC (~₹15k) / Triple AC (~₹12k)"
+      "deposit": "₹12,000 (1 Month Notice)",
+      "sharingType": "Triple AC ₹12,000 / Twin AC ₹15,000"
     },
     "eligibility": "Co-ed / Managed Co-living",
     "features": {
@@ -5323,21 +5327,21 @@
     },
     "redditSummary": "Useful co-living benchmark right at Alandur interchange for short notice/fixed-deposit convenience if budget flexes up.",
     "links": {
-      "listingUrl": "https://www.yube1.in/property-details/Yube1-Transit",
-      "listingLabel": "View Yube1 Transit",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/yube1-transit-pg-alandur-in-chennai&pgid=4d42353035353539677261646532",
+      "listingLabel": "MagicBricks Yube1 Transit (Direct PG)",
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube1+Transit+Alandur+Chennai"
     },
     "source": "Yube1",
     "addedRound": 7,
     "addedAt": "2026-11-25T17:12:00+05:30",
-    "imageUrl": "https://admin.yube1.in/storage/uploads/mainimage/property-41/2025-11-17_1763363424_wire%20removed.jpg",
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562219_400_540.jpeg",
     "imageType": "property",
     "images": [
-      "https://admin.yube1.in/storage/uploads/mainimage/property-41/2025-11-17_1763363424_wire%20removed.jpg",
-      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8325.jpg",
-      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8241.jpg",
-      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8273.jpg",
-      "https://admin.yube1.in/storage/uploads/gallery/property-41/2025-11-17_1763363424__X4A8249.jpg"
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562219_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562245_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562247_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562215_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Aug/21/Photo_h400_w540/GR2-505559-2562217_400_540.jpeg"
     ]
   },
   {
@@ -10225,6 +10229,1277 @@
     },
     "addedRound": 21,
     "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "parthasarathy-mens-tnagar-nandanam",
+    "name": "Parthasarathy Men's Hostel (T. Nagar / Nandanam — ₹7.5k Twin AC + Self-Cooking Kitchen)",
+    "category": "Local Men's PG",
+    "locality": "T. Nagar / Teynampet",
+    "metroStation": "Nandanam Metro (Blue Line)",
+    "metroWalk": "~1.2 km / short share-auto from Nandanam Metro & Mambalam station",
+    "address": "Parthasarathypuram (near Velankanni Higher Secondary School), T. Nagar, Chennai 600017",
+    "eligibility": "Boys / Working Male Professionals Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 7500,
+      "monthlyRentPerPersonMax": 8500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8500,
+      "effectiveTotalPerPersonMax": 10000,
+      "deposit": "₹20,000 (1 Month Notice)",
+      "sharingType": "Twin Sharing AC ₹7,500",
+      "budgetFit": "borderline",
+      "priceNote": "MagicBricks verified: Twin Sharing AC ₹7,500 + EB ₹6/unit on actual consumption (lower than commercial ₹12–₹16 rates). Deposit ₹20,000."
+    },
+    "commute": {
+      "jidokaMins": "35–42 mins",
+      "iitmMins": "15–22 mins",
+      "jidokaRoute": "Nandanam Blue Line -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmRoute": "Short Anna Salai bus / Blue Line to Little Mount -> direct bus/auto to IITM Main Gate"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (EB at ₹6/unit)",
+      "beds": "8-bed setup — cots, mattresses, TV, Wi-Fi",
+      "kitchen": "Yes — Self-Cooking Kitchen of Veg Food (gas cylinder, fridge, microwave)",
+      "kitchenAccess": "shared",
+      "included": [
+        {
+          "label": "Explicit Self-Cooking Kitchen",
+          "detail": "Gas cylinder setup, refrigerator & microwave for veg cooking"
+        },
+        {
+          "label": "Transparent ₹6/Unit EB",
+          "detail": "Fair ₹6/unit AC meter rate instead of ₹12–₹16/unit markups"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Veg-Only Self-Cooking Rule",
+          "detail": "Listing explicitly enforces SELF-COOKING OF VEG FOOD ONLY"
+        },
+        {
+          "label": "₹20,000 Deposit",
+          "detail": "Higher security deposit (~2.6 months rent) with 1-month notice"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai users note T. Nagar/Nandanam pockets strongly favor IITM commutes and rare self-cooking Boys PGs help cut food expenses cleanly.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Direct PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/parthasarathy-mens-hostel-pg-t-nagar-in-chennai&pgid=4d42323732303033677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Parthasarathy+Mens+Hostel+Parthasarathypuram+T+Nagar+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/07/Photo_h400_w540/GR2-272003-2703789_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/07/Photo_h400_w540/GR2-272003-2703789_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Dec/25/Photo_h400_w540/GR2-272003-2667517_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Feb/16/Photo_h400_w540/GR2-272003-1275595_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/07/Photo_h400_w540/GR2-272003-2703785_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/07/Photo_h400_w540/GR2-272003-2703787_400_540.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "yube1-urban-square-guindy",
+    "name": "Yube 1 Urban Square (Guindy — AC Triple ₹11.5k / Twin ₹14k)",
+    "category": "Co-Living PG Benchmark",
+    "locality": "Guindy",
+    "metroStation": "Guindy Metro (Blue Line)",
+    "metroWalk": "5–10 min walk/auto to Guindy Metro & Industrial Estate",
+    "address": "Guindy (well-furnished managed PG block), Chennai 600032",
+    "eligibility": "Co-Ed (Girls & Boys) — All Tenants",
+    "pricing": {
+      "monthlyRentPerPersonMin": 11500,
+      "monthlyRentPerPersonMax": 17000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1700,
+      "effectiveTotalPerPersonMin": 12700,
+      "effectiveTotalPerPersonMax": 18700,
+      "deposit": "₹10,000 (1 Month Notice)",
+      "sharingType": "Triple AC ₹11,500 / Twin AC ₹14,000 / Single AC ₹17,000",
+      "budgetFit": "stretch",
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹11,500, Twin AC ₹14,000, Single AC ₹17,000; Deposit ₹10,000; 1 Month Notice (45 beds, operating since 2023)."
+    },
+    "commute": {
+      "jidokaMins": "34–42 mins",
+      "iitmMins": "12–18 mins",
+      "jidokaRoute": "Guindy -> Alandur -> Green Line to Thirumangalam Metro + auto",
+      "iitmRoute": "Direct bus/auto along Sardar Patel Rd to IITM Main Gate"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available",
+      "beds": "45-bed managed setup (cots, wardrobes, power backup, parking)",
+      "kitchen": "No — Food Not Available (external meals / check pantry appliance rules)",
+      "kitchenAccess": "none",
+      "included": [
+        {
+          "label": "Full Power Backup & AC",
+          "detail": "45-bed managed Guindy property with power backup & parking"
+        },
+        {
+          "label": "Rapid IITM Gate Access",
+          "detail": "Closest Blue Line hub to IIT Madras"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Above ₹8k Budget",
+          "detail": "Twin AC at ₹14,000 + EB exceeds target internship budget"
+        },
+        {
+          "label": "No In-House Food",
+          "detail": "Food Not Available on listing — adds monthly tiffin spend"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai Guindy threads confirm Yube1 properties sit right near IITM transit, though Twin AC pricing runs almost 2x over a ₹7k/person budget.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Direct PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/yube-1-urban-square-pg-guindy-in-chennai&pgid=4d42333532313939677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Yube+1+Urban+Square+Guindy+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/20/Photo_h400_w540/GR2-352199-1668169_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/20/Photo_h400_w540/GR2-352199-1668169_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/25/Photo_h400_w540/GR2-352199-1673623_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/22/Photo_h400_w540/GR2-352199-1670039_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/22/Photo_h400_w540/GR2-352199-1670041_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Feb/22/Photo_h400_w540/GR2-352199-1670045_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "truliv-selene-saidapet",
+    "name": "Truliv Selene (Saidapet — Managed AC Co-Living Triple ₹12.5k / Twin ₹13.5k)",
+    "category": "Co-Living PG Benchmark",
+    "locality": "Saidapet",
+    "metroStation": "Saidapet / Little Mount Metro (Blue Line)",
+    "metroWalk": "5–10 min walk/auto to Saidapet & Little Mount Metro",
+    "address": "Saidapet (modern 100-bed managed building), Chennai 600015",
+    "eligibility": "Co-Ed (Girls & Boys) — All Tenants",
+    "pricing": {
+      "monthlyRentPerPersonMin": 12499,
+      "monthlyRentPerPersonMax": 13499,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1700,
+      "effectiveTotalPerPersonMin": 13699,
+      "effectiveTotalPerPersonMax": 15199,
+      "deposit": "₹18,749 (1 Month Notice)",
+      "sharingType": "Triple AC ₹12,499 / Twin AC ₹13,499",
+      "budgetFit": "stretch",
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹12,499, Twin AC ₹13,499; Deposit ₹18,749; 1 Month Notice; AC, parking, power backup (100 beds, since 2023)."
+    },
+    "commute": {
+      "jidokaMins": "38–45 mins",
+      "iitmMins": "10–15 mins",
+      "jidokaRoute": "Saidapet Blue Line -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmRoute": "10–15 min direct MTC bus or auto along Sardar Patel Rd to IITM"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available",
+      "beds": "100-bed co-living setup w/ power backup & parking",
+      "kitchen": "Verify — Check shared floor pantry / common dining terms",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "2023 Modern Co-Living Building",
+          "detail": "Clean furnishings, AC & backup verified in 13 photos"
+        },
+        {
+          "label": "Closest Tier to IIT Madras",
+          "detail": "Under 15 mins to IITM Main Gate"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Premium Budget + Deposit",
+          "detail": "₹13,499 Twin + ₹18,749 deposit + 1-month notice"
+        },
+        {
+          "label": "Longer Jidoka Leg",
+          "detail": "~40–45m Metro + auto for Harsha"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai benchmarkers place Truliv Selene/Iris as clean hotel-like fallbacks if budget stretches above ₹13.5k near IITM.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Direct PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/truliv-selene-pg-saidapet-in-chennai&pgid=4d42343039323635677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Truliv+Selene+Saidapet+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101663_400_540.png",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101663_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101657_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101659_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101661_400_540.png",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Apr/12/Photo_h400_w540/GR2-409265-2101673_400_540.png"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "truliv-hestia-cit-nagar",
+    "name": "Truliv Hestia (CIT Nagar / Nandanam — Zero-Notice AC Co-Living Benchmark)",
+    "category": "Co-Living PG Benchmark",
+    "locality": "T. Nagar / Teynampet",
+    "metroStation": "Nandanam / Saidapet Metro (Blue Line)",
+    "metroWalk": "~8–10 min from Nandanam / Saidapet Metro near Hindi Prachar Sabha",
+    "address": "CIT Nagar / Near Hindi Prachar Sabha, T. Nagar, Chennai 600035",
+    "eligibility": "Co-Ed (Girls & Boys) — All Tenants",
+    "pricing": {
+      "monthlyRentPerPersonMin": 17999,
+      "monthlyRentPerPersonMax": 21499,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1700,
+      "effectiveTotalPerPersonMin": 19199,
+      "effectiveTotalPerPersonMax": 23199,
+      "deposit": "₹26,998 (No Notice Period)",
+      "sharingType": "Triple AC ₹17,999 / Twin AC ₹21,499",
+      "budgetFit": "stretch",
+      "priceNote": "Verified MagicBricks tariff: Triple AC ₹17,999, Twin AC ₹21,499; Deposit ₹26,998; No Notice Period; AC, parking, power backup (80 beds, since 2022)."
+    },
+    "commute": {
+      "jidokaMins": "35–42 mins",
+      "iitmMins": "14–20 mins",
+      "jidokaRoute": "Nandanam Blue Line -> Alandur -> Green Line to Thirumangalam + auto",
+      "iitmRoute": "Short bus/auto from CIT Nagar / Nandanam to IIT Madras"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available",
+      "beds": "80-bed modern studio/co-living building",
+      "kitchen": "Verify — Check common pantry access on MagicBricks listing",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Zero Notice Period",
+          "detail": "Helpful policy clarity if short internship end-dates shift"
+        },
+        {
+          "label": "Full Power Backup & Parking",
+          "detail": "80-bed managed property near Hindi Prachar Sabha"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Heavy Premium Cost",
+          "detail": "₹18k–₹21.5k base + ₹26,998 deposit makes this a reference benchmark only"
+        },
+        {
+          "label": "Food Not Bundled",
+          "detail": "Separate food/delivery spend required"
+        }
+      ]
+    },
+    "redditSummary": "High-tier managed co-living benchmark for Nandanam/T. Nagar (20 verified photos show modern studios, far pricier than Twin Boys PGs like Parthasarathy).",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Direct PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/truliv-hestia-pg-cit-nagar-in-chennai&pgid=4d42333334393431677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Truliv+Hestia+CIT+Nagar+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/05/Photo_h400_w540/GR2-334941-1998417_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jan/05/Photo_h400_w540/GR2-334941-1998417_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Nov/15/Photo_h400_w540/GR2-334941-2310013_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/May/30/Photo_h400_w540/GR2-334941-1761959_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/May/30/Photo_h400_w540/GR2-334941-1761979_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/May/30/Photo_h400_w540/GR2-334941-1761961_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "ashok-nagar-18ave-1rk-nobroker",
+    "name": "Ashok Nagar 18th Ave / JN Salai 1RK Pool (NoBroker ₹10,000 / 350 sq.ft. Lead)",
+    "category": "1RK Flat Pool",
+    "locality": "Ashok Nagar",
+    "metroStation": "Ashok Nagar Metro (Green Line)",
+    "metroWalk": "4–8 min walk to Ashok Nagar Metro & Jawaharlal Nehru Salai",
+    "address": "18th Avenue / Jawaharlal Nehru Salai pockets, Ashok Nagar, Chennai 600083",
+    "eligibility": "Bachelors / Male Interns (Owner Filter on NoBroker)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 8100,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1RK House Split (₹10,000 / 350 sq.ft. Lead)",
+      "budgetFit": "in-budget",
+      "priceNote": "Indexed NoBroker 350 sq.ft. 1RK House on JN Salai Ashok Nagar at ₹10,000/mo total (= ₹5,000 base/person + ~₹1.1k–₹1.6k AC/EB share)."
+    },
+    "commute": {
+      "jidokaMins": "25–32 mins",
+      "iitmMins": "22–30 mins",
+      "jidokaRoute": "Ashok Nagar Green Line direct 4 stops to Thirumangalam + auto",
+      "iitmRoute": "Ashok Nagar -> Alandur -> Guindy Metro + bus/auto to IITM"
+    },
+    "features": {
+      "ac": "Verify / Add AC (add PayRentz AC ~₹800/person/mo if unfurnished)",
+      "beds": "Independent 1RK floor portion (compact 350 sq.ft. layout)",
+      "kitchen": "Yes — Dedicated 1RK kitchen counter/sink",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Balanced Metro Midpoint",
+          "detail": "Equal ~25–30 min commute split for both Harsha & Rajat"
+        },
+        {
+          "label": "Zero Brokerage Direct Lead",
+          "detail": "Owner contact directly via NoBroker without 1-month fee"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Compact 350 sq.ft. Footprint",
+          "detail": "Check mattress spacing & cross-ventilation before locking"
+        },
+        {
+          "label": "Add AC / Cot Budget",
+          "detail": "Factor ~₹1k/person/mo if cots or window AC need renting"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai favors Ashok Nagar's high-elevation lanes around 100ft Rd for quick Metro walking, fast drainage, and fair independent house landlords.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker 18th Ave Ashok Nagar",
+      "listingUrl": "https://www.nobroker.in/property/rent/chennai/17/13%2018th%20Avenue?searchParam=W3sibGF0IjoxMy4wMzY4MzU0ODY5NDk4LCJsb24iOjgwLjIxMjkxMzM3NzgxOTcsInNob3dNYXAiOmZhbHNlLCJwbGFjZUlkIjoiQ2hJSm80aXRkTjVtVWpvUjFCczhlSWd0aEEwIiwicGxhY2VOYW1lIjoiQXNob2sgTmFnYXIiLCJjaXR5IjoiY2hlbm5haSJ9XQ%3D%3D",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=18th+Avenue+Ashok+Nagar+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "vadapalani-arumbakkam-periyar-1rk-nobroker",
+    "name": "Arumbakkam–Vadapalani Metro 1RK Pool (NoBroker ₹6.5k Periyar Pathai Lead)",
+    "category": "1RK Flat Pool",
+    "locality": "Vadapalani",
+    "metroStation": "Arumbakkam / Vadapalani Metro (Green Line)",
+    "metroWalk": "5–10 min walk to Arumbakkam or Vadapalani Metro along 100ft Rd",
+    "address": "Periyar Pathai West / Arumbakkam–Vadapalani belt, Chennai 600106",
+    "eligibility": "Bachelors / Male Students & Interns",
+    "pricing": {
+      "monthlyRentPerPersonMin": 3250,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 4350,
+      "effectiveTotalPerPersonMax": 7100,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1RK Split (₹6,500–₹11,000 Unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker Periyar Pathai West (Choolaimedu–Arumbakkam–Vadapalani belt) 250 sq.ft. 1RK lead at ₹6,500/mo total (= ₹3,250/person base; comfortably sub-₹7k even with rented AC + EB)."
+    },
+    "commute": {
+      "jidokaMins": "18–25 mins",
+      "iitmMins": "32–40 mins",
+      "jidokaRoute": "Arumbakkam/Vadapalani Green Line direct to Thirumangalam + short auto",
+      "iitmRoute": "Green Line to Alandur -> Blue Line to Guindy + IITM bus/auto"
+    },
+    "features": {
+      "ac": "Verify / Add AC (easy headroom under ₹8k target for rented AC)",
+      "beds": "Unfurnished 250 sq.ft. studio portion (confirm dual sleeping space)",
+      "kitchen": "Yes — Dedicated 1RK kitchen space",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Ultra-Low Base Rent",
+          "detail": "₹3,250–₹5,500/person leaves plenty of headroom for AC rental + domestic TANGEDCO EB"
+        },
+        {
+          "label": "Zero Metro Transfer for Harsha",
+          "detail": "Right between Arumbakkam & Vadapalani Green Line"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Tight 250 sq.ft. Studio",
+          "detail": "Inspect bed/desk layout for 2 people before booking"
+        },
+        {
+          "label": "Separate Meter Check",
+          "detail": "Confirm individual EB meter to avoid owner slab billing"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai renters point out Periyar Pathai / Choolaimedu–Arumbakkam lanes hold Chennai's highest density of bachelor-friendly budget 1RKs along Green Line.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Arumbakkam–Vadapalani",
+      "listingUrl": "https://www.nobroker.in/property/rent/chennai/Vadapalani?searchParam=W3sibGF0IjoxMy4wNjE3NDMxLCJsb24iOjgwLjIxMTY2NDM5OTk5OTk5LCJzaG93TWFwIjpmYWxzZSwicGxhY2VJZCI6IkNoSUpfMVdleHBWbVVqb1J5OWN3THNORWlsSSIsInBsYWNlTmFtZSI6IkFydW1iYWtrYW0gTWV0cm8gU3RhdGlvbiIsImNpdHkiOiJjaGVubmFpIn1d",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Periyar+Pathai+West+Arumbakkam+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "west-mambalam-thambiah-1rk-nobroker",
+    "name": "Ashok Nagar–West Mambalam 1RK Pool (NoBroker Page 4 · Thambiah Rd ₹12k Lead)",
+    "category": "1RK Flat Pool",
+    "locality": "West Mambalam / T. Nagar",
+    "metroStation": "Ashok Nagar Metro / Mambalam Station",
+    "metroWalk": "6–12 min walk/auto to Ashok Nagar Metro & Thambiah Rd markets",
+    "address": "Thambiah Road / West Mambalam–Ashok Nagar border, Chennai 600033",
+    "eligibility": "Bachelors / Students (Owner Negotiable)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1100,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 6100,
+      "effectiveTotalPerPersonMax": 8100,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1RK Furnished Split (₹10k–₹13k Unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "Indexed NoBroker fully-furnished 300 sq.ft. 1RK House near Thambiah Rd at ₹12,000/mo total (= ₹6,000/person base + EB) plus neighboring ₹10k–₹13k units."
+    },
+    "commute": {
+      "jidokaMins": "28–35 mins",
+      "iitmMins": "18–26 mins",
+      "jidokaRoute": "Ashok Nagar Green Line direct to Thirumangalam + short auto",
+      "iitmRoute": "Short bus/auto via Saidapet / Mambalam–Sardar Patel Rd to IITM"
+    },
+    "features": {
+      "ac": "Verify Furnished Fixtures / Add AC",
+      "beds": "300 sq.ft. furnished/semi-furnished independent 1RK units",
+      "kitchen": "Yes — Dedicated 1RK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Daily Market Convenience",
+          "detail": "Thambiah Rd / Arya Gowda Rd groceries, pharmacies & tiffin centers"
+        },
+        {
+          "label": "Zero Brokerage Direct Pool",
+          "detail": "NoBroker Page 4 Ashok Nagar–West Mambalam direct owners"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Traditional House Curfew Check",
+          "detail": "West Mambalam residential streets prefer quieter interns — confirm gate timing & Veg/Non-Veg rules"
+        },
+        {
+          "label": "First Floor Check",
+          "detail": "Verify 1st floor or raised plinth during November rain"
+        }
+      ]
+    },
+    "redditSummary": "r/chennaicity commenters highlight West Mambalam right alongside CIT Nagar & Saidapet as prime central residential pockets for ₹10k–₹13k 1RKs.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Ashok Nagar–Mambalam p.4",
+      "listingUrl": "https://www.nobroker.in/property/rent/chennai/Ashok%20Nagar?searchParam=W3sicGxhY2VOYW1lIjoiQXNob2sgTmFnYXIiLCJwbGFjZUlkIjoiTkEiLCJsYXQiOiIxMy4wNDIiLCJsb24iOiI4MC4yMTQifV0%3D&sharedAccomodation=0&pageNo=4",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Thambiah+Road+West+Mambalam+Chennai"
+    },
+    "addedRound": 22,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "mogappair-1bhk-apt-twin-ac-5200",
+    "name": "1 BHK Apartment Room for Two Bachelors (Mogappair — Twin AC ₹5,200 · ~6–9 min Cycle to Jidoka)",
+    "category": "1BHK Independent Portion",
+    "locality": "Mogappair East / Koyambedu",
+    "metroStation": "Thirumangalam / Koyambedu (Cycle to Jidoka)",
+    "metroWalk": "~6–9 min cycle to Jidoka (Elango Nagar / TVS Colony); 10 min ride to Thirumangalam Metro",
+    "address": "Mogappair (independent two-storey building, two-wheeler parking), Chennai 600037",
+    "eligibility": "Boys / Executive Bachelors & Students (Two-Sharing Apartment Room)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5200,
+      "monthlyRentPerPersonMax": 5200,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6200,
+      "effectiveTotalPerPersonMax": 6700,
+      "deposit": "₹15,000 (1 Month Notice)",
+      "sharingType": "Twin Sharing With AC ₹5,200 (1BHK Independent Building)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹5,200/person in an independent two-storey 1BHK building for 2 executive bachelors. Deposit ₹15,000, 1 Month Notice."
+    },
+    "commute": {
+      "jidokaMins": "6–9 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "6–9 min cycle straight across Mogappair East / Nolambur–TVS Colony Link to Jidoka",
+      "iitmRoute": "Cycle/auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM bus/auto"
+    },
+    "features": {
+      "ac": "Yes — Twin Sharing With AC ₹5,200",
+      "beds": "Verify exact furniture/cot inclusion on call (apartment-style setup, 2W parking)",
+      "kitchen": "Verify — Independent 1BHK apartment building (confirm pantry/induction access)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Apartment Setup (Not Crowded Hostel)",
+          "detail": "Independent two-storey building room for 2 working/student bachelors"
+        },
+        {
+          "label": "Under ₹7k Total Even With AC EB",
+          "detail": "₹5,200 base + ~₹1k–₹1.5k EB stays firmly inside ₹6.2k–₹6.7k"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Favors Jidoka Heavy",
+          "detail": "~6–9 min cycle for Harsha; ~45+ min Metro commute for Rajat"
+        },
+        {
+          "label": "Confirm Furniture & 1 Photo",
+          "detail": "Only 1 building exterior/room photo uploaded — inspect cot, mattress & wardrobe live"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai threads repeatedly favor independent 1BHK/2-storey Mogappair rooms over congested hostels for quiet WFH/internship sleep and ₹5k–₹6k rent.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks 1BHK Mogappair",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/1-bhk-pg-mogappair-in-chennai&pgid=4d42323431353737677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mogappair+to+Jidoka+Technologies+TVS+Colony+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/09/Photo_h400_w540/GR2-241577-1138037_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Oct/09/Photo_h400_w540/GR2-241577-1138037_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "working-mens-anna-nagar-west-ac-4800",
+    "name": "Working Men's & Students AC PG (Anna Nagar West — Twin AC ₹4,800 · ~5–8 min Cycle to Jidoka)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Anna Nagar West / Thirumangalam",
+    "metroStation": "Thirumangalam Metro / Anna Nagar West",
+    "metroWalk": "~5–8 min cycle to Jidoka (TVS Colony / Padi); short cycle to Thirumangalam Metro",
+    "address": "Anna Nagar West (32-bed building operating since 2024), Chennai 600040",
+    "eligibility": "Boys / Working Men & Students Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4800,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5800,
+      "effectiveTotalPerPersonMax": 7000,
+      "deposit": "₹3,700 (1 Month Notice)",
+      "sharingType": "Twin AC ₹4,800 / Triple AC ₹5,500",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹4,800, Triple AC ₹5,500, Four Sharing ₹4,200; ultra-low Deposit ₹3,700; 1 Month Notice; Food available on extra charges."
+    },
+    "commute": {
+      "jidokaMins": "5–8 mins (cycle)",
+      "iitmMins": "38–48 mins",
+      "jidokaRoute": "5–8 min cycle up Ambattur Estate / 100ft Rd directly into Elango Nagar / TVS Colony",
+      "iitmRoute": "Short cycle/walk to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM bus/auto"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (Twin ₹4,800)",
+      "beds": "Yes — Furnished cots/mattresses in 32-bed 2024 building w/ 31 photos",
+      "kitchen": "Optional Food Extra (Verify self-cooking / kettle access)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Unbeatable ₹4,800 Twin AC + ₹3.7k Deposit",
+          "detail": "Even with ~₹1k–₹1.5k AC EB + optional meals, sits right in the ₹6k–₹7k target"
+        },
+        {
+          "label": "2024 Building w/ Parking",
+          "detail": "31 property photos & two-wheeler parking near Anna Nagar West–Padi corridor"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Food Costs Extra",
+          "detail": "Confirm optional mess pricing vs external tiffin spots around Anna Nagar West"
+        },
+        {
+          "label": "Confirm AC EB Rate",
+          "detail": "Verify ₹/unit commercial vs domestic sub-meter rate before paying advance"
+        }
+      ]
+    },
+    "redditSummary": "Anna Nagar West rooms under ₹5k Twin AC let interns keep total rent+AC EB below ₹6.5k right beside Thirumangalam transit and Jidoka.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Direct PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/working-mens-and-students-pg-anna-nagar-west-in-chennai&pgid=4d42343434383733677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Anna+Nagar+West+to+Jidoka+Technologies+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/04/Photo_h400_w540/GR2-444873-2153077_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/04/Photo_h400_w540/GR2-444873-2153077_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/04/Photo_h400_w540/GR2-444873-2153075_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Jun/04/Photo_h400_w540/GR2-444873-2153087_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2025/Jul/16/Photo_h400_w540/GR2-444873-2528695_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Feb/20/Photo_h400_w540/GR2-444873-2714961_400_540.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "saibaba-5bhk-mogappair-east-ac",
+    "name": "Saibaba Paying Guest House (Mogappair East 5BHK — Fully Furnished AC · Triple ₹4k / Twin ₹5k)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Mogappair East / Koyambedu",
+    "metroStation": "Thirumangalam / Koyambedu (Cycle to Jidoka)",
+    "metroWalk": "~5–8 min cycle straight to Jidoka (TVS Colony / Elango Nagar)",
+    "address": "Mogappair East (5BHK Apartment Setup, Bachelor Accommodation), Chennai 600037",
+    "eligibility": "Male Bachelors Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4000,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 5000,
+      "effectiveTotalPerPersonMax": 7000,
+      "deposit": "Verify Owner Deposit (Check on call)",
+      "sharingType": "Triple AC ₹4,000 / Twin ₹5,000 (Verify Twin AC delta)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified: 5BHK apartment setup listing Triple Sharing With AC ₹4,000, Twin Sharing ₹5,000, Four Sharing ₹4,000 (verify Twin AC room rate if slightly higher)."
+    },
+    "commute": {
+      "jidokaMins": "5–8 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "5–8 min cycle via Collector Nagar / Mogappair East–TVS Colony short cut",
+      "iitmRoute": "Cycle/auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM bus/auto"
+    },
+    "features": {
+      "ac": "Yes — Fully Furnished AC Bedrooms (Attached Baths)",
+      "beds": "Yes — Fully furnished bedrooms w/ attached bath, washing machine & geyser",
+      "kitchen": "Verify — 5BHK apartment layout (check shared kitchen access)",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Fully Furnished 5BHK House Vibe",
+          "detail": "Explicitly includes AC bedrooms, attached baths, washing machine, water heater, RO water & 24h Metro water"
+        },
+        {
+          "label": "True ₹4k–₹5k Base Rate",
+          "detail": "Stays under ₹6.5k–₹7k/person even with AC EB"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Twin AC Rate & Deposit",
+          "detail": "Card lists Triple AC at ₹4k and Twin at ₹5k; confirm exact Twin-AC tariff & advance on call"
+        },
+        {
+          "label": "Further From IITM",
+          "detail": "Optimized for Jidoka cycle distance; longer Metro leg to IITM"
+        }
+      ]
+    },
+    "redditSummary": "Mogappair East furnished multi-bedroom bachelor houses give apartment comfort, washing machines & attached baths at half the price of co-living brands.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks 5BHK Mogappair East",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/5-bhk-pg-mogappair-east-in-chennai&pgid=4d42323937383939677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mogappair+East+to+Jidoka+Technologies+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402947_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402947_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402923_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402945_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402909_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jun/17/Photo_h400_w540/GR2-297899-1402917_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "titan-stay-mogappair-eri-ac-5000",
+    "name": "Titan Stay Men's AC PG (Mogappair Eri Scheme — Twin AC ₹5,000 · 15-Day Notice)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Mogappair East / Koyambedu",
+    "metroStation": "Thirumangalam / Koyambedu (Cycle to Jidoka)",
+    "metroWalk": "~6–9 min cycle to Jidoka from Mogappair Eri Scheme",
+    "address": "Mogappair Eri Scheme (near Primas Bakery), Chennai 600037",
+    "eligibility": "Boys / Working Professionals & Students Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6000,
+      "effectiveTotalPerPersonMax": 6500,
+      "deposit": "₹6,000 (15 Days Notice)",
+      "sharingType": "Twin AC ₹5,000 / Four AC ₹4,500",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹5,000, Four Sharing AC ₹4,500, Others AC ₹4,000; Deposit ₹6,000; 15 Days Notice Period; 48 beds (operating since 2024)."
+    },
+    "commute": {
+      "jidokaMins": "6–9 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "6–9 min cycle through Mogappair East directly into Elango Nagar / TVS Colony",
+      "iitmRoute": "Auto/cycle to Thirumangalam or Koyambedu Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (Twin AC ₹5,000)",
+      "beds": "Yes — 2024 furnished setup w/ power backup & parking (48 beds)",
+      "kitchen": "Verify — Check common kitchen/dining provisions on visit",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "15-Day Notice + ₹6k Low Deposit",
+          "detail": "Ideal internship flexibility with Twin AC at ₹5,000"
+        },
+        {
+          "label": "Power Backup & Parking Included",
+          "detail": "Built in 2024; clean cycling commute to Jidoka"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Food & Meter EB",
+          "detail": "Confirm monthly food options & AC EB ₹/unit rate in person"
+        },
+        {
+          "label": "Only 4 Listing Photos",
+          "detail": "Inspect room light/ventilation & mattress firming live"
+        }
+      ]
+    },
+    "redditSummary": "Short-notice 15-day Mogappair Eri Scheme AC PGs help interns avoid rigid 1–2 month lock-ins while staying within a 10-minute cycle radius of Padi/TVS Colony.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Titan Stay",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/titan-stay-pg-mogappair-eri-scheme-in-chennai&pgid=4d42343637383637677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mogappair+Eri+Scheme+Primas+Bakery+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/15/Photo_h400_w540/GR2-467867-2282967_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/15/Photo_h400_w540/GR2-467867-2282967_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/15/Photo_h400_w540/GR2-467867-2282965_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/15/Photo_h400_w540/GR2-467867-2282969_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2024/Oct/15/Photo_h400_w540/GR2-467867-2282971_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "max-residency-padi-ac-5000",
+    "name": "Max Residency Men's AC PG (Padi — Triple AC ₹5,000 · No Notice Period · ~3–6 min Cycle)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Padi / Anna Nagar West Ext",
+    "metroStation": "Thirumangalam / Padi (Walk/Cycle to Jidoka)",
+    "metroWalk": "~3–6 min cycle to Jidoka (Elango Nagar / TVS Colony)",
+    "address": "Padi (compact 12-bed men's property), Chennai 600050",
+    "eligibility": "Boys / Men Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 5000,
+      "monthlyRentPerPersonMax": 6500,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 6000,
+      "effectiveTotalPerPersonMax": 8000,
+      "deposit": "₹12,000 (No Notice Period)",
+      "sharingType": "Triple Sharing With AC ₹5,000 (Verify Twin rate)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks verified: Triple Sharing With AC ₹5,000; Deposit ₹12,000; No Notice Period; AC Rooms Available (12-bed low-density PG right in Padi)."
+    },
+    "commute": {
+      "jidokaMins": "3–6 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "3–6 min cycle along MTH Rd / Padi into Elango Nagar 58th St",
+      "iitmRoute": "Cycle/auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM bus"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available",
+      "beds": "Yes — Furnished cots & Wi-Fi in compact 12-bed building",
+      "kitchen": "Verify — Check meal/pantry arrangements in Padi",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Closest Verified AC PG in Padi",
+          "detail": "Only ~3–6 min cycle to Jidoka Technologies"
+        },
+        {
+          "label": "Zero Notice Period",
+          "detail": "No Notice Period listed on MagicBricks + small 12-bed crowd"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Listed Tier is Triple Sharing AC",
+          "detail": "Triple AC is ₹5,000; ask if 2 beds in Twin AC can match ₹6.5k–₹7k"
+        },
+        {
+          "label": "Power Backup Not Listed",
+          "detail": "Confirm inverter/Wi-Fi UPS availability during Padi power cuts"
+        }
+      ]
+    },
+    "redditSummary": "Zero-notice small 12-bed Padi PGs right next to industrial hubs cut morning commute down to a 5-minute cycle ride.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Max Residency Padi",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/max-residency-padi-pg-padi-in-chennai&pgid=4d42353436393439677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Max+Residency+Padi+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825193_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825193_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825203_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825197_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825195_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2026/Jul/10/Photo_h400_w540/GR2-546949-2825211_400_540.jpg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "chennai-homes-padi-ac-3000",
+    "name": "Chennai Homes Boys AC PG (Padi — Budget AC Rooms ₹3,000–₹5,000 · ~3–6 min Cycle)",
+    "category": "Men's PG (Twin / Triple AC)",
+    "locality": "Padi / Anna Nagar West Ext",
+    "metroStation": "Padi / Thirumangalam",
+    "metroWalk": "~3–6 min cycle to Jidoka Technologies (Padi / TVS Colony)",
+    "address": "Padi (100-bed building operating since 2016), Chennai 600050",
+    "eligibility": "Boys / Men Only",
+    "pricing": {
+      "monthlyRentPerPersonMin": 3000,
+      "monthlyRentPerPersonMax": 5000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 4000,
+      "effectiveTotalPerPersonMax": 6500,
+      "deposit": "₹3,000 (1 Month Notice)",
+      "sharingType": "Twin AC ₹3,000 / Triple AC ₹3,000 (Verify current tariff)",
+      "budgetFit": "in-budget",
+      "priceNote": "MagicBricks lists Twin Sharing With AC ₹3,000 & Deposit ₹3,000 (very likely base promo/non-AC quote; confirm full AC tariff & food charges by phone before visiting)."
+    },
+    "commute": {
+      "jidokaMins": "3–6 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "3–6 min cycle along Padi lanes to Elango Nagar / TVS Colony",
+      "iitmRoute": "Cycle/auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM bus"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (Verify exact Twin AC billing)",
+      "beds": "Yes — Cots, Wi-Fi & Two-Wheeler Parking",
+      "kitchen": "Verify — Check food/kitchen terms on visit",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "₹3,000 Deposit & Ultra-Low Quoted AC Tier",
+          "detail": "Right inside Padi ~3–6 min cycle from Jidoka"
+        },
+        {
+          "label": "Parking Available",
+          "detail": "Cycle / 2-wheeler parking in 100-bed property"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Verify Promo Tariff",
+          "detail": "₹3,000 Twin AC is unusually low — confirm full all-in AC rate & EB ₹/unit live"
+        },
+        {
+          "label": "Power Backup Not Listed",
+          "detail": "Verify backup & water quality in person"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai reminds internship hunters to confirm sub-₹4k AC hostel quotes on call since seasonal AC + EB surcharges often apply.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Chennai Homes Padi",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/chennai-homes-pg-padi-in-chennai&pgid=4d42323632373131677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Chennai+Homes+PG+Padi+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/05/Photo_h400_w540/GR2-262711-1230383_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/05/Photo_h400_w540/GR2-262711-1230383_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/05/Photo_h400_w540/GR2-262711-1230387_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2022/Jan/05/Photo_h400_w540/GR2-262711-1230385_400_540.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "kinlyf-shivalingam-mogappair-east-ac",
+    "name": "Kinlyf Shivalingam Garden AC Co-Living (Mogappair East — Twin AC ₹6,999 · ~6–9 min Cycle)",
+    "category": "Co-Living PG Benchmark",
+    "locality": "Mogappair East / Koyambedu",
+    "metroStation": "Thirumangalam / Anna Nagar West Ext",
+    "metroWalk": "~6–9 min cycle to Jidoka Technologies (TVS Colony / Padi)",
+    "address": "Shivalingam Garden, Mogappair East, Chennai 600037",
+    "eligibility": "Co-Ed (Girls & Boys) — All Tenants",
+    "pricing": {
+      "monthlyRentPerPersonMin": 6999,
+      "monthlyRentPerPersonMax": 6999,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 7999,
+      "effectiveTotalPerPersonMax": 8499,
+      "deposit": "₹12,000 (1 Month Notice)",
+      "sharingType": "Twin AC ₹6,999 / Single AC ₹10,999",
+      "budgetFit": "borderline",
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹6,999, Single Room AC ₹10,999; Deposit ₹12,000; 1 Month Notice; Power Backup & AC Available (18 beds, since 2020)."
+    },
+    "commute": {
+      "jidokaMins": "6–9 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "6–9 min cycle from Mogappair East to Elango Nagar / TVS Colony",
+      "iitmRoute": "Auto/cycle to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (Twin ₹6,999)",
+      "beds": "Yes — Modern furnished rooms w/ power backup (18 beds)",
+      "kitchen": "Verify — Check pantry/meal policy on MagicBricks listing",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "Sub-₹7k Base Managed Twin AC",
+          "detail": "Cleaner modern finishes than older hostels + Power Backup"
+        },
+        {
+          "label": "Boutique 18-Bed Density",
+          "detail": "Not overcrowded; operating since 2020 in Mogappair East"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "₹8k–₹8.5k After AC EB",
+          "detail": "Base rent is ₹6,999; AC power adds ~₹1k–₹1.5k/mo"
+        },
+        {
+          "label": "No Food Listed",
+          "detail": "External tiffin or pantry check required"
+        }
+      ]
+    },
+    "redditSummary": "Mogappair East boutique 18-bed properties like Kinlyf balance cleaner co-living rooms under ₹7k base with quick cycling to Padi/TVS Colony.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Kinlyf Mogappair",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/kinlyf-shivalingam-garden-pg-mogappair-east-in-chennai&pgid=4d42323534323539677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Shivalingam+Garden+Mogappair+East+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254259-1192367_400_540.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254259-1192367_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254259-1192371_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254259-1192365_400_540.jpg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w540/GR2-254259-1192373_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2021/Nov/28/Photo_h400_w680/GR2-254259-1192373_400_680.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "varman-anna-nagar-west-ac-7000",
+    "name": "Varman Compact Home AC PG (Anna Nagar West — Twin AC ₹7,000 · 15-Day Notice · ~6–9 min Cycle)",
+    "category": "Co-living / Managed Unisex PG",
+    "locality": "Anna Nagar West / Thirumangalam",
+    "metroStation": "Thirumangalam Metro",
+    "metroWalk": "~6–9 min cycle to Jidoka; quick cycle to Thirumangalam Metro",
+    "address": "Anna Nagar West (quiet 2-bed home wing), Chennai 600040",
+    "eligibility": "Co-Ed (Girls & Boys) — All Tenants",
+    "pricing": {
+      "monthlyRentPerPersonMin": 7000,
+      "monthlyRentPerPersonMax": 7000,
+      "estimatedAcEbPerPersonMin": 1000,
+      "estimatedAcEbPerPersonMax": 1500,
+      "effectiveTotalPerPersonMin": 8000,
+      "effectiveTotalPerPersonMax": 8500,
+      "deposit": "₹15,000 (15 Days Notice)",
+      "sharingType": "Twin Sharing With AC ₹7,000",
+      "budgetFit": "borderline",
+      "priceNote": "MagicBricks verified: Twin Sharing With AC ₹7,000; Deposit ₹15,000; 15 Days Notice; AC & Parking Available (2-bed quiet home wing, operating since 2010)."
+    },
+    "commute": {
+      "jidokaMins": "6–9 mins (cycle)",
+      "iitmMins": "38–48 mins",
+      "jidokaRoute": "6–9 min cycle up Anna Nagar West into TVS Colony / Padi",
+      "iitmRoute": "Short cycle/walk to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Yes — AC Rooms Available (Twin ₹7,000)",
+      "beds": "Yes — Furnished private-home wing w/ 2W parking",
+      "kitchen": "Verify — Check home kitchen/tiffin access",
+      "kitchenAccess": "verify",
+      "included": [
+        {
+          "label": "2-Bed Private Home Feel + 15-Day Notice",
+          "detail": "Not a noisy 100-bed dorm; ideal quiet Twin AC room for 2 interns"
+        },
+        {
+          "label": "Close to Both Jidoka & Metro",
+          "detail": "Cycle to Jidoka in ~7 mins, walk/cycle to Thirumangalam Metro"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "₹8k–₹8.5k Effective With AC EB",
+          "detail": "Right at top of ₹7k base ceiling before electricity"
+        },
+        {
+          "label": "Only 2 Listed Beds",
+          "detail": "Confirm immediate twin vacancy on call before visiting"
+        }
+      ]
+    },
+    "redditSummary": "Small home-based PGs in Anna Nagar West give you apartment peace + 15-day flexibility within 10 minutes on a cycle from Padi/TVS Colony.",
+    "source": "MagicBricks",
+    "links": {
+      "listingLabel": "MagicBricks Varman PG",
+      "listingUrl": "https://www.magicbricks.com/propertyDetail/varman-pg-anna-nagar-west-in-chennai&pgid=4d42333635313231677261646532",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Varman+PG+Anna+Nagar+West+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w540/GR2-365121-1724257_400_540.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w540/GR2-365121-1724257_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w540/GR2-365121-1724255_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w540/GR2-365121-1724259_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w540/GR2-365121-1724263_400_540.jpeg",
+      "https://img.staticmb.com/mbphoto/pg/grd2/cropped_images/2023/Apr/19/Photo_h400_w680/GR2-365121-1724263_400_680.jpeg"
+    ],
+    "imageType": "property"
+  },
+  {
+    "id": "tvs-colony-1bhk-padi-nobroker",
+    "name": "TVS Colony / Elango Nagar Direct-Owner 1BHK Pool (0–4 min Cycle to Jidoka · NoBroker ₹8k–₹11k Unit)",
+    "category": "1BHK Flat Pool",
+    "locality": "Anna Nagar West Ext",
+    "metroStation": "Thirumangalam / Padi (0–4 min Cycle to Jidoka)",
+    "metroWalk": "0–4 min walk/cycle right inside Jidoka's own TVS Colony / Elango Nagar grid",
+    "address": "TVS Colony / Elango Nagar, Anna Nagar West Extension, Chennai 600101",
+    "eligibility": "Bachelors / Male Interns (Owner Direct on NoBroker)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4000,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5200,
+      "effectiveTotalPerPersonMax": 7100,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1BHK Split (₹8k–₹11k/Unit + Optional Rented AC)",
+      "budgetFit": "in-budget",
+      "priceNote": "NoBroker direct TVS Colony / Anna Nagar West Extension 1BHK index (₹8k–₹11k semi-furnished units = ₹4k–₹5.5k/person base; stays ≤₹7k/person even after PayRentz AC + furniture rental!)."
+    },
+    "commute": {
+      "jidokaMins": "1–4 mins (walk/cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "Same street cluster as Jidoka Technologies (Elango Nagar / TVS Colony)",
+      "iitmRoute": "Auto/cycle to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Pre-wired / Rent AC (~₹800/person/mo split) or filter Furnished+AC",
+      "beds": "Semi-furnished wardrobes/lights (add cots/mattresses if unfurnished)",
+      "kitchen": "Yes — Dedicated 1BHK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Literally Next Door to Jidoka",
+          "detail": "0–4 min walk/cycle saves daily auto fares completely"
+        },
+        {
+          "label": "Domestic TANGEDCO Meter + Kitchen",
+          "detail": "Lower EB tariff than PGs + full private kitchen"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Check Pre-Installed AC & Furniture",
+          "detail": "Most ₹8k–₹11k 1BHKs are semi-furnished; rent split AC + cots for ~₹1k/person/mo"
+        },
+        {
+          "label": "Rajat Long Commute",
+          "detail": "~45–50m total transit from TVS Colony to IITM"
+        }
+      ]
+    },
+    "redditSummary": "r/Chennai advises renting a ₹9k–₹11k semi-furnished 1BHK in TVS Colony/Padi and adding RentoMojo/PayRentz AC + cots to hit ₹6k–₹7k/person all-in.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker TVS Colony 1BHK",
+      "listingUrl": "https://www.nobroker.in/1bhk-flats-for-rent-in-tvs_colony_anna_nagar_west_extension_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TVS+Colony+Anna+Nagar+West+Extension+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "tvs-colony-1rk-studio-nobroker",
+    "name": "TVS Colony / Padikuppam Direct 1RK Studio Pool (0–5 min Cycle to Jidoka · NoBroker ₹6.5k–₹12k)",
+    "category": "1RK Flat Pool",
+    "locality": "Anna Nagar West Ext",
+    "metroStation": "Thirumangalam / TVS Colony",
+    "metroWalk": "1–5 min cycle to Jidoka (TVS Colony / Padikuppam Main Rd)",
+    "address": "TVS Colony / Padikuppam Main Rd, Anna Nagar West Extension, Chennai 600101",
+    "eligibility": "Bachelors / Male Interns (Owner Direct on NoBroker)",
+    "pricing": {
+      "monthlyRentPerPersonMin": 3250,
+      "monthlyRentPerPersonMax": 6000,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 4450,
+      "effectiveTotalPerPersonMax": 7600,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1RK Studio Split (₹6.5k–₹12k Unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "Indexed NoBroker TVS Colony / Padikuppam 1RK studios (semi/fully furnished ₹6.5k–₹12k/unit = ₹3,250–₹6,000 base per person + AC/EB)."
+    },
+    "commute": {
+      "jidokaMins": "1–5 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "Immediate cycle ride inside TVS Colony / Padikuppam Extension",
+      "iitmRoute": "Auto/cycle to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Select Semi/Furnished Units w/ AC Point (Add rented AC easily under ₹7k)",
+      "beds": "Semi/Furnished independent studio options",
+      "kitchen": "Yes — Dedicated 1RK kitchen pantry",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Zero Brokerage Studio Lead",
+          "detail": "Includes semi-furnished ₹12k TVS Colony unit (no extra maintenance) & cheaper ₹6.5k–₹8.5k 1RKs"
+        },
+        {
+          "label": "Zero Commute Stress to Jidoka",
+          "detail": "Steps away from Jidoka office"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Small Studio Area",
+          "detail": "Confirm 2-bed spacing on semi-furnished 1RKs"
+        },
+        {
+          "label": "Verify Furnished Items",
+          "detail": "Clarify cot, mattress, fridge & AC fitment upfront"
+        }
+      ]
+    },
+    "redditSummary": "Working interns at Anna Nagar West Ext/Padi use direct Padikuppam/TVS Colony 1RKs to stay sub-₹7k with complete room freedom.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker TVS Colony 1RK",
+      "listingUrl": "https://www.nobroker.in/1rk-flats-for-rent-in-tvs_colony_anna_nagar_west_extension_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Padikuppam+Main+Road+Anna+Nagar+West+Extension+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+    "images": [
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/ver2/XIwvQlc61t8ZIpanz4mAnTVO-dQ9dc_WMc0Vzr3cij0G5rB2y9vG/Photo_h300_w450/7622_PropertyImage46.085597865523354_300_450.jpg",
+      "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Oct/08/Photo_h300_w450/86826265_10_hatsAppImage20261007at4.35.15PM_300_450.jpeg"
+    ],
+    "imageType": "neighborhood"
+  },
+  {
+    "id": "padi-1bhk-semi-furnished-nobroker",
+    "name": "Padi Semi-Furnished 1BHK Houses Near TVS Nagar Main Rd (NoBroker ~₹11k · 3–6 min Cycle)",
+    "category": "1BHK Flat Pool",
+    "locality": "Padi / Anna Nagar West Ext",
+    "metroStation": "Padi / Thirumangalam (3–6 min Cycle to Jidoka)",
+    "metroWalk": "~3–6 min cycle to Jidoka via TVS Nagar Main Rd / Lucas",
+    "address": "TVS Nagar Main Rd / Bhagyathammal Nagar, Padi, Chennai 600050",
+    "eligibility": "Bachelors / Working Professionals",
+    "pricing": {
+      "monthlyRentPerPersonMin": 4250,
+      "monthlyRentPerPersonMax": 5500,
+      "estimatedAcEbPerPersonMin": 1200,
+      "estimatedAcEbPerPersonMax": 1600,
+      "effectiveTotalPerPersonMin": 5450,
+      "effectiveTotalPerPersonMax": 7100,
+      "deposit": "Zero Brokerage (Owner advance)",
+      "sharingType": "1BHK Semi-Furnished Split (₹8.5k–₹11k/Unit)",
+      "budgetFit": "in-budget",
+      "priceNote": "Indexed NoBroker Padi 1BHK semi-furnished independent houses around TVS Nagar Main Rd at ₹8.5k–₹11k/unit (₹4,250–₹5,500 base/person + AC/EB = ₹5.45k–₹7.1k/person)."
+    },
+    "commute": {
+      "jidokaMins": "3–6 mins (cycle)",
+      "iitmMins": "42–52 mins",
+      "jidokaRoute": "3–6 min cycle directly via TVS Nagar Main Rd / Elango Nagar",
+      "iitmRoute": "Cycle/auto to Thirumangalam Metro -> Green Line -> Alandur -> Guindy + IITM"
+    },
+    "features": {
+      "ac": "Select Semi-Furnished Units w/ AC Provisions (or add rented AC)",
+      "beds": "Semi-furnished independent builder floor / house",
+      "kitchen": "Yes — Dedicated 1BHK kitchen",
+      "kitchenAccess": "full",
+      "included": [
+        {
+          "label": "Full 1BHK Under ₹5.5k/Person Base",
+          "detail": "Separate bedroom + hall + kitchen for ₹8.5k–₹11k total"
+        },
+        {
+          "label": "Direct 5-Min Cycle Route",
+          "detail": "Right in Jidoka's immediate Padi neighborhood"
+        }
+      ],
+      "missingOrCaveat": [
+        {
+          "label": "Confirm AC + Furniture Add-ons",
+          "detail": "Ask owner if existing beds/AC stay or budget ~₹1k/person/mo rental"
+        },
+        {
+          "label": "Negotiate Landlord Advance",
+          "detail": "Use direct NoBroker chat to cap advance at 3–4 months"
+        }
+      ]
+    },
+    "redditSummary": "Padi builder floors near TVS Nagar Main Rd stay far cheaper than central Anna Nagar while keeping cycle time under 6 minutes.",
+    "source": "NoBroker",
+    "links": {
+      "listingLabel": "NoBroker Padi 1BHK",
+      "listingUrl": "https://www.nobroker.in/1bhk-flats-for-rent-in-padi_chennai",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=TVS+Nagar+Main+Road+Padi+Chennai"
+    },
+    "addedRound": 23,
+    "imageUrl": "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Sep/24/Photo_h300_w450/86618479_5_hatsAppImage20260924at8.37.49AM1_300_450.jpeg",
     "images": [
       "https://img.staticmb.com/mbphoto/property/cropped_images/2026/Jul/20/Photo_h300_w450/85634339_1_PropertyImage321-5593485808283_300_450.jpg",
       "https://img.staticmb.com/mbphoto/property/cropped_images/2024/Oct/19/Photo_h300_w450/75542627_1_hatsAppImage20241019at8.54.28AM_300_450.jpeg",
